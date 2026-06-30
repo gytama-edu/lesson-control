@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <div class="p-12 text-center">
         <h2 class="text-2xl font-bold text-white mb-2">Lesson not found</h2>
         <p class="text-slate-400 mb-6">The lesson you are looking for does not exist or has been moved.</p>
-        <a href="/index.html" class="bg-rose-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-rose-500 transition-colors inline-block border border-rose-500 shadow-[0_0_15px_rgba(225,29,72,0.3)]">Return Home</a>
+        <a href="./index.html" class="bg-rose-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-rose-500 transition-colors inline-block border border-rose-500 shadow-[0_0_15px_rgba(225,29,72,0.3)]">Return Home</a>
       </div>
     `;
     return;
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const backButton = document.getElementById('back-button');
   if (backButton) {
-    backButton.href = lesson.backHref || '/index.html';
+    backButton.href = lesson.backHref || './index.html';
     backButton.title = lesson.backLabel || 'Back';
     const backLabelEl = document.getElementById('back-label');
     if (backLabelEl) {
