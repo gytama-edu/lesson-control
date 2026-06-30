@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Lesson Control",
+  "description": "Public English lesson website by GYTama EDU focusing on lesson explanations and learning content.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

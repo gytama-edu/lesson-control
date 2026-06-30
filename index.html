@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson Control | GYTama EDU</title>
+  <link rel="stylesheet" href="/src/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .font-mono { font-family: 'JetBrains Mono', monospace; }
+    h1, h2, h3, h4, h5, h6, .font-display { font-family: 'Space Grotesk', sans-serif; }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-300 flex flex-col min-h-screen selection:bg-rose-500/30 selection:text-rose-200">
+
+  <header class="bg-slate-950/80 backdrop-blur-md border-b border-slate-800 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16 items-center">
+        <div class="flex items-center gap-2.5">
+          <svg class="w-6 h-6 text-rose-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+          <div class="flex flex-col">
+            <span class="font-display font-bold text-lg tracking-tight text-white leading-none">Lesson Control</span>
+            <span class="text-[9px] uppercase tracking-widest font-mono text-slate-500 leading-none mt-1">GYTama EDU</span>
+          </div>
+        </div>
+        <nav class="hidden md:flex space-x-2">
+          <a href="/index.html" class="text-white bg-slate-800/50 border border-slate-700/50 px-3 py-1.5 rounded-md text-sm font-medium transition-colors shadow-sm">Home</a>
+          <a href="#" class="text-slate-400 hover:text-white hover:bg-slate-800/50 border border-transparent hover:border-slate-700/50 px-3 py-1.5 rounded-md text-sm font-medium transition-colors">Grammar</a>
+          <a href="#" class="text-slate-400 hover:text-white hover:bg-slate-800/50 border border-transparent hover:border-slate-700/50 px-3 py-1.5 rounded-md text-sm font-medium transition-colors">Vocabulary</a>
+          <a href="#" class="text-slate-400 hover:text-white hover:bg-slate-800/50 border border-transparent hover:border-slate-700/50 px-3 py-1.5 rounded-md text-sm font-medium transition-colors">Speaking</a>
+          <a href="#" class="text-slate-400 hover:text-white hover:bg-slate-800/50 border border-transparent hover:border-slate-700/50 px-3 py-1.5 rounded-md text-sm font-medium transition-colors">Listening</a>
+          <a href="#" class="text-slate-400 hover:text-white hover:bg-slate-800/50 border border-transparent hover:border-slate-700/50 px-3 py-1.5 rounded-md text-sm font-medium transition-colors">Reading</a>
+          <a href="#" class="text-slate-400 hover:text-white hover:bg-slate-800/50 border border-transparent hover:border-slate-700/50 px-3 py-1.5 rounded-md text-sm font-medium transition-colors">Writing</a>
+        </nav>
+        <div class="hidden md:flex items-center">
+          <a href="https://missioncontrol.gytama.edu" target="_blank" rel="noopener noreferrer" class="text-xs font-medium font-mono text-white bg-slate-800 hover:bg-slate-700 hover:text-white flex items-center gap-2 transition-all px-4 py-2 rounded-md border border-slate-700 hover:border-slate-600 shadow-sm">
+            <svg class="w-4 h-4 text-rose-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+            Open Mission Control
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-grow">
+    <!-- Hero -->
+    <section class="bg-slate-950 pt-10 pb-8 sm:pt-14 sm:pb-10 relative overflow-hidden border-b border-slate-800/50">
+      <!-- Decorative background glow -->
+      <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-2xl h-full bg-rose-500/5 blur-[100px] pointer-events-none"></div>
+      
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-rose-500/10 border border-rose-500/20 text-rose-400 text-[10px] font-mono tracking-widest mb-6 uppercase">
+          <span class="w-1.5 h-1.5 rounded-full bg-rose-500 shadow-[0_0_8px_rgba(225,29,72,0.8)] animate-pulse"></span>
+          Lesson Control Online
+        </div>
+        <h1 class="font-display text-3xl sm:text-4xl font-bold text-white tracking-tight mb-4 leading-tight max-w-2xl mx-auto">Deploy structured English lessons across <span class="text-rose-400">every skill.</span></h1>
+        <p class="text-base text-slate-400 max-w-xl mx-auto mb-8 leading-relaxed">Structured English lessons and resources designed for classroom teaching and independent study.</p>
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+          <a href="#explore" class="bg-rose-600 text-white px-5 py-2.5 rounded-lg font-medium hover:bg-rose-500 transition-all shadow-[0_0_15px_rgba(225,29,72,0.3)] hover:shadow-[0_0_20px_rgba(225,29,72,0.4)] flex items-center justify-center gap-2 border border-rose-500 text-sm">
+            Explore Lessons
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
+          </a>
+          <a href="lesson.html?id=grammar-01" class="bg-slate-900/80 backdrop-blur text-white border border-slate-700 px-5 py-2.5 rounded-lg font-medium hover:bg-slate-800 hover:border-slate-600 transition-all shadow-sm flex items-center justify-center gap-2 text-sm">
+            <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+            View Sample Lesson
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories -->
+    <section id="explore" class="py-8 sm:py-12 bg-slate-900/50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-12 gap-4">
+          <div>
+            <h2 class="text-3xl font-extrabold text-white tracking-tight">Lesson Modules</h2>
+            <p class="text-slate-400 mt-2">Select a category to view available briefings.</p>
+          </div>
+          <span class="bg-slate-800/80 border border-slate-700/50 text-slate-300 text-xs font-mono px-3 py-1.5 rounded-full uppercase tracking-widest shadow-inner self-start sm:self-auto">6 Active Modules</span>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" id="categories-container">
+          
+          <a href="grammar.html" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-rose-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-rose-500/10 to-transparent rounded-bl-full opacity-50 group-hover:opacity-100 transition-opacity"></div>
+            <div class="w-12 h-12 bg-slate-800 text-rose-400 border border-slate-700 rounded-xl flex items-center justify-center mb-6 group-hover:bg-rose-500/10 group-hover:text-rose-300 group-hover:border-rose-500/30 transition-all shadow-sm relative z-10">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2 relative z-10">Grammar</h3>
+            <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed">Clear explanations of rules, tenses, and sentence structures.</p>
+            <div class="mt-6 text-rose-400 font-mono text-xs flex items-center group-hover:text-rose-300 transition-colors relative z-10 uppercase tracking-widest">
+              Launch Module <svg class="w-3.5 h-3.5 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+            </div>
+          </a>
+
+          <a href="#" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-cyan-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-cyan-500/10 to-transparent rounded-bl-full opacity-50 group-hover:opacity-100 transition-opacity"></div>
+            <div class="w-12 h-12 bg-slate-800 text-cyan-400 border border-slate-700 rounded-xl flex items-center justify-center mb-6 group-hover:bg-cyan-500/10 group-hover:text-cyan-300 group-hover:border-cyan-500/30 transition-all shadow-sm relative z-10">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"></path></svg>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2 relative z-10">Vocabulary</h3>
+            <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed">Expand your word bank with context-based learning.</p>
+            <div class="mt-6 text-cyan-400 font-mono text-xs flex items-center group-hover:text-cyan-300 transition-colors relative z-10 uppercase tracking-widest">
+              Launch Module <svg class="w-3.5 h-3.5 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+            </div>
+          </a>
+
+          <a href="#" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-purple-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-purple-500/10 to-transparent rounded-bl-full opacity-50 group-hover:opacity-100 transition-opacity"></div>
+            <div class="w-12 h-12 bg-slate-800 text-purple-400 border border-slate-700 rounded-xl flex items-center justify-center mb-6 group-hover:bg-purple-500/10 group-hover:text-purple-300 group-hover:border-purple-500/30 transition-all shadow-sm relative z-10">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"></path></svg>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2 relative z-10">Speaking</h3>
+            <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed">Pronunciation guides, conversational tactics, and fluency tips.</p>
+            <div class="mt-6 text-purple-400 font-mono text-xs flex items-center group-hover:text-purple-300 transition-colors relative z-10 uppercase tracking-widest">
+              Launch Module <svg class="w-3.5 h-3.5 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+            </div>
+          </a>
+
+          <a href="#" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-amber-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-amber-500/10 to-transparent rounded-bl-full opacity-50 group-hover:opacity-100 transition-opacity"></div>
+            <div class="w-12 h-12 bg-slate-800 text-amber-400 border border-slate-700 rounded-xl flex items-center justify-center mb-6 group-hover:bg-amber-500/10 group-hover:text-amber-300 group-hover:border-amber-500/30 transition-all shadow-sm relative z-10">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2 relative z-10">Listening</h3>
+            <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed">Strategies for understanding spoken English in various accents.</p>
+            <div class="mt-6 text-amber-400 font-mono text-xs flex items-center group-hover:text-amber-300 transition-colors relative z-10 uppercase tracking-widest">
+              Launch Module <svg class="w-3.5 h-3.5 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+            </div>
+          </a>
+
+          <a href="#" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-emerald-500/10 to-transparent rounded-bl-full opacity-50 group-hover:opacity-100 transition-opacity"></div>
+            <div class="w-12 h-12 bg-slate-800 text-emerald-400 border border-slate-700 rounded-xl flex items-center justify-center mb-6 group-hover:bg-emerald-500/10 group-hover:text-emerald-300 group-hover:border-emerald-500/30 transition-all shadow-sm relative z-10">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2 relative z-10">Reading</h3>
+            <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed">Comprehension techniques for texts, articles, and literature.</p>
+            <div class="mt-6 text-emerald-400 font-mono text-xs flex items-center group-hover:text-emerald-300 transition-colors relative z-10 uppercase tracking-widest">
+              Launch Module <svg class="w-3.5 h-3.5 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+            </div>
+          </a>
+
+          <a href="#" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-blue-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-blue-500/10 to-transparent rounded-bl-full opacity-50 group-hover:opacity-100 transition-opacity"></div>
+            <div class="w-12 h-12 bg-slate-800 text-blue-400 border border-slate-700 rounded-xl flex items-center justify-center mb-6 group-hover:bg-blue-500/10 group-hover:text-blue-300 group-hover:border-blue-500/30 transition-all shadow-sm relative z-10">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path></svg>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2 relative z-10">Writing</h3>
+            <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed">Master essays, emails, and creative writing structures.</p>
+            <div class="mt-6 text-blue-400 font-mono text-xs flex items-center group-hover:text-blue-300 transition-colors relative z-10 uppercase tracking-widest">
+              Launch Module <svg class="w-3.5 h-3.5 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Ecosystem Section -->
+    <section id="ecosystem" class="py-12 sm:py-16 bg-slate-950 border-t border-slate-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto">
+          <!-- Mission Control Card -->
+          <div class="relative bg-gradient-to-br from-slate-900 to-slate-950 border border-slate-800 rounded-2xl p-6 sm:p-8 overflow-hidden shadow-2xl flex flex-col sm:flex-row items-center sm:items-start gap-6 sm:gap-8 text-center sm:text-left">
+            <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMiIgY3k9IjIiIHI9IjEiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4wNSkiLz48L3N2Zz4=')] opacity-50"></div>
+            <div class="absolute -top-24 -right-24 w-64 h-64 bg-indigo-500/20 blur-[80px] rounded-full pointer-events-none"></div>
+            
+            <div class="relative z-10 shrink-0">
+              <div class="w-16 h-16 bg-slate-900 border border-slate-700 rounded-2xl flex items-center justify-center shadow-inner">
+                <svg class="w-8 h-8 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+              </div>
+            </div>
+            
+            <div class="relative z-10 flex-grow">
+              <h2 class="text-xl sm:text-2xl font-bold text-white tracking-tight mb-2">Need classroom management?</h2>
+              <p class="text-slate-400 text-base mb-6 leading-relaxed">Open Mission Control to manage classes, students, points, lives, tasks, and reports in a premium dashboard.</p>
+              <a href="https://missioncontrol.gytama.edu" target="_blank" rel="noopener noreferrer" class="inline-flex bg-indigo-600 text-white px-5 py-2.5 rounded-lg font-medium hover:bg-indigo-500 transition-colors shadow-lg shadow-indigo-900/20 items-center justify-center gap-2 border border-indigo-500/50 text-sm">
+                Launch Mission Control
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-slate-950 text-slate-500 py-12 border-t border-slate-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div>
+        <div class="flex items-center gap-2 mb-4">
+          <svg class="w-5 h-5 text-rose-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+          <span class="font-display font-bold text-base text-slate-300 tracking-tight">Lesson Control</span>
+        </div>
+        <p class="text-sm">Empowering learners with structured, clear, and comprehensive English lessons.</p>
+      </div>
+      <div>
+        <h4 class="text-slate-300 font-semibold mb-4 text-sm uppercase tracking-wider">Modules</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href="#" class="hover:text-white transition-colors">Grammar</a></li>
+          <li><a href="#" class="hover:text-white transition-colors">Vocabulary</a></li>
+          <li><a href="#" class="hover:text-white transition-colors">Speaking</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-slate-300 font-semibold mb-4 text-sm uppercase tracking-wider">More Modules</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href="#" class="hover:text-white transition-colors">Listening</a></li>
+          <li><a href="#" class="hover:text-white transition-colors">Reading</a></li>
+          <li><a href="#" class="hover:text-white transition-colors">Writing</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-slate-300 font-semibold mb-4 text-sm uppercase tracking-wider">GYTama EDU</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href="https://missioncontrol.gytama.edu" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors flex items-center gap-1.5">Mission Control <svg class="w-3 h-3 text-slate-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 pt-8 border-t border-slate-900/80 text-xs text-center font-mono text-slate-600">
+      &copy; 2026 GYTama EDU. All rights reserved.
+    </div>
+  </footer>
+
+  <script type="module" src="/scripts/main.js"></script>
+</body>
+</html>
+

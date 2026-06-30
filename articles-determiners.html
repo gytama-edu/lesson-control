@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Articles & Determiners Pathway | Lesson Control</title>
+  <link rel="stylesheet" href="/src/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .font-mono { font-family: 'JetBrains Mono', monospace; }
+    h1, h2, h3, h4, h5, h6, .font-display { font-family: 'Space Grotesk', sans-serif; }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-300 flex flex-col min-h-screen selection:bg-rose-500/30 selection:text-rose-200">
+
+  <header class="bg-slate-950/80 backdrop-blur-md border-b border-slate-800 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16 items-center">
+        <a href="/index.html" class="flex items-center gap-2.5 hover:opacity-80 transition-opacity">
+          <svg class="w-6 h-6 text-rose-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+          <div class="flex flex-col">
+            <span class="font-display font-bold text-lg tracking-tight text-white leading-none">Lesson Control</span>
+            <span class="text-[9px] uppercase tracking-widest font-mono text-slate-500 leading-none mt-1">GYTama EDU</span>
+          </div>
+        </a>
+        <nav class="hidden md:flex space-x-2">
+          <a href="/index.html" class="text-slate-400 hover:text-white hover:bg-slate-800/50 border border-transparent hover:border-slate-700/50 px-3 py-1.5 rounded-md text-sm font-medium transition-colors">Home</a>
+          <a href="/grammar.html" class="text-slate-400 hover:text-white hover:bg-slate-800/50 border border-transparent hover:border-slate-700/50 px-3 py-1.5 rounded-md text-sm font-medium transition-colors">Grammar</a>
+          <a href="/articles-determiners.html" class="text-white bg-slate-800/50 border border-slate-700/50 px-3 py-1.5 rounded-md text-sm font-medium transition-colors shadow-sm">Articles &amp; Determiners</a>
+        </nav>
+        <div class="hidden md:flex items-center">
+          <a href="https://missioncontrol.gytama.edu" target="_blank" rel="noopener noreferrer" class="text-xs font-medium font-mono text-white bg-slate-800 hover:bg-slate-700 hover:text-white flex items-center gap-2 transition-all px-4 py-2 rounded-md border border-slate-700 hover:border-slate-600 shadow-sm">
+            <svg class="w-4 h-4 text-rose-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+            Open Mission Control
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-grow">
+    <!-- Hero -->
+    <section class="bg-slate-950 pt-10 pb-8 sm:pt-14 sm:pb-10 relative overflow-hidden border-b border-slate-800/50">
+      <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-2xl h-full bg-emerald-500/5 blur-[100px] pointer-events-none"></div>
+      
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+        <div class="flex justify-center mb-6">
+          <a href="/grammar.html" class="inline-flex items-center gap-2 px-3 py-1.5 rounded-md bg-slate-800/50 border border-slate-700/50 text-slate-300 hover:text-white hover:bg-slate-700/50 transition-all text-xs font-mono tracking-widest uppercase shadow-sm">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
+            Back to Grammar
+          </a>
+        </div>
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-[10px] font-mono tracking-widest uppercase mb-6">
+          Pathway
+        </div>
+        <h1 class="font-display text-3xl sm:text-4xl font-bold text-white tracking-tight mb-4 leading-tight max-w-2xl mx-auto">Articles &amp; <span class="text-emerald-400">Determiners</span></h1>
+        <p class="text-base text-slate-400 max-w-xl mx-auto mb-8 leading-relaxed">Master a, an, the, quantifiers, and possessives for noun accuracy.</p>
+      </div>
+    </section>
+
+    <!-- Groups -->
+    <section class="py-8 sm:py-12 bg-slate-900/50 min-h-[50vh]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Group 1: Article Foundations -->
+        <div class="mb-16">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-8 gap-4 border-b border-slate-800/80 pb-4">
+            <div>
+              <div class="inline-flex items-center gap-2 px-2.5 py-0.5 rounded-md bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-[10px] font-mono tracking-widest mb-2 uppercase">Active Group</div>
+              <h2 class="text-2xl font-bold text-white tracking-tight">Article Foundations</h2>
+              <p class="text-slate-400 text-sm mt-1">Learn what articles and determiners are and how they connect to nouns.</p>
+            </div>
+          </div>
+          
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <a href="lesson.html?id=grammar-articles-determiners-overview" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">What Are Articles and Determiners?</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Learn that determiners come before nouns and help identify quantity, ownership, distance, or specific meaning.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+            <a href="lesson.html?id=grammar-countable-uncountable-determiners" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Countable and Uncountable Nouns</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Understand how to use determiners with countable and uncountable nouns.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+            <a href="lesson.html?id=grammar-singular-plural-general-meaning" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Singular, Plural, and General Meaning</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Learn when to use articles and when to use nouns without articles.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+            <a href="lesson.html?id=grammar-articles-noun-phrases" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Articles and Noun Phrases</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Explore how determiners start noun phrases and interact with adjectives.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Group 2: A, An, The, and Zero Article -->
+        <div class="mb-16">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-8 gap-4 border-b border-slate-800/80 pb-4">
+            <div>
+              <div class="inline-flex items-center gap-2 px-2.5 py-0.5 rounded-md bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-[10px] font-mono tracking-widest mb-2 uppercase">Active Group</div>
+              <h2 class="text-2xl font-bold text-white tracking-tight">A, An, The, and Zero Article</h2>
+              <p class="text-slate-400 text-sm mt-1">Mastering the core English articles.</p>
+            </div>
+          </div>
+          
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <a href="lesson.html?id=grammar-a-and-an" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">A and An</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Understand when to use a/an for one nonspecific singular countable noun.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+            <a href="lesson.html?id=grammar-the-article" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">The</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Learn when to use the for specific, known, or unique things.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+            <a href="lesson.html?id=grammar-zero-article" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Zero Article</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Know when you should use no article at all.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+            <a href="lesson.html?id=grammar-articles-places-names-institutions" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Articles with Places &amp; Names</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Learn the rules for articles with names, places, and institutions.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Group 3: Demonstratives and Possessives -->
+        <div class="mb-16">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-8 gap-4 border-b border-slate-800/80 pb-4">
+            <div>
+              <div class="inline-flex items-center gap-2 px-2.5 py-0.5 rounded-md bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-[10px] font-mono tracking-widest mb-2 uppercase">Active Group</div>
+              <h2 class="text-2xl font-bold text-white tracking-tight">Demonstratives and Possessives</h2>
+              <p class="text-slate-400 text-sm mt-1">Pointing things out and showing ownership.</p>
+            </div>
+          </div>
+          
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <a href="lesson.html?id=grammar-this-that-these-those" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">This, That, These, Those</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Express distance and number using demonstrative determiners.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+            <a href="lesson.html?id=grammar-possessive-determiners" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">My, Your, His, Her...</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Learn to show ownership or relationship using possessive determiners.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+            <a href="lesson.html?id=grammar-each-every-all-both" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Each, Every, All, Both</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Distinguish between individuals and groups.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+            <a href="lesson.html?id=grammar-another-other-the-other" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Another, Other, The Other</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Master these tricky determiners for alternatives and remaining items.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Group 4: Quantifiers and Determiner Accuracy -->
+        <div class="mb-16">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-8 gap-4 border-b border-slate-800/80 pb-4">
+            <div>
+              <div class="inline-flex items-center gap-2 px-2.5 py-0.5 rounded-md bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-[10px] font-mono tracking-widest mb-2 uppercase">Active Group</div>
+              <h2 class="text-2xl font-bold text-white tracking-tight">Quantifiers &amp; Determiner Accuracy</h2>
+              <p class="text-slate-400 text-sm mt-1">Talking about amounts and avoiding common mistakes.</p>
+            </div>
+          </div>
+          
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <a href="lesson.html?id=grammar-some-and-any" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Some and Any</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Learn the rules for positive, negative, and question sentences.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+            <a href="lesson.html?id=grammar-much-many-a-lot-of" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Much, Many, A Lot Of</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Use quantifiers correctly with countable and uncountable nouns.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+            <a href="lesson.html?id=grammar-few-little-quantifiers" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Few, A Few, Little, A Little</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Understand the difference between negative amounts and small amounts.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+            <a href="lesson.html?id=grammar-article-determiner-common-mistakes" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Common Mistakes</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Fix common errors with a, an, the, and quantifiers.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-slate-950 border-t border-slate-800 py-10 mt-auto">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+        <div class="flex items-center gap-2 opacity-70">
+          <svg class="w-5 h-5 text-rose-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+          <span class="font-display font-bold text-white text-sm">Lesson Control</span>
+          <span class="text-slate-500 text-xs ml-2">by GYTama EDU</span>
+        </div>
+        <div class="flex gap-4 text-xs font-mono text-slate-600 uppercase tracking-widest">
+          <a href="#" class="hover:text-slate-400 transition-colors">Privacy</a>
+          <a href="#" class="hover:text-slate-400 transition-colors">Terms</a>
+          <a href="#" class="hover:text-slate-400 transition-colors">Support</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

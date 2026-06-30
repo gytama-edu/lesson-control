@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parts of Speech Pathway | Lesson Control</title>
+  <link rel="stylesheet" href="/src/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .font-mono { font-family: 'JetBrains Mono', monospace; }
+    h1, h2, h3, h4, h5, h6, .font-display { font-family: 'Space Grotesk', sans-serif; }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-300 flex flex-col min-h-screen selection:bg-rose-500/30 selection:text-rose-200">
+
+  <header class="bg-slate-950/80 backdrop-blur-md border-b border-slate-800 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16 items-center">
+        <a href="/index.html" class="flex items-center gap-2.5 hover:opacity-80 transition-opacity">
+          <svg class="w-6 h-6 text-rose-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+          <div class="flex flex-col">
+            <span class="font-display font-bold text-lg tracking-tight text-white leading-none">Lesson Control</span>
+            <span class="text-[9px] uppercase tracking-widest font-mono text-slate-500 leading-none mt-1">GYTama EDU</span>
+          </div>
+        </a>
+        <nav class="hidden md:flex space-x-2">
+          <a href="/index.html" class="text-slate-400 hover:text-white hover:bg-slate-800/50 border border-transparent hover:border-slate-700/50 px-3 py-1.5 rounded-md text-sm font-medium transition-colors">Home</a>
+          <a href="/grammar.html" class="text-slate-400 hover:text-white hover:bg-slate-800/50 border border-transparent hover:border-slate-700/50 px-3 py-1.5 rounded-md text-sm font-medium transition-colors">Grammar</a>
+          <a href="/parts-of-speech.html" class="text-white bg-slate-800/50 border border-slate-700/50 px-3 py-1.5 rounded-md text-sm font-medium transition-colors shadow-sm">Parts of Speech</a>
+        </nav>
+        <div class="hidden md:flex items-center">
+          <a href="https://missioncontrol.gytama.edu" target="_blank" rel="noopener noreferrer" class="text-xs font-medium font-mono text-white bg-slate-800 hover:bg-slate-700 hover:text-white flex items-center gap-2 transition-all px-4 py-2 rounded-md border border-slate-700 hover:border-slate-600 shadow-sm">
+            <svg class="w-4 h-4 text-rose-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+            Open Mission Control
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-grow">
+    <!-- Hero -->
+    <section class="bg-slate-950 pt-10 pb-8 sm:pt-14 sm:pb-10 relative overflow-hidden border-b border-slate-800/50">
+      <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-2xl h-full bg-emerald-500/5 blur-[100px] pointer-events-none"></div>
+      
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+        <div class="flex justify-center mb-6">
+          <a href="/grammar.html" class="inline-flex items-center gap-2 px-3 py-1.5 rounded-md bg-slate-800/50 border border-slate-700/50 text-slate-300 hover:text-white hover:bg-slate-700/50 transition-all text-xs font-mono tracking-widest uppercase shadow-sm">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
+            Back to Grammar
+          </a>
+        </div>
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-[10px] font-mono tracking-widest uppercase mb-6">
+          Pathway
+        </div>
+        <h1 class="font-display text-3xl sm:text-4xl font-bold text-white tracking-tight mb-4 leading-tight max-w-2xl mx-auto">Parts of <span class="text-emerald-400">Speech</span></h1>
+        <p class="text-base text-slate-400 max-w-xl mx-auto mb-8 leading-relaxed">Understand nouns, verbs, adjectives, and how words function together to create meaning.</p>
+      </div>
+    </section>
+
+    <!-- Groups -->
+    <section class="py-8 sm:py-12 bg-slate-900/50 min-h-[50vh]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Core Word Roles Group -->
+        <div class="mb-16">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-8 gap-4 border-b border-slate-800/80 pb-4">
+            <div>
+              <div class="inline-flex items-center gap-2 px-2.5 py-0.5 rounded-md bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-[10px] font-mono tracking-widest mb-2 uppercase">Active Group</div>
+              <h2 class="text-2xl font-bold text-white tracking-tight">Core Word Roles</h2>
+              <p class="text-slate-400 text-sm mt-1">The fundamental functions of words in a sentence.</p>
+            </div>
+          </div>
+          
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <a href="lesson.html?id=grammar-what-are-parts-of-speech" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">What Are Parts of Speech?</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Learn why knowing word roles helps you build better sentences.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+
+            <a href="lesson.html?id=grammar-8-main-parts-of-speech" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">The 8 Main Parts of Speech</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">A quick overview of nouns, verbs, adjectives, and more.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+
+            <a href="lesson.html?id=grammar-word-roles-in-sentences" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">How Words Work Inside Sentences</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">See how different parts of speech work together to create meaning.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+
+            <a href="lesson.html?id=grammar-words-with-multiple-roles" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Words with More Than One Role</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Discover how the same word can be a noun or a verb depending on how it's used.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Nouns and Pronouns Group -->
+        <div class="mb-16">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-8 gap-4 border-b border-slate-800/80 pb-4">
+            <div>
+              <div class="inline-flex items-center gap-2 px-2.5 py-0.5 rounded-md bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-[10px] font-mono tracking-widest mb-2 uppercase">Active Group</div>
+              <h2 class="text-2xl font-bold text-white tracking-tight">Nouns and Pronouns</h2>
+              <p class="text-slate-400 text-sm mt-1">Naming people, places, things, and the words that replace them.</p>
+            </div>
+          </div>
+          
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <a href="lesson.html?id=grammar-nouns" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Nouns</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Learn about the words that name people, places, things, and ideas.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+
+            <a href="lesson.html?id=grammar-common-proper-nouns" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Common and Proper Nouns</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Understand when to capitalize specific names versus general words.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+
+            <a href="lesson.html?id=grammar-singular-plural-nouns" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Singular and Plural Nouns</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Learn the rules for making words plural, from adding -s to irregular forms.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+
+            <a href="lesson.html?id=grammar-countable-uncountable-nouns" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Countable and Uncountable Nouns</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Discover which nouns you can count and which ones you can't.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+
+            <a href="lesson.html?id=grammar-subject-object-pronouns" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Subject and Object Pronouns</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Learn when to use 'I' vs 'me' and other pronoun pairs correctly.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+
+            <a href="lesson.html?id=grammar-possessive-adjectives-pronouns" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Possessive Adjectives and Pronouns</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Understand the difference between 'my book' and 'the book is mine'.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Verbs and Verb Helpers Group -->
+        <div class="mb-16">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-8 gap-4 border-b border-slate-800/80 pb-4">
+            <div>
+              <div class="inline-flex items-center gap-2 px-2.5 py-0.5 rounded-md bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-[10px] font-mono tracking-widest mb-2 uppercase">Active Group</div>
+              <h2 class="text-2xl font-bold text-white tracking-tight">Verbs and Verb Helpers</h2>
+              <p class="text-slate-400 text-sm mt-1">The engines that drive your sentences forward.</p>
+            </div>
+          </div>
+          
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <a href="lesson.html?id=grammar-verbs" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Verbs</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Explore the words that show action, state, and existence.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+
+            <a href="lesson.html?id=grammar-action-linking-verbs" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Action Verbs and Linking Verbs</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Learn the difference between doing an action and describing a state.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+
+            <a href="lesson.html?id=grammar-main-auxiliary-verbs" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Main Verbs and Auxiliary Verbs</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Understand how helping verbs work with main verbs to form tenses.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+
+            <a href="lesson.html?id=grammar-be-have-do" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Be, Have, and Do</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Master these three tricky verbs that can be both main and helping verbs.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+
+            <a href="lesson.html?id=grammar-modal-verbs-overview" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Modal Verbs Overview</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">A quick introduction to verbs like can, must, should, and will.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+
+            <a href="lesson.html?id=grammar-verb-forms-overview" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Verb Forms Overview</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Get familiar with base forms, past forms, past participles, and -ing forms.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Modifiers and Connectors Group -->
+        <div class="mb-16">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-8 gap-4 border-b border-slate-800/80 pb-4">
+            <div>
+              <div class="inline-flex items-center gap-2 px-2.5 py-0.5 rounded-md bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-[10px] font-mono tracking-widest mb-2 uppercase">Active Group</div>
+              <h2 class="text-2xl font-bold text-white tracking-tight">Modifiers and Connectors</h2>
+              <p class="text-slate-400 text-sm mt-1">Describing things clearly and linking ideas together.</p>
+            </div>
+          </div>
+          
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <a href="lesson.html?id=grammar-adjectives" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Adjectives</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Learn how to describe nouns and pronouns to add detail.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+
+            <a href="lesson.html?id=grammar-adverbs" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Adverbs</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Discover how to describe verbs, adjectives, and other adverbs.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+
+            <a href="lesson.html?id=grammar-prepositions" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Prepositions</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Understand relationships of time, place, and direction.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+
+            <a href="lesson.html?id=grammar-conjunctions" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Conjunctions</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Learn how to connect words, phrases, and entire ideas.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+
+            <a href="lesson.html?id=grammar-interjections" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Interjections</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Express sudden feelings and strong reactions in casual speech.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+
+            <a href="lesson.html?id=grammar-adjective-vs-adverb" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Adjective vs Adverb</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Clear up the confusion between describing a noun and describing an action.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+
+            <a href="lesson.html?id=grammar-preposition-vs-conjunction" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Preposition vs Conjunction</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Learn when to connect a noun phrase and when to connect a full clause.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-slate-950 border-t border-slate-800 py-10 mt-auto">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+        <div class="flex items-center gap-2 opacity-70">
+          <svg class="w-5 h-5 text-rose-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+          <span class="font-display font-bold text-white text-sm">Lesson Control</span>
+          <span class="text-slate-500 text-xs ml-2">by GYTama EDU</span>
+        </div>
+        <div class="flex gap-4 text-xs font-mono text-slate-600 uppercase tracking-widest">
+          <a href="#" class="hover:text-slate-400 transition-colors">Privacy</a>
+          <a href="#" class="hover:text-slate-400 transition-colors">Terms</a>
+          <a href="#" class="hover:text-slate-400 transition-colors">Support</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
