@@ -1,4 +1,3520 @@
+const lesson_grammar_common_passive_voice_mistakes = {
+  "id": "grammar-common-passive-voice-mistakes",
+  "backHref": "passive-voice.html",
+  "backLabel": "Back to Passive Voice",
+  "title": "Common Passive Voice Mistakes",
+  "skill": "Grammar",
+  "category": "Passive Voice",
+  "level": "Advanced",
+  "description": "Repair common errors and solidify your understanding of passive voice.",
+  "learningGoals": [
+    "Identify missing 'be' verbs in passive sentences.",
+    "Correct errors with intransitive verbs that cannot be passive.",
+    "Recognize when active voice is a better choice."
+  ],
+  "meaning": "Even advanced learners make mistakes with the passive voice. This lesson reviews the most common traps, from structural errors to stylistic problems.",
+  "keyIdeas": [
+    "Never forget the 'be' verb.",
+    "You cannot make a passive sentence if the verb has no object (intransitive verbs like 'happen', 'arrive', 'sleep').",
+    "Don't overuse passive voice. If the doer is important, use active voice."
+  ],
+  "patterns": [
+    {
+      "name": "Missing the 'Be' Verb",
+      "formula": "Error: Subject + Verb 3. Correct: Subject + be + Verb 3.",
+      "examples": [
+        {
+          "en": "Wrong: The house built in 1990.",
+          "id": "Salah",
+          "explanation": "The house cannot build itself."
+        },
+        {
+          "en": "Right: The house was built in 1990.",
+          "id": "Benar",
+          "explanation": "The 'be' verb is required."
+        }
+      ]
+    },
+    {
+      "name": "Passive with Intransitive Verbs",
+      "formula": "Verbs without objects (happen, occur, arrive, sleep, die) cannot be passive.",
+      "examples": [
+        {
+          "en": "Wrong: The accident was happened yesterday.",
+          "id": "Salah",
+          "explanation": "'Happen' has no object. It cannot be passive."
+        },
+        {
+          "en": "Right: The accident happened yesterday.",
+          "id": "Benar",
+          "explanation": "Use active voice."
+        },
+        {
+          "en": "Wrong: He was died last year.",
+          "id": "Salah",
+          "explanation": "'Die' has no object."
+        },
+        {
+          "en": "Right: He died last year.",
+          "id": "Benar",
+          "explanation": "Active voice."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "The car was repaired by the mechanic.",
+      "correct": "The mechanic repaired the car. (If you want to focus on the mechanic's good work)",
+      "explanation": "Overusing passive voice makes writing heavy and weak. Only use it when the receiver is more important than the doer."
+    }
+  ],
+  "introduction": "You have learned all the rules of the passive voice. You know the structures, the tenses, and the reasons to use it. But in the heat of a conversation or an exam, mistakes still happen.<br><br>The most common mistake is simply forgetting the 'be' verb, especially in tenses like the present perfect or future. Another major trap is trying to force an intransitive verb (like 'happen' or 'arrive') into a passive structure. Since these verbs don't have objects, they can never be passive.<br><br>Finally, the biggest stylistic mistake is using passive voice too much. It is a tool, not a rule. If you know who did the action, and that person is important, be bold: use the active voice.",
+  "stepByStep": "1. <strong>Check the verb:</strong> Does it need an object? If no (like 'happen'), it MUST be active.<br>2. <strong>Check the structure:</strong> Do you have a 'be' verb AND Verb 3?<br>3. <strong>Check the style:</strong> Is the doer important? If yes, change it back to active voice.",
+  "indonesianLearnerWarning": "Because 'terjadi' feels like a passive word in Indonesian (ter- prefix), many learners say 'was happened' or 'was occurred'. Memorize this rule: 'Happen', 'occur', and 'die' are always active in English."
+};
+
+const lesson_grammar_get_passive = {
+  "id": "grammar-get-passive",
+  "backHref": "passive-voice.html",
+  "backLabel": "Back to Passive Voice",
+  "title": "Get Passive",
+  "skill": "Grammar",
+  "category": "Passive Voice",
+  "level": "Advanced",
+  "description": "Explore a more informal and conversational way to form the passive voice.",
+  "learningGoals": [
+    "Understand the difference between 'be' passive and 'get' passive.",
+    "Learn when it is appropriate to use 'get' instead of 'be'.",
+    "Identify common expressions that use the 'get' passive."
+  ],
+  "meaning": "In informal, spoken English, we often use the verb 'get' instead of 'be' to form the passive voice. It usually describes an action that happens unexpectedly, accidentally, or involves some effort or change of state.",
+  "keyIdeas": [
+    "Structure: Subject + get/got + Verb 3.",
+    "It is more dynamic and action-focused than the 'be' passive.",
+    "It is strictly for informal or conversational use. Do not use it in formal writing."
+  ],
+  "patterns": [
+    {
+      "name": "The Get Passive",
+      "formula": "Subject + get(s)/got/will get + Verb 3",
+      "examples": [
+        {
+          "en": "My car got stolen last night.",
+          "id": "Mobil saya kecurian tadi malam.",
+          "explanation": "Unexpected, negative event. More conversational than 'was stolen'."
+        },
+        {
+          "en": "They got married in Spain.",
+          "id": "Mereka menikah di Spanyol.",
+          "explanation": "A change of state. Very common fixed expression."
+        },
+        {
+          "en": "He got fired from his job.",
+          "id": "Dia dipecat dari pekerjaannya.",
+          "explanation": "An unexpected action affecting him."
+        },
+        {
+          "en": "The window got broken during the storm.",
+          "id": "Jendela itu pecah selama badai.",
+          "explanation": "An accident."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "The new law got passed by the government.",
+      "correct": "The new law was passed by the government.",
+      "explanation": "Do not use 'get' passive for formal events, news reports, or academic writing. Use 'be' passive instead."
+    },
+    {
+      "wrong": "He got steal his phone.",
+      "correct": "His phone got stolen.",
+      "explanation": "The 'get' passive still follows passive rules: the receiver must be the subject, followed by Verb 3."
+    }
+  ],
+  "introduction": "If you listen to native English speakers talking in a coffee shop, you might hear them say, 'My car got stolen,' or 'He got fired.' They rarely say, 'My car was stolen,' in a casual chat. Why?<br><br>This is the 'get' passive. It is a conversational shortcut that makes the sentence feel more dynamic, unexpected, or emotional. We use 'get' instead of 'be' (am, is, are, was, were).<br><br>While the 'get' passive is fantastic for sounding fluent and natural in conversation, it has a strict rule: never use it in formal writing. In an essay or a business report, always stick to the standard 'be' passive.",
+  "stepByStep": "1. <strong>Is the situation informal?</strong> If yes, proceed.<br>2. <strong>Is it an action, accident, or change?</strong> (e.g., getting fired, getting married).<br>3. <strong>Replace 'be' with 'get/got':</strong> Use 'got' for past tense ('He got fired').<br>4. <strong>Use Verb 3:</strong> Just like normal passive.",
+  "indonesianLearnerWarning": "In Indonesian, verbs like 'kecurian', 'kehujanan', or 'terpukul' often carry this exact feeling of an unexpected or accidental action. The 'get' passive is the closest English equivalent to these forms."
+};
+
+const lesson_grammar_passive_with_two_objects = {
+  "id": "grammar-passive-with-two-objects",
+  "backHref": "passive-voice.html",
+  "backLabel": "Back to Passive Voice",
+  "title": "Passive with Two Objects",
+  "skill": "Grammar",
+  "category": "Passive Voice",
+  "level": "Advanced",
+  "description": "Learn how to make sentences passive when the verb has two objects.",
+  "learningGoals": [
+    "Identify sentences with two objects (direct and indirect).",
+    "Learn the two different ways to make these sentences passive.",
+    "Understand which passive form is more common in natural English."
+  ],
+  "meaning": "Some verbs, like 'give', 'send', 'offer', and 'teach', often have two objects: a person (who receives it) and a thing (what is given). Because there are two objects, we can make two different passive sentences.",
+  "keyIdeas": [
+    "Active: 'They gave (1) him (2) a prize.'",
+    "Passive Option A (focus on person): 'He was given a prize.'",
+    "Passive Option B (focus on thing): 'A prize was given to him.'",
+    "Option A (making the person the subject) is usually much more common and natural."
+  ],
+  "patterns": [
+    {
+      "name": "Person as Subject (Most Common)",
+      "formula": "Person + be + Verb 3 + Thing",
+      "examples": [
+        {
+          "en": "He was given a prize.",
+          "id": "Dia diberi hadiah.",
+          "explanation": "Focuses on the person who received it. This is very natural in English."
+        },
+        {
+          "en": "I was offered a job.",
+          "id": "Saya ditawari pekerjaan.",
+          "explanation": "Focuses on 'I'."
+        },
+        {
+          "en": "We were taught English by Mr. Smith.",
+          "id": "Kami diajari bahasa Inggris oleh Pak Smith.",
+          "explanation": "Focuses on the students ('we')."
+        }
+      ]
+    },
+    {
+      "name": "Thing as Subject (More Formal/Specific)",
+      "formula": "Thing + be + Verb 3 + to/for + Person",
+      "examples": [
+        {
+          "en": "A prize was given to him.",
+          "id": "Sebuah hadiah diberikan kepadanya.",
+          "explanation": "Focuses heavily on the prize itself."
+        },
+        {
+          "en": "A job was offered to me.",
+          "id": "Sebuah pekerjaan ditawarkan kepada saya.",
+          "explanation": "Focuses on the job."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "A prize was given him.",
+      "correct": "A prize was given to him.",
+      "explanation": "If you make the thing the subject, you usually must use 'to' or 'for' before the person."
+    },
+    {
+      "wrong": "He was given to a prize.",
+      "correct": "He was given a prize.",
+      "explanation": "Do not use 'to' if the person is the subject."
+    }
+  ],
+  "introduction": "When a company offers you a job, they give you an offer. The active sentence is: 'The company offered me a job.' Here, 'me' is the person receiving it, and 'a job' is the thing being given. There are two objects.<br><br>So, how do we make this passive? We have two choices. We can focus on the job: 'A job was offered to me.' Or we can focus on you: 'I was offered a job.'<br><br>While both are grammatically correct, native English speakers heavily prefer making the person the subject. 'I was offered a job' sounds much more natural and conversational than 'A job was offered to me.' Mastering this preference will make your English sound much more fluent.",
+  "stepByStep": "1. <strong>Identify the person and the thing:</strong> ('me' and 'a job').<br>2. <strong>Prefer the person:</strong> Make the person the subject ('I').<br>3. <strong>Apply passive structure:</strong> ('I was offered').<br>4. <strong>Add the thing:</strong> ('I was offered a job').",
+  "indonesianLearnerWarning": "Indonesian has a very similar structure ('Saya diberi hadiah' vs 'Hadiah diberikan kepada saya'). Rely on this instinct, and remember that just like in Indonesian, 'Saya diberi' is usually the more natural choice."
+};
+
+const lesson_grammar_modal_passive = {
+  "id": "grammar-modal-passive",
+  "backHref": "passive-voice.html",
+  "backLabel": "Back to Passive Voice",
+  "title": "Modal Passive",
+  "skill": "Grammar",
+  "category": "Passive Voice",
+  "level": "Advanced",
+  "description": "Combine modal verbs with passive voice for richer meanings.",
+  "learningGoals": [
+    "Learn how to structure sentences using modals + passive voice.",
+    "Express possibility, ability, advice, and obligation in the passive.",
+    "Understand past modal passives (should have been)."
+  ],
+  "meaning": "Modal verbs (can, could, should, must, might) add meaning like ability, advice, or obligation. By combining them with passive voice, we can say things like 'It can be done' or 'It must be finished'.",
+  "keyIdeas": [
+    "Present/Future Modal Passive: Modal + be + Verb 3.",
+    "Past Modal Passive: Modal + have been + Verb 3.",
+    "The word 'be' or 'have been' never changes form after a modal."
+  ],
+  "patterns": [
+    {
+      "name": "Present/Future Modal Passive",
+      "formula": "Subject + modal + be + Verb 3",
+      "examples": [
+        {
+          "en": "The problem can be solved.",
+          "id": "Masalah tersebut dapat diselesaikan.",
+          "explanation": "Ability/Possibility."
+        },
+        {
+          "en": "The forms must be signed.",
+          "id": "Formulir-formulir tersebut harus ditandatangani.",
+          "explanation": "Strong obligation."
+        },
+        {
+          "en": "The package might be delayed.",
+          "id": "Paket tersebut mungkin tertunda.",
+          "explanation": "Possibility."
+        }
+      ]
+    },
+    {
+      "name": "Past Modal Passive",
+      "formula": "Subject + modal + have been + Verb 3",
+      "examples": [
+        {
+          "en": "The door should have been locked.",
+          "id": "Pintu tersebut seharusnya dikunci.",
+          "explanation": "Regret/Criticism about a past mistake."
+        },
+        {
+          "en": "The flight might have been cancelled.",
+          "id": "Penerbangan tersebut mungkin telah dibatalkan.",
+          "explanation": "Past possibility."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "The problem can solved.",
+      "correct": "The problem can be solved.",
+      "explanation": "You must include 'be' after the modal."
+    },
+    {
+      "wrong": "The door should be locked yesterday.",
+      "correct": "The door should have been locked yesterday.",
+      "explanation": "For past regrets, you must use 'have been', not just 'be'."
+    }
+  ],
+  "introduction": "When managing a project, you might look at a difficult task and say, 'We can solve this.' But what if you are the boss, looking at the big picture? You would say, 'This problem can be solved.'<br><br>By combining modal verbs (can, must, should) with the passive voice, you can express ability, obligation, and advice while keeping the focus entirely on the work. 'The report must be finished.' 'The email should be sent.'<br><br>These structures are the backbone of professional communication, problem-solving, and rule-making. They allow you to be firm and clear without pointing fingers.",
+  "stepByStep": "1. <strong>Identify the receiver:</strong> ('The problem').<br>2. <strong>Add the modal:</strong> ('The problem can').<br>3. <strong>Add 'be' (or 'have been' for past):</strong> ('The problem can be').<br>4. <strong>Use Verb 3:</strong> ('The problem can be solved').",
+  "indonesianLearnerWarning": "Indonesian translates 'dapat diselesaikan' as 'can + Verb 3' directly (dapat = can, diselesaikan = Verb 3). Don't forget that English requires the bridge word 'be' between the modal and the past participle."
+};
+
+const lesson_grammar_passive_unknown_unimportant_doer = {
+  "id": "grammar-passive-unknown-unimportant-doer",
+  "backHref": "passive-voice.html",
+  "backLabel": "Back to Passive Voice",
+  "title": "Unknown or Unimportant Doers",
+  "skill": "Grammar",
+  "category": "Passive Voice",
+  "level": "Intermediate",
+  "description": "Learn how to express ideas when you don't know who did the action.",
+  "learningGoals": [
+    "Identify situations where the doer is unknown.",
+    "Identify situations where the doer is obvious or unimportant.",
+    "Use passive voice to solve the problem of missing information."
+  ],
+  "meaning": "Sometimes we simply don't know who did something, or the answer is so obvious that saying it is a waste of time. In these cases, active voice is awkward, but passive voice provides an elegant solution.",
+  "keyIdeas": [
+    "If you don't know who did it, use passive to avoid saying 'Someone' or 'They'.",
+    "If everyone knows who did it (e.g., police arrest, doctors operate), use passive.",
+    "Omit the 'by-agent' entirely."
+  ],
+  "patterns": [
+    {
+      "name": "The Unknown Doer",
+      "formula": "Subject + be + Verb 3",
+      "examples": [
+        {
+          "en": "My bicycle was stolen last night.",
+          "id": "Sepeda saya dicuri tadi malam.",
+          "explanation": "We don't know who stole it. 'Someone stole my bicycle' is less natural."
+        },
+        {
+          "en": "This ancient temple was built 2,000 years ago.",
+          "id": "Kuil kuno ini dibangun 2.000 tahun yang lalu.",
+          "explanation": "We don't know the specific names of the builders."
+        }
+      ]
+    },
+    {
+      "name": "The Obvious Doer",
+      "formula": "Subject + be + Verb 3",
+      "examples": [
+        {
+          "en": "The thief was arrested.",
+          "id": "Pencuri itu ditangkap.",
+          "explanation": "It is obvious that the police arrested him."
+        },
+        {
+          "en": "The patient was operated on yesterday.",
+          "id": "Pasien tersebut dioperasi kemarin.",
+          "explanation": "It is obvious that a surgeon did it."
+        },
+        {
+          "en": "The streets are cleaned every night.",
+          "id": "Jalan-jalan dibersihkan setiap malam.",
+          "explanation": "The specific street cleaners are unimportant to the message."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "They arrested the thief.",
+      "correct": "The thief was arrested.",
+      "explanation": "Using 'They' for obvious doers (like police) is grammatically okay but sounds informal and vague. Passive is much better."
+    },
+    {
+      "wrong": "Someone stole my bicycle.",
+      "correct": "My bicycle was stolen.",
+      "explanation": "'Someone' adds no information. The passive version is more focused on what matters."
+    }
+  ],
+  "introduction": "Imagine you walk outside and your bicycle is missing. You don't know who took it. You could run inside and say, 'Someone stole my bicycle!' This is grammatically correct, but the word 'someone' is basically useless information.<br><br>English gives us a better tool for this situation: the passive voice. By saying 'My bicycle was stolen,' you remove the need for a 'doer' entirely. You solve the problem of missing information by simply focusing on the object.<br><br>We do the same thing when the doer is too obvious. If you say, 'The police arrested the thief,' you are wasting words. Who else arrests thieves? Say, 'The thief was arrested.' It is cleaner, faster, and sounds much more natural.",
+  "stepByStep": "1. <strong>Is the doer unknown or obvious?</strong> (e.g., 'someone' or 'the police').<br>2. <strong>If yes:</strong> Drop the doer.<br>3. <strong>Focus on the receiver:</strong> Make the receiver the subject ('My bicycle').<br>4. <strong>Apply passive structure:</strong> ('My bicycle was stolen').",
+  "indonesianLearnerWarning": "Indonesian also drops obvious agents (e.g., 'Pencuri itu ditangkap'). However, translating 'someone stole it' to 'seseorang mencurinya' is common in Indonesian. In English, train yourself to prefer the passive ('It was stolen')."
+};
+
+const lesson_grammar_passive_for_formal_instructions = {
+  "id": "grammar-passive-for-formal-instructions",
+  "backHref": "passive-voice.html",
+  "backLabel": "Back to Passive Voice",
+  "title": "Passive for Formal Instructions",
+  "skill": "Grammar",
+  "category": "Passive Voice",
+  "level": "Upper-Intermediate",
+  "description": "Use passive voice to make instructions sound formal and official.",
+  "learningGoals": [
+    "Understand the tone difference between active and passive instructions.",
+    "Use passive voice for rules, signs, and manuals.",
+    "Apply modal verbs with passive voice for instructions."
+  ],
+  "meaning": "While everyday instructions use the imperative (e.g., 'Turn off your phone'), formal instructions, rules, and signs often use passive voice (e.g., 'Phones must be turned off'). This makes the rule sound more objective, official, and less like a personal command.",
+  "keyIdeas": [
+    "Passive instructions feel less personal and more like a general rule.",
+    "They are common in manuals, exams, legal documents, and public signs.",
+    "They often use modals like 'must be', 'should be', or 'are to be'."
+  ],
+  "patterns": [
+    {
+      "name": "Formal Rules and Signs",
+      "formula": "Subject + must/should be + Verb 3",
+      "examples": [
+        {
+          "en": "All phones must be turned off during the exam.",
+          "id": "Semua ponsel harus dimatikan selama ujian.",
+          "explanation": "Sounds more official than 'Turn off your phone'."
+        },
+        {
+          "en": "Payments should be made by the 5th of every month.",
+          "id": "Pembayaran sebaiknya dilakukan sebelum tanggal 5 setiap bulannya.",
+          "explanation": "A polite but firm rule in a contract."
+        },
+        {
+          "en": "Hard hats must be worn in this area.",
+          "id": "Helm proyek harus dipakai di area ini.",
+          "explanation": "A standard safety sign."
+        },
+        {
+          "en": "Applications must be submitted online.",
+          "id": "Aplikasi harus diserahkan secara online.",
+          "explanation": "A formal administrative instruction."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "You must to turn off your phone.",
+      "correct": "All phones must be turned off.",
+      "explanation": "Using 'you' can sound too direct or conversational for an official sign. Passive voice removes 'you' and focuses on the object (phones)."
+    },
+    {
+      "wrong": "Hard hats must wear.",
+      "correct": "Hard hats must be worn.",
+      "explanation": "The hard hats don't wear themselves. You need 'be + Verb 3'."
+    }
+  ],
+  "introduction": "Imagine you are writing the rules for a university examination hall. If you write, 'You must turn off your phone,' it sounds a bit like a teacher talking directly to a naughty student. It's personal.<br><br>To make the rule sound like an unchangeable, official policy that applies to everyone, you use passive voice: 'All phones must be turned off.'<br><br>By removing the word 'you' and focusing on the object ('phones'), the instruction feels more professional, objective, and authoritative. This is why you see passive voice on signs, in legal contracts, in manuals, and in official communications.",
+  "stepByStep": "1. <strong>Identify the object of the rule:</strong> What needs to be managed? (e.g., 'Payments').<br>2. <strong>Choose a modal:</strong> Use 'must' for strong rules, 'should' for strong advice.<br>3. <strong>Add 'be' + Verb 3:</strong> ('Payments must be made').",
+  "indonesianLearnerWarning": "In Indonesian, signs are often active imperatives ('Harap matikan HP'). In English, while 'Please turn off your phone' is fine, formal settings strongly prefer the passive 'Phones must be turned off'."
+};
+
+const lesson_grammar_passive_for_news_reports = {
+  "id": "grammar-passive-for-news-reports",
+  "backHref": "passive-voice.html",
+  "backLabel": "Back to Passive Voice",
+  "title": "Passive for News and Reports",
+  "skill": "Grammar",
+  "category": "Passive Voice",
+  "level": "Upper-Intermediate",
+  "description": "Understand why passive voice is common in news reporting.",
+  "learningGoals": [
+    "Understand why journalists use passive voice to sound objective.",
+    "Recognize common passive structures in news headlines and articles.",
+    "Apply passive voice to report events without naming a specific doer."
+  ],
+  "meaning": "In news reporting, journalists often use passive voice to maintain an objective tone, to focus on the victims or the event itself, or because the person responsible is unknown or legally protected.",
+  "keyIdeas": [
+    "Passive voice sounds more formal and objective than active voice.",
+    "It allows reporters to state facts without assigning blame (e.g., 'Mistakes were made').",
+    "It is used when the event is more important than who caused it."
+  ],
+  "patterns": [
+    {
+      "name": "Objective Reporting",
+      "formula": "Subject (Victim/Event) + be + Verb 3",
+      "examples": [
+        {
+          "en": "Three people were injured in the accident.",
+          "id": "Tiga orang terluka dalam kecelakaan tersebut.",
+          "explanation": "Focuses on the victims, not the driver who caused it."
+        },
+        {
+          "en": "The building was destroyed by the fire.",
+          "id": "Bangunan tersebut hancur oleh api.",
+          "explanation": "Focuses on the tragedy."
+        },
+        {
+          "en": "A new law has been passed.",
+          "id": "Sebuah undang-undang baru telah disahkan.",
+          "explanation": "Focuses on the law, rather than the specific politicians."
+        },
+        {
+          "en": "The suspect is being questioned by the police.",
+          "id": "Tersangka sedang diperiksa oleh polisi.",
+          "explanation": "Present continuous passive. Focus on the suspect."
+        },
+        {
+          "en": "Mistakes were made during the investigation.",
+          "id": "Kesalahan-kesalahan dibuat selama penyelidikan.",
+          "explanation": "A classic PR phrase to avoid saying 'We made mistakes'."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "The fire destroyed the building.",
+      "correct": "The building was destroyed by the fire.",
+      "explanation": "Active voice is okay, but passive is often preferred in news to emphasize the impact on the subject (the building)."
+    },
+    {
+      "wrong": "Three people was injured.",
+      "correct": "Three people were injured.",
+      "explanation": "Remember to match plural subjects ('people') with plural 'be' verbs ('were')."
+    }
+  ],
+  "introduction": "When you read a newspaper or watch a news broadcast, you will notice a specific style of language. A journalist rarely says, 'A bad driver injured three people today.' Instead, they say, 'Three people were injured today.'<br><br>Why? Because the focus of the news is the tragedy and the victims, not the driver. Passive voice allows journalists to structure their sentences around what is most important or dramatic.<br><br>Furthermore, passive voice helps maintain an objective, professional tone. It is also used carefully by public relations teams and politicians to avoid direct blame, using famous phrases like 'Mistakes were made' rather than 'I made a mistake'.",
+  "stepByStep": "1. <strong>Identify the 'headline' focus:</strong> What is the most important part of the story? (e.g., 'A new law').<br>2. <strong>Make it the subject:</strong> Start the sentence with it.<br>3. <strong>Apply the appropriate tense:</strong> Use Present Perfect ('has been passed') for recent news, or Past Simple ('was passed') for finished events.",
+  "indonesianLearnerWarning": "Indonesian news also heavily relies on passive structures (e.g., 'Telah ditemukan...'). When translating these concepts, ensure you don't drop the 'be' verb in English (e.g., 'Has been found', not 'Has found')."
+};
+
+const lesson_grammar_passive_for_processes = {
+  "id": "grammar-passive-for-processes",
+  "backHref": "passive-voice.html",
+  "backLabel": "Back to Passive Voice",
+  "title": "Passive for Processes",
+  "skill": "Grammar",
+  "category": "Passive Voice",
+  "level": "Upper-Intermediate",
+  "description": "Explain steps in a process where the action matters more than the doer.",
+  "learningGoals": [
+    "Understand why passive voice is ideal for describing processes.",
+    "Learn to sequence passive steps logically (First, Next, Then).",
+    "Apply present simple passive to describe manufacturing or natural processes."
+  ],
+  "meaning": "When we explain how something is made or how a system works (a process), the people doing the work are usually less important than the steps themselves. Passive voice allows us to focus entirely on the materials, the product, and the sequence of actions.",
+  "keyIdeas": [
+    "Used in science, manufacturing, recipes, and technical writing.",
+    "Present Simple Passive is the most common tense used for general processes.",
+    "Sequence words (First, Next, Then, Finally) help connect the passive sentences clearly."
+  ],
+  "patterns": [
+    {
+      "name": "Describing a Process",
+      "formula": "Sequence word + Subject + am/is/are + Verb 3",
+      "examples": [
+        {
+          "en": "First, the tea leaves are picked by hand.",
+          "id": "Pertama, daun teh dipetik dengan tangan.",
+          "explanation": "Focuses on the leaves, not the farmers."
+        },
+        {
+          "en": "Next, they are dried in the sun.",
+          "id": "Selanjutnya, daun-daun tersebut dijemur di bawah sinar matahari.",
+          "explanation": "Continues the process focusing on the product."
+        },
+        {
+          "en": "Then, the dried leaves are packed into boxes.",
+          "id": "Kemudian, daun kering tersebut dikemas ke dalam kotak.",
+          "explanation": "Clear step-by-step description."
+        },
+        {
+          "en": "Finally, the boxes are shipped to supermarkets.",
+          "id": "Akhirnya, kotak-kotak tersebut dikirim ke supermarket.",
+          "explanation": "The end of the process."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "First, the farmers pick the tea. Next, they dry it. Then, they pack it.",
+      "correct": "First, the tea is picked. Next, it is dried. Then, it is packed.",
+      "explanation": "While active voice is grammatical, it focuses too much on 'the farmers'. For technical descriptions or IELTS Task 1, passive voice is the standard expected style."
+    },
+    {
+      "wrong": "Next, the leaves is dried.",
+      "correct": "Next, the leaves are dried.",
+      "explanation": "Pay attention to subject-verb agreement. 'Leaves' is plural."
+    }
+  ],
+  "introduction": "If you watch a documentary about how chocolate is made, the narrator won't say, 'A man harvests the cocoa pods. Then another man opens them. Then a machine crushes them.' That focuses too much on the workers and machines, and not enough on the chocolate!<br><br>Instead, the narrator will say, 'The cocoa pods are harvested. Then they are opened, and the beans are crushed.' This is the power of the passive voice in describing processes. It keeps the spotlight exactly where it belongs: on the product going through the steps.<br><br>This skill is essential for technical writing, science reports, and is a key requirement if you are preparing for exams like the IELTS Academic Writing Task 1.",
+  "stepByStep": "1. <strong>Identify the material:</strong> Make it the subject (e.g., 'The beans').<br>2. <strong>Add a sequence word:</strong> (e.g., 'First', 'Next').<br>3. <strong>Apply passive structure:</strong> (e.g., 'First, the beans are crushed.').<br>4. <strong>Continue:</strong> Keep the focus on the material in the next steps.",
+  "indonesianLearnerWarning": "In Indonesian, describing a process with 'di-' (dipetik, dikeringkan, dikemas) is very natural. In English, you must consciously remember the 'be' verb for every single step. Don't let your English revert to active voice halfway through the description."
+};
+
+const lesson_grammar_future_passive = {
+  "id": "grammar-future-passive",
+  "backHref": "passive-voice.html",
+  "backLabel": "Back to Passive Voice",
+  "title": "Future Passive",
+  "skill": "Grammar",
+  "category": "Passive Voice",
+  "level": "Upper-Intermediate",
+  "description": "Talk about actions that will happen to the subject in the future.",
+  "learningGoals": [
+    "Learn the structure of Future Passive.",
+    "Use it to talk about future plans, announcements, and predictions.",
+    "Avoid missing the 'be' verb in future passive sentences."
+  ],
+  "meaning": "Future Passive is used when we want to talk about an action that will happen to the subject in the future. The focus is on the future event or result, not on who will do it.",
+  "keyIdeas": [
+    "It describes planned or expected future events.",
+    "We use 'will be' for all subjects, followed by Verb 3.",
+    "It is widely used in announcements, schedules, and promises."
+  ],
+  "patterns": [
+    {
+      "name": "Future Passive",
+      "formula": "Subject + will be + Verb 3",
+      "examples": [
+        {
+          "en": "The results will be announced tomorrow.",
+          "id": "Hasilnya akan diumumkan besok.",
+          "explanation": "Focus on the future event."
+        },
+        {
+          "en": "The classroom will be cleaned after school.",
+          "id": "Ruang kelas akan dibersihkan setelah sekolah.",
+          "explanation": "Focus on the future plan for the room."
+        },
+        {
+          "en": "The meeting will be held next week.",
+          "id": "Rapat tersebut akan diadakan minggu depan.",
+          "explanation": "Standard formal announcement."
+        },
+        {
+          "en": "The package will be delivered tonight.",
+          "id": "Paket tersebut akan dikirimkan malam ini.",
+          "explanation": "Focus on the service provided."
+        },
+        {
+          "en": "The new rule will be explained later.",
+          "id": "Aturan baru tersebut akan dijelaskan nanti.",
+          "explanation": "Promising a future action without specifying who will do it."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "The results will announced tomorrow.",
+      "correct": "The results will be announced tomorrow.",
+      "explanation": "You cannot put 'will' directly before a past participle (Verb 3) in passive. You must include 'be'."
+    },
+    {
+      "wrong": "The package will delivered tonight.",
+      "correct": "The package will be delivered tonight.",
+      "explanation": "Missing the 'be' verb is the most common error in Future Passive."
+    },
+    {
+      "wrong": "The meeting will be hold next week.",
+      "correct": "The meeting will be held next week.",
+      "explanation": "Always use Verb 3 (held), not Verb 1 (hold)."
+    }
+  ],
+  "introduction": "When a school principal makes an announcement, they don't usually say, 'We will announce the results tomorrow.' Instead, they say, 'The results will be announced tomorrow.' This shifts the focus from the school administration to the information that students care about: the results.<br><br>The Future Passive is an excellent tool for talking about schedules, plans, promises, and formal announcements. It allows you to describe what will happen without needing to focus on who will do the work.<br><br>The structure is very consistent: 'will be' is used for every subject, singular or plural. The only challenge is remembering to include the word 'be'.",
+  "stepByStep": "1. <strong>Identify the receiver:</strong> Make it the subject (e.g., 'The meeting').<br>2. <strong>Add 'will be':</strong> ('The meeting will be').<br>3. <strong>Use Verb 3:</strong> ('The meeting will be held').<br>4. <strong>Add the time (optional):</strong> ('next week').",
+  "indonesianLearnerWarning": "In Indonesian, 'akan di-' translates directly to 'will + Verb 3' in many students' minds (akan = will, di = Verb 3). This causes them to drop the 'be'. 'Will announced' is always wrong. It must be 'will BE announced'."
+};
+
+const lesson_grammar_present_perfect_passive = {
+  "id": "grammar-present-perfect-passive",
+  "backHref": "passive-voice.html",
+  "backLabel": "Back to Passive Voice",
+  "title": "Present Perfect Passive",
+  "skill": "Grammar",
+  "category": "Passive Voice",
+  "level": "Upper-Intermediate",
+  "description": "Connect a completed action to the present result using passive voice.",
+  "learningGoals": [
+    "Learn the structure of Present Perfect Passive.",
+    "Understand the connection between past action and present result.",
+    "Differentiate between 'has been' and 'have been'."
+  ],
+  "meaning": "Present Perfect Passive connects a recently completed action to the present moment. The focus is on the present result of the action, not on the specific time it happened or the person who did it.",
+  "keyIdeas": [
+    "It shows that an action is finished and the result matters right now.",
+    "We use 'has been' or 'have been' based on the subject, followed by Verb 3.",
+    "It is very common for status updates and reporting progress."
+  ],
+  "patterns": [
+    {
+      "name": "Present Perfect Passive",
+      "formula": "Subject + has/have been + Verb 3",
+      "examples": [
+        {
+          "en": "The task has been completed.",
+          "id": "Tugas tersebut telah diselesaikan.",
+          "explanation": "The result is that the task is finished now."
+        },
+        {
+          "en": "The documents have been checked.",
+          "id": "Dokumen-dokumen tersebut telah diperiksa.",
+          "explanation": "Plural subject 'documents' takes 'have been'."
+        },
+        {
+          "en": "The classroom has been cleaned.",
+          "id": "Ruang kelas telah dibersihkan.",
+          "explanation": "It looks clean right now."
+        },
+        {
+          "en": "Several mistakes have been found.",
+          "id": "Beberapa kesalahan telah ditemukan.",
+          "explanation": "Focus on the discovery of the mistakes."
+        },
+        {
+          "en": "The decision has been made.",
+          "id": "Keputusan telah dibuat.",
+          "explanation": "The action is complete, and the decision stands now."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "The task has completed.",
+      "correct": "The task has been completed.",
+      "explanation": "Without 'been', it sounds like the task completed itself (active voice)."
+    },
+    {
+      "wrong": "The documents have checked.",
+      "correct": "The documents have been checked.",
+      "explanation": "You must include 'been' to make it passive."
+    },
+    {
+      "wrong": "The decision has been make.",
+      "correct": "The decision has been made.",
+      "explanation": "Always use Verb 3 (made), not Verb 1 (make)."
+    }
+  ],
+  "introduction": "Imagine a manager asks for a progress update on a project. You could say, 'I finished the report.' But if you want to sound more professional and focus purely on the work, you would say, 'The report has been finished.'<br><br>The Present Perfect Passive is incredibly useful for giving status updates, reporting news, or describing changes that affect the present moment. It tells the listener, 'This action is complete, and the result is what matters right now.'<br><br>The key is to remember the word 'been'. Without it, the sentence becomes active, which can lead to confusing statements like 'The report has finished' (meaning the report itself did something).",
+  "stepByStep": "1. <strong>Identify the receiver:</strong> Make it the subject (e.g., 'The decision').<br>2. <strong>Choose has/have:</strong> Match it to the subject ('The decision has').<br>3. <strong>Add 'been':</strong> ('The decision has been').<br>4. <strong>Use Verb 3:</strong> ('The decision has been made.').",
+  "indonesianLearnerWarning": "Indonesian learners often translate 'telah di-' simply as 'has + Verb 3' and forget 'been'. 'The task has finished' sounds very wrong in English. It must be 'The task has BEEN finished'."
+};
+
+const lesson_grammar_past_simple_passive = {
+  "id": "grammar-past-simple-passive",
+  "backHref": "passive-voice.html",
+  "backLabel": "Back to Passive Voice",
+  "title": "Past Simple Passive",
+  "skill": "Grammar",
+  "category": "Passive Voice",
+  "level": "Intermediate",
+  "description": "Use passive voice for completed past actions focusing on the result.",
+  "learningGoals": [
+    "Learn the structure of Past Simple Passive.",
+    "Understand when to use it (completed past events).",
+    "Differentiate between 'was' and 'were'."
+  ],
+  "meaning": "Past Simple Passive is used to talk about actions that were completed in the past, where the focus is on the receiver of the action or the result, rather than who did it.",
+  "keyIdeas": [
+    "It describes finished past events.",
+    "The focus is on what happened to the subject.",
+    "We use 'was' or 'were' based on the subject, followed by Verb 3."
+  ],
+  "patterns": [
+    {
+      "name": "Past Simple Passive",
+      "formula": "Subject + was/were + Verb 3",
+      "examples": [
+        {
+          "en": "The window was broken yesterday.",
+          "id": "Jendela itu dipecahkan kemarin.",
+          "explanation": "A completed past event. Focus is on the window."
+        },
+        {
+          "en": "The lesson was explained clearly.",
+          "id": "Pelajaran tersebut dijelaskan dengan jelas.",
+          "explanation": "Focus on the lesson."
+        },
+        {
+          "en": "The files were deleted by accident.",
+          "id": "File-file tersebut dihapus secara tidak sengaja.",
+          "explanation": "Plural subject 'files' takes 'were'."
+        },
+        {
+          "en": "The house was built in 1998.",
+          "id": "Rumah tersebut dibangun pada tahun 1998.",
+          "explanation": "A historical fact focusing on the creation of the house."
+        },
+        {
+          "en": "The students were invited to the event.",
+          "id": "Para siswa diundang ke acara tersebut.",
+          "explanation": "Plural subject receiving an action."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "The window broken yesterday.",
+      "correct": "The window was broken yesterday.",
+      "explanation": "You must include the past 'be' verb (was/were)."
+    },
+    {
+      "wrong": "The files was deleted.",
+      "correct": "The files were deleted.",
+      "explanation": "'Files' is plural, so it must take 'were', not 'was'."
+    },
+    {
+      "wrong": "The house was build in 1998.",
+      "correct": "The house was built in 1998.",
+      "explanation": "Always use Verb 3 (built), not Verb 1 (build)."
+    }
+  ],
+  "introduction": "When we tell stories about the past, we often want to describe what happened to things or people. For example, if you enter a room and see broken glass, you don't know who did it. You can only say, 'The window was broken yesterday.'<br><br>This is the Past Simple Passive. It is perfect for describing past events, historical facts, accidents, or completed processes when the person responsible is unknown or less important than the event itself.<br><br>The structure is very similar to the Present Simple Passive, but instead of using 'am/is/are', we step back in time and use 'was' or 'were'.",
+  "stepByStep": "1. <strong>Identify the receiver:</strong> Make it the subject (e.g., 'The house').<br>2. <strong>Choose was/were:</strong> Match it to the subject ('The house was').<br>3. <strong>Use Verb 3:</strong> Add the past participle ('built').<br>4. <strong>Result:</strong> 'The house was built in 1998.'",
+  "indonesianLearnerWarning": "Because Indonesian doesn't change verbs for past tense, learners often say 'The window is broken yesterday'. Always remember to change the 'be' verb to 'was' or 'were' when talking about the past."
+};
+
+const lesson_grammar_present_simple_passive = {
+  "id": "grammar-present-simple-passive",
+  "backHref": "passive-voice.html",
+  "backLabel": "Back to Passive Voice",
+  "title": "Present Simple Passive",
+  "skill": "Grammar",
+  "category": "Passive Voice",
+  "level": "Intermediate",
+  "description": "Use passive voice for general facts, routines, systems, and rules.",
+  "learningGoals": [
+    "Learn the structure of Present Simple Passive.",
+    "Understand when to use it (facts, routines, systems).",
+    "Identify common errors with 'be' verb agreement in the present."
+  ],
+  "meaning": "Present Simple Passive is used when we want to talk about things that are generally true, happen regularly (routines), or are part of a system, but we want to focus on the receiver of the action, not the doer.",
+  "keyIdeas": [
+    "It is used for general facts and repeated actions.",
+    "The focus is on what happens, not who does it.",
+    "We use 'am', 'is', or 'are' based on the subject, followed by Verb 3."
+  ],
+  "patterns": [
+    {
+      "name": "Present Simple Passive",
+      "formula": "Subject + am/is/are + Verb 3",
+      "examples": [
+        {
+          "en": "English is spoken in many countries.",
+          "id": "Bahasa Inggris dituturkan di banyak negara.",
+          "explanation": "General fact. Focus on the language."
+        },
+        {
+          "en": "The classroom is cleaned every morning.",
+          "id": "Ruang kelas dibersihkan setiap pagi.",
+          "explanation": "Routine action. Focus on the classroom."
+        },
+        {
+          "en": "These books are used by many students.",
+          "id": "Buku-buku ini digunakan oleh banyak siswa.",
+          "explanation": "System/fact. Plural subject 'books' takes 'are'."
+        },
+        {
+          "en": "The documents are checked before submission.",
+          "id": "Dokumen-dokumen tersebut diperiksa sebelum penyerahan.",
+          "explanation": "Part of a process or rule."
+        },
+        {
+          "en": "Rice is eaten in many Asian countries.",
+          "id": "Beras/Nasi dimakan di banyak negara Asia.",
+          "explanation": "General cultural fact."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "English spoken in many countries.",
+      "correct": "English is spoken in many countries.",
+      "explanation": "You must include the 'be' verb (is/are)."
+    },
+    {
+      "wrong": "English is speak in many countries.",
+      "correct": "English is spoken in many countries.",
+      "explanation": "The main verb must be in Verb 3 (past participle) form."
+    },
+    {
+      "wrong": "These books is used.",
+      "correct": "These books are used.",
+      "explanation": "The 'be' verb must match the new subject. 'Books' is plural, so use 'are'."
+    }
+  ],
+  "introduction": "Think about the rules in a library or the daily routine at a school. If you say, 'The janitor cleans the classroom every morning,' you are focusing on the janitor. But what if you want to focus on the classroom itself? You would say, 'The classroom is cleaned every morning.'<br><br>This is the Present Simple Passive. We use it to describe systems, routines, rules, and general facts when the receiver of the action is the most important part of the message.<br><br>You will see this structure everywhere in formal writing, instructions, and news because it sounds objective and professional. Mastering it requires remembering two things: choosing the correct present tense 'be' verb (am, is, or are) and always using Verb 3.",
+  "stepByStep": "1. <strong>Identify the receiver:</strong> Make it the subject (e.g., 'The documents').<br>2. <strong>Choose am/is/are:</strong> Match it to the subject ('The documents are').<br>3. <strong>Use Verb 3:</strong> Add the past participle ('checked').<br>4. <strong>Result:</strong> 'The documents are checked.'",
+  "indonesianLearnerWarning": "Subject-verb agreement is tricky here. Indonesian learners often use 'is' for everything, but if the new subject is plural (like 'books' or 'rules'), you must use 'are'."
+};
+
+const lesson_grammar_by_agent_passive = {
+  "id": "grammar-by-agent-passive",
+  "backHref": "passive-voice.html",
+  "backLabel": "Back to Passive Voice",
+  "title": "By-Agent and When to Omit It",
+  "skill": "Grammar",
+  "category": "Passive Voice",
+  "level": "Intermediate",
+  "description": "Understand when to include the doer and when to omit it.",
+  "learningGoals": [
+    "Understand what the 'by-agent' is.",
+    "Know when it is important to include the by-agent.",
+    "Recognize situations where the by-agent should be omitted."
+  ],
+  "meaning": "In a passive sentence, the phrase <strong>by + doer</strong> (e.g., 'by the teacher') is called the agent. It tells us who performed the action. However, we do not always need to use it.",
+  "keyIdeas": [
+    "Include the agent when the doer is important, surprising, or adds necessary information.",
+    "Omit the agent when the doer is unknown, obvious, unimportant, or too general."
+  ],
+  "patterns": [
+    {
+      "name": "Including the Agent (Important/Surprising)",
+      "formula": "Passive Sentence + by + Doer",
+      "examples": [
+        {
+          "en": "The Mona Lisa was painted by Leonardo da Vinci.",
+          "id": "Mona Lisa dilukis oleh Leonardo da Vinci.",
+          "explanation": "The doer (Leonardo da Vinci) is very important historical information."
+        },
+        {
+          "en": "The window was broken by my little brother.",
+          "id": "Jendela itu dipecahkan oleh adik laki-lakiku.",
+          "explanation": "We are specifically identifying who caused the problem."
+        }
+      ]
+    },
+    {
+      "name": "Omitting the Agent (Unknown/Obvious/Unimportant)",
+      "formula": "Passive Sentence (Stop)",
+      "examples": [
+        {
+          "en": "My phone was stolen.",
+          "id": "Ponsel saya dicuri.",
+          "explanation": "We don't know who stole it, so we omit 'by someone'."
+        },
+        {
+          "en": "The suspect was arrested.",
+          "id": "Tersangka itu ditangkap.",
+          "explanation": "It's obvious that the police arrested him, so 'by the police' is unnecessary."
+        },
+        {
+          "en": "English is spoken in many countries.",
+          "id": "Bahasa Inggris dituturkan di banyak negara.",
+          "explanation": "The doers ('people') are too general and unimportant to mention."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "My phone was stolen by someone.",
+      "correct": "My phone was stolen.",
+      "explanation": "Adding 'by someone' gives no useful information. It is better to just omit it."
+    },
+    {
+      "wrong": "The Mona Lisa was painted.",
+      "correct": "The Mona Lisa was painted by Leonardo da Vinci.",
+      "explanation": "If the doer is a key piece of information, do not omit the agent."
+    }
+  ],
+  "introduction": "One of the biggest misconceptions about passive voice is that every sentence must end with 'by someone' or 'by people'. In reality, adding 'by someone' to a sentence like 'My phone was stolen' doesn't help the listener. They already know someone stole it; what they care about is the phone!<br><br>The 'by-agent' is the part of the sentence that tells us who did the action. It is a powerful tool, but it should be used carefully. We only include it when the person who did the action is important or surprising.<br><br>If the doer is a mystery, if it's completely obvious (like police arresting a suspect), or if it's just 'people in general', we drop the 'by-agent' entirely. This makes sentences cleaner and more professional.",
+  "stepByStep": "1. <strong>Form the passive sentence:</strong> Focus on the receiver and the action.<br>2. <strong>Ask yourself:</strong> Does the listener need to know who did this?<br>3. <strong>If yes:</strong> Add 'by + person' (e.g., 'by the manager').<br>4. <strong>If no (unknown, obvious, general):</strong> Stop the sentence after the verb.",
+  "indonesianLearnerWarning": "Indonesian learners often feel a strong urge to include 'oleh seseorang' (by someone) because it feels like the sentence is unfinished without it. In English, omitting the agent is completely normal and often preferred."
+};
+
+const lesson_grammar_object_to_subject_passive = {
+  "id": "grammar-object-to-subject-passive",
+  "backHref": "passive-voice.html",
+  "backLabel": "Back to Passive Voice",
+  "title": "Object to Subject Transformation",
+  "skill": "Grammar",
+  "category": "Passive Voice",
+  "level": "Intermediate",
+  "description": "Learn the steps to transform an active sentence into a passive one.",
+  "learningGoals": [
+    "Identify the object in an active sentence.",
+    "Move the object to the subject position correctly.",
+    "Apply the correct 'be' verb and Verb 3."
+  ],
+  "meaning": "To make a passive sentence, we take the <strong>object</strong> (the thing receiving the action) from an active sentence and turn it into the <strong>new subject</strong>.",
+  "keyIdeas": [
+    "The original object moves to the front of the sentence.",
+    "We add a 'be' verb that matches the tense of the original sentence and the number (singular/plural) of the new subject.",
+    "The main verb changes to Verb 3 (past participle)."
+  ],
+  "patterns": [
+    {
+      "name": "The Transformation Process",
+      "formula": "Object -> New Subject + be + Verb 3",
+      "examples": [
+        {
+          "en": "Active: The students cleaned the classroom.",
+          "id": "Aktif: Para siswa membersihkan ruang kelas.",
+          "explanation": "Object: 'the classroom'. Tense: past simple ('cleaned')."
+        },
+        {
+          "en": "Passive: The classroom was cleaned by the students.",
+          "id": "Pasif: Ruang kelas dibersihkan oleh para siswa.",
+          "explanation": "New subject: 'The classroom'. Be verb: 'was' (past singular). Verb 3: 'cleaned'."
+        },
+        {
+          "en": "Active: She wrote the report.",
+          "id": "Aktif: Dia menulis laporan tersebut.",
+          "explanation": "Object: 'the report'."
+        },
+        {
+          "en": "Passive: The report was written by her.",
+          "id": "Pasif: Laporan tersebut ditulis olehnya.",
+          "explanation": "Verb 'wrote' becomes 'was written'."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "The report was wrote by her.",
+      "correct": "The report was written by her.",
+      "explanation": "Always use Verb 3 (past participle) in passive voice, not Verb 2 (past simple)."
+    },
+    {
+      "wrong": "The students was cleaned the classroom.",
+      "correct": "The classroom was cleaned by the students.",
+      "explanation": "You must move the object ('the classroom') to the front. You can't just add a 'be' verb to the active sentence."
+    }
+  ],
+  "introduction": "Transforming an active sentence into a passive sentence is like rearranging furniture in a room to change the focus. You have all the same pieces, but you are putting something new in the center.<br><br>Let's take a simple sentence: 'The students cleaned the classroom.' The action is 'cleaned'. Who did it? The students. What received the action? The classroom. The classroom is the object.<br><br>To make this passive, we take that object ('the classroom') and move it to the front, making it the star of the sentence. Then, we adjust the verb to show that the classroom received the action. Learning this step-by-step process is crucial for mastering passive structure.",
+  "stepByStep": "1. <strong>Find the object:</strong> What receives the action? (e.g., 'the classroom').<br>2. <strong>Move it to the front:</strong> Make the object the new subject ('The classroom...').<br>3. <strong>Choose the 'be' verb:</strong> Look at the original tense. If it was past, use 'was' or 'were' ('The classroom was...').<br>4. <strong>Use Verb 3:</strong> Change the main verb to its past participle form ('...cleaned').<br>5. <strong>Add 'by + doer' (optional):</strong> Only if necessary ('...by the students').",
+  "indonesianLearnerWarning": "Pay close attention to irregular Verb 3 forms (like written, spoken, driven, broken). In Indonesian, the verb word doesn't change when you use 'di-', but in English, you must memorize the Verb 3 forms."
+};
+
+const lesson_grammar_active_vs_passive_voice = {
+  "id": "grammar-active-vs-passive-voice",
+  "backHref": "passive-voice.html",
+  "backLabel": "Back to Passive Voice",
+  "title": "Active Voice vs Passive Voice",
+  "skill": "Grammar",
+  "category": "Passive Voice",
+  "level": "Beginner",
+  "description": "Compare active and passive sentences and know when to use each.",
+  "learningGoals": [
+    "Understand the difference in focus between active and passive sentences.",
+    "Learn when active voice is a better choice.",
+    "Learn when passive voice is a better choice."
+  ],
+  "meaning": "Active voice means the subject <strong>does</strong> the action. Passive voice means the subject <strong>receives</strong> the action. Both sentences can describe the same event, but they tell the listener what is most important.",
+  "keyIdeas": [
+    "Active voice is usually clearer, more direct, and stronger.",
+    "Passive voice is useful when the receiver, action, or result is more important.",
+    "Use active when the doer is important. Use passive when the doer is unknown, obvious, or unnecessary."
+  ],
+  "patterns": [
+    {
+      "name": "Comparing Active and Passive",
+      "formula": "Active: Doer + Verb + Receiver. Passive: Receiver + be + Verb 3 (+ by Doer).",
+      "examples": [
+        {
+          "en": "Active: The chef cooked the meal.",
+          "id": "Aktif: Koki itu memasak makanan tersebut.",
+          "explanation": "Focuses on the chef. The chef is important."
+        },
+        {
+          "en": "Passive: The meal was cooked by the chef.",
+          "id": "Pasif: Makanan tersebut dimasak oleh koki itu.",
+          "explanation": "Focuses on the meal. The meal is more important."
+        },
+        {
+          "en": "Active: The police arrested the suspect.",
+          "id": "Aktif: Polisi menangkap tersangka itu.",
+          "explanation": "Direct and clear."
+        },
+        {
+          "en": "Passive: The suspect was arrested.",
+          "id": "Pasif: Tersangka itu ditangkap.",
+          "explanation": "The focus is on what happened to the suspect. It's obvious the police did it, so we can omit them."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "The homework was checked by the teacher.",
+      "correct": "The teacher checked the homework. (If the teacher is the focus)",
+      "explanation": "If the person doing the action is the main point of the sentence, active voice is usually better and more natural."
+    }
+  ],
+  "introduction": "How do you decide between active and passive voice? Imagine you are telling a story about your father. You would say, 'My father repaired the car.' This is active voice, and it puts the focus firmly on your father. He is the hero of the sentence.<br><br>Now imagine you are talking to a mechanic about your car. You might say, 'The car was repaired yesterday.' Here, you are using passive voice. The focus is entirely on the car and the fact that it is fixed. Who fixed it doesn't matter as much as the result.<br><br>Both sentences are grammatically correct, but they serve different purposes. Active voice is strong, clear, and direct. Passive voice is incredibly useful when the result matters more than the person who did the work.",
+  "stepByStep": "1. <strong>Who is doing the action?</strong> Is this person important to your message?<br>2. <strong>If yes:</strong> Use Active Voice (The teacher explained the rule).<br>3. <strong>If no (or unknown/obvious):</strong> Use Passive Voice (The rule was explained).",
+  "indonesianLearnerWarning": "In Indonesian, active and passive are often used interchangeably without much change in tone. In English, overusing passive voice can make your writing sound weak or overly complicated. Default to active voice unless you have a good reason to use passive."
+};
+
+const lesson_grammar_passive_voice_overview = {
+  "id": "grammar-passive-voice-overview",
+  "backHref": "passive-voice.html",
+  "backLabel": "Back to Passive Voice",
+  "title": "What Is Passive Voice?",
+  "skill": "Grammar",
+  "category": "Passive Voice",
+  "level": "Beginner",
+  "description": "Understand how passive voice changes the focus of a sentence.",
+  "learningGoals": [
+    "Understand the core difference between active and passive voice.",
+    "Learn why changing the focus of a sentence is useful.",
+    "Recognize that passive voice is a choice of focus, not just a formula."
+  ],
+  "meaning": "Passive voice is a structure that changes the focus of a sentence from the <strong>doer</strong> of the action to the <strong>receiver</strong> of the action. We use it when the action, result, or affected object is more important than the person doing the action.",
+  "keyIdeas": [
+    "Active voice focuses on the doer: <em>Someone broke the window.</em>",
+    "Passive voice focuses on the receiver: <em>The window was broken.</em>",
+    "Passive voice always uses a form of the 'be' verb and Verb 3 (past participle)."
+  ],
+  "patterns": [
+    {
+      "name": "Focus on the Receiver",
+      "formula": "Receiver + be verb + Verb 3",
+      "examples": [
+        {
+          "en": "The window was broken.",
+          "id": "Jendelanya dipecahkan.",
+          "explanation": "We don't know who broke it, so we focus on the window."
+        },
+        {
+          "en": "The homework was checked by the teacher.",
+          "id": "Pekerjaan rumah itu diperiksa oleh guru.",
+          "explanation": "The focus is on the homework, even though we mention the teacher."
+        },
+        {
+          "en": "English is spoken around the world.",
+          "id": "Bahasa Inggris dituturkan di seluruh dunia.",
+          "explanation": "The language (English) is more important than the people speaking it."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "The window broken.",
+      "correct": "The window was broken.",
+      "explanation": "Passive voice always needs a 'be' verb (am, is, are, was, were) before the main verb."
+    },
+    {
+      "wrong": "The homework checked by the teacher.",
+      "correct": "The homework was checked by the teacher.",
+      "explanation": "Without the 'be' verb, it sounds like the homework itself was checking something."
+    }
+  ],
+  "introduction": "Imagine a student says, 'Someone stole my bag.' This sentence is clear because it tells us that an unknown person did the action. But sometimes, the person who did the action is not the most important part of the message.<br><br>In English, we can change the focus and say, 'My bag was stolen.' Now the sentence focuses on the bag, not the unknown person. This is the basic idea of passive voice: we move attention from the doer of the action to the person or thing affected by the action.<br><br>Passive voice is useful when the action, result, or affected object is more important than the person doing the action. We often see it in news reports, formal explanations, classroom instructions, processes, signs, rules, and everyday situations where the doer is unknown or not important.",
+  "stepByStep": "1. <strong>Identify the action:</strong> What happened?<br>2. <strong>Identify the doer and receiver:</strong> Who did it, and what received it?<br>3. <strong>Choose the focus:</strong> Is the receiver more important? Use passive voice.<br>4. <strong>Apply the structure:</strong> Receiver + be verb + Verb 3.",
+  "indonesianLearnerWarning": "Indonesian learners often use 'di-' for passive voice. In English, you must remember to add the 'be' verb (is, are, was, were). Don't just use the main verb by itself."
+};
+
+const lesson_grammar_clause_overview = {
+  "id": "grammar-clause-overview",
+  "backHref": "clauses.html",
+  "backLabel": "Back to Clauses",
+  "title": "What Is a Clause?",
+  "skill": "Grammar",
+  "category": "Clauses",
+  "level": "Beginner",
+  "description": "Understand the basic building block of sentences containing a subject and a verb.",
+  "learningGoals": [
+    "Understand that a clause is a group of words with a subject and a verb.",
+    "Recognize clauses as the building blocks of sentences.",
+    "Identify the difference between a phrase and a clause."
+  ],
+  "meaning": "A <strong>clause</strong> is a group of words that contains both a <strong>subject</strong> (who or what is doing the action) and a <strong>verb</strong> (the action or state of being). Clauses are the core building blocks of English sentences. A sentence can be made of just one clause, or it can combine multiple clauses to express complex ideas.",
+  "keyIdeas": [
+    "Every clause must have at least one subject and one verb.",
+    "Some clauses can stand alone as complete sentences.",
+    "Other clauses cannot stand alone and need to be attached to a complete sentence."
+  ],
+  "patterns": [
+    {
+      "name": "Simple Sentence (One Clause)",
+      "formula": "Subject + Verb",
+      "explanation": "Example: I study English."
+    },
+    {
+      "name": "Clause inside a Sentence",
+      "formula": "Connector + Subject + Verb",
+      "explanation": "Example: because I was tired"
+    }
+  ],
+  "examples": [
+    {
+      "type": "Full Sentence",
+      "sentence": "I study English.",
+      "note": "This is a single clause that makes a complete sentence."
+    },
+    {
+      "type": "Part of a Sentence",
+      "sentence": "because I was tired",
+      "note": "This is a clause (it has a subject 'I' and a verb 'was'), but it is not a complete sentence on its own."
+    },
+    {
+      "type": "Multiple Clauses",
+      "sentence": "I study English because I want to travel.",
+      "note": "Two clauses combined: 'I study English' and 'because I want to travel'."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Thinking every group of words is a clause.",
+      "correct": "",
+      "explanation": "Mistake: Believing 'after class' is a clause. | Solution: It doesn't have a subject or a verb. It is just a phrase.",
+      "fix": "Make sure you can find the subject and verb: 'after the class ended'."
+    },
+    {
+      "wrong": "Thinking every clause is a complete sentence.",
+      "correct": "",
+      "explanation": "Mistake: Writing 'Because I was tired.' with a period. | Solution: Not all clauses can stand alone. 'Because I was tired' needs a main idea to connect to.",
+      "fix": "Connect it to a main clause: 'I went to bed because I was tired.'"
+    }
+  ],
+  "practicePrompts": [
+    "Does this group of words have a subject and a verb? 'When the class started'",
+    "Identify the clauses in this sentence: 'She smiled when she saw the puppy.'"
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Write different groups of words on the board. Have students shout 'Clause!' if it has a subject and verb, or 'Phrase!' if it doesn't. Example: 'In the morning' (Phrase) vs 'When morning came' (Clause).",
+  "quickComparison": "<strong>Phrase vs Clause:</strong> 'after class' (Phrase: no subject or verb). 'after the class ended' (Clause: has subject 'class' and verb 'ended').",
+  "summary": [
+    "A clause is a group of words with a subject and a verb.",
+    "It is the main building block of a sentence.",
+    "Some clauses are complete sentences, while others are just pieces of a sentence."
+  ],
+  "introduction": "Imagine building a house out of Lego bricks. The individual words are like the tiny pieces, but a <strong>clause</strong> is a solid block that actually holds a shape. To build any real thought in English, you need a subject (the person or thing) and a verb (what they are doing). Together, they form a clause.",
+  "stepByStep": "How to identify a clause:<br><br>1. Read the group of words: 'when the teacher arrived'.<br>2. Look for an action or state of being (the verb): 'arrived'.<br>3. Ask 'who or what arrived?' (the subject): 'the teacher'.<br>4. Since you have both, it is a clause!<br>5. Check another group: 'in the morning'. There is no verb. It is not a clause."
+};
+
+const lesson_grammar_independent_dependent_clauses = {
+  "id": "grammar-independent-dependent-clauses",
+  "backHref": "clauses.html",
+  "backLabel": "Back to Clauses",
+  "title": "Independent & Dependent Clauses",
+  "skill": "Grammar",
+  "category": "Clauses",
+  "level": "Beginner",
+  "description": "Learn which clauses can stand alone and which cannot.",
+  "learningGoals": [
+    "Distinguish between independent and dependent clauses.",
+    "Understand that independent clauses can act as complete sentences.",
+    "Recognize common connector words that introduce dependent clauses."
+  ],
+  "meaning": "An <strong>independent clause</strong> is a complete thought that can stand alone as a perfect sentence. A <strong>dependent clause</strong> also has a subject and a verb, but it starts with a joining word (like 'because' or 'if') that makes it feel unfinished. It must hold hands with an independent clause to make sense.",
+  "keyIdeas": [
+    "Independent clauses express a complete idea.",
+    "Dependent clauses leave you hanging, waiting for more information.",
+    "Dependent clauses often start with words like because, when, although, if, while, that, who, which."
+  ],
+  "patterns": [
+    {
+      "name": "Independent Clause",
+      "formula": "Subject + Verb + (Object/Complement)",
+      "explanation": "Example: I went home."
+    },
+    {
+      "name": "Dependent Clause",
+      "formula": "Connector + Subject + Verb",
+      "explanation": "Example: because I was tired"
+    }
+  ],
+  "examples": [
+    {
+      "type": "Independent",
+      "sentence": "I went home.",
+      "note": "This makes perfect sense on its own."
+    },
+    {
+      "type": "Dependent",
+      "sentence": "because I was tired",
+      "note": "If someone walks up to you and says 'Because I was tired...', you will wait for them to finish. It is dependent."
+    },
+    {
+      "type": "Combined",
+      "sentence": "I went home because I was tired.",
+      "note": "Now the dependent clause is attached to an independent one. The thought is complete."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Because I was tired.",
+      "correct": "I went home because I was tired.",
+      "explanation": "Mistake: Writing a dependent clause as a full sentence with a capital letter and a period. This is called a sentence fragment. | Solution: Attach it to an independent clause.",
+      "fix": "Provide the main action that happened."
+    }
+  ],
+  "practicePrompts": [
+    "Is this independent or dependent? 'If it rains tomorrow.'",
+    "Combine these two clauses: 'I was late' and 'because there was a lot of traffic'."
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Play the 'Hanging Sentence' game. Say a dependent clause out loud ('When I woke up this morning...'). Stop and stare at the students until someone finishes the sentence for you. This perfectly demonstrates why they are 'dependent'.",
+  "quickComparison": "<strong>Stand Alone vs Needs Help:</strong> 'She smiled.' (Independent). 'When she smiled.' (Dependent).",
+  "summary": [
+    "Independent clauses can stand alone as complete sentences.",
+    "Dependent clauses cannot stand alone.",
+    "Dependent clauses start with connector words and must attach to an independent clause."
+  ],
+  "introduction": "Not all clauses are created equal. Some clauses are strong enough to stand by themselves and be a full sentence. These are <strong>independent clauses</strong>. Other clauses are weak; they have a subject and a verb, but they start with a word that makes them need support. These are <strong>dependent clauses</strong>.",
+  "stepByStep": "How to tell them apart:<br><br>1. Read the clause out loud: 'If I have enough money'.<br>2. Imagine walking up to a stranger and saying only that phrase.<br>3. Would they understand your full idea, or would they say, '...then what?'<br>4. If they say 'then what?', it's a dependent clause.<br>5. Fix it by adding an independent clause: 'If I have enough money, I will buy a car.'"
+};
+
+const lesson_grammar_phrases_vs_clauses = {
+  "id": "grammar-phrases-vs-clauses",
+  "backHref": "clauses.html",
+  "backLabel": "Back to Clauses",
+  "title": "Phrases vs Clauses",
+  "skill": "Grammar",
+  "category": "Clauses",
+  "level": "Beginner",
+  "description": "Differentiate between groups of words with and without a subject-verb pairing.",
+  "learningGoals": [
+    "Understand the difference between a phrase and a clause.",
+    "Identify phrases as groups of words missing a subject, a verb, or both.",
+    "Use the correct conjunctions for clauses and prepositions for phrases."
+  ],
+  "meaning": "A <strong>phrase</strong> is a group of words that works together but is missing a working subject-verb pair. A <strong>clause</strong> is a group of words that contains a working subject and verb. Knowing the difference helps you choose the right connecting words (like 'because of' vs. 'because').",
+  "keyIdeas": [
+    "Phrases just point to things or describe them (e.g., a noun phrase or prepositional phrase).",
+    "Clauses state an action or a fact (e.g., someone did something).",
+    "Different grammar rules apply depending on whether you follow a connector with a phrase or a clause."
+  ],
+  "patterns": [
+    {
+      "name": "Phrase",
+      "formula": "No Subject + Verb pairing",
+      "explanation": "Example: after class, because of the rain, the student in the library"
+    },
+    {
+      "name": "Clause",
+      "formula": "Subject + Verb",
+      "explanation": "Example: after the class ended, because it was raining, the student was reading"
+    }
+  ],
+  "examples": [
+    {
+      "type": "Time Phrase vs Clause",
+      "sentence": "Phrase: after class | Clause: after the class ended",
+      "note": "Notice how the clause adds the verb 'ended'."
+    },
+    {
+      "type": "Description Phrase vs Clause",
+      "sentence": "Phrase: the student in the library | Clause: the student was reading in the library",
+      "note": "The phrase just names the student; the clause tells you what they were doing."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "During I studied, my phone rang.",
+      "correct": "While I studied, my phone rang. OR During my study session, my phone rang.",
+      "explanation": "Mistake: Using a preposition ('during') which requires a noun phrase, but following it with a full clause ('I studied'). | Solution: 'While' is for clauses. 'During' is for phrases.",
+      "fix": "Match the connector to the structure."
+    },
+    {
+      "wrong": "Because of I was tired, I went home.",
+      "correct": "Because I was tired, I went home.",
+      "explanation": "Mistake: Using 'because of' (needs a phrase) with a clause ('I was tired').",
+      "fix": "Use 'because' for clauses, and 'because of' for noun phrases (like 'because of my tiredness')."
+    }
+  ],
+  "practicePrompts": [
+    "Is this a phrase or a clause? 'In the middle of the night'",
+    "Choose the right word: '(Because / Because of) the bad weather, we stayed inside.'"
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Do a sorting activity. Give students cards with either phrases ('despite the rain') or clauses ('although it was raining'). Have them physically sort them into two piles and explain how they know.",
+  "quickComparison": "<strong>Phrase:</strong> because of the rain (Noun phrase). <strong>Clause:</strong> because it was raining (Subject + Verb).",
+  "summary": [
+    "A phrase lacks a subject-verb pair.",
+    "A clause has a subject-verb pair.",
+    "You must use different connecting words for phrases and clauses."
+  ],
+  "introduction": "In English, you can express the exact same idea using either a <strong>phrase</strong> or a <strong>clause</strong>. The choice you make determines the grammar of the rest of the sentence. If you understand the difference, you will stop making common mistakes like saying 'because of I am sick'.",
+  "stepByStep": "How to check if you have a phrase or a clause:<br><br>1. Look at the group of words: 'because of the heavy rain'.<br>2. Can you find an action verb? No.<br>3. This is a phrase. Therefore, you correctly used the preposition 'because of'.<br>4. Look at another group: 'because it rained heavily'.<br>5. Can you find a subject ('it') and a verb ('rained')? Yes.<br>6. This is a clause. Therefore, you correctly used the conjunction 'because'."
+};
+
+const lesson_grammar_main_subordinate_clauses = {
+  "id": "grammar-main-subordinate-clauses",
+  "backHref": "clauses.html",
+  "backLabel": "Back to Clauses",
+  "title": "Main & Subordinate Clauses",
+  "skill": "Grammar",
+  "category": "Clauses",
+  "level": "Beginner",
+  "description": "Understand how main and subordinate clauses interact in a sentence.",
+  "learningGoals": [
+    "Identify the main clause as the core message of a sentence.",
+    "Identify the subordinate clause as the extra information.",
+    "Learn the comma rules for joining these clauses."
+  ],
+  "meaning": "When you join clauses together, they have different jobs. The <strong>main clause</strong> (independent) carries the core message of the sentence. The <strong>subordinate clause</strong> (dependent) adds extra background information like the time, reason, or condition.",
+  "keyIdeas": [
+    "Every sentence must have at least one main clause.",
+    "Subordinate clauses give context to the main clause.",
+    "You can put the subordinate clause before or after the main clause."
+  ],
+  "patterns": [
+    {
+      "name": "Main Clause First",
+      "formula": "Main Clause + Subordinate Clause",
+      "explanation": "Example: I stayed home because it was raining."
+    },
+    {
+      "name": "Subordinate Clause First",
+      "formula": "Subordinate Clause + , + Main Clause",
+      "explanation": "Example: Because it was raining, I stayed home."
+    }
+  ],
+  "examples": [
+    {
+      "type": "Main First (No Comma)",
+      "sentence": "I stayed home because it was raining.",
+      "note": "The main idea is 'I stayed home'. No comma is usually needed when the main clause is first."
+    },
+    {
+      "type": "Subordinate First (Comma Needed)",
+      "sentence": "When the teacher entered the room, the students became quiet.",
+      "note": "The background info is first. You use a comma to signal when the main idea starts."
+    },
+    {
+      "type": "Contrast",
+      "sentence": "Although the test was hard, I finished it.",
+      "note": "'I finished it' is the main achievement. 'Although the test was hard' is the context."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Because I was tired I went home.",
+      "correct": "Because I was tired, I went home.",
+      "explanation": "Mistake: Forgetting the comma when starting the sentence with a subordinate clause. | Solution: The reader needs a pause before the main idea begins.",
+      "fix": "Add a comma after the subordinate clause."
+    },
+    {
+      "wrong": "I went home, because I was tired.",
+      "correct": "I went home because I was tired.",
+      "explanation": "Mistake: Using a comma when the main clause comes first. | Solution: When the connector ('because') is in the middle, it acts as the bridge. No comma is needed.",
+      "fix": "Remove the comma."
+    }
+  ],
+  "practicePrompts": [
+    "Identify the main clause: 'If you need help, please call me.'",
+    "Punctuate this sentence: 'Although it was late we kept working'"
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Have students practice flipping sentences. Give them 'I passed the test because I studied hard.' Ask them to put the 'because' part at the front and physically draw an exaggerated comma in the air to remember the punctuation rule.",
+  "quickComparison": "<strong>Main vs Subordinate:</strong> Main = The headline of the news. Subordinate = The background details.",
+  "summary": [
+    "The main clause has the core message.",
+    "The subordinate clause adds extra information.",
+    "Use a comma if the subordinate clause comes first."
+  ],
+  "introduction": "Sentences are often like movies. There is a main action (the <strong>main clause</strong>), and there is the background setting (the <strong>subordinate clause</strong>). Understanding how to arrange these two parts allows you to emphasize different ideas and flow smoothly between them.",
+  "stepByStep": "How to arrange your clauses:<br><br>1. Identify your two ideas: 'I felt sick' (main event) and 'because I ate too much' (background reason).<br>2. Option 1: State the main event first. 'I felt sick because I ate too much.' (Smooth flow, no comma).<br>3. Option 2: Set the background first for dramatic effect. 'Because I ate too much, I felt sick.'<br>4. Always remember the comma if you choose Option 2!"
+};
+
+const lesson_grammar_noun_clauses_overview = {
+  "id": "grammar-noun-clauses-overview",
+  "backHref": "clauses.html",
+  "backLabel": "Back to Clauses",
+  "title": "What Are Noun Clauses?",
+  "skill": "Grammar",
+  "category": "Clauses",
+  "level": "Intermediate",
+  "description": "Learn how a clause can function as a noun inside a sentence.",
+  "learningGoals": [
+    "Understand that a noun clause acts exactly like a single noun.",
+    "Identify noun clauses acting as subjects, objects, or complements."
+  ],
+  "meaning": "A <strong>noun clause</strong> is a dependent clause that does the exact same job as a noun. Instead of just saying a single word like 'the truth' or 'the answer', you can use a whole clause (with its own subject and verb) to fill the noun slot in a sentence.",
+  "keyIdeas": [
+    "A noun clause can be the subject of a sentence.",
+    "A noun clause can be the object of a verb.",
+    "A noun clause can follow a preposition."
+  ],
+  "patterns": [
+    {
+      "name": "Noun as Object",
+      "formula": "Subject + Verb + [Noun]",
+      "explanation": "Example: I know [the answer]."
+    },
+    {
+      "name": "Noun Clause as Object",
+      "formula": "Subject + Verb + [Noun Clause]",
+      "explanation": "Example: I know [that he is honest]."
+    }
+  ],
+  "examples": [
+    {
+      "type": "Object of a Verb",
+      "sentence": "She knows what you mean.",
+      "note": "'what you mean' takes the place of a noun like 'the answer'. It receives the action of 'knows'."
+    },
+    {
+      "type": "Subject of a Sentence",
+      "sentence": "What you said was helpful.",
+      "note": "'What you said' takes the place of a noun like 'Your advice'. It is the subject of 'was'."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I don't know what is his name.",
+      "correct": "I don't know what his name is.",
+      "explanation": "Mistake: Using question word order inside a noun clause. | Solution: A noun clause is a statement, not a question.",
+      "fix": "Keep the subject before the verb in the clause."
+    }
+  ],
+  "practicePrompts": [
+    "Find the noun clause: 'I believe that practice makes perfect.'",
+    "Replace the noun with a noun clause: 'I know the time.' -> 'I know when...'"
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Show students a sentence like 'I like pizza.' Ask them what 'pizza' is (a noun, an object). Then erase 'pizza' and write 'what my mom cooks'. Explain that the whole group of words just became a giant piece of pizza.",
+  "quickComparison": "<strong>Noun vs Noun Clause:</strong> 'I know <em>the story</em>.' vs 'I know <em>what happened</em>.'",
+  "summary": [
+    "Noun clauses work like giant nouns.",
+    "They can be subjects or objects.",
+    "They are statements, not questions."
+  ],
+  "introduction": "Sometimes, one word isn't enough to name an idea. If someone asks you a complex question, you can't just answer with 'a car' or 'a book'. You need to answer with an entire thought. A <strong>noun clause</strong> lets you take a complete thought with a subject and a verb and drop it directly into the noun slot of a larger sentence.",
+  "stepByStep": "How to see a noun clause:<br><br>1. Look at a simple sentence: 'I believe the story.'<br>2. 'the story' is the object (a noun phrase).<br>3. Replace it with a full idea that has a subject and verb: 'that practice is important'.<br>4. Result: 'I believe that practice is important.'<br>5. The entire clause 'that practice is important' acts as the object of 'believe'."
+};
+
+const lesson_grammar_noun_clauses_that = {
+  "id": "grammar-noun-clauses-that",
+  "backHref": "clauses.html",
+  "backLabel": "Back to Clauses",
+  "title": "Noun Clauses with That",
+  "skill": "Grammar",
+  "category": "Clauses",
+  "level": "Intermediate",
+  "description": "Use 'that' to introduce statement clauses as objects or subjects.",
+  "learningGoals": [
+    "Use 'that' to introduce a noun clause.",
+    "Recognize that 'that' can often be omitted in spoken English.",
+    "Maintain statement word order inside the clause."
+  ],
+  "meaning": "The most common way to create a noun clause is to place the word <strong>that</strong> in front of a regular statement. This turns a standalone fact into an object that can be believed, said, known, or thought by someone.",
+  "keyIdeas": [
+    "'That' acts as the glue to stick a statement into another sentence.",
+    "The clause after 'that' uses normal statement word order (Subject + Verb).",
+    "In informal speaking and writing, 'that' is frequently dropped when it is an object clause."
+  ],
+  "patterns": [
+    {
+      "name": "With 'That'",
+      "formula": "Main Verb + that + Subject + Verb",
+      "explanation": "Example: I think that English is important."
+    },
+    {
+      "name": "Without 'That' (Informal)",
+      "formula": "Main Verb + Subject + Verb",
+      "explanation": "Example: I think English is important."
+    }
+  ],
+  "examples": [
+    {
+      "type": "Stating an Opinion",
+      "sentence": "I think that English is important.",
+      "note": "The noun clause is the object of 'think'."
+    },
+    {
+      "type": "Reporting Speech",
+      "sentence": "She said that she was tired.",
+      "note": "The noun clause tells us exactly what she said."
+    },
+    {
+      "type": "Omitted 'That'",
+      "sentence": "She said she was tired.",
+      "note": "Very common in everyday conversation."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I think that is he honest.",
+      "correct": "I think that he is honest.",
+      "explanation": "Mistake: Inverting the subject and verb inside the clause. | Solution: Noun clauses use statement word order.",
+      "fix": "Keep the subject ('he') before the verb ('is')."
+    },
+    {
+      "wrong": "She said that was she tired.",
+      "correct": "She said that she was tired.",
+      "explanation": "Mistake: Turning the reported speech into a question.",
+      "fix": "Use Subject + Verb."
+    }
+  ],
+  "practicePrompts": [
+    "Combine using 'that': I believe. He is a good teacher.",
+    "Remove 'that' from this sentence: 'We know that you are busy.'"
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Do a 'He said / She said' activity. Whisper a secret to a student ('I like chocolate'). They must report it to the class: 'He said <em>that he likes chocolate</em>.'",
+  "quickComparison": "<strong>Statement vs Noun Clause:</strong> 'He is honest.' (Statement). 'I believe <em>that he is honest.</em>' (Noun Clause).",
+  "summary": [
+    "'That' turns a statement into a noun clause.",
+    "The word order inside the clause remains normal (Subject + Verb).",
+    "You can often drop 'that' in casual speech."
+  ],
+  "introduction": "How do you share an opinion, a belief, or report what someone else said? You take a regular sentence and put the word <strong>that</strong> in front of it. This simple trick turns an independent statement into a neat package that you can use as the object of verbs like think, know, believe, say, and hope.",
+  "stepByStep": "How to build a 'that' clause:<br><br>1. Start with a fact: 'She is tired.'<br>2. Choose a reporting verb: 'She said'.<br>3. Add 'that' to the front of the fact: 'that she was tired'. (Note: verb tenses may shift when reporting past speech).<br>4. Combine them: 'She said that she was tired.'<br>5. In a casual conversation, you can just say: 'She said she was tired.'"
+};
+
+const lesson_grammar_noun_clauses_wh_words = {
+  "id": "grammar-noun-clauses-wh-words",
+  "backHref": "clauses.html",
+  "backLabel": "Back to Clauses",
+  "title": "Noun Clauses with WH-Words",
+  "skill": "Grammar",
+  "category": "Clauses",
+  "level": "Intermediate",
+  "description": "Form noun clauses using question words while keeping statement word order.",
+  "learningGoals": [
+    "Use WH-words (what, where, when, why, how, who) to introduce noun clauses.",
+    "Avoid the common mistake of using question word order inside a noun clause.",
+    "Embed questions politely (indirect questions)."
+  ],
+  "meaning": "You can turn a question into a noun clause by using a <strong>WH-word</strong>. This is often used for indirect or polite questions, or to state that you know (or don't know) the answer to a question. The most critical rule is that <strong>a noun clause is not a question</strong>; it is a statement about a question.",
+  "keyIdeas": [
+    "Noun clauses use WH-words: what, where, when, why, how, who, which.",
+    "The word order inside the noun clause must be Subject + Verb.",
+    "Do NOT use auxiliary verbs like do, does, or did inside the noun clause."
+  ],
+  "patterns": [
+    {
+      "name": "Direct Question",
+      "formula": "WH-Word + Verb + Subject?",
+      "explanation": "Example: Where does he live?"
+    },
+    {
+      "name": "Embedded Noun Clause",
+      "formula": "Main Phrase + WH-Word + Subject + Verb.",
+      "explanation": "Example: I know where he lives."
+    }
+  ],
+  "examples": [
+    {
+      "type": "Where",
+      "sentence": "I know where he lives.",
+      "note": "Not 'where does he live'."
+    },
+    {
+      "type": "Why",
+      "sentence": "She explained why she was late.",
+      "note": "Not 'why was she late'."
+    },
+    {
+      "type": "What",
+      "sentence": "Do you understand what I mean?",
+      "note": "The main sentence is a question ('Do you understand?'), but the clause ('what I mean') is a statement."
+    },
+    {
+      "type": "When",
+      "sentence": "I do not remember when the class starts.",
+      "note": "Not 'when does the class start'."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I know where does he live.",
+      "correct": "I know where he lives.",
+      "explanation": "Mistake: Keeping the question structure ('does he live') inside a statement. | Solution: Remove the helper verb 'does' and make the main verb agree with the subject.",
+      "fix": "Change 'does he live' to 'he lives'."
+    },
+    {
+      "wrong": "Tell me what did she say.",
+      "correct": "Tell me what she said.",
+      "explanation": "Mistake: Keeping 'did she say'. | Solution: Remove 'did' and change the main verb to past tense.",
+      "fix": "Change 'did she say' to 'she said'."
+    },
+    {
+      "wrong": "I don’t know why is he angry.",
+      "correct": "I don’t know why he is angry.",
+      "explanation": "Mistake: Inverting the subject and 'be' verb ('is he').",
+      "fix": "Flip it back to normal statement order: 'he is'."
+    }
+  ],
+  "practicePrompts": [
+    "Change this question to a noun clause: 'Where is the station?' -> 'Can you tell me...'",
+    "Correct the mistake: 'I wonder what time is it.'"
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Play the 'Polite Stranger' game. Have students ask direct questions ('Where is the bathroom?'). Then have them ask a 'polite stranger' using an embedded noun clause: 'Excuse me, do you know where the bathroom is?'",
+  "quickComparison": "<strong>Question vs Clause:</strong> 'What is he doing?' (Question). 'I see <em>what he is doing.</em>' (Clause).",
+  "summary": [
+    "WH-words can introduce noun clauses.",
+    "The clause must use normal statement word order (Subject + Verb).",
+    "Never use do/does/did inside a WH-noun clause."
+  ],
+  "introduction": "Sometimes it sounds too aggressive to ask a direct question like 'Why are you late?' Instead, we embed the question into a larger sentence: 'Can you tell me <strong>why you are late?</strong>' This embedded question is a noun clause. Mastering this structure is the secret to sounding polite and advanced in English.",
+  "stepByStep": "How to fix embedded questions:<br><br>1. Start with a direct question: 'Where did she go?'<br>2. Look at the verb structure: 'did go'.<br>3. Remove the helper 'did' and turn the main verb into the past tense: 'she went'.<br>4. Attach it to your main phrase: 'I wonder where she went.'<br>5. Notice that the noun clause 'where she went' is now a perfect statement."
+};
+
+const lesson_grammar_noun_clauses_subjects_objects = {
+  "id": "grammar-noun-clauses-subjects-objects",
+  "backHref": "clauses.html",
+  "backLabel": "Back to Clauses",
+  "title": "Subjects & Objects",
+  "skill": "Grammar",
+  "category": "Clauses",
+  "level": "Advanced",
+  "description": "See how noun clauses act specifically as subjects or objects.",
+  "learningGoals": [
+    "Identify noun clauses acting as the object of a verb.",
+    "Identify noun clauses acting as the subject of an entire sentence.",
+    "Understand why subject noun clauses take singular verbs."
+  ],
+  "meaning": "Because a noun clause works just like a noun, it can sit in the two most important noun positions in a sentence: the <strong>object</strong> position (after the verb) and the <strong>subject</strong> position (before the verb).",
+  "keyIdeas": [
+    "Object noun clauses are very common and feel natural.",
+    "Subject noun clauses are more advanced and are often used in formal writing.",
+    "When a whole clause acts as a subject, it is treated as a singular 'it', so it takes a singular verb (like 'is' or 'was')."
+  ],
+  "patterns": [
+    {
+      "name": "As Object",
+      "formula": "Subject + Verb + [Noun Clause]",
+      "explanation": "Example: I believe [that he is right]."
+    },
+    {
+      "name": "As Subject",
+      "formula": "[Noun Clause] + Verb + Complement",
+      "explanation": "Example: [What you said] was important."
+    }
+  ],
+  "examples": [
+    {
+      "type": "Object Clause",
+      "sentence": "She knows what I need.",
+      "note": "'what I need' receives the action of 'knows'."
+    },
+    {
+      "type": "Subject Clause (What)",
+      "sentence": "What you said was important.",
+      "note": "The entire idea of 'What you said' is the subject of 'was'."
+    },
+    {
+      "type": "Subject Clause (That)",
+      "sentence": "That she passed the test surprised everyone.",
+      "note": "The fact 'That she passed the test' is the subject doing the surprising."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "What did you say was important.",
+      "correct": "What you said was important.",
+      "explanation": "Mistake: Using question word order inside a subject clause. | Solution: Even at the beginning of a sentence, a noun clause must have statement word order.",
+      "fix": "Remove 'did' and use the past tense: 'What you said'."
+    },
+    {
+      "wrong": "That she passed the test were surprising.",
+      "correct": "That she passed the test was surprising.",
+      "explanation": "Mistake: Using a plural verb because you saw the plural word 'test' (or just guessing). | Solution: A subject clause counts as ONE fact/idea, so it takes a singular verb.",
+      "fix": "Change 'were' to 'was'."
+    }
+  ],
+  "practicePrompts": [
+    "Is the clause a subject or object? 'I heard what happened.'",
+    "Correct the mistake: 'What they are doing are dangerous.'"
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Write '_______ is interesting.' on the board. Ask students to fill in the blank with one word (e.g., 'Grammar'). Then ask them to fill it in with a whole clause (e.g., 'What we learned today'). This proves the clause is the subject.",
+  "quickComparison": "<strong>Object vs Subject:</strong> I understand <em>what you need</em>. (Object). <em>What you need</em> is expensive. (Subject).",
+  "summary": [
+    "Noun clauses can sit anywhere a noun can sit.",
+    "Object clauses come after the verb.",
+    "Subject clauses come before the main verb and always take a singular verb."
+  ],
+  "introduction": "Using a noun clause as an <strong>object</strong> is something you probably do every day ('I think that it will rain'). But using a noun clause as a <strong>subject</strong> ('That it will rain is obvious') is a powerful tool for academic writing. It allows you to take complex situations and discuss them as a single topic.",
+  "stepByStep": "How to handle subject noun clauses:<br><br>1. Identify the whole idea: 'What she said'.<br>2. Treat that entire group of words as one big block.<br>3. Mentally replace that block with 'It'.<br>4. Choose your verb: 'It <strong>was</strong> surprising'.<br>5. Swap the block back in: 'What she said was surprising.'<br>6. This helps you avoid plural verbs and structure mistakes!"
+};
+
+const lesson_grammar_relative_clauses_overview = {
+  "id": "grammar-relative-clauses-overview",
+  "backHref": "clauses.html",
+  "backLabel": "Back to Clauses",
+  "title": "What Are Relative Clauses?",
+  "skill": "Grammar",
+  "category": "Clauses",
+  "level": "Intermediate",
+  "description": "Understand how clauses can modify nouns like adjectives.",
+  "learningGoals": [
+    "Understand that a relative clause acts like an adjective to describe a noun.",
+    "Learn to use relative clauses to combine two related sentences into one.",
+    "Identify the head noun that the relative clause describes."
+  ],
+  "meaning": "A <strong>relative clause</strong> (also called an adjective clause) is a dependent clause that describes a noun. It is placed immediately after the noun it describes. It allows you to add specific details about a person, place, or thing without having to chop your writing into short, robotic sentences.",
+  "keyIdeas": [
+    "Relative clauses do the exact same job as adjectives, but they are longer.",
+    "They always follow the noun they are describing.",
+    "They begin with relative pronouns like who, which, that, whose, where, or when."
+  ],
+  "patterns": [
+    {
+      "name": "Noun + Relative Clause",
+      "formula": "Noun + [Relative Pronoun + Clause]",
+      "explanation": "Example: The student [who won the contest] is my classmate."
+    }
+  ],
+  "examples": [
+    {
+      "type": "Describing a Subject",
+      "sentence": "The student who won the contest is my classmate.",
+      "note": "The clause 'who won the contest' describes 'The student'."
+    },
+    {
+      "type": "Describing an Object",
+      "sentence": "The book that I bought yesterday is interesting.",
+      "note": "The clause 'that I bought yesterday' describes 'The book'."
+    },
+    {
+      "type": "Describing a Thing",
+      "sentence": "The lesson which helped me most was about tenses.",
+      "note": "The clause 'which helped me most' describes 'The lesson'."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "The student he won the contest is my friend.",
+      "correct": "The student who won the contest is my friend.",
+      "explanation": "Mistake: Using a personal pronoun ('he') instead of a relative pronoun ('who') to link the clause. | Solution: You need a linking word to connect the two ideas.",
+      "fix": "Replace 'he' with 'who'."
+    },
+    {
+      "wrong": "I read the book is on the table.",
+      "correct": "I read the book that is on the table.",
+      "explanation": "Mistake: Forgetting the relative pronoun entirely.",
+      "fix": "Add 'that' or 'which'."
+    }
+  ],
+  "practicePrompts": [
+    "Find the relative clause: 'The car that is parked outside is mine.'",
+    "Combine these: 'I have a friend. He lives in Tokyo.'"
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Show students two boring sentences: 'I saw a man. The man was running.' Show them how clunky it sounds. Then show them the magic of combining them: 'I saw a man who was running.' Emphasize that it creates a smoother, more advanced flow.",
+  "quickComparison": "<strong>Adjective vs Clause:</strong> 'The <em>smart</em> student.' (Adjective). 'The student <em>who is smart</em>.' (Relative Clause).",
+  "summary": [
+    "Relative clauses describe nouns.",
+    "They are placed directly after the noun.",
+    "They prevent you from writing short, choppy sentences."
+  ],
+  "introduction": "In the Noun Phrase pathway, you learned how to add adjectives before a noun. But what if you want to describe a noun using an entire action or event? You use a <strong>relative clause</strong>. It is a powerful tool to expand a noun ('the student') into a very specific image ('the student who won the contest').",
+  "stepByStep": "How to combine ideas with a relative clause:<br><br>1. You have two ideas: 'The phone is ringing.' and 'The phone belongs to me.'<br>2. Identify the shared noun: 'The phone'.<br>3. Turn one idea into a describing clause: 'that is ringing'.<br>4. Place it directly after the noun in the main sentence.<br>5. Result: 'The phone that is ringing belongs to me.'"
+};
+
+const lesson_grammar_relative_who_which_that = {
+  "id": "grammar-relative-who-which-that",
+  "backHref": "clauses.html",
+  "backLabel": "Back to Clauses",
+  "title": "Who, Which, and That",
+  "skill": "Grammar",
+  "category": "Clauses",
+  "level": "Intermediate",
+  "description": "Learn to use relative pronouns correctly for people and things.",
+  "learningGoals": [
+    "Use 'who' for people.",
+    "Use 'which' for things and animals.",
+    "Understand when 'that' can be used for either people or things."
+  ],
+  "meaning": "To start a relative clause, you must choose the correct <strong>relative pronoun</strong>. This word acts as the bridge connecting the description back to the noun. The choice depends entirely on whether the noun is a human or an object/animal.",
+  "keyIdeas": [
+    "'Who' is strictly for humans.",
+    "'Which' is strictly for things and animals.",
+    "'That' is a versatile word that can replace 'who' or 'which' in essential (defining) clauses."
+  ],
+  "patterns": [
+    {
+      "name": "For People",
+      "formula": "Person Noun + who/that + Clause",
+      "explanation": "Example: the teacher who helped me"
+    },
+    {
+      "name": "For Things",
+      "formula": "Thing Noun + which/that + Clause",
+      "explanation": "Example: the phone which I bought"
+    }
+  ],
+  "examples": [
+    {
+      "type": "Who (People)",
+      "sentence": "The teacher who helped me is kind.",
+      "note": "Describing 'teacher'."
+    },
+    {
+      "type": "Which (Things)",
+      "sentence": "The phone which I bought is expensive.",
+      "note": "Describing 'phone'."
+    },
+    {
+      "type": "That (Both)",
+      "sentence": "The lesson that we studied was useful.",
+      "note": "'That' works perfectly here instead of 'which'."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "The book who I read is good.",
+      "correct": "The book which/that I read is good.",
+      "explanation": "Mistake: Using 'who' for a thing. | Solution: 'Who' is only for people.",
+      "fix": "Use 'which' or 'that'."
+    },
+    {
+      "wrong": "The student which is sitting there is smart.",
+      "correct": "The student who/that is sitting there is smart.",
+      "explanation": "Mistake: Using 'which' for a person. | Solution: 'Which' is not used for humans in relative clauses.",
+      "fix": "Use 'who' or 'that'."
+    },
+    {
+      "wrong": "The book that I bought it yesterday is interesting.",
+      "correct": "The book that I bought yesterday is interesting.",
+      "explanation": "Mistake: Repeating the object ('it') inside the clause. | Solution: 'That' already replaces 'it'.",
+      "fix": "Drop the extra pronoun."
+    }
+  ],
+  "practicePrompts": [
+    "Choose the right pronoun: 'The dog (who/which) barks loudly.'",
+    "Correct the mistake: 'The man which called me is my boss.'"
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Draw a person on one side of the board and write 'WHO'. Draw a box on the other side and write 'WHICH'. Write 'THAT' in the middle with arrows pointing to both. This visual map helps students remember the rules instantly.",
+  "quickComparison": "<strong>Who vs Which:</strong> The man <em>who</em> drives the car. The car <em>which</em> the man drives.",
+  "summary": [
+    "Use 'who' for people.",
+    "Use 'which' for things.",
+    "Use 'that' for either (in essential clauses).",
+    "Do not repeat the noun inside the clause as a pronoun (like 'it' or 'he')."
+  ],
+  "introduction": "Building a relative clause requires a bridge. If you pick the wrong bridge, the sentence collapses. Picking between <strong>who</strong>, <strong>which</strong>, and <strong>that</strong> is usually the first stumbling block for learners, but the rules are very clear once you memorize them.",
+  "stepByStep": "How to choose the pronoun:<br><br>1. Look at the noun directly in front of the clause.<br>2. Is it a person? -> Use 'who' (or 'that').<br>3. Is it an object, idea, or animal? -> Use 'which' (or 'that').<br>4. Warning: Once you use the relative pronoun, do NOT put 'he/she/it/them' later in the clause to refer to the same thing. The bridge word already did that job."
+};
+
+const lesson_grammar_relative_whose_where_when = {
+  "id": "grammar-relative-whose-where-when",
+  "backHref": "clauses.html",
+  "backLabel": "Back to Clauses",
+  "title": "Whose, Where, and When",
+  "skill": "Grammar",
+  "category": "Clauses",
+  "level": "Intermediate",
+  "description": "Use relative pronouns for possession, places, and times.",
+  "learningGoals": [
+    "Use 'whose' to show possession in a relative clause.",
+    "Use 'where' to describe a place.",
+    "Use 'when' to describe a time."
+  ],
+  "meaning": "Sometimes you need to describe a noun based on what belongs to it, the location it represents, or the time it represents. For these specific jobs, you use the advanced relative pronouns <strong>whose</strong>, <strong>where</strong>, and <strong>when</strong>.",
+  "keyIdeas": [
+    "'Whose' replaces possessive words like his, her, its, or their.",
+    "'Where' is used to describe physical locations.",
+    "'When' is used to describe moments in time (days, years, moments)."
+  ],
+  "patterns": [
+    {
+      "name": "Possession (Whose)",
+      "formula": "Noun + whose + possession + Verb",
+      "explanation": "Example: The student whose bag is red"
+    },
+    {
+      "name": "Place (Where)",
+      "formula": "Place Noun + where + Clause",
+      "explanation": "Example: The school where I studied"
+    },
+    {
+      "name": "Time (When)",
+      "formula": "Time Noun + when + Clause",
+      "explanation": "Example: The day when we met"
+    }
+  ],
+  "examples": [
+    {
+      "type": "Whose",
+      "sentence": "The student whose bag is red is my friend.",
+      "note": "It means 'The student [his bag is red] is my friend'."
+    },
+    {
+      "type": "Where",
+      "sentence": "This is the school where I studied.",
+      "note": "Describing a location."
+    },
+    {
+      "type": "When",
+      "sentence": "I remember the day when we first met.",
+      "note": "Describing a specific time."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "The student who bag is red.",
+      "correct": "The student whose bag is red.",
+      "explanation": "Mistake: Using 'who' instead of the possessive 'whose'. | Solution: 'Who' is a subject, not an owner.",
+      "fix": "Use 'whose' when followed by a noun that belongs to the person."
+    },
+    {
+      "wrong": "The place which I live.",
+      "correct": "The place where I live.",
+      "explanation": "Mistake: Using 'which' for a location without a preposition. | Solution: 'Where' equals 'in/at which'.",
+      "fix": "Use 'where' when describing things happening at a location."
+    },
+    {
+      "wrong": "The day where we met.",
+      "correct": "The day when we met.",
+      "explanation": "Mistake: Using 'where' for a time. | Solution: 'Where' is strictly physical.",
+      "fix": "Use 'when' for time."
+    }
+  ],
+  "practicePrompts": [
+    "Choose the right word: 'The house (which/where) I grew up.'",
+    "Combine using 'whose': 'I met a man. His car was stolen.'"
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Focus heavily on 'whose'. Write 'The man' on the board. Then write 'His dog ran away'. Show how 'whose' swallows the word 'His' to connect them: 'The man whose dog ran away'.",
+  "quickComparison": "<strong>Which vs Where:</strong> This is the house <em>which</em> I bought (Object). This is the house <em>where</em> I live (Location).",
+  "summary": [
+    "Use 'whose' for ownership.",
+    "Use 'where' for places.",
+    "Use 'when' for times.",
+    "Do not confuse 'where' (location) with 'when' (time)."
+  ],
+  "introduction": "While who and which are great for general descriptions, sometimes you need special tools. If you want to connect a person to something they own, or connect an event to a location or time, <strong>whose, where, and when</strong> are the precise relative pronouns you need.",
+  "stepByStep": "How to use 'whose':<br><br>1. Look at two sentences: 'I know the girl.' and 'Her brother is a doctor.'<br>2. We want to combine them by focusing on 'the girl'.<br>3. Remove the possessive word 'Her'.<br>4. Replace it with 'whose': 'whose brother is a doctor'.<br>5. Attach it: 'I know the girl whose brother is a doctor.'<br>6. Remember: 'whose' is almost always followed immediately by a noun (brother, bag, car)."
+};
+
+const lesson_grammar_defining_non_defining_relative_clauses = {
+  "id": "grammar-defining-non-defining-relative-clauses",
+  "backHref": "clauses.html",
+  "backLabel": "Back to Clauses",
+  "title": "Defining & Non-Defining Clauses",
+  "skill": "Grammar",
+  "category": "Clauses",
+  "level": "Advanced",
+  "description": "Understand when information is essential and when to use commas.",
+  "learningGoals": [
+    "Distinguish between defining (essential) and non-defining (extra) relative clauses.",
+    "Use commas correctly around non-defining clauses.",
+    "Understand why 'that' cannot be used in non-defining clauses."
+  ],
+  "meaning": "Relative clauses come in two types. A <strong>defining clause</strong> provides essential information needed to identify the noun. A <strong>non-defining clause</strong> provides extra, bonus information about a noun that is already clearly identified. The difference between them is shown entirely by commas.",
+  "keyIdeas": [
+    "Defining clauses = No commas. Essential for meaning.",
+    "Non-defining clauses = Use commas. Extra information.",
+    "You cannot use the word 'that' in non-defining clauses. You must use 'who' or 'which'."
+  ],
+  "patterns": [
+    {
+      "name": "Defining (Essential)",
+      "formula": "Noun + Clause (No Commas)",
+      "explanation": "Example: The student who sits near the window is my friend."
+    },
+    {
+      "name": "Non-Defining (Extra)",
+      "formula": "Specific Noun + , + Clause + ,",
+      "explanation": "Example: Rina, who sits near the window, is my friend."
+    }
+  ],
+  "examples": [
+    {
+      "type": "Defining",
+      "sentence": "The student who sits near the window is my friend.",
+      "note": "Which student? I need this clause to know exactly who you mean. No commas."
+    },
+    {
+      "type": "Non-Defining",
+      "sentence": "Rina, who sits near the window, is my friend.",
+      "note": "We already know who Rina is by her name. The clause is just extra bonus information. Commas act like parentheses."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "My father that works in Jakarta is kind.",
+      "correct": "My father, who works in Jakarta, is kind.",
+      "explanation": "Mistake: Using a defining clause (with 'that') for a specific noun (you only have one father, he is already identified). | Solution: Use commas and 'who' for extra information about a specific noun.",
+      "fix": "Add commas and change 'that' to 'who'."
+    },
+    {
+      "wrong": "Paris which is in France is beautiful.",
+      "correct": "Paris, which is in France, is beautiful.",
+      "explanation": "Mistake: Forgetting commas around a famous, unique noun.",
+      "fix": "Add commas."
+    }
+  ],
+  "practicePrompts": [
+    "Does this need commas? 'The sun which is a star gives us light.'",
+    "Correct the mistake: 'My brother, that lives in London, is visiting.'"
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> The 'Delete' Test. Tell students to read the sentence and delete the clause. If the sentence still makes perfect sense and you know exactly who is being talked about, it needs commas. If the sentence becomes confusing, no commas.",
+  "quickComparison": "<strong>Commas vs No Commas:</strong> My brother who lives in New York... (Implies I have multiple brothers and I'm specifying which one). My brother, who lives in New York... (Implies I only have one brother, and this is just a fact about him).",
+  "summary": [
+    "Defining clauses identify the noun (no commas).",
+    "Non-defining clauses just add extra facts (use commas).",
+    "Never use 'that' after a comma in a relative clause."
+  ],
+  "introduction": "Punctuation isn't just about breathing; it changes the meaning of a sentence. A comma around a relative clause acts like a pair of brackets. It tells the reader, 'By the way, here is an extra fact.' Mastering the difference between essential facts and extra facts is the mark of an advanced writer.",
+  "stepByStep": "How to decide if you need commas:<br><br>1. Look at the head noun: 'Mr. Smith'.<br>2. Do we already know exactly who this is? Yes, he has a specific name.<br>3. Therefore, any clause after his name is extra information (Non-Defining).<br>4. Put commas around it: 'Mr. Smith, who is our teacher, is nice.'<br>5. Look at a different noun: 'The man'.<br>6. Do we know who this is? No, it could be anyone.<br>7. Therefore, the clause is essential (Defining) to identify him. No commas: 'The man who is our teacher is nice.'"
+};
+
+const lesson_grammar_adverb_clauses_overview = {
+  "id": "grammar-adverb-clauses-overview",
+  "backHref": "clauses.html",
+  "backLabel": "Back to Clauses",
+  "title": "What Are Adverb Clauses?",
+  "skill": "Grammar",
+  "category": "Clauses",
+  "level": "Intermediate",
+  "description": "Learn how clauses can give extra information like adverbs.",
+  "learningGoals": [
+    "Understand that an adverb clause acts like a giant adverb.",
+    "Identify the types of information they provide (time, reason, condition, contrast).",
+    "Recognize that adverb clauses are dependent clauses."
+  ],
+  "meaning": "An <strong>adverb clause</strong> is a dependent clause that describes the main verb of the sentence. Just like a single adverb tells you <em>when</em>, <em>why</em>, or <em>how</em> something happened, an entire clause can do the exact same job.",
+  "keyIdeas": [
+    "They always start with a subordinating conjunction (because, if, when, although).",
+    "They modify the main action of the sentence.",
+    "They can usually be moved to the beginning or end of the sentence."
+  ],
+  "patterns": [
+    {
+      "name": "Answering 'Why?'",
+      "formula": "Main Clause + [because + Subject + Verb]",
+      "explanation": "Example: I stayed home [because I was sick]."
+    },
+    {
+      "name": "Answering 'When?'",
+      "formula": "[When + Subject + Verb] + , + Main Clause",
+      "explanation": "Example: [When the class started], everyone listened."
+    }
+  ],
+  "examples": [
+    {
+      "type": "Reason",
+      "sentence": "I stayed home because I was sick.",
+      "note": "Tells us WHY I stayed home."
+    },
+    {
+      "type": "Time",
+      "sentence": "When the class started, everyone listened.",
+      "note": "Tells us WHEN everyone listened."
+    },
+    {
+      "type": "Contrast",
+      "sentence": "Although it was difficult, I finished the task.",
+      "note": "Tells us DESPITE WHAT I finished the task."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Because I was sick.",
+      "correct": "I stayed home because I was sick.",
+      "explanation": "Mistake: Treating an adverb clause as a full sentence. | Solution: An adverb clause is dependent. It only exists to explain a main action.",
+      "fix": "Connect it to a main clause."
+    }
+  ],
+  "practicePrompts": [
+    "Find the adverb clause: 'I will call you after I arrive.'",
+    "What question does this clause answer (When, Why, If)? 'Since it was raining, we stayed inside.'"
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Show how flexible adverb clauses are. Take a sentence ('I fell asleep because I was tired') and have students physically write it backwards ('Because I was tired, I fell asleep') to show that adverb clauses can slide around the sentence.",
+  "quickComparison": "<strong>Adverb vs Adverb Clause:</strong> I left <em>early</em>. (Adverb). I left <em>before the sun came up</em>. (Adverb Clause).",
+  "summary": [
+    "Adverb clauses act like adverbs.",
+    "They tell us when, why, under what condition, or despite what.",
+    "They are dependent clauses and cannot stand alone."
+  ],
+  "introduction": "You already know how to use adverbs like 'yesterday' or 'happily'. But what if you want to say something happened 'when the sun finally set behind the mountains'? You need an <strong>adverb clause</strong>. These clauses act as the background setting for the main action of your sentence.",
+  "stepByStep": "How to spot an adverb clause:<br><br>1. Find the main action: 'I am studying'.<br>2. Look for groups of words that answer questions about that action.<br>3. Why? 'because I have a test'.<br>4. When? 'while my brother watches TV'.<br>5. Under what condition? 'if I have enough coffee'.<br>6. All of these are adverb clauses attached to the main action!"
+};
+
+const lesson_grammar_adverb_clauses_time_reason = {
+  "id": "grammar-adverb-clauses-time-reason",
+  "backHref": "clauses.html",
+  "backLabel": "Back to Clauses",
+  "title": "Time and Reason",
+  "skill": "Grammar",
+  "category": "Clauses",
+  "level": "Intermediate",
+  "description": "Express when and why things happen using adverb clauses.",
+  "learningGoals": [
+    "Use time connectors (when, while, before, after) correctly.",
+    "Use reason connectors (because, since, as) correctly.",
+    "Apply the correct comma rules when placing the clause."
+  ],
+  "meaning": "The two most common types of adverb clauses explain <strong>Time</strong> (when something happened) and <strong>Reason</strong> (why it happened). You use specific connector words at the beginning of the clause to signal the relationship to the main action.",
+  "keyIdeas": [
+    "Time Connectors: when, while, before, after, until, as soon as.",
+    "Reason Connectors: because, since, as.",
+    "If the time/reason clause is at the beginning of the sentence, you MUST use a comma."
+  ],
+  "patterns": [
+    {
+      "name": "Time",
+      "formula": "Time Connector + Clause",
+      "explanation": "Example: After I finished class, I called her."
+    },
+    {
+      "name": "Reason",
+      "formula": "Reason Connector + Clause",
+      "explanation": "Example: We stayed inside because it was raining."
+    }
+  ],
+  "examples": [
+    {
+      "type": "Time (Comma Needed)",
+      "sentence": "As soon as the lesson ended, the students packed their bags.",
+      "note": "The time clause comes first, so a comma is used."
+    },
+    {
+      "type": "Time (No Comma)",
+      "sentence": "I called her after I finished class.",
+      "note": "The time clause is at the end, so no comma is needed."
+    },
+    {
+      "type": "Reason",
+      "sentence": "We stayed inside because it was raining.",
+      "note": "'Since it was raining' or 'As it was raining' also work perfectly here."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "During I was studying, my phone rang.",
+      "correct": "While I was studying, my phone rang.",
+      "explanation": "Mistake: Using 'during' (a preposition for phrases) before a clause (subject + verb). | Solution: Use 'while' or 'when' for clauses.",
+      "fix": "Replace 'during' with 'while'."
+    },
+    {
+      "wrong": "I went to bed, because I was tired.",
+      "correct": "I went to bed because I was tired.",
+      "explanation": "Mistake: Using a comma when the connector is in the middle of the sentence.",
+      "fix": "Remove the comma."
+    }
+  ],
+  "practicePrompts": [
+    "Combine using 'while': 'I was cooking. The doorbell rang.'",
+    "Punctuate this: 'Since we are late we should run'"
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Teach 'Since' and 'As' as advanced synonyms for 'Because'. Students rely on 'because' too much. Having them rewrite sentences using 'Since' instantly makes their writing sound more mature.",
+  "quickComparison": "<strong>During vs While:</strong> <em>During</em> the movie (Noun Phrase). <em>While</em> we watched the movie (Clause).",
+  "summary": [
+    "Use time connectors (when, after) for time clauses.",
+    "Use reason connectors (because, since) for reason clauses.",
+    "Use a comma if the clause starts the sentence."
+  ],
+  "introduction": "To tell a good story, you need to establish a timeline and explain motives. Adverb clauses of <strong>Time</strong> tell the listener exactly when an event took place relative to another event. Adverb clauses of <strong>Reason</strong> explain why. These are the tools of storytelling.",
+  "stepByStep": "How to use 'Since' for Reason:<br><br>1. Most people only know 'since' for time ('I have lived here since 2010').<br>2. But 'since' is also a formal way to say 'because'.<br>3. Take a sentence: 'Because it is raining, we will stay home.'<br>4. Upgrade it: 'Since it is raining, we will stay home.'<br>5. This sounds highly natural in business and academic English."
+};
+
+const lesson_grammar_adverb_clauses_contrast_condition = {
+  "id": "grammar-adverb-clauses-contrast-condition",
+  "backHref": "clauses.html",
+  "backLabel": "Back to Clauses",
+  "title": "Contrast and Condition",
+  "skill": "Grammar",
+  "category": "Clauses",
+  "level": "Advanced",
+  "description": "Use clauses to show contrast (although) and conditions (if, unless).",
+  "learningGoals": [
+    "Use contrast connectors (although, even though, while) to show unexpected results.",
+    "Use condition connectors (if, unless) to show requirements.",
+    "Avoid double connectors (although + but)."
+  ],
+  "meaning": "Adverb clauses can also show <strong>Contrast</strong> (something happened despite a difficulty) or <strong>Condition</strong> (something will only happen if a requirement is met). These clauses add sophisticated logic to your arguments and explanations.",
+  "keyIdeas": [
+    "Contrast Connectors: although, even though, while.",
+    "Condition Connectors: if, unless ('unless' means 'if not').",
+    "English sentences only need one connector to join two clauses. Never use 'although' and 'but' together."
+  ],
+  "patterns": [
+    {
+      "name": "Contrast",
+      "formula": "Although + Clause, + Main Clause",
+      "explanation": "Example: Although the lesson was difficult, I understood it."
+    },
+    {
+      "name": "Condition",
+      "formula": "If + Clause, + Main Clause",
+      "explanation": "Example: If you practice, you will improve."
+    }
+  ],
+  "examples": [
+    {
+      "type": "Contrast",
+      "sentence": "Although the lesson was difficult, I understood it.",
+      "note": "The result (understood) is unexpected given the condition (difficult)."
+    },
+    {
+      "type": "Condition (If)",
+      "sentence": "If you practice, you will improve.",
+      "note": "The improvement depends entirely on the practice."
+    },
+    {
+      "type": "Condition (Unless)",
+      "sentence": "Unless you study, you will not pass.",
+      "note": "'Unless' means 'If you do not'."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Although I was tired, but I studied.",
+      "correct": "Although I was tired, I studied. (OR: I was tired, but I studied.)",
+      "explanation": "Mistake: Using two opposing connectors in one sentence. | Solution: 'Although' already sets up the contrast. You don't need 'but'.",
+      "fix": "Drop 'but'."
+    },
+    {
+      "wrong": "If you will study, you will improve.",
+      "correct": "If you study, you will improve.",
+      "explanation": "Mistake: Using the future tense inside an 'If' clause (First Conditional error).",
+      "fix": "Use the present tense inside the 'If' clause."
+    }
+  ],
+  "practicePrompts": [
+    "Rewrite using 'unless': 'If you don't hurry, we will be late.'",
+    "Correct the mistake: 'Even though it was raining, but we played football.'"
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> The 'Although/But' Trap. Write 'Although..., but...' on the board with a big red X through it. Have students practice writing contrast sentences and crossing out the 'but' to break the habit.",
+  "quickComparison": "<strong>Although vs But:</strong> <em>Although</em> I was tired, I studied. I was tired, <em>but</em> I studied. (Both mean the same, but the grammar structure is different).",
+  "summary": [
+    "Contrast clauses use although, even though.",
+    "Condition clauses use if, unless.",
+    "Do not use 'although' and 'but' in the same connection."
+  ],
+  "introduction": "Logic in English is often built using <strong>Contrast</strong> and <strong>Condition</strong> clauses. You want to show that two things are in conflict ('although') or that one thing depends on another ('if'). Mastering these clauses elevates your English from simple storytelling to logical argumentation.",
+  "stepByStep": "Understanding 'Unless':<br><br>1. 'Unless' is a negative condition. It means 'If not'.<br>2. Look at this sentence: 'If you do not pay, you cannot enter.'<br>3. Replace 'If... do not' with 'Unless'.<br>4. Result: 'Unless you pay, you cannot enter.'<br>5. Never use a negative verb after unless. 'Unless you do not pay' is incorrect!"
+};
+
+const lesson_grammar_common_clause_mistakes = {
+  "id": "grammar-common-clause-mistakes",
+  "backHref": "clauses.html",
+  "backLabel": "Back to Clauses",
+  "title": "Common Clause Mistakes",
+  "skill": "Grammar",
+  "category": "Clauses",
+  "level": "Advanced",
+  "description": "Review and fix the most common errors with clauses.",
+  "learningGoals": [
+    "Identify common structural errors in noun, relative, and adverb clauses.",
+    "Fix sentence fragments caused by dependent clauses.",
+    "Correct direct translation errors from Indonesian."
+  ],
+  "meaning": "Because clauses are complex structures containing their own subjects and verbs, it is easy to make structural mistakes. This lesson acts as a repair checklist for the most frequent errors learners make across all types of clauses.",
+  "keyIdeas": [
+    "Dependent clauses are not sentences.",
+    "Noun clauses are not questions.",
+    "Relative clauses don't need extra pronouns.",
+    "English doesn't double-stack connectors (although + but)."
+  ],
+  "patterns": [
+    {
+      "name": "The Fragment Error",
+      "formula": "Because + Clause.",
+      "explanation": "Wrong: Because I was tired. | Right: I slept because I was tired."
+    },
+    {
+      "name": "The Question Error",
+      "formula": "I know + WH + Aux Verb + Subject.",
+      "explanation": "Wrong: I know where does he live. | Right: I know where he lives."
+    }
+  ],
+  "examples": [
+    {
+      "type": "Relative Clause Pronoun Double",
+      "sentence": "Wrong: The book that I bought it is good. | Right: The book that I bought is good.",
+      "note": "'That' replaces 'it'."
+    },
+    {
+      "type": "Double Connector",
+      "sentence": "Wrong: Although I was tired, but I studied. | Right: Although I was tired, I studied.",
+      "note": "Pick one connector."
+    },
+    {
+      "type": "Phrase vs Clause",
+      "sentence": "Wrong: During I was studying. | Right: While I was studying.",
+      "note": "'During' is for noun phrases, 'While' is for clauses."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "The place which I live is far.",
+      "correct": "The place where I live is far.",
+      "explanation": "Mistake: Using 'which' for a location without a preposition. | Solution: Use 'where' or 'in which'.",
+      "fix": "Swap 'which' for 'where'."
+    },
+    {
+      "wrong": "The student he won the contest.",
+      "correct": "The student who won the contest.",
+      "explanation": "Mistake: Missing the relative pronoun.",
+      "fix": "Use 'who'."
+    }
+  ],
+  "practicePrompts": [
+    "Fix all mistakes: 'I don't know what did she say, but because I was tired.'",
+    "Fix the mistake: 'Even though it was raining, but we walked.'"
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Put these common mistakes on the board and have a 'Grammar Clinic'. Make the students play the 'Doctor' and diagnose what the underlying illness is (e.g., Fragmentitis, Double-Connector Syndrome) before fixing the sentence.",
+  "quickComparison": "<strong>Indonesian vs English:</strong> Indonesian allows 'karena saya lelah' as an answer. In written English, 'because I was tired' is a fragment error without a main clause.",
+  "summary": [
+    "Dependent clauses need main clauses.",
+    "Embedded questions use statement word order.",
+    "Don't use 'although' and 'but' together.",
+    "Don't repeat pronouns in relative clauses."
+  ],
+  "introduction": "You have learned the rules for all three major types of clauses (Noun, Relative, Adverb). Now it is time to troubleshoot. When you write long sentences, your brain is juggling many grammar rules at once. Let's look at the most common places where those rules get dropped.",
+  "stepByStep": "The Clause Checklist before you submit your writing:<br><br>1. Did I put a period at the end of a dependent clause? (Fragment check)<br>2. Did I use question word order after a WH-word in the middle of a sentence? (Noun clause check)<br>3. Did I put 'it' or 'him' inside a relative clause that already has 'which' or 'who'? (Relative clause check)<br>4. Did I use 'although' and 'but' in the same sentence? (Double connector check)<br>5. Did I use 'during' with a full clause? (Phrase vs Clause check)<br>6. If you pass this checklist, your complex sentences are likely perfect!",
+  "indonesianLearnerWarning": "Be very careful translating embedded questions! Indonesian word order ('Saya tahu di mana dia tinggal') maps perfectly to the incorrect English word order ('I know where does he live' or 'I know where he lives'). Wait, actually, Indonesian naturally uses statement order here. The mistake usually happens because learners over-apply the English question rule (adding 'do/does') where it doesn't belong!"
+};
+
+
+// --- Conditionals Pathway Lessons ---
+const lesson_grammar_conditionals_overview = {
+  "id": "grammar-conditionals-overview",
+  "backHref": "conditionals.html",
+  "backLabel": "Back to Conditionals",
+  "title": "What Are Conditionals?",
+  "skill": "Grammar",
+  "category": "Conditionals",
+  "level": "Beginner",
+  "description": "Understand the basic idea of conditional sentences: condition and result.",
+  "learningGoals": [
+    "Understand that conditionals connect a condition with a result.",
+    "Learn the basic if-clause → main clause structure.",
+    "Recognize the difference between real and unreal meanings.",
+    "Understand why conditionals are useful in speaking and writing."
+  ],
+  "meaning": "Conditionals are sentences that connect a <strong>condition</strong> with a <strong>result</strong>. They tell us that one thing depends on another. If the first thing happens (or happened), then the second thing happens (or would happen).",
+  "keyIdeas": [
+    "Every conditional sentence has two parts: the if-clause (the condition) and the main clause (the result).",
+    "Conditionals can talk about past, present, or future times.",
+    "They can describe things that are real (facts and possibilities) or unreal (imagination and regrets).",
+    "They are essential for IELTS and TOEFL to explain causes, results, possibilities, and opinions."
+  ],
+  "patterns": [
+    {
+      "name": "Condition → Result Overview",
+      "formula": "If + condition clause, + result clause.",
+      "examples": [
+        {
+          "en": "If you heat water, it boils.",
+          "id": "Jika Anda memanaskan air, air akan mendidih.",
+          "explanation": "This is a fact. (Zero Conditional) The condition always produces this result."
+        },
+        {
+          "en": "If it rains tomorrow, we will stay inside.",
+          "id": "Jika besok hujan, kami akan tinggal di dalam.",
+          "explanation": "This is a real future possibility. (First Conditional) The condition is possible, so the result is possible."
+        },
+        {
+          "en": "If I had more money, I would buy a new laptop.",
+          "id": "Seandainya saya punya lebih banyak uang, saya akan membeli laptop baru.",
+          "explanation": "This is an unreal present situation. (Second Conditional) I do not have more money, so I am just imagining it."
+        },
+        {
+          "en": "If she had studied harder, she would have passed.",
+          "id": "Seandainya dia belajar lebih keras, dia pasti akan lulus.",
+          "explanation": "This is an unreal past situation. (Third Conditional) She didn't study harder, so she didn't pass. This expresses regret."
+        },
+        {
+          "en": "If I had chosen a different major, I might be working in another field now.",
+          "id": "Seandainya saya memilih jurusan yang berbeda, saya mungkin bekerja di bidang lain sekarang.",
+          "explanation": "This connects an unreal past decision to an unreal present result. (Mixed Conditional)"
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "If I will go, I will tell you.",
+      "correct": "If I go, I will tell you.",
+      "explanation": "Even though we are talking about the future, we do not put 'will' in the if-clause for standard First Conditionals."
+    }
+  ],
+  "introduction": "Imagine you are giving advice to a student: 'If you study a little every day, you will improve.' Now imagine you are talking about a dream: 'If I had more free time, I would travel.' Or maybe you are thinking about the past: 'If I had prepared better, I would have passed.'<br><br>All of these sentences use conditionals. Conditionals help us connect one situation with another situation. They allow us to talk about facts, future possibilities, imaginary ideas, regrets, advice, and results.<br><br>This is why conditionals are very important in English. They are useful in daily conversation, classroom discussion, IELTS Writing Task 2, TOEFL iBT Writing, and speaking answers where students need to explain causes, results, possibilities, and opinions clearly.",
+  "stepByStep": "1. <strong>Identify the Condition:</strong> What needs to happen? (e.g., 'If it rains').<br>2. <strong>Identify the Result:</strong> What is the outcome? (e.g., 'we will stay inside').<br>3. <strong>Determine Reality:</strong> Is this a real possibility, or just a dream/regret?<br>4. <strong>Choose the Pattern:</strong> Pick Zero, First, Second, or Third conditional based on time and reality.",
+  "indonesianLearnerWarning": "In Indonesian, you often just use 'Kalau' (if) and rely on context. In English, you must change the verb tense (go vs. went, will vs. would) to show whether the situation is real (a true possibility) or unreal (just imagination)."
+};
+
+const lesson_grammar_if_clause_main_clause_structure = {
+  "id": "grammar-if-clause-main-clause-structure",
+  "backHref": "conditionals.html",
+  "backLabel": "Back to Conditionals",
+  "title": "If-Clause and Main Clause Structure",
+  "skill": "Grammar",
+  "category": "Conditionals",
+  "level": "Beginner",
+  "description": "Learn the two parts of a conditional sentence and how to order them.",
+  "learningGoals": [
+    "Identify the if-clause (condition) and the main clause (result).",
+    "Understand that the order of the clauses can be switched.",
+    "Recognize how meaning stays the same but punctuation changes."
+  ],
+  "meaning": "A conditional sentence is made of two building blocks: the <strong>if-clause</strong> (which states the condition or 'what if') and the <strong>main clause</strong> (which states the result or 'what happens').",
+  "keyIdeas": [
+    "The if-clause gives the condition (the cause or requirement).",
+    "The main clause gives the result (the effect or consequence).",
+    "The clauses can switch positions. You can put the result first and the condition second.",
+    "Switching the position usually does not change the core meaning, but it changes the punctuation (the comma)."
+  ],
+  "patterns": [
+    {
+      "name": "If-Clause First",
+      "formula": "If-Clause, + Main Clause.",
+      "examples": [
+        {
+          "en": "If you study, you will improve.",
+          "id": "Jika kamu belajar, kamu akan meningkat.",
+          "explanation": "Condition first, result second. Notice the comma."
+        },
+        {
+          "en": "If I had time, I would help you.",
+          "id": "Seandainya saya punya waktu, saya akan membantumu.",
+          "explanation": "The 'if' signals the condition right at the start."
+        }
+      ]
+    },
+    {
+      "name": "Main Clause First",
+      "formula": "Main Clause + If-Clause.",
+      "examples": [
+        {
+          "en": "You will improve if you study.",
+          "id": "Kamu akan meningkat jika kamu belajar.",
+          "explanation": "Result first, condition second. The comma disappears."
+        },
+        {
+          "en": "I would help you if I had time.",
+          "id": "Saya akan membantumu seandainya saya punya waktu.",
+          "explanation": "The meaning is exactly the same, but the emphasis shifts slightly to the result ('I would help you')."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "You will improve, if you study.",
+      "correct": "You will improve if you study.",
+      "explanation": "Do not use a comma when the main clause comes first."
+    }
+  ],
+  "introduction": "When you build a conditional sentence, you are actually putting two separate ideas together. Think of it like building a bridge: one side is the 'condition' (what must happen) and the other side is the 'result' (what happens because of the condition).<br><br>For example, if a teacher says, 'If you finish your work early, you can go outside,' the condition is finishing the work, and the result is going outside.<br><br>The great thing about English is that these two building blocks are flexible. You can swap their order without changing the main idea. Understanding this structure helps you read more complex sentences in academic texts and gives you variety when speaking or writing.",
+  "stepByStep": "1. <strong>Locate the 'If':</strong> The part of the sentence attached to 'if' is your condition.<br>2. <strong>Locate the Result:</strong> The other part of the sentence is your main clause.<br>3. <strong>Check the Order:</strong> Are you emphasizing the condition (If-clause first) or the result (Main clause first)?",
+  "indonesianLearnerWarning": "Indonesian speakers often feel they must start with 'Kalau...' (If...). Remember that English loves to put the result first ('I will go if...') to sound more direct."
+};
+
+const lesson_grammar_conditionals_clause_order_commas = {
+  "id": "grammar-conditionals-clause-order-commas",
+  "backHref": "conditionals.html",
+  "backLabel": "Back to Conditionals",
+  "title": "Commas, Clause Order, and Meaning",
+  "skill": "Grammar",
+  "category": "Conditionals",
+  "level": "Intermediate",
+  "description": "Master the punctuation rules for conditional sentences.",
+  "learningGoals": [
+    "Learn when to use a comma and when not to use a comma in conditionals.",
+    "Understand how clause order affects the flow of writing.",
+    "Apply these rules to make IELTS/TOEFL writing clearer."
+  ],
+  "meaning": "Punctuation in conditionals is completely controlled by the order of the clauses. A comma is used to separate the condition and the result, but only when the condition introduces the sentence.",
+  "keyIdeas": [
+    "If the if-clause comes first, use a comma before the main clause.",
+    "If the main clause comes first, do not use a comma before the if-clause.",
+    "Long introductory if-clauses especially need a comma to help the reader breathe and understand the sentence boundary.",
+    "These strict punctuation rules are heavily evaluated in IELTS and TOEFL writing tasks."
+  ],
+  "patterns": [
+    {
+      "name": "Condition First (Comma Needed)",
+      "formula": "If-Clause + , + Main Clause",
+      "examples": [
+        {
+          "en": "If I finish early, I will call you.",
+          "id": "Jika saya selesai lebih awal, saya akan meneleponmu.",
+          "explanation": "The comma shows where the condition ends and the result begins."
+        },
+        {
+          "en": "If the government invests more in education, students will have better opportunities.",
+          "id": "Jika pemerintah berinvestasi lebih banyak di bidang pendidikan, para siswa akan memiliki peluang yang lebih baik.",
+          "explanation": "In long academic sentences, the comma is essential for reading flow."
+        }
+      ]
+    },
+    {
+      "name": "Result First (No Comma)",
+      "formula": "Main Clause + If-Clause",
+      "examples": [
+        {
+          "en": "I will call you if I finish early.",
+          "id": "Saya akan meneleponmu jika saya selesai lebih awal.",
+          "explanation": "Because 'if' acts as a clear bridge in the middle, a comma is unnecessary."
+        },
+        {
+          "en": "Students will have better opportunities if the government invests more in education.",
+          "id": "Para siswa akan memiliki peluang yang lebih baik jika pemerintah berinvestasi lebih banyak di bidang pendidikan.",
+          "explanation": "The sentence flows smoothly from result to condition without a pause."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "If we leave now we will arrive on time.",
+      "correct": "If we leave now, we will arrive on time.",
+      "explanation": "A comma is required when starting with an 'If' clause."
+    },
+    {
+      "wrong": "We will arrive on time, if we leave now.",
+      "correct": "We will arrive on time if we leave now.",
+      "explanation": "Do not put a comma before 'if' in the middle of the sentence."
+    }
+  ],
+  "introduction": "Have you ever written a long sentence and wondered, 'Does a comma go here?' Punctuation can sometimes feel like a guessing game, but for conditional sentences, the rules are very strict and surprisingly simple.<br><br>When you speak, you naturally pause between the condition and the result. In writing, we use a comma to show that pause. However, if we flip the sentence around, that pause disappears, and so does the comma.<br><br>Mastering this small punctuation rule immediately makes your writing look more professional. Examiners in IELTS and TOEFL pay close attention to this, and getting it right shows that you have strong control over complex sentence structures.",
+  "stepByStep": "1. <strong>Look at the first word:</strong> Does the sentence start with 'If'?<br>2. <strong>If yes:</strong> Find where the condition ends and put a comma there.<br>3. <strong>If no:</strong> Keep writing. Do not put a comma before the 'if' in the middle.",
+  "indonesianLearnerWarning": "In Indonesian writing, people often add commas loosely wherever they want the reader to pause. In formal English, commas are strictly grammatical. Don't add a comma before 'if' just because you want to take a breath."
+};
+
+const lesson_grammar_real_vs_unreal_conditionals = {
+  "id": "grammar-real-vs-unreal-conditionals",
+  "backHref": "conditionals.html",
+  "backLabel": "Back to Conditionals",
+  "title": "Real vs Unreal Meaning",
+  "skill": "Grammar",
+  "category": "Conditionals",
+  "level": "Intermediate",
+  "description": "Understand the difference between facts/possibilities and imaginary situations.",
+  "learningGoals": [
+    "Distinguish between real (possible) and unreal (imaginary) situations.",
+    "Understand that past tense verbs in conditionals often show distance from reality, not past time."
+  ],
+  "meaning": "Before choosing a formula, you must decide if the situation is <strong>Real</strong> (it is a fact or could actually happen) or <strong>Unreal</strong> (it is imaginary, unlikely, impossible, or a regret).",
+  "keyIdeas": [
+    "Real conditionals talk about facts, habits, or possible future events. (Zero and First Conditionals)",
+    "Unreal conditionals talk about imagination, dreams, unlikely events, or regrets. (Second and Third Conditionals)",
+    "In unreal conditionals, we step 'back' one tense to show that the situation is distant from reality."
+  ],
+  "patterns": [
+    {
+      "name": "Real (Possible)",
+      "formula": "Present/Future Tense Verbs",
+      "examples": [
+        {
+          "en": "If I have time, I will help you.",
+          "id": "Jika saya punya waktu, saya akan membantumu.",
+          "explanation": "This is real. I might actually have time tomorrow. It is a genuine possibility."
+        }
+      ]
+    },
+    {
+      "name": "Unreal (Imaginary Present/Future)",
+      "formula": "Past Tense Verbs (but meaning is now/future)",
+      "examples": [
+        {
+          "en": "If I had time, I would help you.",
+          "id": "Seandainya saya punya waktu, saya akan membantumu.",
+          "explanation": "This is unreal. I do NOT have time right now. I am imagining a different reality."
+        }
+      ]
+    },
+    {
+      "name": "Unreal (Regret about the Past)",
+      "formula": "Past Perfect Verbs",
+      "examples": [
+        {
+          "en": "If I had had time, I would have helped you.",
+          "id": "Seandainya saja waktu itu saya punya waktu, saya pasti sudah membantumu.",
+          "explanation": "This is unreal past. I didn't have time yesterday, so I didn't help you."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "If I will have time, I would help you.",
+      "correct": "If I had time, I would help you.",
+      "explanation": "Do not mix real grammar ('will') with unreal grammar ('would'). Keep the reality consistent."
+    }
+  ],
+  "introduction": "Before we memorize any grammar formulas, we need to talk about reality. In English, conditionals are divided into two big categories: the real world and the imaginary world.<br><br>Real conditionals are used for things that happen every day, scientific facts, or actual plans you have for tomorrow. Unreal conditionals are used for dreams, wishes, hypothetical situations, and changing the past.<br><br>In Indonesian, we often rely on context to tell the listener if we are joking, dreaming, or telling the truth. In English, we use grammar—specifically verb tenses—to signal whether a situation is real or just in our imagination. Understanding this 'reality check' is the key to mastering all conditionals.",
+  "stepByStep": "1. <strong>Ask Yourself:</strong> Could this actually happen?<br>2. <strong>If yes (Real):</strong> Use present tenses (Zero/First Conditional).<br>3. <strong>If no (Unreal):</strong> Use past or past perfect tenses to show it's imaginary (Second/Third Conditional).",
+  "indonesianLearnerWarning": "This is the hardest part for Indonesian speakers. When you see 'If I had time', your brain translates 'had' as past tense. But in unreal conditionals, 'had' means RIGHT NOW, but it's imaginary. You are stepping back in tense, not back in time."
+};
+
+const lesson_grammar_zero_conditional = {
+  "id": "grammar-zero-conditional",
+  "backHref": "conditionals.html",
+  "backLabel": "Back to Conditionals",
+  "title": "Zero Conditional",
+  "skill": "Grammar",
+  "category": "Conditionals",
+  "level": "Beginner",
+  "description": "Talk about general truths, scientific facts, and routines.",
+  "learningGoals": [
+    "Understand that Zero Conditional expresses 100% certainty.",
+    "Use the Present Simple + Present Simple pattern.",
+    "Apply this structure to facts, habits, and instructions."
+  ],
+  "meaning": "The Zero Conditional is used for things that are <strong>always true</strong>. It describes general truths, scientific facts, habits, and rules. It means: 'Whenever this condition happens, this result automatically happens.'",
+  "keyIdeas": [
+    "It uses Present Simple in both the if-clause and the main clause.",
+    "It does not talk about the future or the past. It talks about 'always'.",
+    "Because it happens every time, you can usually replace 'If' with 'When' without changing the meaning."
+  ],
+  "patterns": [
+    {
+      "name": "General Truths & Facts",
+      "formula": "If + Present Simple, Present Simple.",
+      "examples": [
+        {
+          "en": "If you heat ice, it melts.",
+          "id": "Jika kamu memanaskan es, es itu mencair.",
+          "explanation": "Scientific fact. 100% true every time."
+        },
+        {
+          "en": "If people do not sleep enough, they feel tired.",
+          "id": "Jika orang tidak cukup tidur, mereka merasa lelah.",
+          "explanation": "General biological truth."
+        },
+        {
+          "en": "If students do not review vocabulary, they forget it.",
+          "id": "Jika siswa tidak mengulang kosakata, mereka melupakannya.",
+          "explanation": "A common truth or habit."
+        }
+      ]
+    },
+    {
+      "name": "Instructions & Rules",
+      "formula": "If + Present Simple, Imperative (Command).",
+      "examples": [
+        {
+          "en": "If you have any questions, raise your hand.",
+          "id": "Jika kamu punya pertanyaan, angkat tanganmu.",
+          "explanation": "Giving a direct instruction based on a condition."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "If you heat ice, it will melt.",
+      "correct": "If you heat ice, it melts.",
+      "explanation": "Do not use 'will' for scientific facts that are always true. Save 'will' for specific future events."
+    },
+    {
+      "wrong": "When you heat ice, it will melt.",
+      "correct": "When you heat ice, it melts.",
+      "explanation": "Again, facts use present simple in both clauses."
+    }
+  ],
+  "introduction": "Think about the laws of nature. What happens when you leave ice in the sun? It melts. What happens if you touch a hot stove? You burn your hand.<br><br>When we talk about things that are 100% true all the time, we don't need to guess or imagine. We are stating facts. For these situations, English uses the Zero Conditional.<br><br>This is the simplest conditional to learn because you don't have to worry about future tense or past tense. You just use the present tense for both the condition and the result. It is incredibly useful for giving instructions, explaining rules, or describing scientific processes.",
+  "stepByStep": "1. <strong>Identify the Fact:</strong> Is this always true? (e.g., water boiling).<br>2. <strong>Condition Clause:</strong> Use Present Simple (If you heat water).<br>3. <strong>Result Clause:</strong> Use Present Simple (it boils).",
+  "indonesianLearnerWarning": "Indonesians sometimes add 'akan' (will) to zero conditionals because it feels like a future result. Remember, if it's a general fact that happens every time, do not use 'will'."
+};
+
+const lesson_grammar_first_conditional = {
+  "id": "grammar-first-conditional",
+  "backHref": "conditionals.html",
+  "backLabel": "Back to Conditionals",
+  "title": "First Conditional",
+  "skill": "Grammar",
+  "category": "Conditionals",
+  "level": "Intermediate",
+  "description": "Talk about real and likely future possibilities.",
+  "learningGoals": [
+    "Understand that First Conditional is for real, possible future events.",
+    "Use Present Simple in the if-clause and 'will' in the main clause.",
+    "Use this for plans, warnings, and predictions."
+  ],
+  "meaning": "The First Conditional talks about a <strong>real possibility in the future</strong>. It means: 'I think this condition is likely to happen, and if it does, here is the future result.'",
+  "keyIdeas": [
+    "The condition is possible or likely.",
+    "The result is a future consequence, prediction, or plan.",
+    "We use Present Simple in the if-clause, even though we are talking about the future.",
+    "We use 'will' (or can/might/should) in the result clause."
+  ],
+  "patterns": [
+    {
+      "name": "Possible Future Result",
+      "formula": "If + Present Simple, will + base verb.",
+      "examples": [
+        {
+          "en": "If it rains tomorrow, we will cancel the picnic.",
+          "id": "Jika besok hujan, kami akan membatalkan piknik.",
+          "explanation": "It is possible that it rains. If so, the cancellation will happen."
+        },
+        {
+          "en": "If you practice every day, your speaking will improve.",
+          "id": "Jika kamu berlatih setiap hari, kemampuan berbicaramu akan meningkat.",
+          "explanation": "A highly likely result based on a possible action."
+        },
+        {
+          "en": "If the school adds more facilities, students will feel more comfortable.",
+          "id": "Jika sekolah menambah lebih banyak fasilitas, para siswa akan merasa lebih nyaman.",
+          "explanation": "A common cause-and-effect argument useful for IELTS Writing."
+        }
+      ]
+    },
+    {
+      "name": "Using Modals",
+      "formula": "If + Present Simple, can/might/should + base verb.",
+      "examples": [
+        {
+          "en": "If you finish your homework, you can watch TV.",
+          "id": "Jika kamu menyelesaikan PR-mu, kamu boleh menonton TV.",
+          "explanation": "Using 'can' to give permission."
+        },
+        {
+          "en": "If she studies hard, she might get a scholarship.",
+          "id": "Jika dia belajar keras, dia mungkin mendapat beasiswa.",
+          "explanation": "Using 'might' to show a possibility, not a 100% certainty."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "If it will rain, we will stay home.",
+      "correct": "If it rains, we will stay home.",
+      "explanation": "Never use 'will' right after 'if' in a standard conditional sentence. The if-clause uses Present Simple."
+    }
+  ],
+  "introduction": "Think about your plans for tomorrow. Maybe you say, 'If it rains, I will stay home.' Maybe a teacher says, 'If you submit your homework today, I will check it tonight.' These sentences are not about fantasy. They are about real future possibilities.<br><br>The First Conditional helps us talk about something that may really happen. The condition is possible, and the result is also possible. <br><br>This is one of the most useful conditional forms for daily speaking because we often use it to talk about plans, give warnings, make promises, and predict possible results.",
+  "stepByStep": "1. <strong>Check Reality:</strong> Is this a real possibility? Yes.<br>2. <strong>Condition Clause:</strong> Use Present Simple (If I have time).<br>3. <strong>Result Clause:</strong> Use 'will' + base verb (I will help you).",
+  "indonesianLearnerWarning": "Because both the condition and the result are about the future, Indonesian learners frequently translate directly and put 'will' (akan) in both parts: 'If it will rain, I will...'. This is the most common mistake. Remember: No 'will' after 'if'."
+};
+
+const lesson_grammar_unless = {
+  "id": "grammar-unless",
+  "backHref": "conditionals.html",
+  "backLabel": "Back to Conditionals",
+  "title": "Unless",
+  "skill": "Grammar",
+  "category": "Conditionals",
+  "level": "Intermediate",
+  "description": "Learn how to use 'unless' as a negative conditional.",
+  "learningGoals": [
+    "Understand that 'unless' means 'if not' or 'except if'.",
+    "Use 'unless' to replace negative if-clauses.",
+    "Avoid double negatives when using 'unless'."
+  ],
+  "meaning": "<strong>Unless</strong> means exactly the same thing as <strong>If... not</strong>. It sets a strict condition: 'This result will happen, EXCEPT IF this condition stops it.'",
+  "keyIdeas": [
+    "Unless already carries a negative meaning inside the word.",
+    "Because it is already negative, you do NOT put a negative verb ('don\'t', 'won\'t') right after it.",
+    "It is very common for warnings, rules, and strict conditions."
+  ],
+  "patterns": [
+    {
+      "name": "Unless (If Not)",
+      "formula": "Unless + positive verb, result.",
+      "examples": [
+        {
+          "en": "Unless you study, you will fail.",
+          "id": "Kecuali jika kamu belajar, kamu akan gagal.",
+          "explanation": "Meaning: If you do not study, you will fail."
+        },
+        {
+          "en": "I will not go unless you come with me.",
+          "id": "Saya tidak akan pergi kecuali kamu ikut denganku.",
+          "explanation": "Meaning: I will not go if you do not come."
+        },
+        {
+          "en": "Unless the government takes action, the problem will get worse.",
+          "id": "Kecuali pemerintah mengambil tindakan, masalah ini akan bertambah buruk.",
+          "explanation": "A strict warning. Useful for IELTS/TOEFL essays."
+        },
+        {
+          "en": "Students will not improve unless they practice regularly.",
+          "id": "Siswa tidak akan meningkat kecuali mereka berlatih secara teratur.",
+          "explanation": "Meaning: If they do not practice, they will not improve."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Unless you do not study, you will fail.",
+      "correct": "Unless you study, you will fail.",
+      "explanation": "'Unless' is already negative. Using 'do not' creates a confusing double negative."
+    },
+    {
+      "wrong": "Unless it will rain, we will go.",
+      "correct": "Unless it rains, we will go.",
+      "explanation": "Just like 'if', do not use 'will' immediately after 'unless'."
+    }
+  ],
+  "introduction": "Sometimes, saying 'if not' over and over again can sound repetitive. Imagine a parent saying, 'You cannot watch TV if you do not finish your homework.' There is a shorter, stronger word for this: Unless.<br><br>'Unless you finish your homework, you cannot watch TV.' It sounds much more native and precise.<br><br>'Unless' is a powerful little word that means 'except if.' It is very common in warnings, rules, and negotiations. Learning to use 'unless' correctly will immediately elevate your speaking and writing, making you sound more advanced and confident.",
+  "stepByStep": "1. <strong>Think of the Negative Condition:</strong> 'If he doesn't call...'<br>2. <strong>Replace 'If... not' with 'Unless':</strong> 'Unless he calls...'<br>3. <strong>Complete the Sentence:</strong> '...I will leave.'",
+  "indonesianLearnerWarning": "In Indonesian, we often translate 'unless' as 'kecuali kalau'. Students often accidentally translate 'unless you do not' (kecuali kalau kamu tidak). In English, 'unless' absorbs the 'not'. Just use a positive verb after it."
+};
+
+const lesson_grammar_conditional_alternatives_to_if = {
+  "id": "grammar-conditional-alternatives-to-if",
+  "backHref": "conditionals.html",
+  "backLabel": "Back to Conditionals",
+  "title": "Alternatives to If",
+  "skill": "Grammar",
+  "category": "Conditionals",
+  "level": "Upper-Intermediate",
+  "description": "Learn other words that can introduce a condition.",
+  "learningGoals": [
+    "Expand vocabulary beyond 'if'.",
+    "Understand the subtle meaning differences of when, as long as, and provided that.",
+    "Use these connectors to improve IELTS/TOEFL writing variety."
+  ],
+  "meaning": "We don't always have to use 'if' to state a condition. Other words like <strong>when</strong>, <strong>as long as</strong>, and <strong>provided that</strong> also act like conditional bridges, but they add specific emotional or formal nuances.",
+  "keyIdeas": [
+    "'When' shows certainty. You expect it to happen.",
+    "'As long as' sets a strict boundary or limit.",
+    "'Provided that' is a formal, academic version of 'as long as'."
+  ],
+  "patterns": [
+    {
+      "name": "When (Certainty)",
+      "formula": "When + expected event, result.",
+      "examples": [
+        {
+          "en": "When I see him, I will tell him.",
+          "id": "Ketika saya melihatnya, saya akan memberitahunya.",
+          "explanation": "I am certain I will see him. It's just a matter of time."
+        }
+      ]
+    },
+    {
+      "name": "As Long As (Strict Limit)",
+      "formula": "As long as + strict condition, result.",
+      "examples": [
+        {
+          "en": "You can borrow my laptop as long as you return it tonight.",
+          "id": "Kamu boleh meminjam laptopku asalkan kamu mengembalikannya malam ini.",
+          "explanation": "The condition ('returning it') is a strict requirement for the result."
+        }
+      ]
+    },
+    {
+      "name": "Provided That (Formal Condition)",
+      "formula": "Provided that + formal condition, result.",
+      "examples": [
+        {
+          "en": "The plan will succeed provided that everyone cooperates.",
+          "id": "Rencana tersebut akan berhasil asalkan semua orang bekerja sama.",
+          "explanation": "A formal, academic way to say 'only if'. Excellent for IELTS Writing."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I will buy a car when I have money. (If I'm not sure I will get money)",
+      "correct": "I will buy a car if I have money.",
+      "explanation": "Use 'if' for possibility. Use 'when' only if you are certain the event will happen eventually."
+    }
+  ],
+  "introduction": "If you only ever use the word 'if', your English might start to sound a bit repetitive, especially in writing. 'If' is great, but sometimes we need a word that carries a slightly different feeling or a stronger boundary.<br><br>For example, what if you are 100% sure something will happen? You shouldn't use 'if'; you should use 'when'. What if you want to set a very strict rule? You can use 'as long as' or 'provided that'.<br><br>Knowing these alternatives allows you to express your exact meaning with precision. It is a fantastic way to boost your vocabulary score in academic writing and sound much more natural in professional conversations.",
+  "stepByStep": "1. <strong>Analyze the Situation:</strong> Is it a possibility (If), a certainty (When), or a strict rule (As long as)?<br>2. <strong>Choose the Connector:</strong> Swap 'if' for the better alternative.<br>3. <strong>Apply the Same Grammar:</strong> These words follow the same tense rules as 'if'. (e.g., No 'will' right after 'when' or 'as long as').",
+  "indonesianLearnerWarning": "Indonesian 'kalau' is very flexible. It can mean 'if' or 'when'. In English, 'if' (jika) and 'when' (ketika) have very different psychological meanings. Do not mix them up."
+};
+
+const lesson_grammar_second_conditional = {
+  "id": "grammar-second-conditional",
+  "backHref": "conditionals.html",
+  "backLabel": "Back to Conditionals",
+  "title": "Second Conditional",
+  "skill": "Grammar",
+  "category": "Conditionals",
+  "level": "Upper-Intermediate",
+  "description": "Talk about imaginary or unlikely present and future situations.",
+  "learningGoals": [
+    "Understand that Second Conditional is for unreal or unlikely situations right now or in the future.",
+    "Use Past Simple to show distance from reality.",
+    "Use 'would' + base verb for the imaginary result."
+  ],
+  "meaning": "The Second Conditional is the grammar of <strong>dreams and imagination</strong>. It says: 'I know this condition is not real right now, but imagine if it were. Here is what the result would be.'",
+  "keyIdeas": [
+    "It describes the PRESENT or FUTURE, not the past.",
+    "We use the Past Simple tense (e.g., 'had', 'went') to show that the idea is 'distant' from reality.",
+    "We use 'would' in the main clause to show an imaginary result.",
+    "This is heavily used in IELTS Speaking when asked hypothetical questions (e.g., 'What would you change about your city?')."
+  ],
+  "patterns": [
+    {
+      "name": "Imaginary Present/Future",
+      "formula": "If + Past Simple, would + base verb.",
+      "examples": [
+        {
+          "en": "If I had more money, I would study abroad.",
+          "id": "Seandainya saya punya lebih banyak uang, saya akan belajar di luar negeri.",
+          "explanation": "Reality: I do NOT have more money right now."
+        },
+        {
+          "en": "If I were the president, I would improve education.",
+          "id": "Seandainya saya presiden, saya akan memperbaiki pendidikan.",
+          "explanation": "Reality: I am NOT the president. (Note: Use 'were' for all subjects in formal English)."
+        },
+        {
+          "en": "If students had more confidence, they would speak more often.",
+          "id": "Seandainya para siswa memiliki lebih banyak rasa percaya diri, mereka akan lebih sering berbicara.",
+          "explanation": "Reality: Students lack confidence, so they don't speak often."
+        },
+        {
+          "en": "If public transportation were better, fewer people would use private cars.",
+          "id": "Seandainya transportasi umum lebih baik, lebih sedikit orang yang akan menggunakan mobil pribadi.",
+          "explanation": "Excellent hypothetical reasoning for IELTS Task 2 or Speaking Part 3."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "If I have a million dollars, I would buy an island.",
+      "correct": "If I had a million dollars, I would buy an island.",
+      "explanation": "You must step back to the past tense to show it is a dream."
+    },
+    {
+      "wrong": "If I was you, I would go.",
+      "correct": "If I were you, I would go.",
+      "explanation": "In unreal conditionals, formal English prefers 'were' instead of 'was' for all pronouns (I, he, she, it)."
+    }
+  ],
+  "introduction": "Sometimes we do not talk about real plans. We talk about imagination. A student may say, 'If I had a lot of money, I would study abroad.' Another student may say, 'If I were better at speaking, I would join the debate competition.'<br><br>These sentences are not describing real situations now. They describe imagined or unlikely situations. The Second Conditional helps students express dreams, advice, impossible situations, and hypothetical opinions.<br><br>This is very useful for IELTS Speaking Part 2 and Part 3 because students often need to discuss imagined situations, suggest solutions to global problems, or give thoughtful opinions on 'what if' scenarios.",
+  "stepByStep": "1. <strong>Acknowledge Reality:</strong> E.g., I don't have a car.<br>2. <strong>Create the Dream Condition:</strong> Step back to past tense -> 'If I had a car'.<br>3. <strong>State the Imaginary Result:</strong> Use 'would' -> 'I would drive to work'.",
+  "indonesianLearnerWarning": "When Indonesians see 'had' or 'were', they automatically translate it to past time ('Dulu saya...'). You must un-train this reflex. In a conditional sentence, 'had' means RIGHT NOW, but in a parallel universe where things are different."
+};
+
+const lesson_grammar_if_i_were_you = {
+  "id": "grammar-if-i-were-you",
+  "backHref": "conditionals.html",
+  "backLabel": "Back to Conditionals",
+  "title": "If I Were You",
+  "skill": "Grammar",
+  "category": "Conditionals",
+  "level": "Intermediate",
+  "description": "Learn the most common way to give advice.",
+  "learningGoals": [
+    "Understand that 'If I were you' is a fixed Second Conditional phrase.",
+    "Use it to give polite advice.",
+    "Apply it in speaking situations."
+  ],
+  "meaning": "<strong>If I were you</strong> literally means 'If I magically became you and lived in your situation.' Because that is impossible, it is an unreal (Second) conditional. We use it to gently give our opinion on what someone should do.",
+  "keyIdeas": [
+    "It is a fixed phrase used almost exclusively for giving advice.",
+    "We use 'were', not 'was', because it is a hypothetical situation (Subjunctive mood).",
+    "It is much softer and more polite than saying 'You must' or 'You should'."
+  ],
+  "patterns": [
+    {
+      "name": "Giving Advice",
+      "formula": "If I were you, I would + base verb.",
+      "examples": [
+        {
+          "en": "If I were you, I would apologize.",
+          "id": "Jika saya jadi kamu, saya akan meminta maaf.",
+          "explanation": "Soft advice: I think apologizing is the best choice."
+        },
+        {
+          "en": "If I were you, I would study earlier.",
+          "id": "Jika saya jadi kamu, saya akan belajar lebih awal.",
+          "explanation": "Friendly guidance for a classmate."
+        },
+        {
+          "en": "If I were you, I would not wait until the last minute.",
+          "id": "Jika saya jadi kamu, saya tidak akan menunggu sampai menit terakhir.",
+          "explanation": "A polite warning."
+        },
+        {
+          "en": "If I were you, I would choose the topic I understand best.",
+          "id": "Jika saya jadi kamu, saya akan memilih topik yang paling saya pahami.",
+          "explanation": "Excellent structure for counseling or mentoring."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "If I am you, I will buy it.",
+      "correct": "If I were you, I would buy it.",
+      "explanation": "It is impossible for me to be you, so this is unreal. You must use 'were' and 'would'."
+    },
+    {
+      "wrong": "If I were you, I will study.",
+      "correct": "If I were you, I would study.",
+      "explanation": "Unreal conditions (were) must pair with unreal results (would), not real results (will)."
+    }
+  ],
+  "introduction": "How do you give advice without sounding bossy or rude? If you always say 'You should do this' or 'You must do that,' people might get defensive.<br><br>A very polite and common way to give advice in English is to put yourself in the other person's shoes. We say, 'If I were you, I would...'<br><br>This phrase is actually a Second Conditional sentence. You are imagining an impossible situation (you magically becoming the other person) to gently suggest a good idea. Mastering this fixed expression gives you a highly natural, friendly tool for everyday communication.",
+  "stepByStep": "1. <strong>Listen to the Problem:</strong> A friend says, 'I lost my phone.'<br>2. <strong>Start the Phrase:</strong> 'If I were you...'<br>3. <strong>Give the Solution:</strong> '...I would call the police.'",
+  "indonesianLearnerWarning": "Indonesians often directly translate 'Kalau aku jadi kamu, aku akan...' to 'If I become you, I will...'. This is totally incorrect in English. Memorize 'If I were you, I would...' as a single, unbreakable block."
+};
+
+const lesson_grammar_wishes_hypothetical_meaning = {
+  "id": "grammar-wishes-hypothetical-meaning",
+  "backHref": "conditionals.html",
+  "backLabel": "Back to Conditionals",
+  "title": "Wishes & Hypothetical Meaning",
+  "skill": "Grammar",
+  "category": "Conditionals",
+  "level": "Upper-Intermediate",
+  "description": "Express desires and regrets using 'wish' and 'if only'.",
+  "learningGoals": [
+    "Use 'wish' + Past Simple for present desires.",
+    "Use 'wish' + could for abilities.",
+    "Understand how 'wish' uses the same grammar logic as unreal conditionals."
+  ],
+  "meaning": "When we use <strong>wish</strong> or <strong>if only</strong>, we are saying we want reality to be different. Because we are talking about an unreal desire, we use the exact same 'step back' tense rules as the Second and Third conditionals.",
+  "keyIdeas": [
+    "To wish for the present to be different, use Past Simple.",
+    "To wish for a different ability, use 'could'.",
+    "To wish the past had been different (regret), use Past Perfect.",
+    "'If only' is a stronger, more emotional version of 'I wish'."
+  ],
+  "patterns": [
+    {
+      "name": "Present Wish (Reality is different now)",
+      "formula": "wish / If only + Past Simple",
+      "examples": [
+        {
+          "en": "I wish I had more free time.",
+          "id": "Saya harap saya punya lebih banyak waktu luang.",
+          "explanation": "Reality: I don't have free time right now."
+        },
+        {
+          "en": "If only I knew the answer.",
+          "id": "Seandainya saja saya tahu jawabannya.",
+          "explanation": "Reality: I don't know the answer right now."
+        }
+      ]
+    },
+    {
+      "name": "Ability Wish",
+      "formula": "wish / If only + could",
+      "examples": [
+        {
+          "en": "She wishes she could speak English fluently.",
+          "id": "Dia berharap dia bisa berbicara bahasa Inggris dengan lancar.",
+          "explanation": "Reality: She cannot speak it fluently right now."
+        }
+      ]
+    },
+    {
+      "name": "Past Regret (Reality cannot change)",
+      "formula": "wish / If only + Past Perfect",
+      "examples": [
+        {
+          "en": "I wish I had studied harder.",
+          "id": "Saya harap waktu itu saya belajar lebih giat.",
+          "explanation": "Reality: I didn't study hard in the past."
+        },
+        {
+          "en": "If only I had listened to my teacher.",
+          "id": "Seandainya saja waktu itu saya mendengarkan guru saya.",
+          "explanation": "Deep emotional regret about a past action."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I wish I have more time.",
+      "correct": "I wish I had more time.",
+      "explanation": "You cannot use present tense for a present wish. You must step back to the past tense to show it is unreal."
+    },
+    {
+      "wrong": "I wish I will pass the exam.",
+      "correct": "I hope I pass the exam.",
+      "explanation": "Do not use 'wish' for real future possibilities. Use 'hope'."
+    }
+  ],
+  "introduction": "Have you ever looked at your schedule and thought, 'I wish I had more free time'? Or maybe you looked back at a test score and thought, 'If only I had studied harder.'<br><br>Expressing a wish or a regret uses the exact same grammar logic as unreal conditionals. Because we are talking about a dream (something that isn't true) or a regret (something we can't change), English forces us to step 'backwards' into the past tense.<br><br>Understanding how 'wish' and 'if only' work will help you talk about your desires, frustrations, and reflections in a way that sounds emotionally accurate and grammatically perfect.",
+  "stepByStep": "1. <strong>Identify what you want:</strong> Is it a present change, an ability, or a past regret?<br>2. <strong>Present change:</strong> Use Past Simple (I wish I knew).<br>3. <strong>Past regret:</strong> Use Past Perfect (I wish I had known).",
+  "indonesianLearnerWarning": "In Indonesian, 'Saya harap' translates to both 'I hope' and 'I wish'. In English, they are very different. Use 'I hope' for real possibilities (I hope it doesn't rain). Use 'I wish' for unreal dreams or regrets (I wish I were rich)."
+};
+
+const lesson_grammar_unreal_conditional_common_mistakes = {
+  "id": "grammar-unreal-conditional-common-mistakes",
+  "backHref": "conditionals.html",
+  "backLabel": "Back to Conditionals",
+  "title": "Common Unreal Mistakes",
+  "skill": "Grammar",
+  "category": "Conditionals",
+  "level": "Upper-Intermediate",
+  "description": "Fix the most common errors learners make with imaginary situations.",
+  "learningGoals": [
+    "Identify why 'will' and 'would' often get mixed up.",
+    "Repair common errors in the Second Conditional.",
+    "Solidify the use of 'were' for all subjects."
+  ],
+  "meaning": "Because unreal conditionals force you to use past-tense grammar to talk about present/future imagination, your brain often tries to 'fix' the grammar by switching back to present or future tenses. This repair lesson focuses on keeping your reality level consistent.",
+  "keyIdeas": [
+    "Never mix real conditions with unreal results.",
+    "Never put 'would' inside the 'if' clause.",
+    "Formal English always uses 'were' instead of 'was' in unreal conditions."
+  ],
+  "patterns": [
+    {
+      "name": "Mistake 1: Mixing Real and Unreal",
+      "formula": "Keep both sides unreal.",
+      "examples": [
+        {
+          "en": "Wrong: If I knew the answer, I will tell you.",
+          "id": "Salah",
+          "explanation": "You used unreal past (knew) but a real future result (will)."
+        },
+        {
+          "en": "Correct: If I knew the answer, I would tell you.",
+          "id": "Benar",
+          "explanation": "Unreal past (knew) matches unreal result (would)."
+        }
+      ]
+    },
+    {
+      "name": "Mistake 2: 'Would' in the If-Clause",
+      "formula": "No 'would' after 'if'.",
+      "examples": [
+        {
+          "en": "Wrong: If I would have time, I would help.",
+          "id": "Salah",
+          "explanation": "You put the result grammar ('would') into the condition clause."
+        },
+        {
+          "en": "Correct: If I had time, I would help.",
+          "id": "Benar",
+          "explanation": "The if-clause uses Past Simple."
+        }
+      ]
+    },
+    {
+      "name": "Mistake 3: Was vs Were",
+      "formula": "Always use 'were'.",
+      "examples": [
+        {
+          "en": "Weak: If she was here, she would help.",
+          "id": "Kurang tepat",
+          "explanation": "Native speakers might say this casually, but it is grammatically weak."
+        },
+        {
+          "en": "Strong: If she were here, she would help.",
+          "id": "Benar",
+          "explanation": "Use 'were' for I, he, she, and it in unreal conditionals to show high English proficiency."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "If I were you, I will study harder.",
+      "correct": "If I were you, I would study harder.",
+      "explanation": "Another example of mixing unreal (were) with real (will)."
+    }
+  ],
+  "introduction": "Let's be honest: unreal conditionals can make your brain hurt. You are being asked to use past tense verbs to talk about the present, and past perfect verbs to talk about the past. It's a mental juggling act!<br><br>Because it requires so much concentration, even advanced learners frequently make mistakes. The most common errors happen when the condition clause and the result clause don't balance correctly.<br><br>In this lesson, we are going to put on our teacher hats. We will look at the most common mistakes students make with unreal conditionals, figure out why they happen, and learn exactly how to fix them.",
+  "stepByStep": "1. <strong>Check the Balance:</strong> Do both sides belong to the 'Unreal' family? (Past Simple + Would).<br>2. <strong>Check the If-Clause:</strong> Did you accidentally put 'would' right after 'if'? Remove it.<br>3. <strong>Check the 'Be' verb:</strong> Change any 'was' to 'were'.",
+  "indonesianLearnerWarning": "Indonesians often struggle with consistency. You might start a sentence perfectly ('If I had money...'), but halfway through, your brain switches back to normal reality ('...I will buy a car'). You have to hold the 'imaginary mode' for the whole sentence."
+};
+
+const lesson_grammar_third_conditional = {
+  "id": "grammar-third-conditional",
+  "backHref": "conditionals.html",
+  "backLabel": "Back to Conditionals",
+  "title": "Third Conditional",
+  "skill": "Grammar",
+  "category": "Conditionals",
+  "level": "Advanced",
+  "description": "Talk about unreal past situations (regrets and alternative histories).",
+  "learningGoals": [
+    "Understand that Third Conditional is for past events that cannot be changed.",
+    "Use Past Perfect in the condition and 'would have' + V3 in the result.",
+    "Express regret, reflection, and alternative history."
+  ],
+  "meaning": "The Third Conditional is used to talk about a <strong>past situation that did not happen</strong>. It says: 'Because the past was one way, this is what happened. But if the past had been different, the result would have been different.'",
+  "keyIdeas": [
+    "It is completely unreal. You are imagining an alternative history.",
+    "Because the event is already in the past, you must step back even further to the Past Perfect (had + Verb 3).",
+    "The result must also be in the past, so we use 'would have + Verb 3'.",
+    "It is heavily used for expressing regrets or analyzing past mistakes."
+  ],
+  "patterns": [
+    {
+      "name": "Alternative History / Regret",
+      "formula": "If + had + Verb 3, would have + Verb 3.",
+      "examples": [
+        {
+          "en": "If I had studied harder, I would have passed.",
+          "id": "Seandainya waktu itu saya belajar lebih keras, saya pasti sudah lulus.",
+          "explanation": "Did I study harder? No. Did I pass? No. This is a regret."
+        },
+        {
+          "en": "If she had left earlier, she would have caught the bus.",
+          "id": "Seandainya dia berangkat lebih awal, dia pasti sudah mengejar bus itu.",
+          "explanation": "Did she leave early? No. Did she catch the bus? No."
+        },
+        {
+          "en": "If the company had invested earlier, it would have grown faster.",
+          "id": "Seandainya perusahaan berinvestasi lebih awal, ia akan tumbuh lebih cepat.",
+          "explanation": "Analyzing a past business failure."
+        },
+        {
+          "en": "If students had practiced speaking more, they would have felt more confident.",
+          "id": "Seandainya para siswa lebih banyak berlatih berbicara, mereka akan merasa lebih percaya diri.",
+          "explanation": "Reflecting on a past classroom experience."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "If I studied harder, I would have passed.",
+      "correct": "If I had studied harder, I would have passed.",
+      "explanation": "Past Simple ('studied') is for present imagination (Second Conditional). You need Past Perfect ('had studied') for past regret."
+    },
+    {
+      "wrong": "If I would have known, I would have told you.",
+      "correct": "If I had known, I would have told you.",
+      "explanation": "Never put 'would have' in the if-clause."
+    }
+  ],
+  "introduction": "Sometimes we look back and imagine a different past. Maybe you missed a bus and say, 'If I had left earlier, I would have caught the bus.' Maybe a student failed a test and says, 'If I had studied harder, I would have passed.'<br><br>The Third Conditional helps us talk about past situations that did not happen. It is often used for regret, criticism, reflection, and imagined past results.<br><br>Students need this structure when they want to explain what could have happened differently. While it is a long and complex structure, it is incredibly powerful for discussing history, analyzing mistakes, and reflecting on life choices.",
+  "stepByStep": "1. <strong>Identify the Past Fact:</strong> 'I didn't study, so I failed.'<br>2. <strong>Create the Imaginary Condition:</strong> Use Past Perfect -> 'If I had studied...'<br>3. <strong>Create the Imaginary Result:</strong> Use 'would have + V3' -> '...I would have passed.'",
+  "indonesianLearnerWarning": "Indonesians often struggle with the pronunciation and length of 'would have + V3'. In spoken English, native speakers shorten it to 'would've' or even 'woulda'. Focus on writing it correctly first, then practice the rhythm of speaking it."
+};
+
+const lesson_grammar_mixed_conditionals = {
+  "id": "grammar-mixed-conditionals",
+  "backHref": "conditionals.html",
+  "backLabel": "Back to Conditionals",
+  "title": "Mixed Conditionals",
+  "skill": "Grammar",
+  "category": "Conditionals",
+  "level": "Advanced",
+  "description": "Mix past and present imaginary situations.",
+  "learningGoals": [
+    "Understand that past events can have present results in the imagination.",
+    "Mix the Second and Third conditional structures.",
+    "Express complex cause-and-effect relationships."
+  ],
+  "meaning": "Sometimes, a decision you made in the past affects your life right now. Or, a personality trait you have right now affected your actions in the past. To express this, we <strong>mix</strong> the grammar of the Second and Third conditionals.",
+  "keyIdeas": [
+    "We use this when the time of the condition and the time of the result are different.",
+    "Type 1 (Past Condition → Present Result): If something had happened differently in the past, the present would be different now.",
+    "Type 2 (Present Condition → Past Result): If I were a different type of person in general, I would have acted differently in the past."
+  ],
+  "patterns": [
+    {
+      "name": "Past Condition → Present Result",
+      "formula": "If + had + V3 (Third), would + base verb (Second).",
+      "examples": [
+        {
+          "en": "If I had studied medicine, I would be a doctor now.",
+          "id": "Seandainya waktu itu saya belajar kedokteran, saya pasti sudah menjadi dokter sekarang.",
+          "explanation": "Past decision (didn't study medicine) affects present reality (not a doctor now)."
+        },
+        {
+          "en": "If I had learned English earlier, I would be more confident now.",
+          "id": "Seandainya saya belajar bahasa Inggris lebih awal, saya akan lebih percaya diri sekarang.",
+          "explanation": "A very common student reflection."
+        }
+      ]
+    },
+    {
+      "name": "Present Condition → Past Result",
+      "formula": "If + Past Simple (Second), would have + V3 (Third).",
+      "examples": [
+        {
+          "en": "If I were more careful, I would not have made that mistake.",
+          "id": "Seandainya saya orang yang lebih berhati-hati, saya tidak akan membuat kesalahan itu.",
+          "explanation": "General personality trait (not careful) affected a specific past event (made a mistake)."
+        },
+        {
+          "en": "If she were more organized, she would not have missed the deadline.",
+          "id": "Seandainya dia orang yang lebih terorganisir, dia tidak akan melewatkan tenggat waktu itu.",
+          "explanation": "Analyzing why someone failed in the past based on who they are."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "If I studied medicine, I would have been a doctor now.",
+      "correct": "If I had studied medicine, I would be a doctor now.",
+      "explanation": "Don't get the halves backwards! Think: When was the condition? When is the result?"
+    }
+  ],
+  "introduction": "Life isn't always neatly organized into 'past', 'present', and 'future'. Sometimes, a decision you made five years ago changes your life today. Or sometimes, a personality trait you have today changed how you acted yesterday.<br><br>When the condition and the result happen in different timeframes, we use Mixed Conditionals. These combine the rules of the Second Conditional (unreal present) and the Third Conditional (unreal past).<br><br>Don't panic! You don't need to use these in every conversation. However, understanding how to mix timeframes logically is the hallmark of a truly advanced English speaker. It allows you to express highly complex cause-and-effect relationships with ease.",
+  "stepByStep": "1. <strong>Map the Time:</strong> Did the condition happen in the past, or is it true now?<br>2. <strong>Choose Condition Grammar:</strong> Past condition = 'had V3'. Present condition = 'Past Simple'.<br>3. <strong>Map the Result:</strong> Is the result happening now, or did it happen in the past?<br>4. <strong>Choose Result Grammar:</strong> Present result = 'would'. Past result = 'would have V3'.",
+  "indonesianLearnerWarning": "This is high-level grammar. Do not try to memorize the formulas blindly. Always draw a timeline in your head. Ask yourself: 'Am I talking about yesterday or today?'"
+};
+
+const lesson_grammar_should_have_if_only = {
+  "id": "grammar-should-have-if-only",
+  "backHref": "conditionals.html",
+  "backLabel": "Back to Conditionals",
+  "title": "Should Have and If Only",
+  "skill": "Grammar",
+  "category": "Conditionals",
+  "level": "Advanced",
+  "description": "Express strong regret about the past.",
+  "learningGoals": [
+    "Use 'should have' to express past criticism or advice.",
+    "Use 'if only' for strong emotional regrets.",
+    "Understand how they relate to the Third Conditional."
+  ],
+  "meaning": "Sometimes we want to express the emotion of a Third Conditional (regret or criticism) without building a long, complicated sentence. <strong>Should have</strong> points out a mistake. <strong>If only</strong> expresses a deep wish that the past was different.",
+  "keyIdeas": [
+    "'Should have + V3' means it was a good idea, but you didn't do it. (Regret or Criticism)",
+    "'Shouldn't have + V3' means it was a bad idea, but you did it.",
+    "'If only + Past Perfect' is exactly like 'I wish', but stronger."
+  ],
+  "patterns": [
+    {
+      "name": "Past Criticism / Advice",
+      "formula": "Should have + Verb 3",
+      "examples": [
+        {
+          "en": "You should have studied earlier.",
+          "id": "Seharusnya kamu belajar lebih awal.",
+          "explanation": "You didn't study early, and that was a mistake."
+        },
+        {
+          "en": "I should have called my mother.",
+          "id": "Seharusnya saya menelepon ibu saya.",
+          "explanation": "Self-regret."
+        },
+        {
+          "en": "They should have checked the file before submitting it.",
+          "id": "Seharusnya mereka memeriksa file tersebut sebelum mengirimkannya.",
+          "explanation": "Criticizing someone else's past mistake."
+        }
+      ]
+    },
+    {
+      "name": "Strong Past Regret",
+      "formula": "If only + Past Perfect",
+      "examples": [
+        {
+          "en": "If only I had studied earlier.",
+          "id": "Seandainya saja waktu itu saya belajar lebih awal.",
+          "explanation": "Very similar to 'I wish I had studied earlier', but more emotional."
+        },
+        {
+          "en": "If only she had told me the truth.",
+          "id": "Seandainya saja waktu itu dia mengatakan yang sebenarnya padaku.",
+          "explanation": "Deep frustration about the past."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "You should study earlier. (Talking about yesterday)",
+      "correct": "You should have studied earlier.",
+      "explanation": "'Should' + base verb is for present/future advice. For the past, you MUST use 'should have'."
+    }
+  ],
+  "introduction": "Imagine a friend who didn't study for an important exam and failed. You want to express that they made a mistake, but building a full Third Conditional sentence ('If you had studied, you would have passed') feels too long and formal.<br><br>Instead, native speakers often use shorter, punchier phrases to express past advice, criticism, or regret. We use 'should have' to point out a mistake, and 'if only' to express a deep, emotional wish about the past.<br><br>These phrases are cousins of the Third Conditional. They use similar grammar (past participles) but are much faster to say in everyday conversation when you need to reflect on something that went wrong.",
+  "stepByStep": "1. <strong>Identify the Mistake:</strong> What went wrong in the past?<br>2. <strong>To Criticize:</strong> Use 'You should have [done the right thing]'.<br>3. <strong>To Express Sadness:</strong> Use 'If only I had [done the right thing]'.",
+  "indonesianLearnerWarning": "In spoken English, 'should have' sounds like 'shoulda'. When listening to movies or native speakers, you will often hear 'I shoulda told you.' In writing, always spell it out: 'I should have told you.'"
+};
+
+const lesson_grammar_common_conditional_mistakes = {
+  "id": "grammar-common-conditional-mistakes",
+  "backHref": "conditionals.html",
+  "backLabel": "Back to Conditionals",
+  "title": "Common Conditional Mistakes",
+  "skill": "Grammar",
+  "category": "Conditionals",
+  "level": "Advanced",
+  "description": "A final check of all conditional rules.",
+  "learningGoals": [
+    "Review and repair the most common conditional errors.",
+    "Check for correct tense consistency.",
+    "Verify punctuation and 'will/would' placement."
+  ],
+  "meaning": "This is a repair lesson. We will look at sentences containing the most frequent errors made by English learners worldwide, explain why they are wrong, and provide the correct forms.",
+  "keyIdeas": [
+    "Mistakes usually happen when mixing real and unreal grammar.",
+    "Mistakes happen when putting 'will' or 'would' inside the if-clause.",
+    "Mistakes happen through direct translation from the native language."
+  ],
+  "patterns": [
+    {
+      "name": "The Final Conditional Checklist",
+      "formula": "Review these 8 common errors:",
+      "examples": [
+        {
+          "en": "Wrong: If it will rain, we will stay home.",
+          "id": "Correct: If it rains, we will stay home.",
+          "explanation": "Error: 'Will' after 'If'. Use Present Simple in the if-clause for future possibilities."
+        },
+        {
+          "en": "Wrong: If I would have time, I would help.",
+          "id": "Correct: If I had time, I would help.",
+          "explanation": "Error: 'Would' after 'If'. Use Past Simple in the if-clause for unreal present."
+        },
+        {
+          "en": "Wrong: Unless you don't study, you will fail.",
+          "id": "Correct: Unless you study, you will fail.",
+          "explanation": "Error: Double negative. 'Unless' already means 'if not'."
+        },
+        {
+          "en": "Wrong: If I knew the answer, I will tell you.",
+          "id": "Correct: If I knew the answer, I would tell you.",
+          "explanation": "Error: Mixing unreal past ('knew') with real future ('will'). Match unreal with unreal ('would')."
+        },
+        {
+          "en": "Wrong: If I had studied harder, I would passed.",
+          "id": "Correct: If I had studied harder, I would have passed.",
+          "explanation": "Error: Missing 'have'. Third conditional result is 'would have + V3'."
+        },
+        {
+          "en": "Wrong: If I were you, I will not do that.",
+          "id": "Correct: If I were you, I would not do that.",
+          "explanation": "Error: Mixing unreal ('were') with real ('will')."
+        },
+        {
+          "en": "Wrong: If I had money, I will buy a car.",
+          "id": "Correct: If I had money, I would buy a car.",
+          "explanation": "Error: Another real/unreal mix. 'Had' means unreal here, so use 'would'."
+        },
+        {
+          "en": "Wrong: If I have studied harder, I would have passed.",
+          "id": "Correct: If I had studied harder, I would have passed.",
+          "explanation": "Error: Using Present Perfect ('have studied') instead of Past Perfect ('had studied') for past regret."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "See examples above.",
+      "correct": "See examples above.",
+      "explanation": "This entire lesson is about repairing mistakes."
+    }
+  ],
+  "introduction": "Congratulations! You have reached the final stage of the Conditionals Pathway. You've learned about real plans, imaginary dreams, scientific facts, and past regrets.<br><br>However, knowing the rules and using them correctly in the middle of a fast conversation are two different things. Most mistakes happen when learners accidentally mix real structures with unreal ones, or when they use direct translation from their native language.<br><br>In this final repair lesson, we will review the most common errors English teachers see every single day. We'll build a mental checklist so that the next time you speak or write, your conditionals will be confident, accurate, and completely natural.",
+  "stepByStep": "1. Is the sentence about a fact, future possibility, imaginary situation, or past regret?<br>2. Is the if-clause using the correct tense?<br>3. Is the main clause using the correct modal or verb form?<br>4. Did I accidentally put will or would after if?",
+  "indonesianLearnerWarning": "Take your time. When writing an essay or speaking in a test, pause for a half-second before starting an 'If' sentence to decide if you are talking about reality or imagination. That half-second will save your grammar score."
+};
 export const lessons = [
+  lesson_grammar_passive_voice_overview,
+  lesson_grammar_active_vs_passive_voice,
+  lesson_grammar_object_to_subject_passive,
+  lesson_grammar_by_agent_passive,
+  lesson_grammar_present_simple_passive,
+  lesson_grammar_past_simple_passive,
+  lesson_grammar_present_perfect_passive,
+  lesson_grammar_future_passive,
+  lesson_grammar_passive_for_processes,
+  lesson_grammar_passive_for_news_reports,
+  lesson_grammar_passive_for_formal_instructions,
+  lesson_grammar_passive_unknown_unimportant_doer,
+  lesson_grammar_modal_passive,
+  lesson_grammar_passive_with_two_objects,
+  lesson_grammar_get_passive,
+  lesson_grammar_common_passive_voice_mistakes,
+
   {
     "id": "grammar-tenses-master-guide",
     "backHref": "tenses.html",
@@ -15164,5 +18680,2338 @@ export const lessons = [
     ],
     "stepByStep": "How to repair your preposition habits:<br><br>1. <strong>Identify your native language traps.</strong> Which English prepositions do you constantly confuse because of your mother tongue?<br>2. <strong>Create a 'Hit List'.</strong> Write down the 5 mistakes you make most often from the list below.<br>3. <strong>Practice the correct phrase out loud 10 times.</strong> Muscle memory in your mouth is stronger than grammar rules in your head.<br>4. <strong>Stop guessing.</strong> If you aren't sure which preposition a verb takes, look it up in a dictionary. It will always tell you.",
     "indonesianLearnerWarning": "Indonesian speakers frequently make the 'Phantom Preposition' mistake because of translations. 'Membahas tentang' makes you want to say 'discuss about'. 'Menghubungi ke' makes you want to say 'contact to'. You must drop the preposition entirely in English."
-  }
+  },
+  {
+    "id": "grammar-noun-phrase-overview",
+    "backHref": "noun-phrase.html",
+    "backLabel": "Back to Noun Phrase",
+    "title": "What Is a Noun Phrase?",
+    "skill": "Grammar",
+    "category": "Noun Phrase",
+    "level": "Beginner",
+    "description": "Learn that a noun phrase is a group of words built around a noun.",
+    "learningGoals": [
+      "Understand that a noun phrase is centered around a main noun.",
+      "Learn that a noun phrase can be just one word or many words.",
+      "Recognize how noun phrases function as subjects or objects in sentences."
+    ],
+    "meaning": "A <strong>noun phrase</strong> is a group of words that work together to name something. The most important word in the group is a noun (the \"head noun\"). All the other words in the group just add extra information about that noun. A noun phrase can be as short as one word (\"students\") or quite long (\"my hardworking students from Bekasi\").",
+    "keyIdeas": [
+      "A noun phrase is built around one main noun.",
+      "It can be a single noun, or a noun with modifiers (like adjectives and determiners) attached to it.",
+      "Noun phrases act like super-nouns. They do the same jobs that a single noun does: acting as the subject, object, or object of a preposition."
+    ],
+    "patterns": [
+      {
+        "name": "Single Word",
+        "formula": "Noun",
+        "explanation": "Example: students"
+      },
+      {
+        "name": "Determiner + Noun",
+        "formula": "Determiner + Noun",
+        "explanation": "Example: my students"
+      },
+      {
+        "name": "Expanded Noun Phrase",
+        "formula": "Determiner + Adjective + Noun + Prepositional Phrase",
+        "explanation": "Example: my hardworking students from Bekasi"
+      }
+    ],
+    "examples": [
+      {
+        "type": "Subject",
+        "sentence": "My hardworking students passed the test.",
+        "note": "'My hardworking students' is the noun phrase acting as the subject."
+      },
+      {
+        "type": "Object",
+        "sentence": "I met the new teacher.",
+        "note": "'the new teacher' is the noun phrase acting as the object."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Thinking a noun phrase is a full sentence.",
+        "correct": "",
+        "explanation": "Mistake: Thinking 'My favorite teacher from school' is a complete sentence. | Solution: A noun phrase is not a sentence because it does not express a complete thought with a subject and a verb. It is just a piece of a sentence.",
+        "fix": "Make sure you connect your noun phrase to a verb to complete the thought: 'My favorite teacher from school helped me.'"
+      }
+    ],
+    "practicePrompts": [
+      "Identify the noun phrase: 'The tall man in the black hat is waiting.'",
+      "Create a noun phrase using the noun 'car'."
+    ],
+    "classroomUse": "<strong>Teacher Tip:</strong> Have students start with a single noun like 'dog' and take turns adding one modifier at a time to build the longest noun phrase they can (e.g., dog -> the dog -> the brown dog -> the big brown dog).",
+    "quickComparison": "<strong>Noun vs Noun Phrase:</strong> 'Dog' (Noun) vs. 'The big brown dog' (Noun Phrase). Both can be the subject of 'barks'.",
+    "summary": [
+      "A noun phrase is a group of words built around a noun.",
+      "It can be one word or many words.",
+      "It does the jobs of a noun in a sentence."
+    ],
+    "introduction": "Imagine you want to talk about a specific student. If you just say 'student', the listener might not know which one. So, you add words: 'the new student' or 'the new student in the back row'. By adding these descriptive words to the noun, you have created a <strong>noun phrase</strong>. Noun phrases are the building blocks of clear speaking and writing.",
+    "stepByStep": "How to identify a noun phrase:<br><br>1. Look for the main person, place, thing, or idea.<br>2. Look for any words that come directly before it to describe or identify it (like 'the', 'my', 'tall', 'new').<br>3. Look for any words immediately after it that give more specific details (like 'in the corner', 'who is smiling').<br>4. Group all these words together. That whole group is the noun phrase.",
+    "indonesianLearnerWarning": "In Indonesian, modifiers usually come after the noun (mobil merah). In English noun phrases, simple modifiers like adjectives and determiners come before the noun (the red car). Be careful not to translate word-by-word!"
+  },
+  {
+    "id": "grammar-head-nouns-phrase-parts",
+    "backHref": "noun-phrase.html",
+    "backLabel": "Back to Noun Phrase",
+    "title": "Head Nouns and Phrase Parts",
+    "skill": "Grammar",
+    "category": "Noun Phrase",
+    "level": "Beginner",
+    "description": "Understand how to find the main noun and its modifiers.",
+    "learningGoals": [
+      "Identify the head noun in a noun phrase.",
+      "Recognize modifiers that come before or after the head noun.",
+      "Understand why finding the head noun is important for subject-verb agreement."
+    ],
+    "meaning": "Every noun phrase has a boss. This is called the <strong>head noun</strong>. It is the core word that the whole phrase is about. All the other words in the phrase are just \"helpers\" (modifiers) that give extra details about the head noun.",
+    "keyIdeas": [
+      "The head noun is the most important word in the phrase.",
+      "Modifiers can come before the head noun (determiners, adjectives).",
+      "Modifiers can come after the head noun (prepositional phrases, relative clauses)."
+    ],
+    "patterns": [
+      {
+        "name": "Before the Head Noun",
+        "formula": "Determiner + Adjective + HEAD NOUN",
+        "explanation": "Example: a difficult [lesson]"
+      },
+      {
+        "name": "After the Head Noun",
+        "formula": "HEAD NOUN + Prepositional Phrase",
+        "explanation": "Example: the [lesson] about grammar"
+      }
+    ],
+    "examples": [
+      {
+        "type": "Analysis",
+        "sentence": "a difficult grammar lesson",
+        "note": "Head noun: 'lesson'. Modifiers: 'a', 'difficult', 'grammar'."
+      },
+      {
+        "type": "Analysis",
+        "sentence": "the tall man in the black jacket",
+        "note": "Head noun: 'man'."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "The list of students are on the desk.",
+        "correct": "The list of students is on the desk.",
+        "explanation": "Mistake: Choosing the wrong verb because you look at the noun closest to the verb ('students'). | Solution: The head noun is 'list' (singular). 'of students' is just a modifier. The verb must agree with the head noun.",
+        "fix": "Always find the head noun first to choose the correct verb."
+      }
+    ],
+    "practicePrompts": [
+      "Identify the head noun: 'The bright blue sky.'",
+      "Identify the head noun: 'The keys on the table.'"
+    ],
+    "classroomUse": "<strong>Teacher Tip:</strong> Write a long noun phrase on the board. Ask a student to come up and circle the ONE word that cannot be removed without changing the core meaning entirely. That is the head noun.",
+    "quickComparison": "<strong>Head Noun vs Modifier:</strong> In 'apple juice', 'juice' is the head noun, and 'apple' is acting as a modifier.",
+    "summary": [
+      "The head noun is the core word in a noun phrase.",
+      "Other words are modifiers adding details.",
+      "The verb in a sentence must agree with the head noun."
+    ],
+    "introduction": "When you read a long sentence, you might see many nouns clustered together. To understand the sentence, you must find the <strong>head noun</strong>. It's like finding the lead singer in a band; the others are just backup. Finding the head noun helps you understand exactly what the phrase is talking about and helps you choose the correct verb.",
+    "stepByStep": "How to find the head noun:<br><br>1. Look at the whole noun phrase: 'The beautiful paintings on the wall'.<br>2. Ask yourself: What is the main thing being discussed? Is it the wall? No, it's the paintings.<br>3. 'paintings' is the head noun.<br>4. 'The beautiful' and 'on the wall' are just extra details.",
+    "indonesianLearnerWarning": "In Indonesian phrases like 'buku saya' (my book) or 'buku sejarah' (history book), the head noun is always the first word. In English, the head noun is often at the end of the first cluster of words (my history book). You have to scan forward to find it!"
+  },
+  {
+    "id": "grammar-simple-noun-phrases",
+    "backHref": "noun-phrase.html",
+    "backLabel": "Back to Noun Phrase",
+    "title": "Simple Noun Phrases",
+    "skill": "Grammar",
+    "category": "Noun Phrase",
+    "level": "Beginner",
+    "description": "Learn basic patterns like determiner + adjective + noun.",
+    "learningGoals": [
+      "Build simple noun phrases using determiners and adjectives.",
+      "Understand the basic word order before a noun.",
+      "Remember that singular countable nouns need a determiner."
+    ],
+    "meaning": "A <strong>simple noun phrase</strong> consists of a head noun and the words that come immediately before it. These words are usually determiners (like 'a', 'the', 'my') and adjectives (like 'big', 'red', 'new').",
+    "keyIdeas": [
+      "Determiners always go first.",
+      "Adjectives go between the determiner and the noun.",
+      "Singular countable nouns (like 'book', 'car', 'teacher') usually cannot stand alone; they need a determiner."
+    ],
+    "patterns": [
+      {
+        "name": "Just Noun",
+        "formula": "Noun (Uncountable or Plural)",
+        "explanation": "Example: coffee, books"
+      },
+      {
+        "name": "Determiner + Noun",
+        "formula": "Determiner + Noun",
+        "explanation": "Example: a book, the teacher"
+      },
+      {
+        "name": "Adjective + Noun",
+        "formula": "Adjective + Noun (Uncountable or Plural)",
+        "explanation": "Example: interesting books, hot coffee"
+      },
+      {
+        "name": "Determiner + Adjective + Noun",
+        "formula": "Determiner + Adjective + Noun",
+        "explanation": "Example: an interesting book, the new teacher"
+      }
+    ],
+    "examples": [
+      {
+        "type": "Plural",
+        "sentence": "Interesting books are hard to find.",
+        "note": "Adjective + plural noun."
+      },
+      {
+        "type": "Singular",
+        "sentence": "She is reading an interesting book.",
+        "note": "Determiner + adjective + singular noun."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I bought book.",
+        "correct": "I bought a book.",
+        "explanation": "Mistake: Leaving a singular countable noun naked. | Solution: Singular countable nouns must have a determiner.",
+        "fix": "Add 'a', 'the', or a possessive like 'my'."
+      },
+      {
+        "wrong": "She is good teacher.",
+        "correct": "She is a good teacher.",
+        "explanation": "Mistake: Forgetting the determiner before an adjective + singular noun phrase. | Solution: The phrase is built around 'teacher', so it still needs a determiner.",
+        "fix": "Add 'a' before the adjective."
+      }
+    ],
+    "practicePrompts": [
+      "Combine these words into a simple noun phrase: car / fast / my",
+      "Correct the mistake: 'He has big dog.'"
+    ],
+    "classroomUse": "<strong>Teacher Tip:</strong> Play 'Dress the Noun'. Put a naked noun (e.g., 'house') on the board. Ask students to 'dress' it by adding an article, then 'accessorize' it by adding an adjective between the article and the noun.",
+    "quickComparison": "<strong>Correct Order:</strong> 'My new car' (Determiner + Adjective + Noun). Never 'New my car'.",
+    "summary": [
+      "Simple noun phrases use determiners and adjectives before the noun.",
+      "The order is: Determiner -> Adjective -> Noun.",
+      "Never leave a singular countable noun naked."
+    ],
+    "introduction": "Before we build long, complicated sentences, we need to master the basic blocks. A <strong>simple noun phrase</strong> is the most common block you will use. It's how you say 'the red car' instead of just 'car'. Getting the order right in these short phrases is the key to sounding natural in English.",
+    "stepByStep": "How to build a simple noun phrase:<br><br>1. Start with your noun: 'phone'.<br>2. Decide if it needs a determiner. Yes, it is singular, so pick one: 'my phone'.<br>3. Decide if you want to describe it. If yes, pick an adjective: 'new'.<br>4. Insert the adjective between the determiner and the noun: 'my new phone'.",
+    "indonesianLearnerWarning": "Remember the order! Indonesian says 'rumah baru saya' (Noun + Adjective + Determiner). English says 'my new house' (Determiner + Adjective + Noun). It is the exact opposite order!"
+  },
+  {
+    "id": "grammar-noun-phrases-vs-sentences",
+    "backHref": "noun-phrase.html",
+    "backLabel": "Back to Noun Phrase",
+    "title": "Noun Phrases vs Full Sentences",
+    "skill": "Grammar",
+    "category": "Noun Phrase",
+    "level": "Beginner",
+    "description": "Understand that a noun phrase does not express a complete subject-verb idea.",
+    "learningGoals": [
+      "Distinguish between a noun phrase and a full sentence.",
+      "Recognize that a noun phrase lacks a working main verb.",
+      "Learn how to turn a noun phrase into a complete sentence."
+    ],
+    "meaning": "A <strong>noun phrase</strong> is just a piece of a sentence. It names something, but it doesn't say what that thing is doing or what state it is in. A <strong>full sentence</strong> must have a subject AND a working verb, and it must express a complete thought.",
+    "keyIdeas": [
+      "A noun phrase can be very long, but if it has no main verb, it is not a sentence.",
+      "A noun phrase is usually the subject or the object of a full sentence."
+    ],
+    "patterns": [
+      {
+        "name": "Noun Phrase",
+        "formula": "Modifiers + Noun + Modifiers",
+        "explanation": "Example: The student in the library"
+      },
+      {
+        "name": "Full Sentence",
+        "formula": "Noun Phrase (Subject) + Verb + Complete Thought",
+        "explanation": "Example: The student in the library is reading."
+      }
+    ],
+    "examples": [
+      {
+        "type": "Noun Phrase Only",
+        "sentence": "The tall boy with the red bag.",
+        "note": "This just points to someone. It doesn't tell us what he is doing."
+      },
+      {
+        "type": "Full Sentence",
+        "sentence": "The tall boy with the red bag is my brother.",
+        "note": "Now we have a verb ('is') and a complete thought."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "My favorite teacher from school.",
+        "correct": "My favorite teacher from school helped me.",
+        "explanation": "Mistake: Writing a long noun phrase as a complete sentence with a period at the end. | Solution: A sentence needs a verb. Add an action or a state.",
+        "fix": "Give the noun phrase an action to do."
+      }
+    ],
+    "practicePrompts": [
+      "Is this a phrase or a sentence? 'A very cold winter morning.'",
+      "Turn this noun phrase into a full sentence: 'The small black cat under the table'"
+    ],
+    "classroomUse": "<strong>Teacher Tip:</strong> Write 'The angry dog behind the fence' on the board. Ask, 'What did the dog do?' When students realize they don't know, explain that this is why it's a phrase, not a sentence. Then have them add a verb to finish the story.",
+    "quickComparison": "<strong>Phrase:</strong> The broken window. <strong>Sentence:</strong> The broken window needs to be fixed.",
+    "summary": [
+      "A noun phrase is not a complete sentence.",
+      "A noun phrase just names something; it doesn't state an action.",
+      "You must add a verb to a noun phrase to make a sentence."
+    ],
+    "introduction": "Sometimes, learners write a group of words, put a period at the end, and think they have written a sentence. But if that group of words is just a <strong>noun phrase</strong>, it's incomplete. It's like introducing a character in a movie but never showing them do anything. You must know the difference between naming something (a phrase) and telling a complete story (a sentence).",
+    "stepByStep": "How to check if you have a full sentence:<br><br>1. Read your words: 'The delicious pizza in the box'.<br>2. Find the head noun: 'pizza'.<br>3. Ask yourself: What is the pizza doing? Or what is the state of the pizza?<br>4. If there is no answer, you only have a noun phrase.<br>5. Fix it by adding a verb: 'The delicious pizza in the box smells great.'",
+    "indonesianLearnerWarning": "In informal Indonesian, a noun phrase can sometimes act as a complete statement if the context is clear (e.g., pointing and saying 'Cowok yang pakai baju merah'). In written English, this is a fragment error. You must provide a verb!"
+  },
+  {
+    "id": "grammar-determiners-in-noun-phrases",
+    "backHref": "noun-phrase.html",
+    "backLabel": "Back to Noun Phrase",
+    "title": "Determiners in Noun Phrases",
+    "skill": "Grammar",
+    "category": "Noun Phrase",
+    "level": "Beginner",
+    "description": "Learn how a, an, the, this, that identify the noun.",
+    "learningGoals": [
+      "Understand the role of determiners as the starting point of a noun phrase.",
+      "Identify common types of determiners (articles, demonstratives, possessives, quantifiers)."
+    ],
+    "meaning": "<strong>Determiners</strong> are words that come at the very beginning of a noun phrase. They act like a spotlight. They don't describe what the noun looks like; instead, they tell you exactly which noun we are talking about (a specific one, a general one, yours, mine, this one, or that one).",
+    "keyIdeas": [
+      "Determiners always go before any adjectives.",
+      "You usually only use ONE main determiner per noun phrase.",
+      "Articles (a, an, the) are the most common determiners."
+    ],
+    "patterns": [
+      {
+        "name": "Standard Order",
+        "formula": "Determiner + (Adjectives) + Noun",
+        "explanation": "Example: The (determiner) old (adjective) house (noun)."
+      }
+    ],
+    "examples": [
+      {
+        "type": "Articles",
+        "sentence": "I saw a student. / I saw the student.",
+        "note": "General vs. specific."
+      },
+      {
+        "type": "Demonstratives",
+        "sentence": "This student is smart. / Those students are smart.",
+        "note": "Pointing to near or far."
+      },
+      {
+        "type": "Possessives",
+        "sentence": "My student is here.",
+        "note": "Showing ownership."
+      },
+      {
+        "type": "Quantifiers",
+        "sentence": "Many students came.",
+        "note": "Showing amount."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "The my book is lost.",
+        "correct": "My book is lost.",
+        "explanation": "Mistake: Stacking two main determiners together. | Solution: You can only have one main spotlight on a noun.",
+        "fix": "Choose either 'the' or 'my', not both."
+      },
+      {
+        "wrong": "This students are smart.",
+        "correct": "These students are smart.",
+        "explanation": "Mistake: Using a singular determiner with a plural noun. | Solution: Demonstrative determiners must match the noun in number.",
+        "fix": "Use 'these' or 'those' for plural nouns."
+      }
+    ],
+    "practicePrompts": [
+      "Find the determiner: 'Some birds are flying.'",
+      "Correct the mistake: 'I want that apples.'"
+    ],
+    "classroomUse": "<strong>Teacher Tip:</strong> Show students a box of pens. Ask for 'a pen' (take any pen). Then ask for 'that pen' (point to a specific one). Then say 'my pen' (hold your own pen). This visually demonstrates how determiners change the meaning of the noun.",
+    "quickComparison": "<strong>Adjective vs Determiner:</strong> 'Blue' describes the car. 'My' identifies whose car it is. Both go before the noun: 'My blue car'.",
+    "summary": [
+      "Determiners start a noun phrase.",
+      "They identify the noun (which one, whose, how many).",
+      "Do not stack main determiners."
+    ],
+    "introduction": "Imagine someone says, 'Give me book.' You would immediately ask: Which book? Your book? A random book? That book over there? <strong>Determiners</strong> are the small words that answer this question before the noun is even spoken. They are the essential first step in building a clear noun phrase.",
+    "stepByStep": "Types of determiners:<br><br>- <strong>Articles (a, an, the):</strong> For general or specific things.<br>- <strong>Demonstratives (this, that, these, those):</strong> For pointing.<br>- <strong>Possessives (my, your, his, her, its, our, their):</strong> For ownership.<br>- <strong>Quantifiers (some, many, much, a few):</strong> For amounts.<br><br>Remember: Pick only one from this list to lead your noun phrase!",
+    "indonesianLearnerWarning": "In Indonesian, determiners often come after the noun (buku <em>itu</em>, buku <em>saya</em>). In English, they must come FIRST (<em>that</em> book, <em>my</em> book)."
+  },
+  {
+    "id": "grammar-adjectives-in-noun-phrases",
+    "backHref": "noun-phrase.html",
+    "backLabel": "Back to Noun Phrase",
+    "title": "Adjectives in Noun Phrases",
+    "skill": "Grammar",
+    "category": "Noun Phrase",
+    "level": "Beginner",
+    "description": "Learn how adjectives describe nouns inside noun phrases.",
+    "learningGoals": [
+      "Understand where to place adjectives in a noun phrase.",
+      "Distinguish between attributive (inside the phrase) and predicative (after the verb) adjectives."
+    ],
+    "meaning": "<strong>Adjectives</strong> are describing words. When they are used inside a noun phrase, they sit directly in front of the noun they describe (and after the determiner). This is how we add flavor and detail to our noun phrases.",
+    "keyIdeas": [
+      "Adjectives go between the determiner and the noun.",
+      "You can use more than one adjective in a noun phrase."
+    ],
+    "patterns": [
+      {
+        "name": "Adjective Position",
+        "formula": "Determiner + Adjective(s) + Noun",
+        "explanation": "Example: an expensive phone"
+      }
+    ],
+    "examples": [
+      {
+        "type": "One Adjective",
+        "sentence": "a difficult test",
+        "note": "Describes the test."
+      },
+      {
+        "type": "Two Adjectives",
+        "sentence": "the old wooden table",
+        "note": "Provides age and material."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I took a test difficult.",
+        "correct": "I took a difficult test.",
+        "explanation": "Mistake: Placing the adjective after the noun inside the phrase. | Solution: Adjectives must come before the noun in English noun phrases.",
+        "fix": "Move 'difficult' before 'test'."
+      },
+      {
+        "wrong": "I bought a phone expensive.",
+        "correct": "I bought an expensive phone.",
+        "explanation": "Mistake: Same as above. Also note the article must change to 'an' because 'expensive' starts with a vowel sound.",
+        "fix": "Move 'expensive' before 'phone' and change 'a' to 'an'."
+      }
+    ],
+    "practicePrompts": [
+      "Combine into a noun phrase: the / cat / black / small",
+      "Correct the mistake: 'She is a girl beautiful.'"
+    ],
+    "classroomUse": "<strong>Teacher Tip:</strong> Use the 'Sandwich' analogy. The determiner is the top bread, the noun is the bottom bread. The adjectives are the meat and cheese in the middle. You can't put the meat outside the sandwich!",
+    "quickComparison": "<strong>Inside vs Outside:</strong> 'A difficult test' (Adjective is inside the noun phrase). 'The test is difficult' (Adjective is outside the phrase, acting as the complement after a verb).",
+    "summary": [
+      "Adjectives describe nouns.",
+      "In a noun phrase, they go before the noun.",
+      "They go after the determiner."
+    ],
+    "introduction": "Nouns are the bones of a sentence, but <strong>adjectives</strong> are the flesh and color. To paint a clear picture in the listener's mind, we embed adjectives directly into our noun phrases. Knowing exactly where to place them is crucial for sounding like a natural speaker.",
+    "stepByStep": "How to add adjectives to a noun phrase:<br><br>1. You have a basic phrase: 'the table'.<br>2. You want to describe it as old and made of wood.<br>3. Place the adjectives between 'the' and 'table'.<br>4. Result: 'the old wooden table'.<br><br>Note: If you have a naked plural noun ('tables'), the adjectives just go in front: 'old wooden tables'.",
+    "indonesianLearnerWarning": "This is a classic translation error. Indonesian says 'gadis cantik' (Noun + Adjective). English says 'beautiful girl' (Adjective + Noun). You must flip the order in your head before speaking!"
+  },
+  {
+    "id": "grammar-quantifiers-in-noun-phrases",
+    "backHref": "noun-phrase.html",
+    "backLabel": "Back to Noun Phrase",
+    "title": "Quantifiers in Noun Phrases",
+    "skill": "Grammar",
+    "category": "Noun Phrase",
+    "level": "Intermediate",
+    "description": "Explain how quantifiers show amount or number.",
+    "learningGoals": [
+      "Use quantifiers correctly as determiners in a noun phrase.",
+      "Match the correct quantifier to countable and uncountable nouns."
+    ],
+    "meaning": "A <strong>quantifier</strong> is a type of determiner that tells you \"how many\" or \"how much\" of a noun you have. Words like 'some', 'many', 'much', 'a lot of', and 'a few' act as the starting point for noun phrases when the exact number isn't important or known.",
+    "keyIdeas": [
+      "Quantifiers sit at the front of the noun phrase, just like articles.",
+      "You must choose the right quantifier based on whether the head noun is countable or uncountable."
+    ],
+    "patterns": [
+      {
+        "name": "With Plural Countable Nouns",
+        "formula": "Many / A few / Some + Plural Noun",
+        "explanation": "Example: many students"
+      },
+      {
+        "name": "With Uncountable Nouns",
+        "formula": "Much / A little / Some + Uncountable Noun",
+        "explanation": "Example: much information"
+      }
+    ],
+    "examples": [
+      {
+        "type": "Countable",
+        "sentence": "A few questions were difficult.",
+        "note": "'A few' goes with plural countable noun 'questions'."
+      },
+      {
+        "type": "Uncountable",
+        "sentence": "I need a little time.",
+        "note": "'A little' goes with uncountable noun 'time'."
+      },
+      {
+        "type": "Both",
+        "sentence": "A lot of money / A lot of students",
+        "note": "'A lot of' works with both."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I need many information.",
+        "correct": "I need much information. (or 'a lot of information')",
+        "explanation": "Mistake: Using 'many' with an uncountable noun. | Solution: 'Information' cannot be counted. Use 'much' or 'a lot of'.",
+        "fix": "Match the quantifier to the noun type."
+      },
+      {
+        "wrong": "There are much students in the class.",
+        "correct": "There are many students in the class.",
+        "explanation": "Mistake: Using 'much' with a plural countable noun.",
+        "fix": "Use 'many' for things you can count."
+      }
+    ],
+    "practicePrompts": [
+      "Choose the right quantifier: 'I don't have (much/many) money.'",
+      "Correct the mistake: 'She gave me a few advice.'"
+    ],
+    "classroomUse": "<strong>Teacher Tip:</strong> Group nouns into a 'Countable' box and an 'Uncountable' box on the board. Have students draw lines connecting quantifiers (many, much, few, little) to the correct box. Emphasize that 'some' and 'a lot of' connect to both.",
+    "quickComparison": "<strong>Many vs Much:</strong> I have many <em>dollars</em> (countable). I have much <em>money</em> (uncountable).",
+    "summary": [
+      "Quantifiers tell us how much or how many.",
+      "They act as the determiner at the front of the noun phrase.",
+      "You must know if your noun is countable or uncountable to choose the right one."
+    ],
+    "introduction": "Sometimes we don't know the exact number of things, or the exact number doesn't matter. Instead of saying 'I have 432 books', we say 'I have <strong>a lot of</strong> books'. These measuring words are called quantifiers, and they are powerful determiners that start off your noun phrases.",
+    "stepByStep": "How to use quantifiers in a noun phrase:<br><br>1. Identify your head noun: 'time'.<br>2. Determine if it is countable or uncountable. 'Time' is uncountable.<br>3. Choose a matching quantifier: 'much', 'a little', or 'some'.<br>4. Build the phrase: 'some time' or 'a little time'.<br>5. Do not add an article! 'The some time' is incorrect.",
+    "indonesianLearnerWarning": "In Indonesian, 'banyak' can be used for everything (banyak mobil, banyak air). In English, 'banyak' splits into 'many' (for countable things) and 'much' (for uncountable things). You have to memorize which nouns are uncountable!"
+  },
+  {
+    "id": "grammar-possessives-in-noun-phrases",
+    "backHref": "noun-phrase.html",
+    "backLabel": "Back to Noun Phrase",
+    "title": "Possessives in Noun Phrases",
+    "skill": "Grammar",
+    "category": "Noun Phrase",
+    "level": "Beginner",
+    "description": "Explain possessive determiners and possessive nouns.",
+    "learningGoals": [
+      "Use possessive adjectives to start a noun phrase.",
+      "Use possessive nouns (with 's) to start a noun phrase.",
+      "Distinguish between possessive adjectives (my) and possessive pronouns (mine)."
+    ],
+    "meaning": "A <strong>possessive</strong> tells us who owns or is related to the head noun. They act as the determiner at the very beginning of the noun phrase. You can use a possessive adjective (my, your, his) or a possessive noun (Rina's, the teacher's).",
+    "keyIdeas": [
+      "Possessives replace articles. You cannot say 'the my book' or 'the Rina's book'.",
+      "Possessive adjectives (my, your) must be followed by a noun.",
+      "Possessive pronouns (mine, yours) stand alone and replace the whole noun phrase."
+    ],
+    "patterns": [
+      {
+        "name": "Possessive Adjective",
+        "formula": "Possessive Adjective + Noun",
+        "explanation": "Example: my book, her class"
+      },
+      {
+        "name": "Possessive Noun",
+        "formula": "Noun's + Noun",
+        "explanation": "Example: Rina's book, the teacher's room"
+      }
+    ],
+    "examples": [
+      {
+        "type": "Possessive Adjective",
+        "sentence": "Your phone is ringing.",
+        "note": "'Your' introduces the noun phrase."
+      },
+      {
+        "type": "Possessive Noun",
+        "sentence": "My brother's phone is ringing.",
+        "note": "'My brother's' acts as the determiner for 'phone'."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "This is mine book.",
+        "correct": "This is my book.",
+        "explanation": "Mistake: Using a possessive pronoun inside a noun phrase. | Solution: 'Mine' stands alone. 'My' goes before a noun.",
+        "fix": "Use 'my' before the noun."
+      },
+      {
+        "wrong": "He name is Andi.",
+        "correct": "His name is Andi.",
+        "explanation": "Mistake: Using a subject pronoun instead of a possessive adjective. | Solution: 'He' is a subject. You need a word that shows ownership.",
+        "fix": "Change 'he' to 'his'."
+      }
+    ],
+    "practicePrompts": [
+      "Correct the mistake: 'She lost hers keys.'",
+      "Rewrite using 's: 'The car of John is fast.'"
+    ],
+    "classroomUse": "<strong>Teacher Tip:</strong> Do a 'Possession Relay'. Hand an object to a student. They must say 'This is my book.' Then they hand it to the next student, who points and says 'That is your book,' then 'That is his book.'",
+    "quickComparison": "<strong>Adjective vs Pronoun:</strong> This is <em>my</em> book (noun phrase). This book is <em>mine</em> (pronoun standing alone).",
+    "summary": [
+      "Possessives start noun phrases by showing ownership.",
+      "They take the place of articles.",
+      "Do not confuse 'my' (goes before a noun) with 'mine' (stands alone)."
+    ],
+    "introduction": "One of the most common ways to identify a noun is to say who it belongs to. If you see a phone on a desk, you don't say 'A phone is ringing', you say '<strong>My</strong> phone is ringing' or '<strong>John's</strong> phone is ringing'. These possessive words act as the spotlight at the front of the noun phrase.",
+    "stepByStep": "How to use possessives in a noun phrase:<br><br>1. Identify the owner: 'I' -> 'my'. Or 'Sarah' -> 'Sarah's'.<br>2. Identify the noun: 'bag'.<br>3. Combine them: 'my bag' or 'Sarah's bag'.<br>4. Do NOT use an article. 'The Sarah's bag' is incorrect.<br>5. Do NOT use a possessive pronoun. 'Mine bag' is incorrect.",
+    "indonesianLearnerWarning": "In Indonesian, ownership is shown by placing the pronoun AFTER the noun ('nama <em>dia</em>', 'buku <em>saya</em>'). Sometimes learners directly translate this to 'name he' or 'book my'. English reverses this: the possessive MUST come before the noun ('his name', 'my book')."
+  },
+  {
+    "id": "grammar-noun-phrases-with-prepositional-phrases",
+    "backHref": "noun-phrase.html",
+    "backLabel": "Back to Noun Phrase",
+    "title": "Noun Phrases with Prepositional Phrases",
+    "skill": "Grammar",
+    "category": "Noun Phrase",
+    "level": "Intermediate",
+    "description": "Explain that prepositional phrases can add details after a noun.",
+    "learningGoals": [
+      "Understand how to expand a noun phrase by adding information after the head noun.",
+      "Identify prepositional phrases acting as modifiers."
+    ],
+    "meaning": "So far, we have added words <em>before</em> the head noun (determiners and adjectives). But what if you need to add more complex details? You can use a <strong>prepositional phrase</strong> (a preposition + a noun) immediately <em>after</em> the head noun to describe its location, time, or relationship.",
+    "keyIdeas": [
+      "A prepositional phrase placed directly after a noun becomes part of the whole noun phrase.",
+      "It helps pinpoint exactly which noun we are talking about."
+    ],
+    "patterns": [
+      {
+        "name": "Post-Modification",
+        "formula": "[Determiner + Head Noun] + [Preposition + Noun]",
+        "explanation": "Example: [the book] + [on the table]"
+      }
+    ],
+    "examples": [
+      {
+        "type": "Location",
+        "sentence": "The student in the classroom is sleeping.",
+        "note": "'in the classroom' modifies 'student'. The whole subject is 'The student in the classroom'."
+      },
+      {
+        "type": "Topic",
+        "sentence": "I read a lesson about grammar.",
+        "note": "'about grammar' modifies 'lesson'."
+      },
+      {
+        "type": "Relationship",
+        "sentence": "The answer to the question was obvious.",
+        "note": "'to the question' modifies 'answer'."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "The book in table is mine.",
+        "correct": "The book on the table is mine.",
+        "explanation": "Mistake: Missing the article inside the prepositional phrase, or using the wrong preposition. | Solution: A prepositional phrase usually contains its own complete noun phrase.",
+        "fix": "Ensure the noun inside the prepositional phrase is also grammatically correct ('the table')."
+      },
+      {
+        "wrong": "The answer of the question.",
+        "correct": "The answer to the question.",
+        "explanation": "Mistake: Direct translation of ownership prepositions.",
+        "fix": "Learn noun + preposition collocations."
+      }
+    ],
+    "practicePrompts": [
+      "Find the whole noun phrase: 'The man with the umbrella is my uncle.'",
+      "Expand this noun phrase using a prepositional phrase: 'the cat'"
+    ],
+    "classroomUse": "<strong>Teacher Tip:</strong> Draw a box on the board. Say 'the box'. Then draw a star inside it. Ask students to describe the star using a prepositional phrase ('the star in the box'). This visualizes how the phrase pinpoints the noun.",
+    "quickComparison": "<strong>Adjective vs Prepositional Phrase:</strong> 'The <em>corner</em> store' (Adjective before noun). 'The store <em>on the corner</em>' (Prepositional phrase after noun).",
+    "summary": [
+      "Prepositional phrases add details after the head noun.",
+      "They become part of the entire noun phrase.",
+      "They often show location, topic, or relationship."
+    ],
+    "introduction": "Sometimes, an adjective before a noun isn't enough to describe it. If you want to talk about a specific book, saying 'the red book' might not help if there are five red books. But saying 'the red book <strong>on the table</strong>' makes it perfectly clear. This is how we expand noun phrases using <strong>prepositional phrases</strong>.",
+    "stepByStep": "How to build it:<br><br>1. Start with your basic noun phrase: 'the book'.<br>2. Think of the extra detail you need to communicate: location.<br>3. Choose the correct preposition: 'on'.<br>4. Add the noun that completes the location: 'the table'.<br>5. Combine them: 'the book on the table'. This entire group of words now acts as one single unit in a sentence.",
+    "indonesianLearnerWarning": "In Indonesian, you often connect nouns using 'yang' (buku yang di atas meja). In English, you don't always need a connecting word like 'that is'. You can just attach the prepositional phrase directly: 'the book on the table'."
+  },
+  {
+    "id": "grammar-noun-phrases-with-relative-clauses",
+    "backHref": "noun-phrase.html",
+    "backLabel": "Back to Noun Phrase",
+    "title": "Noun Phrases with Relative Clauses",
+    "skill": "Grammar",
+    "category": "Noun Phrase",
+    "level": "Advanced",
+    "description": "Explain that relative clauses can add information after nouns.",
+    "learningGoals": [
+      "Understand how to use relative clauses (who, which, that) to expand a noun phrase.",
+      "Recognize that a noun phrase can contain a subject and a verb inside its modifier."
+    ],
+    "meaning": "A <strong>relative clause</strong> is like a mini-sentence that acts like a giant adjective. It starts with a relative pronoun (who, which, that) and is placed directly after the head noun to give essential information about it. This creates a very long, complex noun phrase.",
+    "keyIdeas": [
+      "Relative clauses go immediately after the noun they describe.",
+      "They allow you to describe a noun using an action (a verb).",
+      "Even though the clause has a verb, the whole structure is still just a noun phrase if it doesn't have a main verb for the full sentence."
+    ],
+    "patterns": [
+      {
+        "name": "Noun + Relative Clause",
+        "formula": "Head Noun + [Who/Which/That + Verb/Subject]",
+        "explanation": "Example: the student [who won the competition]"
+      }
+    ],
+    "examples": [
+      {
+        "type": "Subject Clause",
+        "sentence": "The student who won the competition is my friend.",
+        "note": "'The student who won the competition' is the full noun phrase subject. 'is' is the main verb of the sentence."
+      },
+      {
+        "type": "Object Clause",
+        "sentence": "I read the book that I bought yesterday.",
+        "note": "'the book that I bought yesterday' is the full noun phrase object."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "The student he won the competition is my friend.",
+        "correct": "The student who won the competition is my friend.",
+        "explanation": "Mistake: Using a personal pronoun instead of a relative pronoun to connect the clause. | Solution: 'Who' replaces 'he' to connect the ideas.",
+        "fix": "Use 'who' for people, 'which' or 'that' for things."
+      },
+      {
+        "wrong": "The book I bought it yesterday was expensive.",
+        "correct": "The book that I bought yesterday was expensive.",
+        "explanation": "Mistake: Repeating the object ('it') inside the relative clause.",
+        "fix": "Drop the extra pronoun. 'That' already represents the book."
+      }
+    ],
+    "practicePrompts": [
+      "Identify the full noun phrase: 'The phone that is ringing belongs to me.'",
+      "Correct the mistake: 'The man who he called me is angry.'"
+    ],
+    "classroomUse": "<strong>Teacher Tip:</strong> Have students play 'Combine the Sentences'. Give them two simple sentences: 'I saw a man. The man was running.' Have them combine them into one noun phrase inside a sentence: 'I saw the man who was running.'",
+    "quickComparison": "<strong>Preposition vs Clause:</strong> 'The man <em>in the car</em>' (Prepositional phrase). 'The man <em>who is driving the car</em>' (Relative clause).",
+    "summary": [
+      "Relative clauses use who/which/that to describe a noun.",
+      "They go directly after the head noun.",
+      "They make noun phrases longer and more descriptive."
+    ],
+    "introduction": "What if you want to describe a noun using an action? You can't just use an adjective. You need to embed a mini-story into your noun phrase. We do this using <strong>relative clauses</strong>. For example, instead of just 'the student', we can say 'the student <strong>who won the competition</strong>'. This entire group of words is still just a noun phrase acting as a single unit.",
+    "stepByStep": "How to add a relative clause:<br><br>1. Start with a basic noun phrase: 'the book'.<br>2. Think of the action that describes it: 'I bought it yesterday'.<br>3. Choose the right relative pronoun ('that' for things).<br>4. Drop the extra pronoun ('it').<br>5. Combine: 'the book that I bought yesterday'.",
+    "indonesianLearnerWarning": "Indonesian uses 'yang' for relative clauses (orang yang berlari). English uses different words depending on if it is a person (who) or a thing (which/that). Do not just translate 'yang' to 'that' every time!"
+  },
+  {
+    "id": "grammar-noun-phrases-with-participles",
+    "backHref": "noun-phrase.html",
+    "backLabel": "Back to Noun Phrase",
+    "title": "Noun Phrases with Participles",
+    "skill": "Grammar",
+    "category": "Noun Phrase",
+    "level": "Advanced",
+    "description": "Explain that -ing and Verb 3 forms can describe nouns.",
+    "learningGoals": [
+      "Understand how participles act as adjectives in a noun phrase.",
+      "Distinguish between present participles (-ing) and past participles (Verb 3)."
+    ],
+    "meaning": "Sometimes, verbs can put on a disguise and act like adjectives to describe a noun. We call these <strong>participles</strong>. You can use an <strong>-ing form</strong> (for active meaning) or a <strong>Verb 3 form</strong> (for passive meaning) to add descriptive details to your noun phrase.",
+    "keyIdeas": [
+      "A single participle usually goes before the noun.",
+      "A participle phrase (participle + other words) goes after the noun.",
+      "-ing means the noun is doing the action (active).",
+      "Verb 3 means the action was done to the noun (passive)."
+    ],
+    "patterns": [
+      {
+        "name": "Single Participle (Before Noun)",
+        "formula": "Determiner + Participle + Noun",
+        "explanation": "Example: the crying baby, a broken phone"
+      },
+      {
+        "name": "Participle Phrase (After Noun)",
+        "formula": "Noun + Participle Phrase",
+        "explanation": "Example: students studying in the library, the homework submitted yesterday"
+      }
+    ],
+    "examples": [
+      {
+        "type": "-ing (Active)",
+        "sentence": "The crying baby needs milk.",
+        "note": "The baby is doing the crying."
+      },
+      {
+        "type": "Verb 3 (Passive)",
+        "sentence": "I fixed the broken phone.",
+        "note": "The phone was broken by someone/something."
+      },
+      {
+        "type": "Phrase After Noun",
+        "sentence": "The students studying in the library are quiet.",
+        "note": "The phrase 'studying in the library' modifies 'students'."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "The phone breaking yesterday.",
+        "correct": "The phone broken yesterday.",
+        "explanation": "Mistake: Using -ing for a passive meaning. | Solution: The phone didn't break something else; it was broken.",
+        "fix": "Use Verb 3 (broken) for passive meanings."
+      },
+      {
+        "wrong": "The students studied in the library are quiet.",
+        "correct": "The students studying in the library are quiet.",
+        "explanation": "Mistake: Using Verb 3 for an active meaning.",
+        "fix": "Use -ing (studying) because the students are actively doing it."
+      }
+    ],
+    "practicePrompts": [
+      "Choose the correct form: 'The (boring/bored) movie put me to sleep.'",
+      "Identify the noun phrase: 'The boy playing guitar is my brother.'"
+    ],
+    "classroomUse": "<strong>Teacher Tip:</strong> Teach participles as 'reduced relative clauses'. Show them: 'The boy who is playing guitar' -> remove 'who is' -> 'The boy playing guitar'. This helps them see the logic.",
+    "quickComparison": "<strong>Active vs Passive:</strong> A <em>boring</em> teacher (makes others bored). A <em>bored</em> teacher (feels bored).",
+    "summary": [
+      "Verbs in -ing or Verb 3 form can describe nouns.",
+      "-ing is active; Verb 3 is passive.",
+      "Single participles go before the noun; phrases go after."
+    ],
+    "introduction": "What do you do if you want to describe a noun using an action, but you don't want to build a long relative clause? You can use a <strong>participle</strong>. Participles are verbs that have been transformed into adjectives. They are a powerful, compact way to build descriptive noun phrases.",
+    "stepByStep": "How to choose the right participle:<br><br>1. Look at your head noun: 'movie'.<br>2. Look at the action: 'interest'.<br>3. Ask: Is the movie actively causing the interest, or receiving it? The movie causes it (active).<br>4. Therefore, use -ing: 'an interesting movie'.<br>5. Look at another noun: 'window'. Action: 'break'.<br>6. Ask: Did the window break something, or was it broken? It received the action (passive).<br>7. Therefore, use Verb 3: 'a broken window'.",
+    "indonesianLearnerWarning": "Indonesian does not distinguish between active and passive adjectives with endings like -ing/-ed. 'Membosankan' (boring) and 'Bosan' (bored) are different words. In English, you must master the -ing / Verb 3 distinction to avoid embarrassing mistakes (e.g., saying 'I am boring' when you mean 'I am bored')."
+  },
+  {
+    "id": "grammar-long-noun-phrases",
+    "backHref": "noun-phrase.html",
+    "backLabel": "Back to Noun Phrase",
+    "title": "Long Noun Phrases",
+    "skill": "Grammar",
+    "category": "Noun Phrase",
+    "level": "Advanced",
+    "description": "Explain how noun phrases can grow step by step.",
+    "learningGoals": [
+      "Understand how to combine multiple modifiers to build long noun phrases.",
+      "Learn to track the head noun even in very long phrases.",
+      "Recognize long noun phrases in reading and academic writing."
+    ],
+    "meaning": "A <strong>long noun phrase</strong> is just a head noun that has been decorated with many different types of modifiers before and after it. It can include determiners, adjectives, prepositional phrases, and relative clauses all at once. Academic reading is full of very long noun phrases.",
+    "keyIdeas": [
+      "No matter how long the phrase gets, it still acts as one single unit (a subject or object).",
+      "You must always be able to locate the head noun to understand the core meaning.",
+      "Don't get lost in the details; find the boss word."
+    ],
+    "patterns": [
+      {
+        "name": "The Full Stack",
+        "formula": "[Determiner] + [Adjectives] + HEAD NOUN + [Prepositional Phrase] + [Relative Clause]",
+        "explanation": "Example: [an] + [interesting] + book + [about history] + [that I bought yesterday]"
+      }
+    ],
+    "examples": [
+      {
+        "type": "Step by Step",
+        "sentence": "a book -> an interesting book -> an interesting book about history -> an interesting book about history that I bought yesterday.",
+        "note": "Notice how the head noun 'book' remains the core."
+      },
+      {
+        "type": "In a Sentence",
+        "sentence": "An interesting book about history that I bought yesterday is on the table.",
+        "note": "Everything before 'is' is the subject noun phrase."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "The books about history that I bought yesterday is on the table.",
+        "correct": "The books about history that I bought yesterday are on the table.",
+        "explanation": "Mistake: Losing track of the head noun ('books') because the phrase is so long, and matching the verb to 'yesterday' or 'history'. | Solution: The verb must always agree with the head noun, no matter how far apart they are.",
+        "fix": "Find the head noun to set the verb."
+      },
+      {
+        "wrong": "Making phrases too long and confusing.",
+        "correct": "",
+        "explanation": "Mistake: Stacking too many relative clauses. | Solution: Break long ideas into separate sentences if they become too hard to read.",
+        "fix": "Keep it clear."
+      }
+    ],
+    "practicePrompts": [
+      "Find the head noun: 'The beautiful old wooden table in the corner of the room.'",
+      "Identify the full subject phrase: 'The man in the black hat who asked for directions left early.'"
+    ],
+    "classroomUse": "<strong>Teacher Tip:</strong> Give students a basic sentence: 'The cat slept.' Have a competition to see who can write the longest grammatically correct subject noun phrase before the word 'slept'.",
+    "quickComparison": "<strong>Short vs Long:</strong> 'The man smiled.' vs 'The tall, mysterious man in the black coat who just entered the room smiled.' Both sentences have the same core structure.",
+    "summary": [
+      "Noun phrases can grow by adding modifiers before and after.",
+      "The head noun remains the boss.",
+      "The verb must agree with the head noun, regardless of distance."
+    ],
+    "introduction": "In basic English, we use short noun phrases ('the boy', 'my car'). But as your English improves, especially in writing and reading, you will encounter <strong>long noun phrases</strong>. They are like trains with many cars attached. To avoid getting confused by a long sentence, you must train your brain to see the whole train as one single block, and identify the engine (the head noun).",
+    "stepByStep": "How to read a long sentence with a long noun phrase:<br><br>1. Scan the sentence until you find the main verb. Everything before that is usually the subject noun phrase.<br>2. Look at that block of words. Find the head noun (the main thing being talked about).<br>3. Check the verb to ensure it matches the head noun in singular/plural.<br>4. Strip away the modifiers in your mind to understand the core sentence: 'The [long description] man smiled' -> 'The man smiled.'",
+    "indonesianLearnerWarning": "Indonesian sentences tend to use more verbs to connect ideas (Orang itu yang memakai topi hitam, dia sedang duduk...). English prefers to pack information tightly into long noun phrases before a single main verb. Practice reading blocks of words, not word-by-word."
+  },
+  {
+    "id": "grammar-noun-phrases-as-subjects",
+    "backHref": "noun-phrase.html",
+    "backLabel": "Back to Noun Phrase",
+    "title": "Noun Phrases as Subjects",
+    "skill": "Grammar",
+    "category": "Noun Phrase",
+    "level": "Intermediate",
+    "description": "Explain that noun phrases can be the subject of a sentence.",
+    "learningGoals": [
+      "Identify full noun phrases acting as the subject of a sentence.",
+      "Ensure subject-verb agreement based on the head noun of the phrase."
+    ],
+    "meaning": "The <strong>subject</strong> of a sentence is the person, place, or thing doing the action (or being described). Very often, the subject is not a single word; it is an entire <strong>noun phrase</strong>. When a noun phrase is the subject, the main verb comes immediately after it.",
+    "keyIdeas": [
+      "The whole noun phrase acts as one block taking the subject position.",
+      "The verb must agree with the HEAD NOUN of the phrase, not the noun closest to the verb."
+    ],
+    "patterns": [
+      {
+        "name": "Noun Phrase Subject",
+        "formula": "[Noun Phrase] + Main Verb + Object/Complement",
+        "explanation": "Example: [The new student in my class] is friendly."
+      }
+    ],
+    "examples": [
+      {
+        "type": "Simple Subject",
+        "sentence": "The new student is friendly.",
+        "note": "Head noun: 'student' (singular) -> Verb: 'is'."
+      },
+      {
+        "type": "Complex Subject",
+        "sentence": "The books on the table belong to me.",
+        "note": "Head noun: 'books' (plural) -> Verb: 'belong' (not 'belongs', even though 'table' is singular)."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "The list of students are on the desk.",
+        "correct": "The list of students is on the desk.",
+        "explanation": "Mistake: Matching the verb to the closest noun ('students'). | Solution: The subject is the whole phrase, but the agreement depends on the head noun ('list').",
+        "fix": "Find the head noun: list (singular) -> is."
+      },
+      {
+        "wrong": "A lot of students is waiting.",
+        "correct": "A lot of students are waiting.",
+        "explanation": "Mistake: Thinking 'a lot' is singular. | Solution: 'A lot of' acts as a quantifier describing the plural noun 'students'.",
+        "fix": "Match the verb to 'students'."
+      }
+    ],
+    "practicePrompts": [
+      "Identify the full subject phrase: 'The man standing near the door is the manager.'",
+      "Choose the right verb: 'The keys to the car (is/are) lost.'"
+    ],
+    "classroomUse": "<strong>Teacher Tip:</strong> Write sentences with long subjects on paper. Have students physically cut the paper with scissors between the subject noun phrase and the main verb. This tactile exercise helps them 'see' the boundary.",
+    "quickComparison": "<strong>Subject vs Object:</strong> [The dog] chased the cat. (Subject). The cat chased [the dog]. (Object). The phrase doesn't change, only its position.",
+    "summary": [
+      "A noun phrase often acts as the subject of a sentence.",
+      "The subject comes before the main verb.",
+      "The verb must agree with the head noun of the phrase."
+    ],
+    "introduction": "Every English sentence needs a subject. While beginners often use pronouns (He, She, It) as subjects, real-world English relies heavily on <strong>noun phrases</strong>. To master English sentence structure, you must be able to spot exactly where the subject noun phrase ends and where the verb begins.",
+    "stepByStep": "How to handle a noun phrase subject:<br><br>1. Identify the main verb of the sentence: 'The keys to the car are lost.' (Verb = are).<br>2. Look at everything before the verb: 'The keys to the car'. This is your subject block.<br>3. Inside that block, find the head noun to check agreement: 'keys' (plural).<br>4. Confirm the verb matches: 'are' (plural). Correct!",
+    "indonesianLearnerWarning": "In Indonesian, the subject and verb boundary is sometimes loose or separated by 'yang'. In English, the boundary is strict. The subject block must be completed before the main verb starts."
+  },
+  {
+    "id": "grammar-noun-phrases-as-objects",
+    "backHref": "noun-phrase.html",
+    "backLabel": "Back to Noun Phrase",
+    "title": "Noun Phrases as Objects",
+    "skill": "Grammar",
+    "category": "Noun Phrase",
+    "level": "Intermediate",
+    "description": "Explain that noun phrases can receive the action of the verb.",
+    "learningGoals": [
+      "Identify noun phrases acting as direct objects.",
+      "Understand that the object phrase comes after an action verb."
+    ],
+    "meaning": "An <strong>object</strong> is the person, place, or thing receiving the action of a verb. Just like subjects, objects are very often entire <strong>noun phrases</strong>. They sit directly after transitive verbs (verbs that need a receiver).",
+    "keyIdeas": [
+      "The whole noun phrase acts as one block taking the object position.",
+      "You cannot separate the verb from its direct object."
+    ],
+    "patterns": [
+      {
+        "name": "Noun Phrase Object",
+        "formula": "Subject + Action Verb + [Noun Phrase]",
+        "explanation": "Example: I bought [a new phone]."
+      }
+    ],
+    "examples": [
+      {
+        "type": "Simple Object",
+        "sentence": "She read an interesting book.",
+        "note": "'an interesting book' receives the action of 'read'."
+      },
+      {
+        "type": "Complex Object",
+        "sentence": "They discussed the difficult grammar problem.",
+        "note": "The whole phrase 'the difficult grammar problem' is the object."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I bought.",
+        "correct": "I bought a new bag.",
+        "explanation": "Mistake: Leaving a transitive verb hanging without an object. | Solution: Verbs like 'buy', 'need', 'want' must have a noun phrase object.",
+        "fix": "Provide a noun phrase to receive the action."
+      },
+      {
+        "wrong": "She likes very much the lesson.",
+        "correct": "She likes the lesson very much.",
+        "explanation": "Mistake: Putting an adverb between the verb and its direct object noun phrase. | Solution: Keep the verb and object together.",
+        "fix": "Move 'very much' to the end."
+      }
+    ],
+    "practicePrompts": [
+      "Identify the object phrase: 'The teacher explained the new rules.'",
+      "Correct the mistake: 'I want to buy tomorrow a new car.'"
+    ],
+    "classroomUse": "<strong>Teacher Tip:</strong> Play a chain game. Student 1: 'I bought a pen.' Student 2: 'I bought a red pen.' Student 3: 'I bought a red pen with black ink.' They are expanding the object noun phrase.",
+    "quickComparison": "<strong>Transitive vs Intransitive:</strong> I slept. (No object needed). I bought [a car]. (Object needed).",
+    "summary": [
+      "Noun phrases can act as direct objects.",
+      "They receive the action of the verb.",
+      "Keep the verb and the object noun phrase together; do not separate them with adverbs."
+    ],
+    "introduction": "If you throw a ball, the ball is the object receiving the action of your throw. In grammar, verbs also 'throw' actions, and <strong>noun phrases</strong> are there to 'catch' them. Mastering noun phrases as objects helps you communicate clearly about what you bought, saw, needed, or wanted.",
+    "stepByStep": "How to use a noun phrase object:<br><br>1. Choose an action verb: 'eat'.<br>2. Build a noun phrase to receive the action: 'a delicious hot pizza'.<br>3. Place the object phrase directly after the verb: 'I ate a delicious hot pizza'.<br>4. Rule: Do not put adverbs between them! Say 'I ate a delicious hot pizza quickly', not 'I ate quickly a delicious hot pizza'.",
+    "indonesianLearnerWarning": "In Indonesian, it is sometimes acceptable to drop the object if context is clear (Saya sudah beli). In English, you almost always need to provide the object noun phrase (I bought it / I bought the book)."
+  },
+  {
+    "id": "grammar-noun-phrases-after-prepositions",
+    "backHref": "noun-phrase.html",
+    "backLabel": "Back to Noun Phrase",
+    "title": "Noun Phrases After Prepositions",
+    "skill": "Grammar",
+    "category": "Noun Phrase",
+    "level": "Intermediate",
+    "description": "Explain that prepositions are followed by noun phrases.",
+    "learningGoals": [
+      "Understand the rule that prepositions must be followed by a noun phrase.",
+      "Distinguish between prepositions (followed by noun phrases) and conjunctions (followed by full clauses)."
+    ],
+    "meaning": "A <strong>preposition</strong> (like in, on, at, about, with, during, because of) is a connecting word. A strict rule in English grammar is that a preposition must be followed by a noun, pronoun, or a <strong>noun phrase</strong>. It cannot be directly followed by a full sentence (clause).",
+    "keyIdeas": [
+      "Preposition + Noun Phrase = Correct.",
+      "Preposition + Subject + Verb = Incorrect.",
+      "The noun phrase that follows a preposition is called the 'object of the preposition'."
+    ],
+    "patterns": [
+      {
+        "name": "Object of Preposition",
+        "formula": "Preposition + [Noun Phrase]",
+        "explanation": "Example: in [the classroom], about [the new topic]"
+      }
+    ],
+    "examples": [
+      {
+        "type": "Location",
+        "sentence": "She is waiting in the car.",
+        "note": "'the car' is the noun phrase after 'in'."
+      },
+      {
+        "type": "Time",
+        "sentence": "He fell asleep during the long movie.",
+        "note": "'the long movie' is the noun phrase after 'during'."
+      },
+      {
+        "type": "Reason",
+        "sentence": "We stayed home because of the bad weather.",
+        "note": "'the bad weather' is the noun phrase after 'because of'."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "During I studied, my phone rang.",
+        "correct": "While I studied, my phone rang. (or: During my study session, my phone rang.)",
+        "explanation": "Mistake: Using a full clause (I studied) after a preposition (during). | Solution: 'During' is a preposition, so it needs a noun phrase. 'While' is a conjunction, so it takes a clause.",
+        "fix": "Use a noun phrase after 'during'."
+      },
+      {
+        "wrong": "Because of I was tired, I went to bed.",
+        "correct": "Because I was tired, I went to bed. (or: Because of my tiredness, I went to bed.)",
+        "explanation": "Mistake: Following 'because of' (a preposition) with a clause. | Solution: Drop 'of' to make it a conjunction, or change the clause to a noun phrase.",
+        "fix": "Match the connecting word to the structure that follows."
+      }
+    ],
+    "practicePrompts": [
+      "Choose the correct word: 'I met him (during / while) the meeting.'",
+      "Identify the noun phrase after the preposition: 'She talked about her new project.'"
+    ],
+    "classroomUse": "<strong>Teacher Tip:</strong> Draw a brick wall on the board. On one side write 'Prepositions', on the other write 'Subject+Verb'. Tell students prepositions hit a wall if they try to connect to a verb. They only connect to noun phrases.",
+    "quickComparison": "<strong>Because vs Because of:</strong> Because [it rained] (Clause). Because of [the rain] (Noun Phrase).",
+    "summary": [
+      "Prepositions must be followed by noun phrases.",
+      "They cannot be followed directly by a subject + verb.",
+      "Pay attention to pairs like during/while and because of/because."
+    ],
+    "introduction": "Prepositions are like glue; they stick extra information onto your sentences. But this glue only works on one type of material: <strong>noun phrases</strong>. If you try to stick a preposition directly onto a full sentence (with a subject and verb), the grammar falls apart. Knowing this rule is essential for writing accurate, professional English.",
+    "stepByStep": "The Golden Rule of Prepositions:<br><br>1. Find your preposition: 'about', 'with', 'during', 'despite'.<br>2. Look at what comes next.<br>3. It MUST be a noun phrase: 'about the book', 'with my friend', 'during the storm', 'despite the problem'.<br>4. If what comes next is a subject and a verb ('despite it was raining'), it is an error. You must change the connecting word or change the clause into a noun phrase.",
+    "indonesianLearnerWarning": "In Indonesian, words like 'selama' (during/while) or 'karena' (because/because of) can often be used flexibly with nouns or full verbs. English has separate vocabulary words for connecting to nouns vs connecting to verbs. You must learn the pairs!"
+  },
+  {
+    "id": "grammar-common-noun-phrase-mistakes",
+    "backHref": "noun-phrase.html",
+    "backLabel": "Back to Noun Phrase",
+    "title": "Common Noun Phrase Mistakes",
+    "skill": "Grammar",
+    "category": "Noun Phrase",
+    "level": "Beginner",
+    "description": "Fix common errors with noun phrases.",
+    "learningGoals": [
+      "Identify and repair the most frequent noun phrase errors.",
+      "Apply a mental checklist to construct flawless noun phrases."
+    ],
+    "meaning": "Building noun phrases requires juggling several rules at once: determiners, adjectives, plurals, and word order. Let's review the most common traps learners fall into and how to repair them.",
+    "keyIdeas": [
+      "Never leave singular countable nouns naked.",
+      "Do not stack main determiners.",
+      "Keep adjectives before the noun.",
+      "Ensure subject-verb agreement with the head noun."
+    ],
+    "patterns": [
+      {
+        "name": "The Noun Phrase Checklist",
+        "formula": "1. Find Head Noun -> 2. Countable? -> 3. Add Determiner -> 4. Insert Adjectives -> 5. Add Post-Modifiers",
+        "explanation": "Follow this order to build a perfect phrase."
+      }
+    ],
+    "examples": [
+      {
+        "type": "Naked Noun Repair",
+        "sentence": "Wrong: I bought car. -> Correct: I bought a car.",
+        "note": "Added a determiner."
+      },
+      {
+        "type": "Order Repair",
+        "sentence": "Wrong: A car red. -> Correct: A red car.",
+        "note": "Moved adjective before noun."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I bought book.",
+        "correct": "I bought a book.",
+        "explanation": "Mistake: Naked singular countable noun. | Solution: Add 'a', 'the', or 'my'.",
+        "fix": "Add a determiner."
+      },
+      {
+        "wrong": "She is good teacher.",
+        "correct": "She is a good teacher.",
+        "explanation": "Mistake: Forgetting the determiner before the adjective. | Solution: 'Teacher' still needs 'a'.",
+        "fix": "Add 'a'."
+      },
+      {
+        "wrong": "This is mine book.",
+        "correct": "This is my book.",
+        "explanation": "Mistake: Using a pronoun inside the phrase. | Solution: Use a possessive adjective.",
+        "fix": "Change 'mine' to 'my'."
+      },
+      {
+        "wrong": "I need many information.",
+        "correct": "I need much information.",
+        "explanation": "Mistake: Wrong quantifier for uncountable noun.",
+        "fix": "Use 'much' or 'a lot of'."
+      },
+      {
+        "wrong": "The student he won is my friend.",
+        "correct": "The student who won is my friend.",
+        "explanation": "Mistake: Using a personal pronoun instead of a relative pronoun in a clause.",
+        "fix": "Use 'who'."
+      },
+      {
+        "wrong": "The books on the table is mine.",
+        "correct": "The books on the table are mine.",
+        "explanation": "Mistake: Matching verb to modifier instead of head noun.",
+        "fix": "Match 'are' to 'books'."
+      },
+      {
+        "wrong": "During I studied, my phone rang.",
+        "correct": "While I studied, my phone rang.",
+        "explanation": "Mistake: Preposition followed by a clause.",
+        "fix": "Use a conjunction (while) or a noun phrase (during my study)."
+      }
+    ],
+    "practicePrompts": [
+      "Fix this sentence: 'He has very beautiful house.'",
+      "Fix this sentence: 'The list of names are here.'"
+    ],
+    "classroomUse": "<strong>Teacher Tip:</strong> Create an 'Error Clinic'. Write these 7 common mistakes on the board and have students act as 'grammar doctors' to diagnose the problem and prescribe the fix.",
+    "quickComparison": "<strong>Review:</strong> Focus on the head noun. Everything else is just decoration. Ensure the decoration follows the rules.",
+    "summary": [
+      "Review the naked noun rule.",
+      "Check determiner stacking.",
+      "Check adjective order.",
+      "Check quantifier matching (countable/uncountable).",
+      "Check head noun agreement."
+    ],
+    "introduction": "You have learned the pieces of a noun phrase: determiners, adjectives, head nouns, and modifiers. Now it's time to put it all together and perform a quality check. Here are the top mistakes learners make when building noun phrases, and exactly how you can fix them.",
+    "stepByStep": "Your mental checklist for perfect noun phrases:<br><br>1. <strong>Find the head noun.</strong><br>2. <strong>Check if it is countable or uncountable.</strong> (Determines your quantifier).<br>3. <strong>Check if it is singular or plural.</strong> (Determines if you MUST have an article).<br>4. <strong>Add ONE main determiner</strong> if needed.<br>5. <strong>Put adjectives BEFORE the noun.</strong><br>6. <strong>Add extra information (prepositions/clauses) AFTER the noun.</strong><br>7. <strong>Make sure the main verb agrees with the HEAD noun.</strong>",
+    "indonesianLearnerWarning": "Because Indonesian allows naked nouns (Saya beli mobil), post-noun adjectives (mobil merah), and doesn't change verbs for plurals, building English noun phrases feels backwards. Take your time and consciously apply the checklist until it becomes a habit!"
+  },
+  lesson_grammar_clause_overview,
+  lesson_grammar_independent_dependent_clauses,
+  lesson_grammar_phrases_vs_clauses,
+  lesson_grammar_main_subordinate_clauses,
+  lesson_grammar_noun_clauses_overview,
+  lesson_grammar_noun_clauses_that,
+  lesson_grammar_noun_clauses_wh_words,
+  lesson_grammar_noun_clauses_subjects_objects,
+  lesson_grammar_relative_clauses_overview,
+  lesson_grammar_relative_who_which_that,
+  lesson_grammar_relative_whose_where_when,
+  lesson_grammar_defining_non_defining_relative_clauses,
+  lesson_grammar_adverb_clauses_overview,
+  lesson_grammar_adverb_clauses_time_reason,
+  lesson_grammar_adverb_clauses_contrast_condition,
+  lesson_grammar_common_clause_mistakes,
+
+  lesson_grammar_conditionals_overview,
+  lesson_grammar_if_clause_main_clause_structure,
+  lesson_grammar_conditionals_clause_order_commas,
+  lesson_grammar_real_vs_unreal_conditionals,
+  lesson_grammar_zero_conditional,
+  lesson_grammar_first_conditional,
+  lesson_grammar_unless,
+  lesson_grammar_conditional_alternatives_to_if,
+  lesson_grammar_second_conditional,
+  lesson_grammar_if_i_were_you,
+  lesson_grammar_wishes_hypothetical_meaning,
+  lesson_grammar_unreal_conditional_common_mistakes,
+  lesson_grammar_third_conditional,
+  lesson_grammar_mixed_conditionals,
+  lesson_grammar_should_have_if_only,
+  lesson_grammar_common_conditional_mistakes,
+{
+  "id": "grammar-reported-speech-overview",
+  "backHref": "reported-speech.html",
+  "backLabel": "Back to Reported Speech",
+  "title": "What Is Reported Speech?",
+  "skill": "Grammar",
+  "category": "Reported Speech",
+  "level": "Beginner",
+  "description": "Understand how to tell someone what another person said.",
+  "learningGoals": [
+    "Understand the purpose of reported speech.",
+    "Recognize the difference between direct quotes and reported meaning."
+  ],
+  "meaning": "Reported speech (also called indirect speech) is how we communicate what someone else said, thought, or asked, without using their exact words or quotation marks.",
+  "keyIdeas": [
+    "We use reported speech to share information, gossip, relay messages, or tell stories.",
+    "We focus on the meaning of the message, not the exact original words.",
+    "The tense, pronouns, and time words often change to fit the current speaker's perspective."
+  ],
+  "patterns": [
+    {
+      "name": "The Basic Structure",
+      "formula": "Reporter + Reporting Verb + (that) + Reported Clause",
+      "examples": [
+        {
+          "en": "She said (that) she was tired.",
+          "id": "Dia bilang bahwa dia lelah.",
+          "explanation": "We are reporting what she felt at that time."
+        },
+        {
+          "en": "He told me he lived in Jakarta.",
+          "id": "Dia memberitahu saya bahwa dia tinggal di Jakarta.",
+          "explanation": "We are passing on his information."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "She said me she was tired.",
+      "correct": "She told me she was tired. (OR: She said she was tired.)",
+      "explanation": "You cannot use 'said' directly with a person object like 'me'."
+    }
+  ],
+  "introduction": "Have you ever wanted to tell your friend a secret that someone else told you? When you pass on that message, you are using reported speech! For example, if Budi says, 'I am hungry,' you don't go to your friend and say: Budi said, 'I am hungry.' You naturally adjust it: 'Budi said that he was hungry.'<br><br>In English, reported speech is an essential conversational skill. It allows us to summarize conversations, report news, and share information. Instead of acting like a human tape recorder repeating exact quotes, we adjust the grammar to fit our current perspective.",
+  "stepByStep": "1. <strong>Listen to the original statement.</strong> (e.g., 'I like coffee.')<br>2. <strong>Choose a reporting verb.</strong> (e.g., 'He said...')<br>3. <strong>Adjust the pronouns.</strong> ('I' becomes 'he'.)<br>4. <strong>Adjust the tense if necessary.</strong> ('like' becomes 'liked'.)<br>5. <strong>Put it together:</strong> 'He said that he liked coffee.'",
+  "indonesianLearnerWarning": "In Indonesian, reported speech is very simple. We just add 'bahwa' (that) and keep the rest of the sentence almost exactly the same (Dia bilang bahwa dia suka kopi). In English, we must shift the verbs backward in time. This 'backshifting' is the hardest part for Indonesian learners, so pay close attention to the tense changes!",
+  "practicePrompts": [
+    "Why do we use reported speech instead of direct speech?",
+    "What is the difference between 'say' and 'tell'?"
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Play a game of 'Telephone'. Whisper a sentence to one student, have them whisper it to the next, and the last student must report to the class: 'Budi said that...'",
+  "quickComparison": "<strong>Direct vs Reported:</strong> Direct is the exact original audio. Reported is your summary of the meaning.",
+  "summary": [
+    "Reported speech shares meaning, not exact words.",
+    "It requires changes in pronouns and tenses.",
+    "'Say' and 'tell' are the most common reporting verbs."
+  ]
+},
+{
+  "id": "grammar-direct-vs-reported-speech",
+  "backHref": "reported-speech.html",
+  "backLabel": "Back to Reported Speech",
+  "title": "Direct Speech vs Reported Speech",
+  "skill": "Grammar",
+  "category": "Reported Speech",
+  "level": "Beginner",
+  "description": "Compare exact quotes with reported meanings.",
+  "learningGoals": [
+    "Identify direct speech visually (quotation marks).",
+    "Understand when to use direct speech vs reported speech."
+  ],
+  "meaning": "Direct speech repeats the exact words spoken and uses quotation marks. Reported speech summarizes the meaning of what was said without quotation marks, adjusting the grammar to fit the reporter's point of view.",
+  "keyIdeas": [
+    "Direct speech is common in novels, scripts, and formal quotes.",
+    "Reported speech is common in everyday conversation, news, and storytelling.",
+    "Direct speech feels dramatic; reported speech feels conversational."
+  ],
+  "patterns": [
+    {
+      "name": "Direct vs Reported",
+      "formula": "Direct: Speaker said, \\\"Exact words.\\\" | Reported: Speaker said (that) adjusted words.",
+      "examples": [
+        {
+          "en": "Direct: John said, \\\"I am busy.\\\"",
+          "id": "Langsung: John berkata, \\\"Saya sibuk.\\\"",
+          "explanation": "Exact words."
+        },
+        {
+          "en": "Reported: John said that he was busy.",
+          "id": "Dilaporkan: John bilang bahwa dia sibuk.",
+          "explanation": "Summarized meaning."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "John said that \\\"he was busy.\\\"",
+      "correct": "John said that he was busy.",
+      "explanation": "Never use quotation marks with reported speech."
+    }
+  ],
+  "introduction": "When you read a novel, you often see characters talking to each other using quotation marks. This is Direct Speech. It's like pressing 'play' on a recording. But when you are chatting with your friends at a cafe, you rarely use quotation marks with your voice.<br><br>Instead, you naturally translate what people said into your own words. You use Reported Speech. Understanding the difference between these two styles helps you know when to be dramatic and exact (Direct) and when to be conversational and flowing (Reported).",
+  "stepByStep": "1. <strong>Identify the goal:</strong> Do you need to quote someone exactly, or just share the idea?<br>2. <strong>If quoting:</strong> Use a comma, open quotes, use exact words, close quotes.<br>3. <strong>If sharing the idea:</strong> Drop the quotes, add 'that', and shift the pronouns and tense.",
+  "indonesianLearnerWarning": "Indonesians often write English essays using too much Direct Speech because it feels easier. Try to convert quotes into Reported Speech to make your writing flow much more naturally.",
+  "practicePrompts": [
+    "Transform this to reported speech: Mary said, \\\"I love this city.\\\"",
+    "Transform this to direct speech: He said he was tired."
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Show a short video clip. Pause it and ask half the class to write exactly what the character said (Direct), and the other half to summarize it (Reported).",
+  "quickComparison": "<strong>Direct:</strong> Exact words, quotes, dramatic. <strong>Reported:</strong> Summarized, no quotes, conversational.",
+  "summary": [
+    "Direct speech uses quotation marks.",
+    "Reported speech adjusts grammar and removes quotes.",
+    "Reported speech is more natural for daily conversations."
+  ]
+},
+{
+  "id": "grammar-reporting-verbs-say-tell-ask",
+  "backHref": "reported-speech.html",
+  "backLabel": "Back to Reported Speech",
+  "title": "Reporting Verbs: Say, Tell, and Ask",
+  "skill": "Grammar",
+  "category": "Reported Speech",
+  "level": "Beginner",
+  "description": "Learn the grammar patterns for the most common reporting verbs.",
+  "learningGoals": [
+    "Master the grammatical difference between say and tell.",
+    "Know when to use ask for questions and requests."
+  ],
+  "meaning": "Reporting verbs introduce the reported speech. 'Say' focuses on the words spoken, 'tell' focuses on who received the message, and 'ask' is used for questions or requests.",
+  "keyIdeas": [
+    "TELL must be followed by a person (an object).",
+    "SAY is NOT followed by a person (unless you use 'to').",
+    "ASK is used for reporting questions."
+  ],
+  "patterns": [
+    {
+      "name": "Say vs Tell vs Ask",
+      "formula": "Say + (that) | Tell + Person + (that) | Ask + Person",
+      "examples": [
+        {
+          "en": "She said (that) it was raining.",
+          "id": "Dia bilang hujan.",
+          "explanation": "Focus is on the information."
+        },
+        {
+          "en": "She told me (that) it was raining.",
+          "id": "Dia memberitahu saya bahwa hujan.",
+          "explanation": "Focus includes the listener ('me')."
+        },
+        {
+          "en": "She asked me if it was raining.",
+          "id": "Dia bertanya kepada saya apakah hujan.",
+          "explanation": "Reporting a question."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "He said me that he was tired.",
+      "correct": "He told me that he was tired.",
+      "explanation": "'Say' cannot take a direct personal object. Use 'tell'."
+    },
+    {
+      "wrong": "He told that he was tired.",
+      "correct": "He said that he was tired. (OR: He told me...)",
+      "explanation": "'Tell' MUST have a person after it."
+    }
+  ],
+  "introduction": "Before you can report what someone said, you need a 'door' to enter the sentence. Reporting verbs are that door. The three most common doors are 'say', 'tell', and 'ask'.<br><br>Many learners mix up 'say' and 'tell' because they mean almost the same thing. But grammatically, they behave very differently. Think of 'tell' as throwing a ball—you have to throw it TO someone. You must 'tell someone'. Think of 'say' as dropping a ball—you just say the words out loud. Mastering these verbs is your first big step to perfect reported speech.",
+  "stepByStep": "1. <strong>Are you reporting a question?</strong> Use 'ask'.<br>2. <strong>Are you mentioning the listener (me, him, John)?</strong> Use 'tell' (He told John).<br>3. <strong>Are you only mentioning the words spoken?</strong> Use 'say' (He said).",
+  "indonesianLearnerWarning": "In Indonesian, 'berkata', 'bilang', 'memberitahu' can sometimes be swapped easily. In English, the rule is strict: TELL + PERSON. Never say 'He told that...'",
+  "practicePrompts": [
+    "Fill in the blank: She ____ me that she was leaving.",
+    "Fill in the blank: They ____ they were hungry."
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Do a rapid-fire drill. Shout out a pronoun (me, him, her) or nothing (blank). Students must instantly reply with 'tell' or 'say'.",
+  "quickComparison": "<strong>Say vs Tell:</strong> Say (words). Tell (person) (words).",
+  "summary": [
+    "Use 'tell' when you mention the listener.",
+    "Use 'say' when you don't mention the listener.",
+    "Use 'ask' for reported questions."
+  ]
+},
+{
+  "id": "grammar-reported-speech-pronoun-time-place-changes",
+  "backHref": "reported-speech.html",
+  "backLabel": "Back to Reported Speech",
+  "title": "Pronoun, Time, and Place Changes",
+  "skill": "Grammar",
+  "category": "Reported Speech",
+  "level": "Intermediate",
+  "description": "Understand how to adjust words when the reporting situation changes.",
+  "learningGoals": [
+    "Change pronouns to match the reporter's perspective.",
+    "Shift time words (e.g., tomorrow -> the next day).",
+    "Shift place words (e.g., here -> there)."
+  ],
+  "meaning": "When we report speech, we are usually in a different place, at a different time, and we are a different person than the original speaker. Therefore, words related to person (I, you), time (now, today), and place (here, this) must change to remain logical.",
+  "keyIdeas": [
+    "Pronouns change to reflect who is reporting.",
+    "Time words shift away from the present (e.g., yesterday -> the day before).",
+    "Place/Demonstrative words shift away from the speaker (e.g., here -> there, this -> that)."
+  ],
+  "patterns": [
+    {
+      "name": "Common Shifts",
+      "formula": "Now -> Then | Here -> There | Tomorrow -> The next day",
+      "examples": [
+        {
+          "en": "Direct: \\\"I will do it tomorrow.\\\"",
+          "id": "Langsung: \\\"Saya akan melakukannya besok.\\\"",
+          "explanation": "Original perspective."
+        },
+        {
+          "en": "Reported: He said he would do it the next day.",
+          "id": "Dilaporkan: Dia bilang dia akan melakukannya keesokan harinya.",
+          "explanation": "'I' becomes 'he'. 'Tomorrow' becomes 'the next day'."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "On Monday, he said: \\\"I am busy today.\\\" -> He said he was busy today.",
+      "correct": "He said he was busy that day.",
+      "explanation": "If it is no longer Monday, 'today' is wrong. You must change it to 'that day'."
+    }
+  ],
+  "introduction": "Imagine your friend calls you on Tuesday from Bali and says, 'I am having a great time here today!' Now, imagine it is Friday, you are in Jakarta, and you are telling someone about the call. If you say, 'He said I am having a great time here today,' it sounds like YOU are having a great time in Jakarta on Friday!<br><br>To make sense, you have to adjust the perspective: 'He said HE was having a great time THERE THAT DAY.' Reported speech requires you to update the GPS coordinates of the sentence: Who is talking? Where are they? When is it?",
+  "stepByStep": "1. <strong>Update the Person:</strong> Change I/We to He/She/They based on who spoke.<br>2. <strong>Update the Place:</strong> If they said 'here', change it to 'there'. 'This' becomes 'that'.<br>3. <strong>Update the Time:</strong> 'Now' -> 'then'. 'Today' -> 'that day'. 'Tomorrow' -> 'the next day'. 'Yesterday' -> 'the day before'.",
+  "indonesianLearnerWarning": "In Indonesian, we often keep words like 'besok' or 'kemarin' the same when reporting, relying on context. In English, you are expected to mathematically shift these words (the previous day, the following day) to avoid confusion.",
+  "practicePrompts": [
+    "Change this word for reported speech: 'yesterday'.",
+    "Change this word for reported speech: 'here'."
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Create a 'Time Machine' roleplay. Have a student say a sentence 'in the past', then have another student report it 'in the present', focusing on shifting the time words.",
+  "quickComparison": "<strong>Direct vs Reported Time:</strong> Today -> That day. Tomorrow -> The next day. Now -> Then.",
+  "summary": [
+    "Reported speech changes the perspective of the sentence.",
+    "Pronouns must match the new speaker.",
+    "Time and place words shift backward or away."
+  ]
+},
+{
+  "id": "grammar-reported-statements",
+  "backHref": "reported-speech.html",
+  "backLabel": "Back to Reported Speech",
+  "title": "Reported Statements",
+  "skill": "Grammar",
+  "category": "Reported Speech",
+  "level": "Intermediate",
+  "description": "Learn the structure for reporting basic statements.",
+  "learningGoals": [
+    "Structure a basic reported statement using a reporting verb and 'that'.",
+    "Apply backshifting to present tenses."
+  ],
+  "meaning": "When we report a statement (a normal sentence, not a question or command), we connect the reporting verb to the reported clause, optionally using the word 'that'.",
+  "keyIdeas": [
+    "The word 'that' is optional but common in formal English.",
+    "The tense in the reported clause usually shifts back one step into the past (backshifting)."
+  ],
+  "patterns": [
+    {
+      "name": "Reporting a Statement",
+      "formula": "Subject + said/told (someone) + (that) + Subject + Backshifted Verb",
+      "examples": [
+        {
+          "en": "Direct: \\\"I need help.\\\"",
+          "id": "Langsung: \\\"Saya butuh bantuan.\\\"",
+          "explanation": "Present simple statement."
+        },
+        {
+          "en": "Reported: He said (that) he needed help.",
+          "id": "Dilaporkan: Dia bilang bahwa dia butuh bantuan.",
+          "explanation": "'need' shifts back to 'needed'."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "She said me that she was happy.",
+      "correct": "She told me that she was happy.",
+      "explanation": "Remember the say/tell rule: tell + person."
+    }
+  ],
+  "introduction": "Reporting a statement is the most common use of reported speech. Imagine you are acting as a bridge between two people who couldn't talk to each other directly.<br><br>The structure is very simple: You start with your reporting verb ('He said' or 'He told me'), you build the bridge (the word 'that', though you can drop it in casual conversation), and then you deliver the adjusted message. The most important rule to remember is that because the original words were spoken in the past, the grammar of the message usually takes one step backward in time.",
+  "stepByStep": "1. <strong>Start with the reporter:</strong> 'Sarah said...' or 'Sarah told John...'<br>2. <strong>Add 'that':</strong> 'Sarah said that...' (Optional).<br>3. <strong>Adjust the subject:</strong> '...she...'<br>4. <strong>Backshift the verb:</strong> Change present to past. ('...was tired.').",
+  "indonesianLearnerWarning": "In spoken English, native speakers drop the word 'that' all the time (He said he was tired). Don't panic if you don't hear it. But in formal writing, it's safer to include 'that'.",
+  "practicePrompts": [
+    "Report this: \\\"I work in London.\\\" (She said...)",
+    "Report this: \\\"We are happy.\\\" (They told us...)"
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Pair students up. Student A reads a random fact. Student B must report it to the class: 'Budi said that elephants sleep standing up.'",
+  "quickComparison": "<strong>With 'that' vs Without:</strong> 'He said that he was cold' (Formal/Clear) vs 'He said he was cold' (Casual/Spoken).",
+  "summary": [
+    "Use said or told + person.",
+    "Connect with the optional word 'that'.",
+    "Shift the tense back one step."
+  ]
+},
+{
+  "id": "grammar-reported-speech-present-to-past",
+  "backHref": "reported-speech.html",
+  "backLabel": "Back to Reported Speech",
+  "title": "Present to Past Tense Changes",
+  "skill": "Grammar",
+  "category": "Reported Speech",
+  "level": "Intermediate",
+  "description": "Shift present tenses one step back into past forms (backshift).",
+  "learningGoals": [
+    "Master the backshift from Present Simple to Past Simple.",
+    "Master the backshift from Present Continuous to Past Continuous."
+  ],
+  "meaning": "Because reporting usually happens after the original speech, we push the original present tenses one step back into the past. This is called 'backshifting'.",
+  "keyIdeas": [
+    "Am/Is/Are -> Was/Were",
+    "Verb 1 (eat) -> Verb 2 (ate)",
+    "Do/Does not -> Did not"
+  ],
+  "patterns": [
+    {
+      "name": "Present Simple -> Past Simple",
+      "formula": "V1 -> V2",
+      "examples": [
+        {
+          "en": "Direct: \\\"I like tea.\\\"",
+          "id": "Langsung: \\\"Saya suka teh.\\\"",
+          "explanation": "Present simple."
+        },
+        {
+          "en": "Reported: She said she liked tea.",
+          "id": "Dilaporkan: Dia bilang dia suka teh.",
+          "explanation": "Past simple."
+        }
+      ]
+    },
+    {
+      "name": "Present Continuous -> Past Continuous",
+      "formula": "am/is/are + V-ing -> was/were + V-ing",
+      "examples": [
+        {
+          "en": "Direct: \\\"I am working.\\\"",
+          "id": "Langsung: \\\"Saya sedang bekerja.\\\"",
+          "explanation": "Present continuous."
+        },
+        {
+          "en": "Reported: He said he was working.",
+          "id": "Dilaporkan: Dia bilang dia sedang bekerja.",
+          "explanation": "Past continuous."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "She said she is tired.",
+      "correct": "She said she was tired.",
+      "explanation": "Unless the fact is still universally true right now, you must backshift 'is' to 'was'."
+    }
+  ],
+  "introduction": "When you report speech, you are standing in the present, looking back at a conversation that happened in the past. Because that conversation is now history, the grammar needs to reflect that time has passed.<br><br>The rule is simple: take one step back in time. If the person used a present tense, you push it into the past tense. This 'backshifting' is the core mechanic of reported speech.",
+  "stepByStep": "1. <strong>Identify the verb in the direct quote.</strong> (e.g., 'am playing')<br>2. <strong>Take one step back.</strong> What is the past version of 'am'? ('was').<br>3. <strong>Apply the new verb.</strong> ('He said he was playing.').",
+  "indonesianLearnerWarning": "Indonesian verbs do not have tenses, so backshifting feels unnatural. You must actively train your brain to hear 'I am' and output 'He was'.",
+  "practicePrompts": [
+    "Backshift this verb: is -> ____",
+    "Backshift this verb: play -> ____",
+    "Backshift this verb: don't like -> ____"
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Do a 'One Step Back' drill. You say a present tense verb (e.g., 'is sleeping'), and the class must shout out the backshifted version ('was sleeping').",
+  "quickComparison": "<strong>Direct vs Reported:</strong> Present -> Past. Continuous -> Past Continuous.",
+  "summary": [
+    "Backshifting means moving the tense one step back in time.",
+    "Present simple becomes past simple.",
+    "Present continuous becomes past continuous."
+  ]
+},
+{
+  "id": "grammar-reported-speech-past-perfect-modal-changes",
+  "backHref": "reported-speech.html",
+  "backLabel": "Back to Reported Speech",
+  "title": "Past, Perfect, and Modal Changes",
+  "skill": "Grammar",
+  "category": "Reported Speech",
+  "level": "Upper-Intermediate",
+  "description": "Understand how past tenses and modals change in reported speech.",
+  "learningGoals": [
+    "Backshift Past Simple to Past Perfect.",
+    "Backshift Present Perfect to Past Perfect.",
+    "Know which modals change (will, can, may) and which stay the same (would, could, should)."
+  ],
+  "meaning": "If the original speaker already used a past tense or a perfect tense, we push it back as far as it can go: into the Past Perfect. Some modal verbs also shift backward, while others remain unchanged.",
+  "keyIdeas": [
+    "Past Simple (V2) -> Past Perfect (had + V3).",
+    "Present Perfect (have/has + V3) -> Past Perfect (had + V3).",
+    "Will -> Would, Can -> Could, May -> Might."
+  ],
+  "patterns": [
+    {
+      "name": "Past and Perfect Backshifts",
+      "formula": "V2 / have V3 -> had + V3",
+      "examples": [
+        {
+          "en": "Direct: \\\"I saw the movie.\\\" (Past Simple)",
+          "id": "Langsung: \\\"Saya melihat film itu.\\\"",
+          "explanation": "Already in the past."
+        },
+        {
+          "en": "Reported: He said he had seen the movie.",
+          "id": "Dilaporkan: Dia bilang dia telah melihat film itu.",
+          "explanation": "Pushed back to past perfect."
+        },
+        {
+          "en": "Direct: \\\"I have finished.\\\" (Present Perfect)",
+          "id": "Langsung: \\\"Saya sudah selesai.\\\"",
+          "explanation": "Present perfect."
+        },
+        {
+          "en": "Reported: She said she had finished.",
+          "id": "Dilaporkan: Dia bilang dia telah selesai.",
+          "explanation": "Pushed back to past perfect."
+        }
+      ]
+    },
+    {
+      "name": "Modal Backshifts",
+      "formula": "Will -> Would | Can -> Could | May -> Might",
+      "examples": [
+        {
+          "en": "Direct: \\\"I will go.\\\"",
+          "id": "Langsung: \\\"Saya akan pergi.\\\"",
+          "explanation": "Future promise."
+        },
+        {
+          "en": "Reported: He said he would go.",
+          "id": "Dilaporkan: Dia bilang dia akan pergi.",
+          "explanation": "Shifted modal."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "He said he will go.",
+      "correct": "He said he would go.",
+      "explanation": "'Will' must backshift to 'would' in reported speech."
+    }
+  ],
+  "introduction": "What happens when the person you are quoting already talked about the past? For example, what if they said, 'I went to the store'? You can't just leave it as 'went' because you need to show that their action happened *before* they even spoke to you.<br><br>The solution is the Past Perfect tense (had + Verb 3). It is the 'deep past'. Both Past Simple and Present Perfect get pushed back into this 'deep past' box. Additionally, future plans and abilities (will, can, may) get pushed back into their past forms (would, could, might).",
+  "stepByStep": "1. <strong>Identify the verb:</strong> Is it V2, 'have/has + V3', or a modal?<br>2. <strong>If V2 or Present Perfect:</strong> Change it to 'had + V3'.<br>3. <strong>If modal:</strong> Change will->would, can->could, may->might.<br>4. <strong>If already past modal:</strong> (would, could, should, might) -> Do not change it!",
+  "indonesianLearnerWarning": "This double-past concept is very abstract in Indonesian. Just remember the formula: if the original sentence had 'sudah/telah' (have/has) or was in the past, always convert it to 'had' + Verb 3 in reported speech.",
+  "practicePrompts": [
+    "Backshift: 'I lost my keys.' -> He said he ____ his keys.",
+    "Backshift: 'I can swim.' -> She said she ____ swim."
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Focus heavily on 'will' to 'would'. Have students write down their New Year's resolutions ('I will...'). Then have their partners report them: 'He said he would...'",
+  "quickComparison": "<strong>Modals:</strong> Will -> Would. Can -> Could. Should -> Should (No change).",
+  "summary": [
+    "Past Simple and Present Perfect both become Past Perfect.",
+    "Will, Can, and May shift to Would, Could, and Might.",
+    "Would, Could, Should, and Might do not change."
+  ]
+},
+{
+  "id": "grammar-reported-speech-no-tense-change",
+  "backHref": "reported-speech.html",
+  "backLabel": "Back to Reported Speech",
+  "title": "When Tenses Do Not Change",
+  "skill": "Grammar",
+  "category": "Reported Speech",
+  "level": "Advanced",
+  "description": "Learn when to keep the original tense to preserve meaning.",
+  "learningGoals": [
+    "Understand when backshifting is optional or incorrect.",
+    "Identify general truths and ongoing situations where tenses do not change."
+  ],
+  "meaning": "You do not always have to backshift. If the information is still a general truth, a scientific fact, or a situation that is still ongoing right now, you can keep the original present tense.",
+  "keyIdeas": [
+    "If the reporting verb is in the present (e.g., 'He says'), do not backshift.",
+    "If the statement is a timeless fact (e.g., 'Water boils at 100 degrees'), do not backshift.",
+    "If the situation is still true right now (e.g., 'I live in Paris' and they still do), backshifting is optional."
+  ],
+  "patterns": [
+    {
+      "name": "General Truths / Facts",
+      "formula": "Reported statement keeps Present Simple",
+      "examples": [
+        {
+          "en": "Direct: The teacher said, \\\"The earth goes around the sun.\\\"",
+          "id": "Langsung: Guru berkata, \\\"Bumi mengelilingi matahari.\\\"",
+          "explanation": "Scientific fact."
+        },
+        {
+          "en": "Reported: The teacher said that the earth goes around the sun.",
+          "id": "Dilaporkan: Guru bilang bahwa bumi mengelilingi matahari.",
+          "explanation": "No backshift needed because it is always true."
+        }
+      ]
+    },
+    {
+      "name": "Still True Situations",
+      "formula": "Keep present tense if still relevant",
+      "examples": [
+        {
+          "en": "Direct: \\\"I am hungry!\\\" (said 5 minutes ago)",
+          "id": "Langsung: \\\"Saya lapar!\\\"",
+          "explanation": "They are probably still hungry."
+        },
+        {
+          "en": "Reported: John said he is hungry.",
+          "id": "Dilaporkan: John bilang dia lapar.",
+          "explanation": "We keep 'is' because it is still true right now."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "He says that he was tired.",
+      "correct": "He says that he is tired.",
+      "explanation": "If the reporting verb is present ('says' instead of 'said'), you NEVER backshift."
+    }
+  ],
+  "introduction": "So far, we have treated backshifting as an absolute rule. But grammar is about meaning, not just math. Sometimes, shifting the tense backward actually creates the wrong meaning.<br><br>If your friend says 'I love chocolate,' and you report it as 'He said he loved chocolate,' someone might ask, 'Oh, does he not love it anymore?' To show that a fact is still true, or is a universal law of nature, we break the backshifting rule and keep the verb in the present tense.",
+  "stepByStep": "1. <strong>Look at the reporting verb:</strong> Is it 'says' or 'tells'? If yes, STOP. Do not backshift.<br>2. <strong>Look at the fact:</strong> Is it a scientific law or timeless truth? If yes, do not backshift.<br>3. <strong>Look at the situation:</strong> Is it still happening right now? (e.g., 'I am still at the office'). If yes, you can choose to keep it in the present tense.",
+  "indonesianLearnerWarning": "This is actually good news for Indonesian learners! In these specific cases, the English rule matches the Indonesian instinct to just report the meaning without changing the verb tense.",
+  "practicePrompts": [
+    "Report this fact: The scientist said, \\\"Water freezes at 0 degrees.\\\"",
+    "Report this (it is still true): Budi says, \\\"I am busy.\\\""
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Contrast two situations. Situation 1: A friend said 'I am sick' last month. Situation 2: A friend said 'I am sick' five minutes ago. Have students report both to see how the tense choice changes the meaning.",
+  "quickComparison": "<strong>Still True:</strong> 'He said he is sick' (Still sick now). <strong>Past Fact:</strong> 'He said he was sick' (Sick in the past).",
+  "summary": [
+    "Do not backshift if the reporting verb is present ('says').",
+    "Do not backshift general truths or scientific facts.",
+    "You can keep present tense if the situation is still true right now."
+  ]
+},
+{
+  "id": "grammar-reported-yes-no-questions",
+  "backHref": "reported-speech.html",
+  "backLabel": "Back to Reported Speech",
+  "title": "Reported Yes/No Questions",
+  "skill": "Grammar",
+  "category": "Reported Speech",
+  "level": "Intermediate",
+  "description": "Report simple questions using if or whether with statement word order.",
+  "learningGoals": [
+    "Use 'if' or 'whether' to connect a reported Yes/No question.",
+    "Change question word order back into statement word order."
+  ],
+  "meaning": "When reporting a question that can be answered with Yes or No, we cannot use 'that'. Instead, we use 'if' or 'whether', and we change the sentence back to a normal statement structure (Subject + Verb).",
+  "keyIdeas": [
+    "Use the reporting verb 'ask', not 'say' or 'tell'.",
+    "Connect the two parts with 'if' or 'whether'.",
+    "Do NOT use question structures (like 'do', 'does', 'did', or inverted verbs). The reported question is technically a statement now."
+  ],
+  "patterns": [
+    {
+      "name": "Reporting Yes/No Questions",
+      "formula": "Subject + asked + (Person) + if/whether + Subject + Verb",
+      "examples": [
+        {
+          "en": "Direct: \\\"Are you hungry?\\\"",
+          "id": "Langsung: \\\"Apakah kamu lapar?\\\"",
+          "explanation": "Verb 'Are' comes before subject 'you'."
+        },
+        {
+          "en": "Reported: She asked if I was hungry.",
+          "id": "Dilaporkan: Dia bertanya apakah saya lapar.",
+          "explanation": "Subject 'I' comes before verb 'was'. No question mark."
+        },
+        {
+          "en": "Direct: \\\"Do you like coffee?\\\"",
+          "id": "Langsung: \\\"Apakah kamu suka kopi?\\\"",
+          "explanation": "Uses 'Do'."
+        },
+        {
+          "en": "Reported: He asked whether I liked coffee.",
+          "id": "Dilaporkan: Dia bertanya apakah saya suka kopi.",
+          "explanation": "Drop the 'do'. Backshift 'like' to 'liked'."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "She asked me if was I hungry.",
+      "correct": "She asked me if I was hungry.",
+      "explanation": "Do not use question word order (verb-subject) in a reported question."
+    },
+    {
+      "wrong": "He asked did I like coffee.",
+      "correct": "He asked if I liked coffee.",
+      "explanation": "Drop the 'did' and backshift the main verb."
+    }
+  ],
+  "introduction": "Questions behave very differently than statements when they are reported. If a friend asks you, 'Are you okay?', how do you tell someone else about it? You can't say, 'He asked that are you okay.' That sounds broken.<br><br>First, a reported question is no longer a question; it's a statement *about* a question. Therefore, you must remove the question mark, drop helper verbs like 'do/does/did', and put the subject before the verb. Second, because there is no question word (like Who or What), you need a bridge word to connect the sentence. We use 'if' or 'whether'.",
+  "stepByStep": "1. <strong>Use 'ask':</strong> 'He asked me...'<br>2. <strong>Add the bridge:</strong> '...if...'<br>3. <strong>Find the subject:</strong> Change 'are you' to 'I'.<br>4. <strong>Fix the word order and backshift:</strong> Change to a statement (I am) and shift back (I was).<br>5. <strong>Result:</strong> 'He asked me if I was hungry.' (NO question mark).",
+  "indonesianLearnerWarning": "In Indonesian, 'apakah' translates perfectly to 'if/whether' here (Dia bertanya apakah...). The hard part is remembering to un-invert the English verb (change 'was I' to 'I was'). Practice 'flattening' the question into a statement.",
+  "practicePrompts": [
+    "Report: \\\"Is it raining?\\\" (She asked...)",
+    "Report: \\\"Did you finish?\\\" (He asked me...)"
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> The 'Interview Interview' game. Student A asks Student B Yes/No questions. Student C listens and must report: 'A asked B if he liked pizza, and B said...'",
+  "quickComparison": "<strong>Question:</strong> Are you ready? <strong>Reported:</strong> He asked if I was ready.",
+  "summary": [
+    "Use 'if' or 'whether' for Yes/No questions.",
+    "Change back to statement word order (Subject + Verb).",
+    "Remove 'do', 'does', or 'did'.",
+    "Do not use a question mark."
+  ]
+},
+{
+  "id": "grammar-reported-wh-questions",
+  "backHref": "reported-speech.html",
+  "backLabel": "Back to Reported Speech",
+  "title": "Reported WH-Questions",
+  "skill": "Grammar",
+  "category": "Reported Speech",
+  "level": "Intermediate",
+  "description": "Keep the question word and change to statement word order.",
+  "learningGoals": [
+    "Use the WH-word as the connection instead of 'if'.",
+    "Apply statement word order to WH-questions."
+  ],
+  "meaning": "When reporting a WH-question (Who, What, Where, When, Why, How), we keep the original question word as the bridge. We do NOT use 'if' or 'that'. Just like Yes/No questions, we must change the word order back to a normal statement.",
+  "keyIdeas": [
+    "The WH-word (what, where, how) connects the reporting verb to the clause.",
+    "The word order must be Subject + Verb.",
+    "Helper verbs (do, does, did) disappear."
+  ],
+  "patterns": [
+    {
+      "name": "Reporting WH-Questions",
+      "formula": "Subject + asked + (Person) + WH-Word + Subject + Verb",
+      "examples": [
+        {
+          "en": "Direct: \\\"Where are you going?\\\"",
+          "id": "Langsung: \\\"Ke mana kamu akan pergi?\\\"",
+          "explanation": "Verb 'are' before subject 'you'."
+        },
+        {
+          "en": "Reported: He asked where I was going.",
+          "id": "Dilaporkan: Dia bertanya ke mana saya akan pergi.",
+          "explanation": "Bridge is 'where'. Order is subject 'I' then verb 'was'."
+        },
+        {
+          "en": "Direct: \\\"What do you want?\\\"",
+          "id": "Langsung: \\\"Apa yang kamu inginkan?\\\"",
+          "explanation": "Uses helper 'do'."
+        },
+        {
+          "en": "Reported: She asked what I wanted.",
+          "id": "Dilaporkan: Dia bertanya apa yang saya inginkan.",
+          "explanation": "Drop 'do'. Backshift 'want' to 'wanted'."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "He asked me where was I going.",
+      "correct": "He asked me where I was going.",
+      "explanation": "Do not use question word order in reported questions."
+    },
+    {
+      "wrong": "She asked me what did I want.",
+      "correct": "She asked me what I wanted.",
+      "explanation": "Drop 'did' and backshift the main verb."
+    }
+  ],
+  "introduction": "Reporting a WH-question is almost exactly the same as reporting a Yes/No question, but with one big difference: you don't need to add 'if' or 'whether'. The WH-word (What, Where, Why, etc.) is strong enough to act as the bridge all by itself.<br><br>The biggest trap for learners is keeping the question format. If someone asks, 'Where is the station?', your brain wants to report it as 'He asked where is the station.' But remember, you are not asking a question anymore. You are stating a fact about a question. You must flatten it: 'He asked where the station was.'",
+  "stepByStep": "1. <strong>Use 'ask':</strong> 'She asked me...'<br>2. <strong>Keep the WH-word:</strong> '...where...'<br>3. <strong>Find the subject and verb:</strong> 'is the station' -> subject is 'the station'.<br>4. <strong>Flatten and backshift:</strong> Put subject first, then the backshifted verb ('the station was').<br>5. <strong>Result:</strong> 'She asked me where the station was.'",
+  "indonesianLearnerWarning": "In spoken English, even native speakers sometimes accidentally say 'He asked where was I going' because the question rhythm is so catchy. Train yourself to break that rhythm and speak it like a flat statement.",
+  "practicePrompts": [
+    "Report: \\\"Why are you crying?\\\" (He asked...)",
+    "Report: \\\"When does the train leave?\\\" (She asked...)"
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Play 'Nosy Neighbor'. Have one student act as a nosy neighbor who didn't hear a conversation. They must ask another student: 'What did he ask you?' 'He asked me where I lived.'",
+  "quickComparison": "<strong>Direct:</strong> What time is it? <strong>Reported:</strong> He asked what time it was.",
+  "summary": [
+    "Keep the original WH-word.",
+    "Do NOT use 'that' or 'if'.",
+    "Change back to statement word order (Subject + Verb)."
+  ]
+},
+{
+  "id": "grammar-reported-commands-instructions",
+  "backHref": "reported-speech.html",
+  "backLabel": "Back to Reported Speech",
+  "title": "Reported Commands and Instructions",
+  "skill": "Grammar",
+  "category": "Reported Speech",
+  "level": "Intermediate",
+  "description": "Report commands and instructions using 'to' + base verb.",
+  "learningGoals": [
+    "Use 'tell' or 'order' for commands.",
+    "Connect the command with 'to' (positive) or 'not to' (negative).",
+    "Avoid backshifting verbs in commands."
+  ],
+  "meaning": "When someone gives a command (an imperative sentence like 'Sit down!' or 'Don't move!'), we do not use 'that' or backshift the tense. Instead, we use an infinitive phrase ('to' + verb).",
+  "keyIdeas": [
+    "Use strong reporting verbs like 'tell', 'order', or 'command'.",
+    "Use 'to + Verb 1' for positive commands.",
+    "Use 'not to + Verb 1' for negative commands."
+  ],
+  "patterns": [
+    {
+      "name": "Reporting Positive Commands",
+      "formula": "Subject + told/ordered + Person + to + Verb 1",
+      "examples": [
+        {
+          "en": "Direct: \\\"Sit down.\\\"",
+          "id": "Langsung: \\\"Duduklah.\\\"",
+          "explanation": "A direct command."
+        },
+        {
+          "en": "Reported: The teacher told me to sit down.",
+          "id": "Dilaporkan: Guru menyuruh saya untuk duduk.",
+          "explanation": "Uses 'to' + base verb."
+        }
+      ]
+    },
+    {
+      "name": "Reporting Negative Commands",
+      "formula": "Subject + told/ordered + Person + not to + Verb 1",
+      "examples": [
+        {
+          "en": "Direct: \\\"Don't move!\\\"",
+          "id": "Langsung: \\\"Jangan bergerak!\\\"",
+          "explanation": "A negative command."
+        },
+        {
+          "en": "Reported: The police ordered him not to move.",
+          "id": "Dilaporkan: Polisi memerintahkannya untuk tidak bergerak.",
+          "explanation": "Uses 'not to'. We drop the 'Don't'."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "He told me that sit down.",
+      "correct": "He told me to sit down.",
+      "explanation": "Do not use 'that' for commands."
+    },
+    {
+      "wrong": "She told me to don't talk.",
+      "correct": "She told me not to talk.",
+      "explanation": "Drop 'don't' and use 'not to'."
+    }
+  ],
+  "introduction": "Reporting a command is the easiest type of reported speech because there is no tense backshifting to worry about! If a boss says, 'Finish the report,' or a parent says, 'Don't touch the stove,' you just need to act like a messenger.<br><br>Instead of building a complex clause with subjects and backshifted verbs, you simply attach an action to a person using the word 'to'. Think of it as pointing an arrow at someone: 'He told John TO finish the report.' It is fast, efficient, and very common in the workplace and classroom.",
+  "stepByStep": "1. <strong>Choose a strong verb:</strong> 'told', 'ordered', 'instructed'.<br>2. <strong>Add the person:</strong> 'The boss told me...'<br>3. <strong>If positive:</strong> Add 'to' + base verb ('...to finish it.').<br>4. <strong>If negative:</strong> Replace 'Don't' with 'not to' + base verb ('...not to be late.').",
+  "indonesianLearnerWarning": "In Indonesian, we often say 'Dia menyuruh saya jangan...' (He told me don't...). In English, 'jangan' (don't) must transform into 'not to'. Never say 'told me don't'.",
+  "practicePrompts": [
+    "Report: \\\"Open the door.\\\" (He told me...)",
+    "Report: \\\"Don't touch that.\\\" (She told him...)"
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Play 'Simon Says', but with a twist. After you give a command ('Simon says touch your nose'), ask a student: 'What did I just tell you to do?' Answer: 'You told us to touch our noses.'",
+  "quickComparison": "<strong>Statement:</strong> He told me that he was late. <strong>Command:</strong> He told me to be on time.",
+  "summary": [
+    "Do not use 'that' for commands.",
+    "Use 'to + verb' for positive commands.",
+    "Use 'not to + verb' for negative commands."
+  ]
+},
+{
+  "id": "grammar-reported-requests-advice-suggestions",
+  "backHref": "reported-speech.html",
+  "backLabel": "Back to Reported Speech",
+  "title": "Reported Requests, Advice, and Suggestions",
+  "skill": "Grammar",
+  "category": "Reported Speech",
+  "level": "Upper-Intermediate",
+  "description": "Learn the different patterns for reporting advice and suggestions.",
+  "learningGoals": [
+    "Report polite requests using 'ask' + to-infinitive.",
+    "Report advice using 'advise' + to-infinitive.",
+    "Report suggestions using 'suggest' + V-ing or 'suggest that'."
+  ],
+  "meaning": "Requests are softer than commands, so we use 'ask' instead of 'tell'. Advice uses 'advise'. Suggestions are unique because the reporting verb 'suggest' follows a totally different grammar pattern.",
+  "keyIdeas": [
+    "Requests use: ask + person + to + verb.",
+    "Advice uses: advise + person + to + verb.",
+    "Suggestions use: suggest + V-ing (or 'suggest that'). DO NOT use 'suggest person to'."
+  ],
+  "patterns": [
+    {
+      "name": "Reporting Requests",
+      "formula": "Subject + asked + Person + to + Verb 1",
+      "examples": [
+        {
+          "en": "Direct: \\\"Please help me.\\\"",
+          "id": "Langsung: \\\"Tolong bantu saya.\\\"",
+          "explanation": "A polite request."
+        },
+        {
+          "en": "Reported: He asked me to help him.",
+          "id": "Dilaporkan: Dia meminta saya untuk membantunya.",
+          "explanation": "We drop 'please' and use 'to'."
+        }
+      ]
+    },
+    {
+      "name": "Reporting Suggestions (The Tricky One)",
+      "formula": "Subject + suggested + V-ing",
+      "examples": [
+        {
+          "en": "Direct: \\\"Let's go to the park.\\\"",
+          "id": "Langsung: \\\"Ayo pergi ke taman.\\\"",
+          "explanation": "A suggestion."
+        },
+        {
+          "en": "Reported: She suggested going to the park.",
+          "id": "Dilaporkan: Dia menyarankan untuk pergi ke taman.",
+          "explanation": "Notice there is no 'me' and no 'to'."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "She suggested me to go to the park.",
+      "correct": "She suggested going to the park.",
+      "explanation": "NEVER use 'suggest someone to do something'. It is a huge grammatical error in English."
+    },
+    {
+      "wrong": "He asked to me to help.",
+      "correct": "He asked me to help.",
+      "explanation": "Do not use 'to' before the person object with 'ask' or 'tell'."
+    }
+  ],
+  "introduction": "When someone says 'Please pass the salt' or 'Let's get pizza,' they aren't giving a military command, and they aren't asking a factual question. They are making a request or a suggestion. How do we report these softer interactions?<br><br>Requests and advice are easy: they follow the exact same arrow pattern as commands (He asked me TO pass the salt). However, suggestions are the ultimate trap for learners. The verb 'suggest' has its own unique rules that break all the patterns we've learned so far.",
+  "stepByStep": "1. <strong>For Requests:</strong> Use 'ask' + person + to + verb (He asked me to help).<br>2. <strong>For Advice:</strong> Use 'advise' + person + to + verb (The doctor advised me to rest).<br>3. <strong>For Suggestions:</strong> Use 'suggest' + V-ing (He suggested eating pizza). Drop the person entirely!",
+  "indonesianLearnerWarning": "Indonesian directly translates to 'Dia menyarankan saya untuk pergi' (He suggested me to go). THIS IS WRONG IN ENGLISH. You must force yourself to say 'He suggested going' or 'He suggested that we go'.",
+  "practicePrompts": [
+    "Report: \\\"Please wait here.\\\" (She asked him...)",
+    "Report: \\\"Let's order pizza.\\\" (He suggested...)"
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Put a big red 'X' over the phrase 'suggest me to' on the whiteboard. It is one of the most persistent errors for learners. Do rapid-fire drills converting 'Let's...' into 'He suggested V-ing'.",
+  "quickComparison": "<strong>Command:</strong> He told me to go. <strong>Suggestion:</strong> He suggested going.",
+  "summary": [
+    "Report requests using 'ask someone to'.",
+    "Report advice using 'advise someone to'.",
+    "Report suggestions using 'suggest V-ing'. Never say 'suggest me to'."
+  ]
+},
+{
+  "id": "grammar-advanced-reporting-verbs",
+  "backHref": "reported-speech.html",
+  "backLabel": "Back to Reported Speech",
+  "title": "Advanced Reporting Verbs",
+  "skill": "Grammar",
+  "category": "Reported Speech",
+  "level": "Advanced",
+  "description": "Use specific verbs like admit, deny, promise, and warn.",
+  "learningGoals": [
+    "Understand how advanced verbs capture the tone and intention of the speaker.",
+    "Master the specific grammar patterns required by different verbs."
+  ],
+  "meaning": "While 'say' and 'tell' are useful, they are a bit boring. Advanced reporting verbs (like admit, deny, promise, warn, refuse, apologize) pack both the action of speaking and the emotional intention into a single word.",
+  "keyIdeas": [
+    "Verbs followed by 'to': promise, refuse, offer, agree.",
+    "Verbs followed by a person + 'to': warn, remind, encourage.",
+    "Verbs followed by V-ing: admit, deny, apologize for."
+  ],
+  "patterns": [
+    {
+      "name": "Verb + To",
+      "formula": "Subject + promised/refused/offered + to + Verb 1",
+      "examples": [
+        {
+          "en": "Direct: \\\"I won't do it!\\\"",
+          "id": "Langsung: \\\"Saya tidak akan melakukannya!\\\"",
+          "explanation": "A refusal."
+        },
+        {
+          "en": "Reported: He refused to do it.",
+          "id": "Dilaporkan: Dia menolak untuk melakukannya.",
+          "explanation": "Much stronger than 'He said he wouldn't do it'."
+        }
+      ]
+    },
+    {
+      "name": "Verb + V-ing",
+      "formula": "Subject + admitted/denied + V-ing",
+      "examples": [
+        {
+          "en": "Direct: \\\"I didn't steal the money.\\\"",
+          "id": "Langsung: \\\"Saya tidak mencuri uang itu.\\\"",
+          "explanation": "A denial."
+        },
+        {
+          "en": "Reported: He denied stealing the money.",
+          "id": "Dilaporkan: Dia menyangkal mencuri uang itu.",
+          "explanation": "Summarizes the entire idea into one action verb."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "He admitted to steal the money.",
+      "correct": "He admitted stealing the money.",
+      "explanation": "'Admit' is followed by a gerund (V-ing), not an infinitive."
+    },
+    {
+      "wrong": "He apologized to be late.",
+      "correct": "He apologized for being late.",
+      "explanation": "'Apologize' must be followed by 'for' + V-ing."
+    }
+  ],
+  "introduction": "Using 'said' and 'told' over and over again can make your English sound repetitive and basic. If a criminal shouts, 'I didn't do it!', you *could* say, 'He said that he hadn't done it.' But that loses all the drama!<br><br>Advanced speakers use 'verb upgrades'. Instead of using 'said' and a long sentence, they use words like 'denied' (He denied doing it). These verbs are like power-ups for your vocabulary. They compress the meaning, the tone, and the action into one neat package. The challenge is that each verb has its own specific grammar rule.",
+  "stepByStep": "1. <strong>Identify the speaker's intention:</strong> Were they warning? Promising? Apologizing?<br>2. <strong>Choose the verb:</strong> e.g., 'apologize'.<br>3. <strong>Apply the correct pattern:</strong> Memorize which verbs take 'to', which take a person, and which take V-ing.<br>4. <strong>Result:</strong> 'He apologized for being late.'",
+  "indonesianLearnerWarning": "Because Indonesian verbs don't change form, it's easy to accidentally translate literally: 'Dia menolak untuk melakukan' (He refused to do) works, but 'Dia menyangkal mencuri' must become 'He denied stealing' (V-ing), not 'He denied to steal'. Memorization of patterns is required here.",
+  "practicePrompts": [
+    "Report using 'refuse': \\\"I will not help you.\\\"",
+    "Report using 'warn': \\\"Don't touch the stove.\\\""
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Give students cards with direct quotes (e.g., 'I am so sorry I broke the vase'). They must report the quote using an advanced verb (e.g., 'He apologized for breaking the vase') without using the word 'said'.",
+  "quickComparison": "<strong>Basic:</strong> He said he would help. <strong>Advanced:</strong> He promised to help.",
+  "summary": [
+    "Advanced verbs compress the quote and the emotion.",
+    "Some take 'to + verb' (promise, refuse).",
+    "Some take 'V-ing' (admit, deny).",
+    "Some require a preposition (apologize for V-ing)."
+  ]
+},
+{
+  "id": "grammar-reporting-thoughts-beliefs-opinions",
+  "backHref": "reported-speech.html",
+  "backLabel": "Back to Reported Speech",
+  "title": "Reporting Thoughts, Beliefs, and Opinions",
+  "skill": "Grammar",
+  "category": "Reported Speech",
+  "level": "Advanced",
+  "description": "Report mental information or personal understanding.",
+  "learningGoals": [
+    "Use verbs like 'think', 'believe', 'know', and 'feel' to report mental states.",
+    "Apply the same backshifting rules used for spoken statements."
+  ],
+  "meaning": "Reported speech isn't just for words spoken out loud. We use the exact same grammar structure to report what someone was thinking, what they believed, or what they knew.",
+  "keyIdeas": [
+    "Mental verbs (thought, knew, felt, believed) act exactly like reporting verbs (said, told).",
+    "You must still backshift the tense in the reported clause."
+  ],
+  "patterns": [
+    {
+      "name": "Reporting Thoughts",
+      "formula": "Subject + thought/knew/believed + (that) + Subject + Backshifted Verb",
+      "examples": [
+        {
+          "en": "Direct Thought: (I am right.)",
+          "id": "Pikiran Langsung: (Saya benar.)",
+          "explanation": "Inside the person's head."
+        },
+        {
+          "en": "Reported: He thought that he was right.",
+          "id": "Dilaporkan: Dia berpikir bahwa dia benar.",
+          "explanation": "Reported using backshifting."
+        },
+        {
+          "en": "Direct Belief: (The plan will work.)",
+          "id": "Keyakinan Langsung: (Rencana ini akan berhasil.)",
+          "explanation": "A belief about the future."
+        },
+        {
+          "en": "Reported: They believed the plan would work.",
+          "id": "Dilaporkan: Mereka percaya rencana itu akan berhasil.",
+          "explanation": "'Will' backshifts to 'would'."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I thought you are angry.",
+      "correct": "I thought you were angry.",
+      "explanation": "Because 'thought' is in the past, the following verb must backshift to 'were'."
+    }
+  ],
+  "introduction": "Have you ever had a misunderstanding and said, 'Oh, I thought you were angry at me!'? If so, you are already using reported speech! We often think of reported speech as only applying to words that come out of someone's mouth. But in English, the brain is treated like a speaker.<br><br>When you report a thought, a feeling, or a belief from the past, you apply the exact same backshifting rules as if someone had spoken it aloud. Mastering this allows you to explain misunderstandings, share opinions, and tell stories about what was going on inside someone's head.",
+  "stepByStep": "1. <strong>Identify the mental state:</strong> thought, believed, knew, felt, assumed.<br>2. <strong>Add 'that' (optional):</strong> 'I thought that...'<br>3. <strong>State the idea and backshift the verb:</strong> Change 'you are' to 'you were'.<br>4. <strong>Result:</strong> 'I thought that you were angry.'",
+  "indonesianLearnerWarning": "In Indonesian, saying 'Saya pikir kamu marah' (I thought you are angry) uses no tense change. In English, failing to backshift ('I thought you are angry') sounds like a grammatical crash. Always match the past tense 'thought' with a past tense state ('were').",
+  "practicePrompts": [
+    "Report the thought: (The test will be easy.) -> I thought...",
+    "Report the belief: (She is a doctor.) -> We assumed..."
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Discuss a common misconception (e.g., 'People used to think the world was flat'). Have students write sentences starting with 'Hundreds of years ago, people believed that...'",
+  "quickComparison": "<strong>Spoken:</strong> He said he was ready. <strong>Mental:</strong> He thought he was ready.",
+  "summary": [
+    "Treat thoughts and beliefs exactly like spoken words.",
+    "Use verbs like thought, knew, believed, assumed.",
+    "Always apply tense backshifting if the mental verb is in the past."
+  ]
+},
+{
+  "id": "grammar-reported-speech-conversations-stories",
+  "backHref": "reported-speech.html",
+  "backLabel": "Back to Reported Speech",
+  "title": "Reported Speech in Conversations and Stories",
+  "skill": "Grammar",
+  "category": "Reported Speech",
+  "level": "Advanced",
+  "description": "Learn to mix direct speech and reported speech naturally.",
+  "learningGoals": [
+    "Understand how to use reported speech to summarize long conversations.",
+    "Know when to switch back to direct speech for dramatic effect."
+  ],
+  "meaning": "In real life, we don't report every single sentence word-for-word. We summarize the boring parts using reported speech, and we use direct quotes for the most exciting or important statements.",
+  "keyIdeas": [
+    "Use reported speech for background information and summaries.",
+    "Use direct speech for the punchline, the shock, or the most important quote.",
+    "Mixing both styles makes you a much better storyteller."
+  ],
+  "patterns": [
+    {
+      "name": "The Storytelling Mix",
+      "formula": "Reported Summary + Direct Punchline",
+      "examples": [
+        {
+          "en": "I asked my boss for a raise, and he told me the company was losing money. Then he looked at me and said, \\\"In fact, you're fired!\\\"",
+          "id": "Saya meminta kenaikan gaji kepada bos saya, dan dia memberitahu saya bahwa perusahaan sedang rugi. Kemudian dia menatap saya dan berkata, \\\"Faktanya, kamu dipecat!\\\"",
+          "explanation": "The buildup is reported. The shock is direct."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "He said that he was going to the store and he said that he would buy milk and he said that he would be back soon.",
+      "correct": "He said he was going to the store to buy milk and would be back soon.",
+      "explanation": "Don't repeat 'he said that' over and over. Combine the ideas."
+    }
+  ],
+  "introduction": "When learners first study reported speech, they often try to translate an entire five-minute conversation sentence by sentence. This sounds robotic and exhausting! Think about how you tell stories in your native language.<br><br>Good storytellers are editors. They use reported speech to summarize the boring parts of a conversation quickly ('She told me about her day...'). Then, when they reach the most exciting part, they switch to direct speech to create drama ('...and then she screamed, \"Look out!\"'). Learning to mix these two styles is the final step to mastering conversational English.",
+  "stepByStep": "1. <strong>Summarize the setup:</strong> Use reported speech to compress the boring details ('He told me he was tired').<br>2. <strong>Combine clauses:</strong> Don't repeat 'he said'. Use 'and' ('He said he was tired and wanted to go home').<br>3. <strong>Deliver the punchline:</strong> Switch to direct quotes for the most important line ('Then he said, \"I quit!\"').",
+  "indonesianLearnerWarning": "Avoid the habit of starting every sentence in a story with 'Terus dia bilang...' (Then he said...). Use conjunctions to connect reported ideas smoothly.",
+  "practicePrompts": [
+    "Summarize a recent conversation you had using only reported speech.",
+    "Now, add one direct quote to the end of that summary to make it interesting."
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Have students tell a story about a funny misunderstanding. They must use reported speech for the buildup, and one direct quote for the climax.",
+  "quickComparison": "<strong>Boring:</strong> He said A. He said B. He said C. <strong>Natural:</strong> He explained A and B, but then shouted, \\\"C!\\\"",
+  "summary": [
+    "Reported speech is for summarizing.",
+    "Direct speech is for drama and exact quotes.",
+    "Mix them to sound like a natural storyteller.",
+    "Avoid repeating 'he said' by joining ideas with 'and'."
+  ]
+},
+{
+  "id": "grammar-common-reported-speech-mistakes",
+  "backHref": "reported-speech.html",
+  "backLabel": "Back to Reported Speech",
+  "title": "Common Reported Speech Mistakes",
+  "skill": "Grammar",
+  "category": "Reported Speech",
+  "level": "Advanced",
+  "description": "Repair common errors and use a final checklist to get it right.",
+  "learningGoals": [
+    "Identify the top 5 mistakes learners make with reported speech.",
+    "Apply a mental checklist to self-correct before speaking."
+  ],
+  "meaning": "Reported speech requires you to juggle several grammar rules at once: verbs, tenses, pronouns, and time words. Because of this high 'cognitive load', mistakes are very common. This lesson acts as your final repair manual.",
+  "keyIdeas": [
+    "Say vs Tell is the most frequent error.",
+    "Forgetting to backshift tenses is the second most common.",
+    "Keeping question word order in reported questions is a classic trap."
+  ],
+  "patterns": [
+    {
+      "name": "The Mental Checklist",
+      "formula": "Verb Choice -> Pronouns -> Tense Shift -> Time Words",
+      "examples": [
+        {
+          "en": "Direct: \\\"Are you leaving tomorrow?\\\"",
+          "id": "Langsung: \\\"Apakah kamu berangkat besok?\\\"",
+          "explanation": "A question with a future time word."
+        },
+        {
+          "en": "Checklist applied: He asked (Verb) if I (Pronoun) was leaving (Tense) the next day (Time).",
+          "id": "Penerapan: Dia bertanya apakah saya akan berangkat keesokan harinya.",
+          "explanation": "All four parts of the checklist were applied correctly."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "He said me that he was tired.",
+      "correct": "He told me that he was tired.",
+      "explanation": "Mistake 1: Say vs Tell. Use 'tell' with a person object."
+    },
+    {
+      "wrong": "She asked where is the bank.",
+      "correct": "She asked where the bank was.",
+      "explanation": "Mistake 2: Question word order. Flatten it to Subject + Verb."
+    },
+    {
+      "wrong": "He suggested me to go.",
+      "correct": "He suggested going.",
+      "explanation": "Mistake 3: Suggest grammar. Never use 'suggest someone to'."
+    },
+    {
+      "wrong": "He said he will call me.",
+      "correct": "He said he would call me.",
+      "explanation": "Mistake 4: Modal backshift. 'Will' must become 'would'."
+    }
+  ],
+  "introduction": "You have learned all the pieces of reported speech: the reporting verbs, the tense backshifting, the pronoun updates, and the special rules for questions and commands. But when you are speaking in real time, your brain has to process all these rules in a split second!<br><br>It is completely normal to make mistakes. Even advanced speakers sometimes trip over their words. The difference is that advanced speakers know how to catch their mistakes. By reviewing the top errors, you can create a mental checklist to diagnose and repair your own sentences.",
+  "stepByStep": "Your Final Checklist:<br>1. <strong>The Verb:</strong> Did I use 'say', 'tell', or 'ask' correctly?<br>2. <strong>The Bridge:</strong> Do I need 'that', 'if', a WH-word, or 'to'?<br>3. <strong>The Subject:</strong> Did I change 'I/You' to match the real person?<br>4. <strong>The Tense:</strong> Did I take one step backward in time?<br>5. <strong>The Time Word:</strong> Did I change 'tomorrow' or 'here' if needed?",
+  "indonesianLearnerWarning": "Because Indonesian grammar is much lighter in this area, your brain will constantly try to skip steps 4 and 5 (Tenses and Time Words). You must force yourself to pause and calculate the time shift before you finish the sentence.",
+  "practicePrompts": [
+    "Fix this: He told that he is busy.",
+    "Fix this: She asked what do I want."
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Play 'Grammar Doctor'. Write 5 broken sentences on the board. Students must diagnose the specific 'disease' (e.g., 'Say/Tell confusion', 'Failed Backshift') and prescribe the cure.",
+  "quickComparison": "<strong>Broken:</strong> He said me he will go. <strong>Repaired:</strong> He told me he would go.",
+  "summary": [
+    "Always check your Say vs Tell choice.",
+    "Always flatten questions into statements.",
+    "Always backshift your tenses (unless it's a general truth).",
+    "Use the 5-step mental checklist to self-correct."
+  ]
+},
 ];
