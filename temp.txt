@@ -1,0 +1,53 @@
+12943-    "id": "grammar-prepositions-in-on-at-place",
+12944-    "backHref": "prepositions.html",
+12945-    "backLabel": "Back to Prepositions",
+12946-    "title": "In, On, At for Place",
+12947-    "skill": "Grammar",
+12948:    "category": "Place Prepositions",
+12949-    "level": "Beginner",
+12950-    "description": "Master the 3D, 2D, and 1D rules for location prepositions.",
+12951-    "learningGoals": [
+12952-      "Use 'in' for 3-dimensional enclosed spaces (boxes, rooms, cities).",
+12953-      "Use 'on' for 2-dimensional surfaces and lines (tables, walls, streets).",
+12954-      "Use 'at' for 1-dimensional specific points and events (at the door, at a party)."
+12955-    ],
+12956-    "meaning": "IN represents enclosure (3D space). You are surrounded by borders or walls. ON represents contact with a surface (2D space). You are touching a floor, wall, or ceiling, or positioned along a line (a river or street). AT represents a specific point (1D space). It doesn't matter if you are inside or outside; it just marks an 'X' on a map or an event you are attending.",
+12957-    "keyIdeas": [
+12958-      "In = inside an enclosed area or 3D space (room, city, box).",
+12959-      "On = touching a surface or on a line (table, wall, street).",
+12960-      "At = a specific point or public place serving a function (at school, at home, at the bus stop)."
+12961-    ],
+12962-    "patterns": [
+12963-      {
+12964-        "name": "The 'In' Pattern (3D)",
+12965-        "formula": "in + [container/room/city/country]",
+12966-        "explanation": "Example: in the box, in the kitchen, in Tokyo, in France."
+12967-      },
+12968-      {
+--
+13099-    "id": "grammar-above-over-under-below-between-among",
+13100-    "backHref": "prepositions.html",
+13101-    "backLabel": "Back to Prepositions",
+13102-    "title": "Above, Over, Under, Below, Between, Among",
+13103-    "skill": "Grammar",
+13104:    "category": "Place Prepositions",
+13105-    "level": "Intermediate",
+13106-    "description": "Learn to describe vertical positions and relationships between multiple objects.",
+13107-    "learningGoals": [
+13108-      "Distinguish between 'above' (higher level) and 'over' (covering/moving across).",
+13109-      "Distinguish between 'below' (lower level) and 'under' (covered by).",
+13110-      "Distinguish between 'between' (two distinct things) and 'among' (a group/crowd)."
+13111-    ],
+13112-    "meaning": "These prepositions map out relative space. OVER/UNDER usually imply a direct vertical line or one thing covering another. ABOVE/BELOW refer to a general level on a scale (higher or lower), not necessarily directly on top. BETWEEN means in the middle of two clear, separate items. AMONG means surrounded by a group where individual items aren't distinct.",
+13113-    "keyIdeas": [
+13114-      "Above = higher than (not directly over). Over = higher than, sometimes covering or crossing.",
+13115-      "Under = directly lower or covered. Below = lower than a point or level.",
+13116-      "Between = in the middle of two distinct items.",
+13117-      "Among = surrounded by or part of a larger group."
+13118-    ],
+13119-    "patterns": [
+13120-      {
+13121-        "name": "The Vertical Scale",
+13122-        "formula": "Noun + is + Above/Below + Noun/Measurement",
+13123-        "explanation": "Use these when there is no physical covering, just a difference in height/level."
+13124-      },
