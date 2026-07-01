@@ -23574,7 +23574,7 @@ export const lessons = [
             }
         ],
         "indonesianWarning": "Indonesian learners often say 'I enjoy to study' because 'to study' feels like 'untuk belajar'. Remember that 'enjoy' specifically requires the -ing form in English.",
-        "summary": "Gerunds (Verb-ing) act like nouns, while infinitives (to + Verb) often show goals or plans. The first verb or word in the sentence usually decides which one to use."
+        "summary": ["Gerunds (Verb-ing) act like nouns, while infinitives (to + Verb) often show goals or plans. The first verb or word in the sentence usually decides which one to use."]
     },
     {
         "id": "grammar-gerunds-as-nouns",
@@ -23634,7 +23634,7 @@ export const lessons = [
             }
         ],
         "indonesianWarning": "In Indonesian, the base verb can act as a subject (e.g., 'Belajar itu penting'). In English, you cannot usually say 'Learn is important'. You must change the verb to a gerund: 'Learning is important'.",
-        "summary": "By adding -ing, a verb becomes a gerund and acts like a noun. You can use it as a subject, object, or complement to name an activity."
+        "summary": ["By adding -ing, a verb becomes a gerund and acts like a noun. You can use it as a subject, object, or complement to name an activity."]
     },
     {
         "id": "grammar-to-infinitives-bare-infinitives",
@@ -23703,7 +23703,7 @@ export const lessons = [
             }
         ],
         "indonesianWarning": "Because 'to' sometimes translates as 'untuk' or 'ke', learners might accidentally add it where it does not belong. Remember the rule: Modals + Bare Infinitive.",
-        "summary": "To-infinitives (to + verb) are common for goals and plans. Bare infinitives (just the verb) are required after modal verbs (can, must, should) and verbs like 'make' and 'let'."
+        "summary": ["To-infinitives (to + verb) are common for goals and plans. Bare infinitives (just the verb) are required after modal verbs (can, must, should) and verbs like 'make' and 'let'."]
     },
     {
         "id": "grammar-gerund-vs-infinitive-basic-meaning",
@@ -23758,7 +23758,7 @@ export const lessons = [
             }
         ],
         "indonesianWarning": "Do not assume 'to' always means 'untuk' and '-ing' always means 'sedang'. Learn the feeling of the pattern instead of translating word-for-word.",
-        "summary": "Generally, gerunds feel like real experiences or activities, while infinitives feel like goals, plans, or future possibilities."
+        "summary": ["Generally, gerunds feel like real experiences or activities, while infinitives feel like goals, plans, or future possibilities."]
     },
     {
         "id": "grammar-gerunds-after-verbs",
@@ -23832,7 +23832,7 @@ export const lessons = [
             }
         ],
         "indonesianWarning": "In Indonesian, 'Saya menyarankan untuk mengulas pelajaran' uses 'untuk' (to). So learners often say 'suggest to review'. In English, 'suggest' requires a gerund: 'suggest reviewing'.",
-        "summary": "Verbs like enjoy, avoid, finish, keep, mind, and suggest must be followed by a gerund (Verb-ing), never a to-infinitive."
+        "summary": ["Verbs like enjoy, avoid, finish, keep, mind, and suggest must be followed by a gerund (Verb-ing), never a to-infinitive."]
     },
     {
         "id": "grammar-gerunds-after-prepositions",
@@ -23906,7 +23906,7 @@ export const lessons = [
             }
         ],
         "indonesianWarning": "Indonesian translates 'tertarik untuk belajar' with 'untuk' (to). This tricks learners into writing 'interested to learn'. Remember that in English, the phrase is 'interested IN', and prepositions take gerunds.",
-        "summary": "If a verb comes immediately after a preposition (in, at, of, for, about, without, etc.), it MUST be a gerund (Verb-ing)."
+        "summary": ["If a verb comes immediately after a preposition (in, at, of, for, about, without, etc.), it MUST be a gerund (Verb-ing)."]
     },
     {
         "id": "grammar-gerunds-subjects-complements",
@@ -23975,7 +23975,7 @@ export const lessons = [
             }
         ],
         "indonesianWarning": "In Indonesian, verbs do not change form when they become subjects (e.g., 'Belajar itu menyenangkan'). In English, you must add -ing: 'Learning is fun'.",
-        "summary": "Use a gerund (Verb-ing) when an activity is the subject of your sentence or when it comes after 'is' to describe a hobby or activity."
+        "summary": ["Use a gerund (Verb-ing) when an activity is the subject of your sentence or when it comes after 'is' to describe a hobby or activity."]
     },
     {
         "id": "grammar-common-gerund-expressions",
@@ -24050,7 +24050,7 @@ export const lessons = [
             }
         ],
         "indonesianWarning": "The expressions 'have difficulty' (kesulitan) and 'worth' (sepadan/layak) often trigger the word 'untuk' in Indonesian translations. Do not write 'worth to watch' or 'difficulty to understand'.",
-        "summary": "Expressions like 'be used to', 'feel like', 'have difficulty', and 'be worth' are always followed by a gerund."
+        "summary": ["Expressions like 'be used to', 'feel like', 'have difficulty', and 'be worth' are always followed by a gerund."]
     },
     {
         "id": "grammar-infinitives-after-verbs",
@@ -24124,7 +24124,7 @@ export const lessons = [
             }
         ],
         "indonesianWarning": "These patterns usually translate very neatly into Indonesian because 'to' acts similarly to 'untuk' here. Just remember that you cannot use an -ing form after verbs that point to a goal or plan.",
-        "summary": "Verbs that express plans, goals, or decisions (want, need, plan, decide, promise) are followed by a to-infinitive."
+        "summary": ["Verbs that express plans, goals, or decisions (want, need, plan, decide, promise) are followed by a to-infinitive."]
     },
     {
         "id": "grammar-infinitives-of-purpose",
@@ -24189,7 +24189,7 @@ export const lessons = [
             }
         ],
         "indonesianWarning": "In Indonesian, 'untuk' translates to 'for' or 'to'. Because of this, learners frequently write 'for improve' or 'for buy'. Remember: 'to' is followed by a verb; 'for' is followed by a noun or gerund.",
-        "summary": "To answer the question 'Why did you do that?', use a to-infinitive (to + base verb)."
+        "summary": ["To answer the question 'Why did you do that?', use a to-infinitive (to + base verb)."]
     },
     {
         "id": "grammar-adjective-plus-infinitive",
@@ -24258,7 +24258,7 @@ export const lessons = [
             }
         ],
         "indonesianWarning": "This pattern is usually quite natural for Indonesian learners, as 'senang membantu' directly translates to 'happy to help'. The main error to avoid is using a gerund where an infinitive is expected.",
-        "summary": "Adjectives that describe feelings (happy, sad), readiness (ready), or opinions (easy, difficult, important) are usually followed by a to-infinitive."
+        "summary": ["Adjectives that describe feelings (happy, sad), readiness (ready), or opinions (easy, difficult, important) are usually followed by a to-infinitive."]
     },
     {
         "id": "grammar-verb-object-infinitive",
@@ -24327,7 +24327,7 @@ export const lessons = [
             }
         ],
         "indonesianWarning": "Indonesian often uses a clause with 'bahwa' or 'agar/supaya' (e.g., 'Saya ingin agar kamu mendengarkan'). This causes learners to say 'I want that you listen'. In English, you must compress this into 'I want you to listen'.",
-        "summary": "When you instruct, invite, or expect someone else to do an action, use the pattern: Verb + Object (Person) + to-Infinitive."
+        "summary": ["When you instruct, invite, or expect someone else to do an action, use the pattern: Verb + Object (Person) + to-Infinitive."]
     },
     {
         "id": "grammar-verbs-gerund-or-infinitive",
@@ -24386,7 +24386,7 @@ export const lessons = [
             }
         ],
         "indonesianWarning": "If you are taking a formal test, be aware that British English often prefers gerunds for general likes (I like swimming) and infinitives for specific choices (I like to swim on Tuesdays). American English uses them more interchangeably.",
-        "summary": "Verbs like start, begin, continue, like, love, hate, and prefer can be followed by either a gerund or an infinitive without making a grammatical error."
+        "summary": ["Verbs like start, begin, continue, like, love, hate, and prefer can be followed by either a gerund or an infinitive without making a grammatical error."]
     },
     {
         "id": "grammar-stop-remember-forget-try-regret",
@@ -24450,7 +24450,7 @@ export const lessons = [
             }
         ],
         "indonesianWarning": "Because Indonesian doesn't have an equivalent structure, learners must actively memorize the meaning shift for these five verbs to avoid causing serious misunderstandings.",
-        "summary": "Stop, Remember, Forget, Try, and Regret change their meaning entirely. Use gerunds for past memories/experiences/quitting. Use infinitives for future tasks/goals/purposes."
+        "summary": ["Stop, Remember, Forget, Try, and Regret change their meaning entirely. Use gerunds for past memories/experiences/quitting. Use infinitives for future tasks/goals/purposes."]
     },
     {
         "id": "grammar-make-let-help-modal-bare-infinitives",
@@ -24519,7 +24519,7 @@ export const lessons = [
             }
         ],
         "indonesianWarning": "Because 'membuat saya belajar' uses 'membuat', learners often think they need 'to' for the second verb. Memorize 'make someone do something' as a fixed formula with no 'to'.",
-        "summary": "Never use 'to' after modal verbs (can, must, should). Never use 'to' after 'make' and 'let' when someone is causing or allowing an action."
+        "summary": ["Never use 'to' after modal verbs (can, must, should). Never use 'to' after 'make' and 'let' when someone is causing or allowing an action."]
     },
     {
         "id": "grammar-common-gerund-infinitive-mistakes",
@@ -24597,6 +24597,6 @@ export const lessons = [
                 "explanation": "If you use the checklist below, you will catch most of your errors before you make them."
             }
         ],
-        "summary": "Checklist: 1) Is there a preposition? Use Gerund. 2) Is it purpose? Use Infinitive. 3) Is there a modal/make/let? Use bare verb. 4) Is it a specific verb like enjoy or want? Use its specific rule. 5) Does the meaning change (stop/remember)? Check the context."
+        "summary": ["Checklist: 1) Is there a preposition? Use Gerund. 2) Is it purpose? Use Infinitive. 3) Is there a modal/make/let? Use bare verb. 4) Is it a specific verb like enjoy or want? Use its specific rule. 5) Does the meaning change (stop/remember)? Check the context."]
     }
 ];

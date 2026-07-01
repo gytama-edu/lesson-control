@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
     <div class="p-8 sm:p-12 space-y-14 bg-transparent">
       <!-- Introduction -->
       ${
-        lesson.introduction
+        lesson.introduction || lesson.warmIntroduction
           ? `
       <section>
         <h3 class="text-xs font-mono text-slate-500 uppercase tracking-widest mb-5 flex items-center gap-2">
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
           Warm Introduction
         </h3>
         <p class="text-lg text-slate-300 leading-relaxed">
-          ${lesson.introduction}
+          ${lesson.introduction || lesson.warmIntroduction}
         </p>
       </section>
       `
@@ -240,7 +240,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       <!-- Common Mistakes -->
       ${
-        lesson.commonMistakes && lesson.commonMistakes.length > 0
+        (lesson.commonMistakes && lesson.commonMistakes.length > 0) || (lesson.mistakes && lesson.mistakes.length > 0)
           ? `
       <section>
         <h3 class="text-xs font-mono text-slate-500 uppercase tracking-widest mb-5 flex items-center gap-2">
@@ -248,7 +248,7 @@ document.addEventListener("DOMContentLoaded", () => {
           Common Mistakes
         </h3>
         <ul class="space-y-4">
-          ${lesson.commonMistakes
+          ${(lesson.commonMistakes || lesson.mistakes)
             .map((mistake) => {
               if (typeof mistake === "string") {
                 return `
@@ -294,7 +294,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       <!-- Indonesian Learner Warning -->
       ${
-        lesson.indonesianLearnerWarning
+        lesson.indonesianLearnerWarning || lesson.indonesianWarning
           ? `
       <section>
         <div class="bg-orange-500/10 border-l-4 border-orange-500 p-5 rounded-r-xl shadow-sm">
@@ -302,7 +302,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
             Indonesian Learner Warning
           </h3>
-          <p class="text-orange-200/90 text-sm leading-relaxed">${lesson.indonesianLearnerWarning}</p>
+          <p class="text-orange-200/90 text-sm leading-relaxed">${lesson.indonesianLearnerWarning || lesson.indonesianWarning}</p>
         </div>
       </section>
       `
@@ -373,7 +373,7 @@ document.addEventListener("DOMContentLoaded", () => {
             Remember
           </h3>
           <ul class="space-y-3">
-            ${lesson.summary
+            ${(Array.isArray(lesson.summary) ? lesson.summary : [lesson.summary])
               .map(
                 (point) => `
               <li class="flex items-start gap-3 text-slate-300">
