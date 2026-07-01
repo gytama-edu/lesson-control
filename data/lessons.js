@@ -4515,6 +4515,1466 @@ const grammar_common_question_mistakes = {
 };
 
 export const lessons = [
+    {
+        "id": "grammar-common-connector-cohesion-mistakes",
+        "title": "Common Connector and Cohesion Mistakes",
+        "skill": "Grammar",
+        "pathway": "Connectors & Cohesion",
+        "group": "Cohesion in Sentences and Paragraphs",
+        "level": "Advanced",
+        "backHref": "connectors-cohesion.html",
+        "backLabel": "Back to Connectors & Cohesion",
+        "description": "A comprehensive repair lesson fixing mixed connectors, wrong meanings, and translation errors.",
+        "learningGoals": [
+            "Fix the most common errors involving connectors.",
+            "Apply a self-correction checklist to your writing."
+        ],
+        "warmIntroduction": "<p>We've covered a lot of ground: FANBOYS, subordinating clauses, formal transitions, punctuation, and paragraph flow. Now, it's time to put on your teacher hat.</p><p>When you edit your own writing, you need to know exactly what to look for. Are you using two contrast words at the same time? Are you using a comma to join two full sentences? Are you using 'for' instead of 'to'?</p><p>Let's review the most critical mistakes learners make and how to instantly repair them.</p>",
+        "commonMistakes": [
+            {
+                "wrong": "Although I was tired, but I studied.",
+                "correct": "Although I was tired, I studied.",
+                "explanation": "Double contrast. Choose either 'although' OR 'but'.",
+                "fix": "Remove 'but'."
+            },
+            {
+                "wrong": "Because it was raining, so we stayed home.",
+                "correct": "Because it was raining, we stayed home.",
+                "explanation": "Double cause/result. Choose either 'because' OR 'so'.",
+                "fix": "Remove 'so'."
+            },
+            {
+                "wrong": "I was tired, however I continued.",
+                "correct": "I was tired. However, I continued.",
+                "explanation": "Comma splice. 'However' needs a period or semicolon.",
+                "fix": "Change the comma to a period."
+            },
+            {
+                "wrong": "Because of I was sick, I stayed home.",
+                "correct": "Because I was sick, I stayed home.",
+                "explanation": "'Because of' + noun phrase. 'Because' + subject/verb clause.",
+                "fix": "Remove 'of'."
+            },
+            {
+                "wrong": "Despite she was tired, she worked.",
+                "correct": "Although she was tired, she worked. OR Despite being tired, she worked.",
+                "explanation": "'Despite' + noun phrase/verb-ing. It cannot take a subject/verb clause.",
+                "fix": "Change 'despite' to 'although', or change the clause."
+            },
+            {
+                "wrong": "I was hungry. However, I ate lunch.",
+                "correct": "I was hungry. Therefore, I ate lunch.",
+                "explanation": "Wrong logical relationship. Eating when hungry is a result, not a contrast.",
+                "fix": "Change the connector to match the logic."
+            },
+            {
+                "wrong": "I study English for can speak better.",
+                "correct": "I study English to speak better.",
+                "explanation": "Purpose is shown with 'to + verb', not 'for'.",
+                "fix": "Use 'to + verb'."
+            },
+            {
+                "wrong": "Because I was tired.",
+                "correct": "Because I was tired, I went home.",
+                "explanation": "Sentence fragment. A dependent clause cannot stand alone.",
+                "fix": "Connect it to a main clause."
+            }
+        ],
+        "classroomUse": "<strong>Self-Correction Checklist:</strong><br/>1. What relationship do I want to show?<br/>2. Is this connector for clauses or sentences?<br/>3. Do I need a comma, period, or semicolon?<br/>4. Am I using two connectors when one is enough?<br/>5. Is the connector too formal for my email?<br/>6. Did I directly translate from my native language?",
+        "summary": [
+            "Always check your punctuation around connectors.",
+            "Never double up connectors (Although + but).",
+            "Make sure the logic of the connector matches the logic of the ideas."
+        ]
+    },
+    {
+        "id": "grammar-avoiding-connector-overuse",
+        "title": "Avoiding Connector Overuse",
+        "skill": "Grammar",
+        "pathway": "Connectors & Cohesion",
+        "group": "Cohesion in Sentences and Paragraphs",
+        "level": "Advanced",
+        "backHref": "connectors-cohesion.html",
+        "backLabel": "Back to Connectors & Cohesion",
+        "description": "Learn why using too many connectors makes writing sound robotic and how to simplify.",
+        "learningGoals": [
+            "Recognize connector overuse (the 'robotic' paragraph).",
+            "Combine related ideas to reduce connector clutter.",
+            "Understand that cohesion can exist without transition words."
+        ],
+        "warmIntroduction": "<p>When students discover formal transition words like \"moreover,\" \"furthermore,\" and \"nevertheless,\" they get excited. They want to sound advanced. So, they put one at the beginning of every single sentence.</p><p>The result? The paragraph sounds like a robot reading a legal document. More connectors do not equal better English.</p><p>Native speakers use formal transitions sparingly—only when they need to make a major shift in logic. Let's learn how to simplify and write naturally.</p>",
+        "stepByStep": "<h3>The Overused Paragraph</h3><p><em>\"Moreover, exercise is useful. Furthermore, it improves health. In addition, it reduces stress. Therefore, people should exercise.\"</em></p><p>This paragraph is exhausting to read. The transitions are heavier than the actual information!</p><h3>The Natural Paragraph</h3><p><em>\"Exercise is useful because it improves health and reduces stress. For this reason, people should make it part of their routine.\"</em></p><p>This is much better. We combined the three addition sentences into one smooth sentence using \"and\". We kept one formal conclusion connector at the end.</p><h3>Tips for Natural Writing</h3><ul><li>Do not start every sentence with a transition word.</li><li>If you are just adding a simple fact, use 'and' or 'also' inside the sentence.</li><li>Save heavy words (however, therefore, moreover) for important shifts in the paragraph.</li></ul>",
+        "commonMistakes": [
+            {
+                "wrong": "First, I woke up. Second, I ate. Third, I went out.",
+                "correct": "I woke up, ate breakfast, and went out.",
+                "explanation": "Overusing sequence connectors for tiny, obvious actions sounds unnatural.",
+                "fix": "Combine the actions into a list using commas and 'and'."
+            },
+            {
+                "wrong": "It was raining. However, I went out. Therefore, I got wet.",
+                "correct": "Although it was raining, I went out, so I got wet.",
+                "explanation": "Too many formal transitions for a simple daily event.",
+                "fix": "Use normal clause connectors (although, so) to smooth it out."
+            }
+        ],
+        "indonesianLearnerWarning": "<p>Students aiming for high IELTS or TOEFL scores often think more complex connectors equal a higher score. This is false. Examiners look for natural, precise use of connectors, not the quantity of them.</p>",
+        "summary": [
+            "More connectors does not always mean better writing.",
+            "Too many connectors can make writing sound robotic.",
+            "Combine related ideas and use simple connectors when they are enough."
+        ]
+    },
+    {
+        "id": "grammar-connecting-sentences-paragraph",
+        "title": "Connecting Sentences in a Paragraph",
+        "skill": "Grammar",
+        "pathway": "Connectors & Cohesion",
+        "group": "Cohesion in Sentences and Paragraphs",
+        "level": "Advanced",
+        "backHref": "connectors-cohesion.html",
+        "backLabel": "Back to Connectors & Cohesion",
+        "description": "Learn that cohesion is about topic flow, pronouns, and logical order—not just connector words.",
+        "learningGoals": [
+            "Understand what makes a paragraph cohesive.",
+            "Use pronouns and repeated key words to build flow.",
+            "Avoid sudden topic jumps."
+        ],
+        "warmIntroduction": "<p>We have spent a lot of time looking at connector words. But here is a secret: you can write a perfectly cohesive paragraph without using any fancy transition words at all.</p><p>Cohesion is not magic glue that fixes bad writing. Cohesion comes from the <em>ideas</em> flowing logically. If you jump from topic to topic, no amount of \"however\" or \"therefore\" will save your paragraph.</p><p>Let's look at how to build real cohesion using logical order, pronouns, and key words.</p>",
+        "stepByStep": "<h3>What makes a paragraph weak?</h3><p><em>\"Exercise is important. Students are busy. Phones are popular. Health is good.\"</em></p><p>This is weak because there is no clear topic, the order is random, and the ideas do not connect to each other.</p><h3>How to build an improved, cohesive paragraph:</h3><p><em>\"Exercise is important <strong>because</strong> it helps students stay healthy. <strong>However</strong>, many students are busy with schoolwork, <strong>so</strong> they do not always have time to exercise. <strong>For this reason</strong>, short daily activities such as walking or stretching can be helpful.\"</em></p><h3>Why does this work?</h3><ol><li><strong>Logical Order:</strong> Benefit (health) → Problem (busy) → Solution (short activities).</li><li><strong>Pronouns:</strong> The word 'it' refers back to 'exercise'. The word 'they' refers back to 'students'. We don't have to repeat the nouns heavily.</li><li><strong>Targeted Connectors:</strong> 'Because' (reason), 'However' (contrast), 'so' (result), 'For this reason' (conclusion).</li></ol>",
+        "examples": [
+            {
+                "type": "Pronoun Cohesion",
+                "sentence": "The teacher explained the rule. She wrote examples on the board.",
+                "note": "The pronoun 'She' connects the second sentence to the first without needing a transition word."
+            },
+            {
+                "type": "Key Word Cohesion",
+                "sentence": "Climate change is a global issue. This issue requires immediate action.",
+                "note": "Repeating the key word 'issue' links the sentences firmly."
+            }
+        ],
+        "commonMistakes": [
+            {
+                "wrong": "Many people like coffee. Therefore, the sun is hot.",
+                "correct": "Many people like coffee. Therefore, coffee shops are very successful.",
+                "explanation": "Students sometimes use a connector without checking if the ideas logically match. A transition word cannot force two unrelated ideas to make sense.",
+                "fix": "Ensure the underlying logic is sound before adding the connector."
+            }
+        ],
+        "summary": [
+            "A paragraph needs one clear topic and a logical order.",
+            "Pronouns (it, they, this) and repeated key words build invisible cohesion.",
+            "Transition words should highlight the logic, not try to replace it."
+        ]
+    },
+    {
+        "id": "grammar-connecting-ideas-inside-sentence",
+        "title": "Connecting Ideas Inside a Sentence",
+        "skill": "Grammar",
+        "pathway": "Connectors & Cohesion",
+        "group": "Cohesion in Sentences and Paragraphs",
+        "level": "Intermediate",
+        "backHref": "connectors-cohesion.html",
+        "backLabel": "Back to Connectors & Cohesion",
+        "description": "Learn how to combine short, choppy ideas into elegant, fluid sentences.",
+        "learningGoals": [
+            "Combine short ideas into compound and complex sentences.",
+            "Choose the correct connector based on the logical relationship.",
+            "Avoid making sentences too long (run-on sentences)."
+        ],
+        "warmIntroduction": "<p>Read this: <em>\"I was tired. I studied. The test was hard. I passed.\"</em></p><p>It sounds like a robot talking. Short sentences are good for impact, but if you only use short sentences, your writing feels choppy and disconnected.</p><p>By connecting ideas INSIDE the sentence, we create a fluid, natural rhythm. Let's practice taking simple ideas and weaving them together using the conjunctions we've learned.</p>",
+        "stepByStep": "<h3>How to Combine Ideas</h3><p><strong>Step 1: Identify the relationship.</strong></p><p>Short ideas: <em>She was sick. She stayed home.</em><br/>Relationship: Reason and Result.</p><p><strong>Step 2: Choose your structure.</strong></p><ul><li>Option A (Result): She was sick, <strong>so</strong> she stayed home.</li><li>Option B (Reason): She stayed home <strong>because</strong> she was sick.</li><li>Option C (Reason front): <strong>Because</strong> she was sick, she stayed home.</li></ul><p>All three are correct! They just offer different rhythms.</p><h3>Warning: Don't Connect Unrelated Ideas</h3><p>Make sure the ideas actually belong together. Do not write: \"I like pizza, and my shoe is blue.\" Those ideas have no relationship.</p><h3>Warning: Don't Connect Too Much</h3><p>A sentence should usually contain one or two main ideas. If you use \"and\", \"but\", and \"because\" all in the same sentence, the reader will get lost.</p>",
+        "examples": [
+            {
+                "type": "Short to Connected (Contrast)",
+                "sentence": "I was tired. I studied. -> Although I was tired, I studied.",
+                "note": "Using 'although' creates a complex sentence."
+            },
+            {
+                "type": "Short to Connected (Addition)",
+                "sentence": "He bought a laptop. He bought a mouse. -> He bought a laptop and a mouse.",
+                "note": "Combining the objects makes the sentence much cleaner."
+            }
+        ],
+        "commonMistakes": [
+            {
+                "wrong": "The lesson was difficult and I understood it.",
+                "correct": "The lesson was difficult, but I understood it.",
+                "explanation": "Understanding a difficult lesson is a contrast, not an addition. 'And' is the wrong logical connector.",
+                "fix": "Use 'but' or 'although'."
+            },
+            {
+                "wrong": "I woke up and I ate breakfast and I went to school and I saw my friend and we talked.",
+                "correct": "After I woke up and ate breakfast, I went to school. When I saw my friend, we talked.",
+                "explanation": "This is a run-on sentence. Overusing 'and' creates a messy, breathless sentence.",
+                "fix": "Break it into two or three sentences, or use time connectors."
+            }
+        ],
+        "summary": [
+            "Identify the logical relationship before connecting.",
+            "Use FANBOYS for equal connections, and subordinating connectors (because, although) for complex connections.",
+            "Avoid run-on sentences with too many 'and's."
+        ]
+    },
+    {
+        "id": "grammar-sequence-summary-conclusion-connectors",
+        "title": "Connectors for Sequence, Summary, and Conclusion",
+        "skill": "Grammar",
+        "pathway": "Connectors & Cohesion",
+        "group": "Connector Categories Review",
+        "level": "Intermediate",
+        "backHref": "connectors-cohesion.html",
+        "backLabel": "Back to Connectors & Cohesion",
+        "description": "Organize paragraphs logically and finish them strongly.",
+        "learningGoals": [
+            "Use sequence connectors for steps and events.",
+            "Differentiate between summarizing and concluding.",
+            "Avoid overusing 'In conclusion' for small daily tasks."
+        ],
+        "warmIntroduction": "<p>Have you ever read instructions that were completely jumbled? Or a story that ended suddenly without wrapping up the main idea?</p><p>Good paragraphs have a beginning, a middle, and an end. Sequence connectors build the middle by putting events in order. Summary and conclusion connectors build the end by telling the reader: \"We are finished, and here is the main point.\"</p><p>Using these correctly makes you sound organized, but using them incorrectly can make your daily emails sound like university graduation speeches.</p>",
+        "stepByStep": "<h3>1. Sequence (The Steps)</h3><p>Use these for instructions or chronological stories.</p><ul><li><strong>first, second, third</strong> (Clear steps)</li><li><strong>next, then, after that</strong> (Moving forward)</li><li><strong>finally, lastly</strong> (The last step)</li></ul><h3>2. Summary (The Short Version)</h3><p>Use these to restate the main idea briefly.</p><ul><li><strong>overall</strong> (Looking at the big picture)</li><li><strong>in short / briefly</strong> (Giving the fast version)</li><li><strong>to sum up</strong> (Clear final summary)</li></ul><h3>3. Conclusion (The Formal End)</h3><p>Use these to close a formal discussion or essay.</p><ul><li><strong>in conclusion</strong> (Highly formal, use for essays/presentations)</li><li><strong>to conclude</strong> (Formal closing)</li></ul>",
+        "examples": [
+            {
+                "type": "Sequence",
+                "sentence": "First, boil the water. Next, add the tea leaves. Finally, pour the tea.",
+                "note": "Clear step-by-step instructions."
+            },
+            {
+                "type": "Summary",
+                "sentence": "Overall, the project was a success despite a few delays.",
+                "note": "Looking at the big picture."
+            },
+            {
+                "type": "Conclusion",
+                "sentence": "In conclusion, renewable energy is essential for our future.",
+                "note": "Formal essay ending."
+            }
+        ],
+        "commonMistakes": [
+            {
+                "wrong": "[In a casual email to a friend] In conclusion, let's get pizza tonight.",
+                "correct": "So, let's get pizza tonight. OR Anyway, let's get pizza tonight.",
+                "explanation": "'In conclusion' is far too formal for everyday conversation or emails.",
+                "fix": "Reserve 'in conclusion' for essays and formal presentations."
+            },
+            {
+                "wrong": "At first, I woke up. At last, I went to sleep.",
+                "correct": "First, I woke up. Finally, I went to sleep.",
+                "explanation": "'At first' implies a contrast is coming (At first I was happy, but then...). 'At last' means 'after a long frustrating wait'.",
+                "fix": "Use 'First' and 'Finally' for simple sequences."
+            }
+        ],
+        "summary": [
+            "Use first/next/finally for steps.",
+            "Use overall/in short for summaries.",
+            "Save 'in conclusion' for formal essays, not daily emails."
+        ]
+    },
+    {
+        "id": "grammar-purpose-condition-choice-connectors",
+        "title": "Connectors for Purpose, Condition, and Choice",
+        "skill": "Grammar",
+        "pathway": "Connectors & Cohesion",
+        "group": "Connector Categories Review",
+        "level": "Intermediate",
+        "backHref": "connectors-cohesion.html",
+        "backLabel": "Back to Connectors & Cohesion",
+        "description": "Express goals, set conditions, and offer alternatives cleanly.",
+        "learningGoals": [
+            "Use 'to', 'in order to', and 'so that' for purpose.",
+            "Use 'if', 'unless', 'provided that' for condition.",
+            "Use 'or', 'either...or' for choice."
+        ],
+        "warmIntroduction": "<p>Sometimes you aren't just giving facts. You are explaining your goals (purpose), setting rules (conditions), or making decisions (choices).</p><p>These three categories of connectors help you explain the complexity of life and plans. \"I am studying this <em>to</em> get a better job, <em>if</em> I pass the test, <em>or</em> I will try something else.\"</p><p>However, many students make a very specific mistake when trying to explain their purpose by using the word \"for\". Let's fix that immediately.</p>",
+        "stepByStep": "<h3>1. Purpose (The Goal)</h3><ul><li><strong>to + base verb:</strong> I study English <em>to speak</em> better.</li><li><strong>in order to + base verb:</strong> I study <em>in order to speak</em> better. (More formal)</li><li><strong>so that + clause:</strong> I study <em>so that I can speak</em> better.</li></ul><h3>2. Condition (The Rules)</h3><ul><li><strong>if:</strong> <em>If</em> you study, you pass.</li><li><strong>unless:</strong> <em>Unless</em> you study, you fail. (If not)</li><li><strong>provided that:</strong> <em>Provided that</em> you study, you pass. (Formal 'only if')</li></ul><h3>3. Choice (The Alternatives)</h3><ul><li><strong>or:</strong> tea <em>or</em> coffee</li><li><strong>either...or:</strong> You can <em>either</em> stay <em>or</em> go. (Emphasizes the choice)</li><li><strong>whether...or:</strong> I will go <em>whether</em> it rains <em>or</em> not. (It doesn't matter which condition happens)</li></ul>",
+        "commonMistakes": [
+            {
+                "wrong": "I study English for can speak better.",
+                "correct": "I study English to speak better. OR I study English so that I can speak better.",
+                "explanation": "A very common error! Do not use 'for' + verb to show purpose in this way. 'For' is followed by a noun or verb-ing (This tool is for cutting). To show the purpose of an action, use 'to' + base verb.",
+                "fix": "Replace 'for' with 'to'."
+            },
+            {
+                "wrong": "I want either tea and coffee.",
+                "correct": "I want either tea or coffee.",
+                "explanation": "'Either' pairs with 'or', never 'and'.",
+                "fix": "Use 'or'."
+            }
+        ],
+        "indonesianLearnerWarning": "<p>Indonesian students often say \"for improve my English\" (translating \"untuk\"). In English, \"untuk + verb\" is usually translated as the infinitive \"to + verb\" (to improve my English).</p>",
+        "summary": [
+            "Use 'to + verb' or 'so that + clause' for purpose. Do not use 'for + verb'.",
+            "Use 'if/unless/provided that' for conditions.",
+            "Use 'either...or' for strong choices."
+        ]
+    },
+    {
+        "id": "grammar-cause-result-connectors",
+        "title": "Connectors for Cause and Result",
+        "skill": "Grammar",
+        "pathway": "Connectors & Cohesion",
+        "group": "Connector Categories Review",
+        "level": "Intermediate",
+        "backHref": "connectors-cohesion.html",
+        "backLabel": "Back to Connectors & Cohesion",
+        "description": "Make the direction of your logic crystal clear: are you showing the cause, or the result?",
+        "learningGoals": [
+            "Understand the directional difference between cause and result connectors.",
+            "Group connectors by cause (why) vs result (what happened).",
+            "Avoid combining cause and result connectors incorrectly."
+        ],
+        "warmIntroduction": "<p>Cause and effect is the foundation of logical speaking. Why did this happen? What was the result? If you mix up your connectors, you might accidentally say that the result caused the problem!</p><p>To avoid confusion, you must understand the direction of your logic.</p><p>Are you starting with the result and explaining the cause? Or are you starting with the cause and explaining the result? Let's map out the cause and result connectors.</p>",
+        "stepByStep": "<h3>The Cause (Reason) Connectors</h3><p>These point to the <strong>Why</strong>.</p><ul><li><strong>because + clause:</strong> (because she was sick)</li><li><strong>since/as + clause:</strong> (since she was sick)</li><li><strong>because of + noun:</strong> (because of her illness)</li><li><strong>due to + noun:</strong> (due to the rain)</li></ul><h3>The Result Connectors</h3><p>These point to <strong>What Happened Next</strong>.</p><ul><li><strong>so + clause:</strong> (, so she stayed home)</li><li><strong>therefore (transition):</strong> (. Therefore, she stayed home)</li><li><strong>as a result (transition):</strong> (. As a result, she stayed home)</li></ul>",
+        "examples": [
+            {
+                "type": "Cause Direction",
+                "sentence": "She stayed home because she was sick.",
+                "note": "Starts with the result, points backward to the cause."
+            },
+            {
+                "type": "Result Direction",
+                "sentence": "She was sick, so she stayed home.",
+                "note": "Starts with the cause, points forward to the result."
+            },
+            {
+                "type": "Noun Phrase Cause",
+                "sentence": "Due to the heavy rain, the match was cancelled.",
+                "note": "'Due to' is followed by a noun phrase, just like 'because of'."
+            }
+        ],
+        "commonMistakes": [
+            {
+                "wrong": "Because she was sick, therefore she stayed home.",
+                "correct": "Because she was sick, she stayed home.",
+                "explanation": "You do not need two connectors for one relationship. The 'because' already tells us the logic.",
+                "fix": "Remove 'therefore'."
+            },
+            {
+                "wrong": "Due to it rained.",
+                "correct": "Because it rained. OR Due to the rain.",
+                "explanation": "'Due to' must be followed by a noun, not a subject+verb clause.",
+                "fix": "Change the grammar after 'due to'."
+            }
+        ],
+        "summary": [
+            "Cause connectors (because, due to) explain the 'Why'.",
+            "Result connectors (so, therefore) explain 'What Happened'.",
+            "Do not use one of each in the same relationship."
+        ]
+    },
+    {
+        "id": "grammar-addition-contrast-connectors",
+        "title": "Connectors for Addition and Contrast",
+        "skill": "Grammar",
+        "pathway": "Connectors & Cohesion",
+        "group": "Connector Categories Review",
+        "level": "Intermediate",
+        "backHref": "connectors-cohesion.html",
+        "backLabel": "Back to Connectors & Cohesion",
+        "description": "A focused review of the ladders of addition and contrast, from casual to highly formal.",
+        "learningGoals": [
+            "Group connectors by their function (Addition vs. Contrast).",
+            "Understand the formality ladder for each group.",
+            "Master the structural differences between although, however, and despite."
+        ],
+        "warmIntroduction": "<p>When you take a writing test or draft an important email, you want to show variety. If you use \"and\" and \"but\" for every sentence, your writing feels basic.</p><p>However, if you randomly pull a fancy word from a dictionary, you might break the grammar rules. Connectors have different levels of formality, and they require different grammatical structures.</p><p>Let's look at the \"ladder\" of addition and contrast connectors, from simple to formal, and clarify exactly how to use the trickiest contrast words: although, however, and despite.</p>",
+        "stepByStep": "<h3>The Addition Ladder (Simple to Formal)</h3><ul><li><strong>and</strong> (Conjunction - joins anything)</li><li><strong>also</strong> (Adverb - usually before main verb)</li><li><strong>in addition</strong> (Transition - starts a sentence)</li><li><strong>furthermore</strong> (Transition - formal, starts a sentence)</li><li><strong>moreover</strong> (Transition - highly formal, strong support)</li></ul><h3>The Contrast Ladder (Simple to Formal)</h3><ul><li><strong>but</strong> (Conjunction - joins clauses)</li><li><strong>although / even though</strong> (Clause connector - starts dependent clause)</li><li><strong>however</strong> (Transition - starts a sentence)</li><li><strong>nevertheless</strong> (Transition - highly formal)</li><li><strong>despite / in spite of</strong> (Preposition - followed by noun phrase)</li></ul>",
+        "examples": [
+            {
+                "type": "But (Clause)",
+                "sentence": "She was tired, but she studied.",
+                "note": "Standard conjunction."
+            },
+            {
+                "type": "Although (Clause)",
+                "sentence": "Although she was tired, she studied.",
+                "note": "Subordinating clause."
+            },
+            {
+                "type": "However (Sentence)",
+                "sentence": "She was tired. However, she studied.",
+                "note": "Transition between sentences."
+            },
+            {
+                "type": "Despite (Noun Phrase)",
+                "sentence": "Despite being tired, she studied.",
+                "note": "'Despite' must be followed by a noun phrase or Verb-ing. Never a full clause."
+            }
+        ],
+        "commonMistakes": [
+            {
+                "wrong": "Despite she was tired, she studied.",
+                "correct": "Although she was tired, she studied. OR Despite her tiredness, she studied.",
+                "explanation": "'Despite' is a preposition. It cannot be followed by a subject and verb (she was).",
+                "fix": "Use 'although' for clauses, or change the clause to a noun phrase after 'despite'."
+            },
+            {
+                "wrong": "She was tired, however she studied.",
+                "correct": "She was tired. However, she studied.",
+                "explanation": "Comma splice.",
+                "fix": "Use a period before 'however'."
+            }
+        ],
+        "summary": [
+            "Addition: and -> also -> in addition -> furthermore -> moreover",
+            "Contrast: but -> although -> however -> nevertheless -> despite",
+            "Pay attention to what follows the connector: a full clause, a noun phrase, or a new sentence."
+        ]
+    },
+    {
+        "id": "grammar-example-transition-words",
+        "title": "For Example, For Instance, Such As, and Namely",
+        "skill": "Grammar",
+        "pathway": "Connectors & Cohesion",
+        "group": "Transition Words and Formal Linking",
+        "level": "Intermediate",
+        "backHref": "connectors-cohesion.html",
+        "backLabel": "Back to Connectors & Cohesion",
+        "description": "Introduce specific examples gracefully using the right connector for the right structure.",
+        "learningGoals": [
+            "Use 'for example' and 'for instance' to introduce full sentence examples.",
+            "Use 'such as' to introduce noun phrase examples.",
+            "Avoid common grammar errors with 'such as'."
+        ],
+        "warmIntroduction": "<p>Telling someone a fact is good, but showing them an example is better. If you say, \"I like outdoor activities,\" the listener might wonder: what kind? Skydiving? Walking? Gardening?</p><p>Examples make your writing specific and clear. But how you introduce those examples depends on whether you are giving a short list of nouns or telling a full story.</p><p>Let's look at the difference between \"for example\" and \"such as\" so you can stop confusing them.</p>",
+        "meaning": "<p>These connectors introduce <strong>examples</strong>.</p><p>• <strong>For example / For instance</strong>: Usually introduce a full sentence or a main idea. They act as transition words.<br/>• <strong>Such as</strong>: Introduces a short list of nouns (noun phrases) inside a sentence.<br/>• <strong>Namely</strong>: Introduces exact names or the specific items you are referring to.</p>",
+        "quickComparison": "<strong>Such as:</strong> I enjoy outdoor activities, <em>such as</em> hiking and cycling.<br/><strong>For example:</strong> I enjoy outdoor activities. <em>For example</em>, I like hiking and cycling.<br/><strong>Namely:</strong> The project focuses on two skills, <em>namely</em> reading and writing.",
+        "examples": [
+            {
+                "type": "For Example",
+                "sentence": "Many animals are nocturnal. For example, bats hunt at night.",
+                "note": "Introduces a full sentence example."
+            },
+            {
+                "type": "For Instance",
+                "sentence": "You can use this software for many things. For instance, you can edit videos.",
+                "note": "Means exactly the same as 'for example'."
+            },
+            {
+                "type": "Such As",
+                "sentence": "Citrus fruits, such as oranges and lemons, are rich in Vitamin C.",
+                "note": "Introduces a noun phrase. Do not put a full sentence after 'such as'."
+            },
+            {
+                "type": "Namely",
+                "sentence": "We need to fix the main issue, namely the lack of funding.",
+                "note": "Specifies exactly what 'the main issue' is."
+            }
+        ],
+        "commonMistakes": [
+            {
+                "wrong": "I like sports such as, football and basketball.",
+                "correct": "I like sports such as football and basketball.",
+                "explanation": "Do not put a comma directly after 'such as'.",
+                "fix": "Remove the comma."
+            },
+            {
+                "wrong": "I like such as football and basketball.",
+                "correct": "I like sports such as football and basketball.",
+                "explanation": "'Such as' needs a category noun before it. You cannot just say 'I like such as'.",
+                "fix": "Add the category noun ('sports', 'food', etc.)."
+            },
+            {
+                "wrong": "I eat healthy food, for example apples and bananas.",
+                "correct": "I eat healthy food, such as apples and bananas.",
+                "explanation": "When just listing nouns at the end of a sentence, 'such as' is grammatically cleaner than 'for example'.",
+                "fix": "Use 'such as' for noun lists."
+            }
+        ],
+        "summary": [
+            "Use 'for example' to introduce a full sentence.",
+            "Use 'such as' to introduce a list of nouns.",
+            "Do not put a comma after 'such as'."
+        ]
+    },
+    {
+        "id": "grammar-result-transition-words",
+        "title": "As a Result, Consequently, Thus, and Therefore",
+        "skill": "Grammar",
+        "pathway": "Connectors & Cohesion",
+        "group": "Transition Words and Formal Linking",
+        "level": "Advanced",
+        "backHref": "connectors-cohesion.html",
+        "backLabel": "Back to Connectors & Cohesion",
+        "description": "Show strong results and logical consequences in formal writing.",
+        "learningGoals": [
+            "Use formal result transitions correctly.",
+            "Ensure the transition follows a logical cause.",
+            "Compare 'so' with formal result transitions."
+        ],
+        "warmIntroduction": "<p>When actions have consequences, you need to show the logic clearly. The bridge broke. The trains stopped. How do you link these formal, serious facts?</p><p>\"So\" works in conversation (\"The bridge broke, so the trains stopped\"), but in professional or academic writing, \"so\" can feel too light or conversational.</p><p>That is when we pull out the heavy lifters: As a result, Consequently, Thus, and Therefore. They prove you are making a logical deduction.</p>",
+        "meaning": "<p>These connectors show <strong>result or logical consequence</strong>. They are stronger and more formal than \"so.\" They must always follow a clear cause or reason in the previous sentence.</p><p>• <strong>So</strong> = common result connector<br/>• <strong>Therefore</strong> = logical result<br/>• <strong>As a result</strong> = result caused by previous situation<br/>• <strong>Consequently</strong> = formal result<br/>• <strong>Thus</strong> = formal/logical result</p>",
+        "quickComparison": "<strong>So:</strong> It rained, <em>so</em> we stayed home.<br/><strong>Therefore:</strong> It rained. <em>Therefore</em>, we stayed home.<br/><strong>As a result:</strong> It rained heavily. <em>As a result</em>, the match was cancelled.",
+        "examples": [
+            {
+                "type": "As a Result",
+                "sentence": "The rain was heavy. As a result, the match was cancelled.",
+                "note": "Clear cause and effect across two sentences."
+            },
+            {
+                "type": "Consequently",
+                "sentence": "He did not prepare well. Consequently, his presentation was unclear.",
+                "note": "Shows the logical consequence of a prior action."
+            },
+            {
+                "type": "Therefore",
+                "sentence": "The company lost money. Therefore, they reduced staff.",
+                "note": "Strong logical deduction."
+            }
+        ],
+        "commonMistakes": [
+            {
+                "wrong": "It was raining. As a result.",
+                "correct": "It was raining. As a result, we stayed home.",
+                "explanation": "A transition word cannot stand alone. It must transition INTO a new main clause.",
+                "fix": "Finish the sentence."
+            },
+            {
+                "wrong": "The match was cancelled. Therefore, it rained.",
+                "correct": "It rained. Therefore, the match was cancelled.",
+                "explanation": "Result transitions must come BEFORE the result, not before the cause.",
+                "fix": "Check the logical direction."
+            }
+        ],
+        "summary": [
+            "Use 'so' for conversational results.",
+            "Use 'therefore' or 'as a result' for formal written results.",
+            "Always ensure the logic flows from cause in sentence 1 to result in sentence 2."
+        ]
+    },
+    {
+        "id": "grammar-addition-transition-words",
+        "title": "In Addition, Furthermore, Also, and Besides",
+        "skill": "Grammar",
+        "pathway": "Connectors & Cohesion",
+        "group": "Transition Words and Formal Linking",
+        "level": "Intermediate",
+        "backHref": "connectors-cohesion.html",
+        "backLabel": "Back to Connectors & Cohesion",
+        "description": "Add more information using natural and formal transition words without sounding robotic.",
+        "learningGoals": [
+            "Differentiate between casual ('also', 'besides') and formal ('furthermore') addition.",
+            "Place 'also' and 'too' correctly in a sentence."
+        ],
+        "warmIntroduction": "<p>When you are trying to convince someone of something, one reason is rarely enough. You give one point, and then you want to stack another point on top of it. \"It's a great car. It's cheap. It's fast.\"</p><p>To stack information gracefully, we use addition connectors. But they are not all the same! Some sound like a casual chat with a friend, while others sound like a university essay.</p><p>Let's look at how to add information while choosing the perfect tone, so you don't sound like a textbook when talking to your friends.</p>",
+        "meaning": "<p>These connectors add information to a previous sentence, but they have different tones:</p><p>• <strong>Also</strong> is neutral, versatile, and common.<br/>• <strong>Too</strong> is conversational and usually goes at the end.<br/>• <strong>In addition</strong> and <strong>furthermore</strong> are formal and academic.<br/>• <strong>Moreover</strong> adds a strong supporting point.<br/>• <strong>Besides</strong> adds an extra point, sometimes with a persuasive or casual tone, meaning 'anyway' or 'an extra reason is'.</p>",
+        "quickComparison": "<strong>Also:</strong> She teaches grammar. She <em>also</em> teaches speaking.<br/><strong>Too:</strong> She teaches grammar and speaking <em>too</em>.<br/><strong>Formal:</strong> The course is affordable. <em>In addition</em>, it is easy to access.<br/><strong>Strong/Formal:</strong> The plan is risky. <em>Moreover</em>, it is expensive.",
+        "examples": [
+            {
+                "type": "Also",
+                "sentence": "She teaches grammar. She also teaches speaking.",
+                "note": "'Also' is neutral. Notice it often goes inside the sentence, before the main verb."
+            },
+            {
+                "type": "In Addition",
+                "sentence": "The app is simple. In addition, it is easy to use.",
+                "note": "Formal addition."
+            },
+            {
+                "type": "Furthermore",
+                "sentence": "The program is affordable. Furthermore, it provides useful materials.",
+                "note": "Very formal addition, stacking strong arguments."
+            },
+            {
+                "type": "Besides",
+                "sentence": "I do not want to go out. Besides, it is raining.",
+                "note": "Adds a final persuasive point or excuse."
+            }
+        ],
+        "commonMistakes": [
+            {
+                "wrong": "I bought a shirt. Furthermore, I bought a hat.",
+                "correct": "I bought a shirt. I also bought a hat.",
+                "explanation": "Using 'furthermore' for simple everyday additions is unnatural. It sounds too formal.",
+                "fix": "Use 'also' or 'and' for simple things."
+            },
+            {
+                "wrong": "Also she likes reading.",
+                "correct": "She also likes reading.",
+                "explanation": "While 'Also,' at the start is understood, putting it before the main verb is often much more natural in English.",
+                "fix": "Move 'also' before the main verb."
+            }
+        ],
+        "summary": [
+            "Stack your points carefully.",
+            "Use 'also/too' for everyday addition, 'in addition/furthermore' for formal writing, and 'besides' for an extra persuasive reason."
+        ]
+    },
+    {
+        "id": "grammar-transition-words-overview",
+        "title": "However, Therefore, Moreover, and Meanwhile",
+        "skill": "Grammar",
+        "pathway": "Connectors & Cohesion",
+        "group": "Transition Words and Formal Linking",
+        "level": "Intermediate",
+        "backHref": "connectors-cohesion.html",
+        "backLabel": "Back to Connectors & Cohesion",
+        "description": "Transition smoothly between separate sentence ideas using formal transition words.",
+        "learningGoals": [
+            "Understand that transition words connect separate sentence ideas, not clauses.",
+            "Use correct strong punctuation (periods, semicolons) with transition words."
+        ],
+        "warmIntroduction": "<p>When you write paragraphs, essays, or professional emails, you cannot always glue every thought into one massive sentence with \"and\" or \"but\". You need separate sentences. But if those sentences don't hold hands, the paragraph feels robotic.</p><p>This is where formal transition words (conjunctive adverbs) come in. They sit at the beginning of a new sentence (or after a semicolon) to guide the reader gracefully from the last thought into the new one.</p><p>They act like signposts saying: \"Get ready for a contrast,\" or \"Get ready for a conclusion.\"</p>",
+        "meaning": "<p>These are <strong>transition words</strong>. They connect sentence ideas. They are NOT normal conjunctions like but/so/and, which means their punctuation is different.</p><p>• <strong>However</strong> = contrast<br/>• <strong>Therefore</strong> = result/conclusion<br/>• <strong>Moreover</strong> = additional strong point<br/>• <strong>Meanwhile</strong> = at the same time / in another situation</p>",
+        "quickComparison": "<strong>Normal Conjunction:</strong> I was tired, <em>but</em> I continued.<br/><strong>Transition (Period):</strong> I was tired. <em>However</em>, I continued.<br/><strong>Transition (Semicolon):</strong> I was tired; <em>however</em>, I continued.",
+        "examples": [
+            {
+                "type": "However",
+                "sentence": "The task was difficult. However, the students completed it.",
+                "note": "Shows contrast between two separate sentences."
+            },
+            {
+                "type": "Therefore",
+                "sentence": "The road was flooded. Therefore, the school was closed.",
+                "note": "Shows result."
+            },
+            {
+                "type": "Moreover",
+                "sentence": "The plan is affordable. Moreover, it is easy to apply.",
+                "note": "Adds another strong supportive point."
+            },
+            {
+                "type": "Meanwhile",
+                "sentence": "Some students worked on the poster. Meanwhile, others prepared the presentation.",
+                "note": "Shows simultaneous actions or a different perspective."
+            }
+        ],
+        "commonMistakes": [
+            {
+                "wrong": "The task was difficult, however the students completed it.",
+                "correct": "The task was difficult. However, the students completed it.",
+                "explanation": "Comma splice. 'However' is not a coordinating conjunction. It cannot join two complete sentences with just a comma.",
+                "fix": "Use a period or semicolon."
+            },
+            {
+                "wrong": "The road was flooded, therefore the school was closed.",
+                "correct": "The road was flooded; therefore, the school was closed.",
+                "explanation": "Comma splice. Use a semicolon or period.",
+                "fix": "Change the comma to a semicolon."
+            }
+        ],
+        "summary": [
+            "Transitions are formal bridges between separate sentences.",
+            "Always use strong punctuation (period or semicolon) before them, and usually a comma after."
+        ]
+    },
+    {
+        "id": "grammar-condition-connectors",
+        "title": "If, Unless, As Long As, and Provided That",
+        "skill": "Grammar",
+        "pathway": "Connectors & Cohesion",
+        "group": "Subordinating Connectors",
+        "level": "Intermediate",
+        "backHref": "connectors-cohesion.html",
+        "backLabel": "Back to Connectors & Cohesion",
+        "description": "Set conditions and requirements to connect ideas and rules.",
+        "learningGoals": [
+            "Understand that 'unless' means 'if not'.",
+            "Use varied condition connectors beyond 'if'.",
+            "Avoid double negatives with 'unless'."
+        ],
+        "warmIntroduction": "<p>Life is full of conditions. You can go to the party, but only if you finish your homework. A plan will work out, but only provided that everyone helps.</p><p>Condition connectors set the rules. They explain what must happen first before a second thing can happen.</p><p>While \"if\" is the most common, words like \"unless\" and \"as long as\" add precision and variety to your sentences, making you sound much more fluent and professional.</p>",
+        "meaning": "<p>These connectors show <strong>condition</strong>. They join a dependent condition clause to a main result clause.</p><p>• <strong>If</strong> gives a possible condition.<br/>• <strong>Unless</strong> means 'if not' or 'except if'.<br/>• <strong>As long as</strong> means 'only if the condition continues or is met'.<br/>• <strong>Provided that</strong> is more formal and means 'only if'.</p>",
+        "examples": [
+            {
+                "type": "If",
+                "sentence": "If you practice, you will improve.",
+                "note": "Basic condition."
+            },
+            {
+                "type": "Unless",
+                "sentence": "Unless you practice, you will fail.",
+                "note": "Means: If you do not practice."
+            },
+            {
+                "type": "As long as",
+                "sentence": "You can borrow my book as long as you return it tomorrow.",
+                "note": "Condition based on a promise or requirement."
+            },
+            {
+                "type": "Provided that",
+                "sentence": "The plan will work provided that everyone cooperates.",
+                "note": "Formal condition."
+            }
+        ],
+        "commonMistakes": [
+            {
+                "wrong": "Unless you do not study, you will fail.",
+                "correct": "Unless you study, you will fail. OR If you do not study, you will fail.",
+                "explanation": "'Unless' already has a negative meaning ('if not'). Do not add another negative ('do not') right after it, or you create a confusing double negative.",
+                "fix": "Use a positive verb after 'unless'."
+            },
+            {
+                "wrong": "If you will study, you will improve.",
+                "correct": "If you study, you will improve.",
+                "explanation": "Just like time clauses, do not use 'will' directly in the 'if' condition clause for standard future conditions.",
+                "fix": "Use present tense in the condition clause."
+            }
+        ],
+        "summary": [
+            "Condition connectors set the rules.",
+            "'Unless' means 'if not', so don't double the negative.",
+            "Avoid using 'will' inside the condition clause."
+        ]
+    },
+    {
+        "id": "grammar-time-connectors",
+        "title": "When, While, Before, After, Until, and As Soon As",
+        "skill": "Grammar",
+        "pathway": "Connectors & Cohesion",
+        "group": "Subordinating Connectors",
+        "level": "Beginner",
+        "backHref": "connectors-cohesion.html",
+        "backLabel": "Back to Connectors & Cohesion",
+        "description": "Connect actions and establish clear time relationships in your stories and instructions.",
+        "learningGoals": [
+            "Sequence events accurately using time connectors.",
+            "Understand the difference between 'when' and 'while'.",
+            "Use present tense in future time clauses."
+        ],
+        "warmIntroduction": "<p>If you are telling a story about your day, order matters. You didn't just eat breakfast, leave the house, and brush your teeth at random times. One thing happened first, then another, while something else was happening.</p><p>Time connectors allow you to place events perfectly in time. They tell the listener exactly when an action happened in relation to another action.</p><p>Without them, stories become confusing lists of facts. Let's look at how to sequence events properly.</p>",
+        "meaning": "<p>These connectors show <strong>time relationships</strong> between two clauses.</p><p>• <strong>When</strong> = at the time that<br/>• <strong>While</strong> = during the same time (often used with continuous actions like 'was studying')<br/>• <strong>Before</strong> = earlier than another action<br/>• <strong>After</strong> = later than another action<br/>• <strong>Until</strong> = up to a time point and then stopping/changing<br/>• <strong>As soon as</strong> = immediately after</p>",
+        "stepByStep": "<h3>The Future Time Clause Rule</h3><p>This is a very important rule in English. When you are talking about the future, you do NOT use 'will' inside the time clause (the part starting with when/before/after).</p><p>Instead, use the Present Simple tense inside the time clause, and 'will' in the main clause.</p><ul><li>Wrong: I will call you when I will arrive.</li><li>Correct: I will call you <strong>when I arrive</strong>.</li></ul>",
+        "examples": [
+            {
+                "type": "When",
+                "sentence": "When the class started, everyone listened.",
+                "note": "One action happened right at that moment."
+            },
+            {
+                "type": "While",
+                "sentence": "While I was studying, my phone rang.",
+                "note": "One longer continuous action was interrupted by a shorter one."
+            },
+            {
+                "type": "Before/After",
+                "sentence": "Before you answer, read the question carefully.",
+                "note": "Action sequence."
+            },
+            {
+                "type": "Until",
+                "sentence": "Wait until the teacher gives instructions.",
+                "note": "Action continues up to that point."
+            },
+            {
+                "type": "As Soon As",
+                "sentence": "Call me as soon as you arrive.",
+                "note": "Immediately after."
+            }
+        ],
+        "commonMistakes": [
+            {
+                "wrong": "During I was studying, my phone rang.",
+                "correct": "While I was studying, my phone rang. OR During my study time, my phone rang.",
+                "explanation": "'During' is a preposition followed by a noun phrase. 'While' is a conjunction followed by a subject and verb clause.",
+                "fix": "Use 'while' before a subject+verb."
+            },
+            {
+                "wrong": "I will tell him after he will finish.",
+                "correct": "I will tell him after he finishes.",
+                "explanation": "Do not use 'will' inside a time clause referring to the future.",
+                "fix": "Use present tense (finishes)."
+            }
+        ],
+        "summary": [
+            "Time connectors map out events clearly.",
+            "'While' pairs well with continuous actions.",
+            "Remember to use present tense (not future 'will') inside time clauses referring to the future."
+        ]
+    },
+    {
+        "id": "grammar-although-even-though-while-whereas",
+        "title": "Although, Even Though, While, and Whereas",
+        "skill": "Grammar",
+        "pathway": "Connectors & Cohesion",
+        "group": "Subordinating Connectors",
+        "level": "Intermediate",
+        "backHref": "connectors-cohesion.html",
+        "backLabel": "Back to Connectors & Cohesion",
+        "description": "Express deep contrast and comparison clearly in complex sentences.",
+        "learningGoals": [
+            "Use 'although' and 'even though' to express unexpected contrast.",
+            "Use 'while' and 'whereas' to compare differences.",
+            "Avoid combining these words with 'but'."
+        ],
+        "warmIntroduction": "<p>Imagine two friends. One loves spicy food, and the other hates it. How do you describe this difference smoothly in one sentence?</p><p>You could use \"but\" (He likes spicy food, but she hates it). But sometimes you want a more sophisticated way to show contrast or compare two facts in academic or professional writing. That is when we use subordinating connectors like although, even though, while, and whereas.</p><p>These words create complex sentences that sound very natural. But be careful: many students accidentally double-up their contrast words, creating grammatical errors.</p>",
+        "meaning": "<p>These connectors show <strong>contrast</strong> and connect a dependent clause to a main clause.</p><p>• <strong>Although</strong> and <strong>even though</strong> introduce a surprising contrast or unexpected result. <em>Even though</em> is slightly stronger and more emotional.<br/>• <strong>While</strong> and <strong>whereas</strong> compare two different facts, situations, or preferences side by side, without necessarily showing surprise.</p>",
+        "quickComparison": "<strong>Although:</strong> <em>Although</em> the lesson was difficult, I understood it. (Unexpected success)<br/><strong>Even Though:</strong> <em>Even though</em> the lesson was incredibly difficult, I understood it. (Stronger surprise)<br/><strong>While:</strong> <em>While</em> some students enjoy grammar, others prefer speaking. (Comparing two facts)<br/><strong>Whereas:</strong> The first option is cheap, <em>whereas</em> the second option is more reliable. (Formal comparison)",
+        "examples": [
+            {
+                "type": "Although",
+                "sentence": "Although it was raining, we went out.",
+                "note": "Surprising contrast (rain usually stops people from going out). Notice the comma after the introductory clause."
+            },
+            {
+                "type": "Even Though",
+                "sentence": "She failed the test even though she studied for weeks.",
+                "note": "Stronger surprising contrast. No comma when the clause is at the end."
+            },
+            {
+                "type": "While",
+                "sentence": "While I prefer tea, my wife prefers coffee.",
+                "note": "Comparing two different facts."
+            },
+            {
+                "type": "Whereas",
+                "sentence": "Cats are independent, whereas dogs are more social.",
+                "note": "Comparing two facts, often used in academic or formal writing."
+            }
+        ],
+        "commonMistakes": [
+            {
+                "wrong": "Although I was tired, but I studied.",
+                "correct": "Although I was tired, I studied. OR I was tired, but I studied.",
+                "explanation": "Never use 'although' and 'but' together in the same sentence structure. One contrast word is enough.",
+                "fix": "Remove 'but'."
+            },
+            {
+                "wrong": "Even though the food was expensive, but it was delicious.",
+                "correct": "Even though the food was expensive, it was delicious.",
+                "explanation": "Same error. Drop the 'but'.",
+                "fix": "Remove 'but'."
+            },
+            {
+                "wrong": "While some students like grammar, but others dislike it.",
+                "correct": "While some students like grammar, others dislike it.",
+                "explanation": "Drop the 'but'.",
+                "fix": "Remove 'but'."
+            }
+        ],
+        "indonesianLearnerWarning": "<p>Indonesian learners frequently use \"although\" and \"but\" together (\"Meskipun... tetapi...\") because the double contrast feels very natural and balanced in Indonesian. In English, this double contrast is grammatically wrong. You only need one contrast word per relationship.</p>",
+        "summary": [
+            "'Although' and 'even though' show unexpected contrast.",
+            "'While' and 'whereas' compare two facts side by side.",
+            "Never pair them with 'but'."
+        ]
+    },
+    {
+        "id": "grammar-because-since-as",
+        "title": "Because, Since, and As",
+        "skill": "Grammar",
+        "pathway": "Connectors & Cohesion",
+        "group": "Subordinating Connectors",
+        "level": "Intermediate",
+        "backHref": "connectors-cohesion.html",
+        "backLabel": "Back to Connectors & Cohesion",
+        "description": "Use these connectors correctly to express reason without confusing them with time markers.",
+        "learningGoals": [
+            "Use 'because', 'since', and 'as' to show reason.",
+            "Differentiate between reason and time contexts for 'since' and 'as'."
+        ],
+        "warmIntroduction": "<p>When you want to explain \"why\" something happened, \"because\" is everyone's favorite word. But did you know \"since\" and \"as\" can also explain why?</p><p>You will see \"since\" and \"as\" often in books, articles, and formal conversations. They are excellent alternatives to \"because\" when you want variety in your writing. However, they can be tricky because both words also have other meanings related to time.</p><p>Let's look at how to use these subordinating clause connectors properly to give reasons without confusing your reader.</p>",
+        "meaning": "<p>These connectors show <strong>reason</strong> and join a dependent clause to a main clause.</p><p>• <strong>Because</strong> is the clearest and most common reason connector.<br/>• <strong>Since</strong> can mean 'because' or 'from a time point in the past', so context matters.<br/>• <strong>As</strong> can mean 'because', but it can also mean 'while' (time) or 'in the role of', so it must be used carefully.</p>",
+        "quickComparison": "<strong>Because:</strong> I stayed home <em>because</em> I was sick.<br/><strong>Since (Reason):</strong> <em>Since</em> you are here, please help me.<br/><strong>Since (Time):</strong> I have lived here <em>since</em> 2020.<br/><strong>As (Reason):</strong> <em>As</em> it was getting late, we decided to leave.<br/><strong>As (Time):</strong> <em>As</em> I was walking home, I saw my teacher.<br/><strong>As (Role):</strong> She works <em>as</em> a teacher.",
+        "examples": [
+            {
+                "type": "Because",
+                "sentence": "I stayed home because I was sick.",
+                "note": "Clear reason."
+            },
+            {
+                "type": "Since (Reason)",
+                "sentence": "Since the road was closed, we took another route.",
+                "note": "'Since' used to mean 'because'. Notice the comma because the dependent clause is first."
+            },
+            {
+                "type": "As (Reason)",
+                "sentence": "As the weather was bad, the event was cancelled.",
+                "note": "'As' used to mean 'because'. Very common in formal or British English."
+            }
+        ],
+        "commonMistakes": [
+            {
+                "wrong": "Because of I was sick.",
+                "correct": "Because I was sick, I stayed home. OR Because of my illness, I stayed home.",
+                "explanation": "Students often confuse 'because' and 'because of'. 'Because' is followed by a full subject+verb clause. 'Because of' is followed by a noun phrase.",
+                "fix": "Use 'because' before a subject and verb. Use 'because of' before a noun."
+            },
+            {
+                "wrong": "Because I was sick.",
+                "correct": "I stayed home because I was sick.",
+                "explanation": "A 'because' clause alone is an incomplete sentence fragment.",
+                "fix": "Connect it to a main clause."
+            },
+            {
+                "wrong": "Since 2020, I live here.",
+                "correct": "I have lived here since 2020.",
+                "explanation": "When 'since' means time, you must use perfect tenses, not present simple.",
+                "fix": "Change to present perfect."
+            }
+        ],
+        "indonesianLearnerWarning": "<p>Indonesian students often say \"Because of it rained...\" This is a direct translation error. Do not write \"Because of it rained\". Write \"Because it rained\" (clause) or \"Because of the rain\" (noun phrase).</p>",
+        "summary": [
+            "'Because' is the best and clearest word for reasons.",
+            "'Since' and 'as' can also mean reason, but ensure the context is clear so they are not confused with time.",
+            "Never follow 'because of' with a full subject and verb."
+        ]
+    },
+    {
+        "id": "grammar-fanboys-punctuation-mistakes",
+        "title": "FANBOYS Punctuation and Common Mistakes",
+        "skill": "Grammar",
+        "pathway": "Connectors & Cohesion",
+        "group": "FANBOYS and Coordinating Conjunctions",
+        "level": "Intermediate",
+        "backHref": "connectors-cohesion.html",
+        "backLabel": "Back to Connectors & Cohesion",
+        "description": "A repair-style lesson to fix comma splices and punctuation errors when using FANBOYS.",
+        "learningGoals": [
+            "Understand when to use a comma with FANBOYS.",
+            "Avoid comma splices by using coordinating conjunctions correctly.",
+            "Know when a comma is NOT needed."
+        ],
+        "warmIntroduction": "<p>One of the most common mistakes writers make is called a \"comma splice\"—joining two full sentences with just a comma. \"I was tired, I went to sleep.\"</p><p>To fix this, you need a FANBOYS connector. But then you must know whether you still need that comma! The rule is surprisingly simple, but many people guess instead of learning it.</p><p>Let's clear up FANBOYS punctuation once and for all so your writing looks perfect and professional.</p>",
+        "patterns": [
+            {
+                "name": "Joining Two Independent Clauses",
+                "formula": "Independent clause + , + FANBOYS + independent clause",
+                "explanation": "If a FANBOYS joins two complete sentences (both sides have a subject and a verb), use a comma BEFORE it."
+            },
+            {
+                "name": "Joining Words or Phrases",
+                "formula": "Word/Phrase + FANBOYS + Word/Phrase",
+                "explanation": "If a FANBOYS joins only words or phrases (not a full subject-verb clause), a comma is usually NOT needed."
+            }
+        ],
+        "examples": [
+            {
+                "type": "Correct Comma",
+                "sentence": "I wanted to sleep, but I had homework.",
+                "note": "Two complete clauses: 'I wanted to sleep' and 'I had homework'. Comma is needed."
+            },
+            {
+                "type": "Correct Comma",
+                "sentence": "She studied hard, so she passed the test.",
+                "note": "Two complete clauses. Comma is needed."
+            },
+            {
+                "type": "No Comma Needed",
+                "sentence": "I bought apples and oranges.",
+                "note": "Joining words. No comma."
+            },
+            {
+                "type": "No Comma Needed",
+                "sentence": "You can sit near the window or near the door.",
+                "note": "Joining phrases. No comma."
+            }
+        ],
+        "commonMistakes": [
+            {
+                "wrong": "I was tired, I finished my work.",
+                "correct": "I was tired, but I finished my work.",
+                "explanation": "Comma splice: A comma alone cannot join two complete sentences.",
+                "fix": "Add a FANBOYS connector."
+            },
+            {
+                "wrong": "She studied hard so she passed.",
+                "correct": "She studied hard, so she passed.",
+                "explanation": "Missing comma. When 'so' joins two complete clauses, standard formal English requires a comma before it.",
+                "fix": "Add a comma before 'so'."
+            },
+            {
+                "wrong": "I bought apples, and bananas.",
+                "correct": "I bought apples and bananas.",
+                "explanation": "Unnecessary comma when just joining two words.",
+                "fix": "Remove the comma."
+            },
+            {
+                "wrong": "He was tired, but, he continued.",
+                "correct": "He was tired, but he continued.",
+                "explanation": "The comma goes before the FANBOYS, never immediately after it (unless setting off an interruption).",
+                "fix": "Remove the second comma."
+            }
+        ],
+        "summary": [
+            "Always check: is there a full subject and verb on BOTH sides of the FANBOYS?",
+            "If yes, use a comma before it.",
+            "If no, do not use a comma.",
+            "A comma alone can never join two sentences."
+        ]
+    },
+    {
+        "id": "grammar-but-yet-for-so",
+        "title": "But, Yet, For, and So",
+        "skill": "Grammar",
+        "pathway": "Connectors & Cohesion",
+        "group": "FANBOYS and Coordinating Conjunctions",
+        "level": "Beginner",
+        "backHref": "connectors-cohesion.html",
+        "backLabel": "Back to Connectors & Cohesion",
+        "description": "Express contrast, reason, and result with coordinating conjunctions.",
+        "learningGoals": [
+            "Differentiate between 'but' and 'yet'.",
+            "Use 'so' for results and 'for' for formal reasons.",
+            "Avoid combining 'because' and 'so' incorrectly."
+        ],
+        "warmIntroduction": "<p>Sometimes things don't go as planned. You study hard, but you fail. It rains, so you stay inside. These are relationships of contrast and result.</p><p>We use \"but\", \"yet\", \"for\", and \"so\" to show the listener how one idea affects another. Without them, your listener wouldn't know if a situation caused a problem or created a solution.</p><p>While \"but\" and \"so\" are incredibly common in daily speech, \"yet\" adds a sophisticated touch of surprise, and \"for\" creates a very formal, literary tone.</p>",
+        "meaning": "<p><strong>But</strong> shows general contrast. <strong>Yet</strong> also shows contrast, often with a surprising or strong result. <strong>For</strong> gives a reason (formal/literary). <strong>So</strong> shows result.</p><p>Notice the direction of logic:<br/>• But/yet point <em>forward</em> to a contrast.<br/>• So points <em>forward</em> to a result.<br/>• For points <em>backward</em> to a reason.</p>",
+        "quickComparison": "<strong>Contrast:</strong> I was tired, <em>but</em> I studied.<br/><strong>Surprising Contrast:</strong> I was exhausted, <em>yet</em> I continued to study.<br/><strong>Reason:</strong> I studied, <em>for</em> I had a test.<br/><strong>Result:</strong> I had a test, <em>so</em> I studied.",
+        "examples": [
+            {
+                "type": "Contrast",
+                "sentence": "She is smart, but she is careless.",
+                "note": "Simple contrast."
+            },
+            {
+                "type": "Surprising Contrast",
+                "sentence": "It was raining heavily, yet he went out without an umbrella.",
+                "note": "'Yet' adds a strong sense of surprise."
+            },
+            {
+                "type": "Reason",
+                "sentence": "They stayed indoors, for the storm was approaching.",
+                "note": "Formal reason, pointing backward to 'why'."
+            },
+            {
+                "type": "Result",
+                "sentence": "He was hungry, so he made a sandwich.",
+                "note": "Action leading to a consequence, pointing forward."
+            }
+        ],
+        "commonMistakes": [
+            {
+                "wrong": "Because I was tired, so I went home.",
+                "correct": "I was tired, so I went home.",
+                "explanation": "Do not combine a reason connector (because) and a result connector (so) in the same cause-effect relationship. It creates bad sentence structure.",
+                "fix": "Choose one: 'Because I was tired, I went home' OR 'I was tired, so I went home.'"
+            },
+            {
+                "wrong": "I was tired, for went home.",
+                "correct": "I was tired, so I went home.",
+                "explanation": "'For' means reason, not result.",
+                "fix": "Use 'so' for results."
+            },
+            {
+                "wrong": "She was poor, yet but generous.",
+                "correct": "She was poor, yet generous.",
+                "explanation": "Do not combine two contrast connectors.",
+                "fix": "Choose either 'yet' or 'but'."
+            }
+        ],
+        "indonesianLearnerWarning": "<p>Indonesian learners often directly translate \"karena... maka...\" into \"because... so...\". In English, this is grammatically wrong. Standard English uses only one connector per relationship. Choose either \"Because I was tired, I went home\" or \"I was tired, so I went home.\"</p>",
+        "summary": [
+            "'But' and 'yet' point forward to contrast.",
+            "'So' points forward to result.",
+            "'For' points backward to reason (formally).",
+            "Never use 'because' and 'so' in the same sentence."
+        ]
+    },
+    {
+        "id": "grammar-and-or-nor",
+        "title": "And, Or, and Nor",
+        "skill": "Grammar",
+        "pathway": "Connectors & Cohesion",
+        "group": "FANBOYS and Coordinating Conjunctions",
+        "level": "Beginner",
+        "backHref": "connectors-cohesion.html",
+        "backLabel": "Back to Connectors & Cohesion",
+        "description": "Learn to add ideas, offer choices, and connect negative thoughts accurately.",
+        "learningGoals": [
+            "Use 'and' for addition and 'or' for choices at different grammatical levels.",
+            "Use 'nor' correctly for negative addition, including word order inversion."
+        ],
+        "warmIntroduction": "<p>If you want to build longer, more natural sentences, you need ways to combine similar things. If you have two hobbies, you don't say, \"I like reading. I like swimming.\" You combine them: \"I like reading and swimming.\"</p><p>But what if you have choices? What if you have negative facts to share? That is where \"and\", \"or\", and \"nor\" come in. They handle addition, choice, and negative addition.</p><p>These connectors can operate at three levels: connecting individual words, connecting short phrases, or connecting full clauses. \"Nor\" is especially tricky because it changes word order, but it sounds incredibly professional when used correctly.</p>",
+        "meaning": "<p><strong>And</strong> connects similar or additional information. <strong>Or</strong> offers choices or alternatives. <strong>Nor</strong> adds a second negative idea and is more formal.</p>",
+        "stepByStep": "<h3>Levels of Connection</h3><p><strong>Words:</strong> tea <em>and</em> coffee / tea <em>or</em> coffee</p><p><strong>Phrases:</strong> in the morning <em>and</em> at night / at home <em>or</em> in the library</p><p><strong>Clauses:</strong> I studied grammar, <em>and</em> my brother practiced speaking.</p><h3>The Tricky 'Nor' Inversion</h3><p>When 'nor' connects a full clause, the word order after it flips (like a question structure).</p><ul><li>Normal: He is not ready. He is not interested.</li><li>Combined: He is not ready, <strong>nor is he</strong> interested.</li><li>Normal: She did not call. She did not send a message.</li><li>Combined: She did not call, <strong>nor did she</strong> send a message.</li></ul>",
+        "examples": [
+            {
+                "type": "And (Clause)",
+                "sentence": "I cooked dinner, and he washed the dishes.",
+                "note": "Connecting two independent clauses."
+            },
+            {
+                "type": "Or (Clause)",
+                "sentence": "You can submit it today, or you can submit it tomorrow.",
+                "note": "Connecting two independent clauses as choices."
+            },
+            {
+                "type": "Nor (Clause)",
+                "sentence": "He does not eat meat, nor does he drink milk.",
+                "note": "'Nor' adds a second negative idea. Notice the inverted word order: 'does he drink'."
+            }
+        ],
+        "commonMistakes": [
+            {
+                "wrong": "He does not study, nor he works.",
+                "correct": "He does not study, nor does he work.",
+                "explanation": "You must invert the subject and auxiliary verb after 'nor'.",
+                "fix": "Use question word order after 'nor'."
+            },
+            {
+                "wrong": "I don't like coffee nor tea.",
+                "correct": "I don't like coffee or tea.",
+                "explanation": "In simple lists combining words after a negative verb, use 'or'.",
+                "fix": "Use 'or' for simple negative lists."
+            },
+            {
+                "wrong": "You can choose and tea or coffee.",
+                "correct": "You can choose tea or coffee.",
+                "explanation": "Do not mix 'and' with 'or'.",
+                "fix": "Use only one connector."
+            }
+        ],
+        "summary": [
+            "'And' adds ideas, 'or' gives choices, and 'nor' adds negatives.",
+            "They can connect words, phrases, or full clauses.",
+            "Remember to flip the word order after 'nor' when connecting full clauses."
+        ]
+    },
+    {
+        "id": "grammar-fanboys-overview",
+        "title": "FANBOYS Overview",
+        "skill": "Grammar",
+        "pathway": "Connectors & Cohesion",
+        "group": "FANBOYS and Coordinating Conjunctions",
+        "level": "Beginner",
+        "backHref": "connectors-cohesion.html",
+        "backLabel": "Back to Connectors & Cohesion",
+        "description": "Introduction to the seven coordinating conjunctions and what they actually do.",
+        "learningGoals": [
+            "Identify the seven FANBOYS conjunctions.",
+            "Understand the specific meaning of each FANBOYS conjunction.",
+            "Know what grammatical units they can join."
+        ],
+        "warmIntroduction": "<p>When you first started learning English, you probably used short, simple sentences. \"I like apples. I like bananas. I am hungry.\" As you get better, you naturally want to put those ideas together.</p><p>The simplest and most common tools for doing this are the FANBOYS: For, And, Nor, But, Or, Yet, So. These are <strong>coordinating conjunctions</strong>.</p><p>\"Coordinating\" means they connect equal grammatical units. They can connect two words (apple and banana), two phrases (in the morning or at night), or two complete independent clauses to make a compound sentence. Let's look deeply at what each one does.</p>",
+        "meaning": "<p><strong>FANBOYS</strong> are coordinating conjunctions: <strong>For, And, Nor, But, Or, Yet, So</strong>. They connect words, phrases, and independent clauses that have equal grammatical weight.</p><p>Each FANBOYS connector has a different meaning:<br/>• <strong>For</strong> = reason (more formal/literary than because)<br/>• <strong>And</strong> = addition<br/>• <strong>Nor</strong> = second negative idea<br/>• <strong>But</strong> = contrast<br/>• <strong>Or</strong> = choice<br/>• <strong>Yet</strong> = surprising contrast (similar to but, but stronger)<br/>• <strong>So</strong> = result</p>",
+        "examples": [
+            {
+                "type": "Reason (Formal)",
+                "sentence": "I stayed home, for I was exhausted.",
+                "note": "'for' gives the reason, but this sounds more formal or literary than 'because'."
+            },
+            {
+                "type": "Addition",
+                "sentence": "She likes grammar and vocabulary.",
+                "note": "Adding two similar things."
+            },
+            {
+                "type": "Negative Addition",
+                "sentence": "He does not smoke, nor does he drink.",
+                "note": "Adding a second negative idea. Notice the word order inversion (does he)."
+            },
+            {
+                "type": "Contrast",
+                "sentence": "I was exhausted, but I finished my homework.",
+                "note": "Shows contrast between tiredness and action."
+            },
+            {
+                "type": "Choice",
+                "sentence": "You can stay here, or you can go home.",
+                "note": "Offering an alternative."
+            },
+            {
+                "type": "Surprising Contrast",
+                "sentence": "The task was incredibly difficult, yet she finished it in ten minutes.",
+                "note": "'Yet' feels more surprising or extreme than 'but'."
+            },
+            {
+                "type": "Result",
+                "sentence": "I was exhausted, so I stayed home.",
+                "note": "Shows the result of the exhaustion."
+            }
+        ],
+        "commonMistakes": [
+            {
+                "wrong": "I was thirsty, for I drank water.",
+                "correct": "I was thirsty, so I drank water.",
+                "explanation": "Treating all FANBOYS as the same. 'For' means reason, not result.",
+                "fix": "Choose the FANBOYS based on the exact relationship (Result = so)."
+            },
+            {
+                "wrong": "I like him, for he is nice.",
+                "correct": "I like him because he is nice.",
+                "explanation": "Using 'for' as a reason connector in casual, modern English sounds very strange and overly poetic.",
+                "fix": "Use 'because' in everyday contexts."
+            }
+        ],
+        "summary": [
+            "FANBOYS (For, And, Nor, But, Or, Yet, So) link equal ideas, phrases, or full clauses.",
+            "When they link two full sentences, they create a compound sentence.",
+            "Each word has a specific meaning (reason, addition, negative addition, contrast, choice, surprise, result)."
+        ]
+    },
+    {
+        "id": "grammar-connector-punctuation-placement",
+        "title": "Connector Punctuation and Placement",
+        "skill": "Grammar",
+        "pathway": "Connectors & Cohesion",
+        "group": "Connector Foundations",
+        "level": "Intermediate",
+        "backHref": "connectors-cohesion.html",
+        "backLabel": "Back to Connectors & Cohesion",
+        "description": "Master the punctuation rules for different types of connectors to fix comma splices and fragments.",
+        "learningGoals": [
+            "Learn specific comma rules for FANBOYS.",
+            "Punctuate dependent clauses correctly (front vs. back).",
+            "Use periods and semicolons effectively with transition words."
+        ],
+        "warmIntroduction": "<p>Many students guess where commas go. If they pause to take a breath when speaking, they drop a comma into their sentence. But in written English, commas around connectors follow strict structural patterns, not breathing patterns.</p><p>If you learn just five patterns, you will almost never make a punctuation mistake with connectors again. It is not about feeling the pause; it is about identifying the structure: are you joining words, clauses, or separate sentences?</p><p>Let's look at the actual patterns for coordinating conjunctions, dependent clauses, and transitions.</p>",
+        "patterns": [
+            {
+                "name": "Pattern A: FANBOYS joining independent clauses",
+                "formula": "Independent clause, + FANBOYS + independent clause.",
+                "explanation": "Use a comma before FANBOYS (for, and, nor, but, or, yet, so) when joining two complete sentences."
+            },
+            {
+                "name": "Pattern B: FANBOYS joining words/phrases",
+                "formula": "Word/Phrase + FANBOYS + Word/Phrase.",
+                "explanation": "No comma is needed when joining simple words or phrases."
+            },
+            {
+                "name": "Pattern C: Dependent Clause First",
+                "formula": "Dependent clause, + main clause.",
+                "explanation": "Use a comma after an introductory dependent clause (starting with because, if, although, when)."
+            },
+            {
+                "name": "Pattern D: Dependent Clause Second",
+                "formula": "Main clause + dependent clause.",
+                "explanation": "No comma when the dependent clause is at the end of the sentence."
+            },
+            {
+                "name": "Pattern E: Transition Word",
+                "formula": "Sentence 1. Transition, + sentence 2.",
+                "explanation": "Use a period (or semicolon) before transition words like however and therefore, and a comma after."
+            }
+        ],
+        "examples": [
+            {
+                "type": "Pattern A",
+                "sentence": "I was tired, but I finished the task.",
+                "note": "FANBOYS joining complete clauses. Both sides have a subject and a verb."
+            },
+            {
+                "type": "Pattern B",
+                "sentence": "I bought apples and oranges.",
+                "note": "Joining words. No comma."
+            },
+            {
+                "type": "Pattern C",
+                "sentence": "Because I was tired, I went home.",
+                "note": "Introductory dependent clause needs a comma."
+            },
+            {
+                "type": "Pattern D",
+                "sentence": "I went home because I was tired.",
+                "note": "Dependent clause at the end. No comma."
+            },
+            {
+                "type": "Pattern E",
+                "sentence": "I was tired. However, I finished the task.",
+                "note": "Transition word starting a new sentence."
+            }
+        ],
+        "commonMistakes": [
+            {
+                "wrong": "I was tired but, I finished the task.",
+                "correct": "I was tired, but I finished the task.",
+                "explanation": "The comma goes BEFORE the FANBOYS connector, not after it.",
+                "fix": "Move the comma before 'but'."
+            },
+            {
+                "wrong": "Because I was tired. I went home.",
+                "correct": "Because I was tired, I went home.",
+                "explanation": "A dependent clause needs a comma, not a period. This is a sentence fragment.",
+                "fix": "Replace the period with a comma."
+            },
+            {
+                "wrong": "I was tired, however, I finished the task.",
+                "correct": "I was tired. However, I finished the task.",
+                "explanation": "Avoid the comma splice. A comma cannot join two complete sentences even with a transition word.",
+                "fix": "Use a period or semicolon before transitions."
+            }
+        ],
+        "summary": [
+            "Learn the punctuation patterns, not pauses.",
+            "Use a comma before FANBOYS joining clauses, but not words.",
+            "Use a comma after an introductory dependent clause.",
+            "Use periods/semicolons before formal transition words."
+        ]
+    },
+    {
+        "id": "grammar-clause-vs-sentence-connectors",
+        "title": "Clause Connectors vs Sentence Connectors",
+        "skill": "Grammar",
+        "pathway": "Connectors & Cohesion",
+        "group": "Connector Foundations",
+        "level": "Intermediate",
+        "backHref": "connectors-cohesion.html",
+        "backLabel": "Back to Connectors & Cohesion",
+        "description": "Learn the crucial difference between joining clauses inside a sentence and transitioning between two separate sentences.",
+        "learningGoals": [
+            "Differentiate between clause connectors and sentence transition words.",
+            "Understand how punctuation changes based on the type of connector.",
+            "Avoid sentence fragments and comma splices."
+        ],
+        "warmIntroduction": "<p>You might have heard a teacher say, \"Don't start a sentence with 'because'!\" But then you read a news article and see native speakers do it. What's the real rule?</p><p>The confusion comes from mixing up <strong>clause connectors</strong> (like <em>because, although, if</em>) and <strong>sentence connectors</strong> (like <em>however, therefore, as a result</em>).</p><p>Clause connectors live inside a single sentence to glue two parts together. Sentence connectors (transitions) act like a formal bridge between two separate sentences. If you confuse them, your punctuation will break, resulting in comma splices or incomplete sentences. Let's fix this core issue.</p>",
+        "meaning": "<p><strong>Clause Connectors</strong> (Subordinating Conjunctions): Words like <em>because, although, if, when, while</em>. They connect two clauses INSIDE one sentence. If you start a sentence with them, you must have a comma and a main clause later.</p><p><strong>Sentence Connectors</strong> (Transitions): Words like <em>however, therefore, moreover, for example</em>. They connect the IDEA of one sentence to the IDEA of the previous sentence. They usually start a new sentence and are followed by a comma.</p>",
+        "quickComparison": "<strong>Clause Connector:</strong> Although it was raining, we went out. (One complete sentence)<br/><strong>Sentence Connector:</strong> It was raining. However, we went out. (Two separate sentences)",
+        "examples": [
+            {
+                "type": "Clause Connector",
+                "sentence": "Because she was sick, she stayed home.",
+                "note": "Notice the comma connecting the two parts of the SAME sentence."
+            },
+            {
+                "type": "Clause Connector",
+                "sentence": "She stayed home because she was sick.",
+                "note": "Still one sentence. No comma needed when 'because' is in the middle."
+            },
+            {
+                "type": "Sentence Connector",
+                "sentence": "She was sick. Therefore, she stayed home.",
+                "note": "Two completely separate sentences separated by a period. 'Therefore' bridges the ideas."
+            },
+            {
+                "type": "Sentence Connector",
+                "sentence": "She was sick; therefore, she stayed home.",
+                "note": "A semicolon acts like a weak period, dividing two separate independent clauses."
+            }
+        ],
+        "commonMistakes": [
+            {
+                "wrong": "Although it was raining. We went out.",
+                "correct": "Although it was raining, we went out.",
+                "explanation": "'Although' creates a dependent clause. It cannot be a full sentence with a period. This is called a sentence fragment.",
+                "fix": "Change the period to a comma."
+            },
+            {
+                "wrong": "It was raining, however we went out.",
+                "correct": "It was raining. However, we went out.",
+                "explanation": "'However' is a sentence connector (transition), not a normal conjunction like 'but'. It cannot join two complete sentences with just a comma (comma splice).",
+                "fix": "Use a period or semicolon before transitions."
+            },
+            {
+                "wrong": "Because I was tired.",
+                "correct": "Because I was tired, I went home.",
+                "explanation": "A 'because' clause is a fragment if it stands alone without a main clause.",
+                "fix": "Add a main clause to complete the sentence."
+            }
+        ],
+        "indonesianLearnerWarning": "<p>In Indonesian, \"Walaupun hujan, kita pergi\" is perfectly fine. But Indonesian doesn't have the strict difference between \"Although\" (clause connector) and \"However\" (sentence connector). You must memorize which English words belong to which category to fix your punctuation.</p>",
+        "summary": [
+            "Clause connectors (because, although, if) hold two parts of one sentence together.",
+            "Sentence connectors (however, therefore) are formal bridges between two fully separated sentences.",
+            "Knowing which is which fixes most punctuation errors."
+        ]
+    },
+    {
+        "id": "grammar-connector-functions-meaning",
+        "title": "Connector Functions and Meaning",
+        "skill": "Grammar",
+        "pathway": "Connectors & Cohesion",
+        "group": "Connector Foundations",
+        "level": "Beginner to Intermediate",
+        "backHref": "connectors-cohesion.html",
+        "backLabel": "Back to Connectors & Cohesion",
+        "description": "Choose connectors based on their meaning and logical relationship, not just memorization.",
+        "learningGoals": [
+            "Identify the major functions of connectors (addition, contrast, reason, result, etc.).",
+            "Choose connectors based on meaning rather than guessing."
+        ],
+        "warmIntroduction": "<p>Sometimes students try to memorize long lists of connectors without thinking about what they actually mean. They might write, \"I was sick, however I went to the doctor.\" They know \"however\" is a fancy word, but they used a contrast word when they needed a result word!</p><p>Every connector has a specific job. Its job is to tell the reader what kind of information is coming next. Does the next part add something? Does it show a surprise? Does it give a reason?</p><p>When you understand the functions of connectors, choosing the right word becomes easy. Instead of guessing, you will pick words based on their exact logical relationship.</p>",
+        "stepByStep": "<h3>The Core Connector Functions</h3><p>Before you write a connector, ask yourself: <em>What is the relationship between Idea A and Idea B?</em></p><ul><li><strong>Addition:</strong> Adding another similar idea. (e.g., and, also, in addition)</li><li><strong>Contrast:</strong> Showing difference or a surprising turn. (e.g., but, however, although)</li><li><strong>Reason:</strong> Explaining <em>why</em> something happened. (e.g., because, since, due to)</li><li><strong>Result:</strong> Explaining <em>what happened because of</em> something. (e.g., so, therefore, as a result)</li><li><strong>Condition:</strong> One thing depends on another. (e.g., if, unless)</li><li><strong>Purpose:</strong> The goal of an action. (e.g., to, so that)</li><li><strong>Time:</strong> When actions happen. (e.g., when, while, before)</li><li><strong>Example:</strong> Giving a specific case. (e.g., for example, such as)</li><li><strong>Sequence:</strong> Showing order. (e.g., first, next, finally)</li><li><strong>Conclusion:</strong> Closing or summarizing an idea. (e.g., overall, in conclusion)</li></ul>",
+        "examples": [
+            {
+                "type": "Reason",
+                "sentence": "I stayed home because I was sick.",
+                "note": "Idea A (stayed home) happened FOR THE REASON OF Idea B (was sick). 'Because' introduces the reason."
+            },
+            {
+                "type": "Result",
+                "sentence": "I was sick, so I stayed home.",
+                "note": "Idea A (was sick) CAUSED Idea B (stayed home). 'So' introduces the result."
+            },
+            {
+                "type": "Contrast",
+                "sentence": "Although I was sick, I went to work.",
+                "note": "Idea B (went to work) is surprising given Idea A (was sick)."
+            },
+            {
+                "type": "Addition",
+                "sentence": "The hotel is cheap, and it is very clean.",
+                "note": "Adding a second positive point."
+            }
+        ],
+        "commonMistakes": [
+            {
+                "wrong": "Because it was raining, so we stayed home.",
+                "correct": "Because it was raining, we stayed home.",
+                "explanation": "Using a reason connector (because) AND a result connector (so) for the same relationship is incorrect in English.",
+                "fix": "Choose either 'because' or 'so', not both."
+            },
+            {
+                "wrong": "She was sick, however she went to the doctor.",
+                "correct": "She was sick, so she went to the doctor.",
+                "explanation": "Using 'however' (contrast) when the meaning is a logical result. Going to the doctor when sick is normal, not a contrast.",
+                "fix": "Use a result connector like 'so'."
+            },
+            {
+                "wrong": "The food is cheap. Therefore, I don't like it.",
+                "correct": "The food is cheap. However, I don't like it.",
+                "explanation": "Using a result connector (Therefore) when you mean contrast. Usually, people like cheap food.",
+                "fix": "Use a contrast connector."
+            }
+        ],
+        "summary": [
+            "Always ask yourself: 'What relationship do I want to show?'",
+            "Pick the connector with that exact job.",
+            "Make sure you understand the difference between a reason (why) and a result (what happened)."
+        ]
+    },
+    {
+        "id": "grammar-connectors-cohesion-overview",
+        "title": "What Are Connectors and Cohesion?",
+        "skill": "Grammar",
+        "pathway": "Connectors & Cohesion",
+        "group": "Connector Foundations",
+        "level": "Beginner to Intermediate",
+        "backHref": "connectors-cohesion.html",
+        "backLabel": "Back to Connectors & Cohesion",
+        "description": "Learn the difference between connector words and paragraph cohesion, and why using more connectors isn't always better.",
+        "learningGoals": [
+            "Understand the difference between connectors and cohesion.",
+            "Recognize how connectors show logical relationships.",
+            "Learn why natural flow is better than overusing connectors."
+        ],
+        "warmIntroduction": "<p>Imagine a student writes a paragraph: 'Technology is useful. Technology is dangerous. People use technology every day.' Each sentence is grammatically correct. However, reading it feels robotic. The ideas are separate blocks.</p><p>A student might try to fix this by adding transition words to every sentence: 'First, technology is useful. However, technology is dangerous. Therefore, people use technology every day.' Now, the paragraph is full of connectors, but the logic makes no sense.</p><p>This is why we need to understand the difference between <strong>connectors</strong> and <strong>cohesion</strong>. Connectors are the glue words that show relationships. Cohesion is how smoothly the ideas flow together from beginning to end. In this pathway, you will learn how to use connectors correctly, and more importantly, how to build strong, cohesive paragraphs that sound natural and professional.</p>",
+        "meaning": "<p><strong>Connectors</strong> (like <em>because, however, and, so</em>) are words or phrases that link ideas together. They show relationships such as addition, contrast, reason, and result.</p><p><strong>Cohesion</strong> means that the ideas in a sentence or paragraph flow together clearly. Good cohesion uses connectors, but it also uses repeated key words, clear topics, logical order, and pronouns to help the reader follow your logic easily.</p>",
+        "stepByStep": "<h3>How to Build Cohesion (Not Just Connectors)</h3><p>Let's look at an improved paragraph:</p><p><em>'Technology is useful <strong>because</strong> it helps people communicate quickly. <strong>However</strong>, it can also be dangerous when people use it carelessly. <strong>For this reason</strong>, users need to be responsible.'</em></p><p>Why is this paragraph cohesive?</p><ul><li><strong>It uses connectors correctly:</strong> 'because' shows reason, 'However' shows contrast, 'For this reason' shows conclusion.</li><li><strong>It uses pronouns:</strong> 'it' refers back to 'technology', so we don't repeat the word too many times.</li><li><strong>It has a logical order:</strong> Benefit → Problem → Solution.</li></ul><p>Remember: You don't need a connector for every sentence. If the logical order is clear, the paragraph will naturally have good cohesion.</p>",
+        "examples": [
+            {
+                "type": "Weak Cohesion",
+                "sentence": "Exercise is important. Students are busy. Phones are popular. Health is good.",
+                "note": "Even if we added connectors, this fails because the ideas are completely disconnected. Topic jumps."
+            },
+            {
+                "type": "Strong Cohesion",
+                "sentence": "Exercise is important because it helps students stay healthy. However, many students are busy with schoolwork, so they do not always have time to exercise.",
+                "note": "Connectors (because, however, so) link the ideas logically. Pronouns ('it', 'they') keep the flow smooth."
+            }
+        ],
+        "commonMistakes": [
+            {
+                "wrong": "Moreover, exercise is useful. Furthermore, it improves health. In addition, it reduces stress. Therefore, people should exercise.",
+                "correct": "Exercise is useful because it improves health and reduces stress. For this reason, people should make it part of their routine.",
+                "explanation": "Overusing formal connectors (Moreover, Furthermore, In addition) in every sentence makes the writing sound robotic and unnatural.",
+                "fix": "Combine related ideas and use connectors only when the relationship needs to be clear."
+            }
+        ],
+        "indonesianLearnerWarning": "<p>In Indonesian, speakers sometimes start many sentences with \"Terus...\" or \"Lalu...\". When translating to English, learners might start every sentence with \"And then...\" or \"Next...\". Try to combine ideas and use a variety of relationships (reason, contrast, result) instead of just sequencing events.</p>",
+        "practicePrompts": [
+            "Combine these sentences cohesively: 'I like reading. Books are expensive. I go to the library.'",
+            "Read a paragraph you wrote recently. Did you use a connector in every sentence? Try removing one."
+        ],
+        "classroomUse": "<strong>Teacher Tip:</strong> Give students a paragraph with all the connectors and pronouns removed. Ask them to put the 'glue' back in to make the text cohesive again. Compare different solutions.",
+        "summary": [
+            "Connectors link ideas; cohesion makes sentences flow naturally.",
+            "A paragraph can be cohesive with only a few connectors if the ideas are logically ordered.",
+            "Repeated key words and pronouns also build cohesion.",
+            "Do not use a connector in every single sentence."
+        ]
+    },
   lesson_grammar_passive_voice_overview,
   lesson_grammar_active_vs_passive_voice,
   lesson_grammar_object_to_subject_passive,
@@ -22047,4 +23507,1096 @@ export const lessons = [
   grammar_tag_questions,
   grammar_negative_questions,
   grammar_common_question_mistakes,
+    {
+        "id": "grammar-gerunds-infinitives-overview",
+        "title": "What Are Gerunds and Infinitives?",
+        "skill": "Grammar",
+        "pathway": "Gerunds & Infinitives",
+        "group": "Gerund and Infinitive Foundations",
+        "level": "Beginner",
+        "backHref": "gerunds-infinitives.html",
+        "backLabel": "Back to Gerunds & Infinitives",
+        "description": "Learn the basic concepts of verb-ing and to-infinitive forms.",
+        "learningGoals": [
+            "Understand that a gerund is Verb-ing used like a noun.",
+            "Understand that an infinitive is usually to + base verb.",
+            "Recognize that different verbs require different patterns."
+        ],
+        "warmIntroduction": "<p>Imagine a student wants to say, 'I enjoy study English.' The idea is clear, but the grammar does not sound natural yet. In English, some verbs cannot be followed by the base verb directly. We need to choose the correct form after the first verb.</p><p>For example, we say 'I enjoy studying English,' but we say 'I want to study English.' Both sentences talk about learning English, but the verb form after enjoy and want is different. This is where gerunds and infinitives become important.</p><p>Gerunds and infinitives help students build longer, more natural sentences. They are useful when talking about likes, plans, habits, goals, advice, decisions, and daily activities. Once students understand the patterns, their English becomes smoother and more accurate.</p>",
+        "meaning": "<p>A <strong>gerund</strong> is a verb ending in <em>-ing</em> that works like a noun. It often describes an activity.<br>An <strong>infinitive</strong> is <em>to</em> + the base verb. It often describes a goal, plan, or purpose.</p><p>Both can appear after other verbs, adjectives, nouns, or expressions. Students should not choose randomly. Different verbs and expressions need different patterns.</p>",
+        "examples": [
+            {
+                "type": "Gerund Object",
+                "sentence": "I enjoy reading.",
+                "note": "Reading is the activity/object of enjoy."
+            },
+            {
+                "type": "Infinitive Object",
+                "sentence": "She wants to read.",
+                "note": "To read shows the action she wants to do."
+            },
+            {
+                "type": "Gerund Subject",
+                "sentence": "Learning English takes time.",
+                "note": "Learning works like the subject of the sentence."
+            },
+            {
+                "type": "Infinitive After Adjective",
+                "sentence": "It is important to practice.",
+                "note": "To practice follows the adjective important."
+            },
+            {
+                "type": "Infinitive Goal",
+                "sentence": "They decided to leave early.",
+                "note": "To leave is their decision/plan."
+            },
+            {
+                "type": "Gerund After Preposition",
+                "sentence": "He is interested in learning music.",
+                "note": "Learning follows the preposition in."
+            }
+        ],
+        "mistakes": [
+            {
+                "wrong": "I enjoy to read.",
+                "correct": "I enjoy reading.",
+                "explanation": "Enjoy is followed by a gerund, not an infinitive."
+            },
+            {
+                "wrong": "She wants reading.",
+                "correct": "She wants to read.",
+                "explanation": "Want is followed by an infinitive, not a gerund."
+            },
+            {
+                "wrong": "I am interested to learn English.",
+                "correct": "I am interested in learning English.",
+                "explanation": "Prepositions (like in) are followed by gerunds."
+            }
+        ],
+        "indonesianWarning": "Indonesian learners often say 'I enjoy to study' because 'to study' feels like 'untuk belajar'. Remember that 'enjoy' specifically requires the -ing form in English.",
+        "summary": "Gerunds (Verb-ing) act like nouns, while infinitives (to + Verb) often show goals or plans. The first verb or word in the sentence usually decides which one to use."
+    },
+    {
+        "id": "grammar-gerunds-as-nouns",
+        "title": "Gerunds as Nouns",
+        "skill": "Grammar",
+        "pathway": "Gerunds & Infinitives",
+        "group": "Gerund and Infinitive Foundations",
+        "level": "Beginner",
+        "backHref": "gerunds-infinitives.html",
+        "backLabel": "Back to Gerunds & Infinitives",
+        "description": "Understand how verb-ing forms behave like activities and concepts.",
+        "learningGoals": [
+            "Recognize that a gerund behaves like a noun.",
+            "Use gerunds as subjects, objects, and complements.",
+            "Differentiate gerunds from continuous tense verbs."
+        ],
+        "warmIntroduction": "<p>When you look at words like <em>swimming</em> or <em>reading</em>, you probably think of actions happening right now: 'She is swimming.' But what if we want to talk about the activity itself? Like saying, 'Berenang itu sehat' (Swimming is healthy).</p><p>In English, when we want to talk about an action as an activity, a hobby, or a concept, we turn the verb into a noun. The easiest way to do this is by adding <em>-ing</em>. We call this a <strong>gerund</strong>.</p><p>Even though it looks like a continuous verb, a gerund does a completely different job. It sits in the sentence exactly where a noun would sit.</p>",
+        "meaning": "<p>A <strong>gerund</strong> is formed with <em>Verb-ing</em>, but it behaves like a <strong>noun</strong>. It can be the subject, object, or complement of a sentence. This is why gerunds often name activities.</p>",
+        "quickComparison": "<strong>Continuous Tense:</strong> I <em>am swimming</em> right now.<br><strong>Gerund Subject:</strong> <em>Swimming</em> is fun.<br><strong>Gerund Object:</strong> I enjoy <em>swimming</em>.<br><strong>Gerund Complement:</strong> My hobby is <em>swimming</em>.",
+        "examples": [
+            {
+                "type": "Subject",
+                "sentence": "Swimming is fun.",
+                "note": "Swimming is the subject of the sentence."
+            },
+            {
+                "type": "Object",
+                "sentence": "I enjoy cooking.",
+                "note": "Cooking is the object that receives the action 'enjoy'."
+            },
+            {
+                "type": "Complement",
+                "sentence": "My hobby is drawing.",
+                "note": "Drawing completes the meaning of 'My hobby is...'."
+            },
+            {
+                "type": "Subject Phrase",
+                "sentence": "Speaking English every day improves confidence.",
+                "note": "The whole phrase 'Speaking English every day' acts as the subject."
+            }
+        ],
+        "mistakes": [
+            {
+                "wrong": "Swim is fun.",
+                "correct": "Swimming is fun.",
+                "explanation": "You cannot use a base verb as a subject when talking about the activity generally."
+            },
+            {
+                "wrong": "I enjoy swim.",
+                "correct": "I enjoy swimming.",
+                "explanation": "You need a noun object after 'enjoy'."
+            },
+            {
+                "wrong": "My hobby is draw.",
+                "correct": "My hobby is drawing.",
+                "explanation": "The complement must be a noun form (gerund) here."
+            }
+        ],
+        "indonesianWarning": "In Indonesian, the base verb can act as a subject (e.g., 'Belajar itu penting'). In English, you cannot usually say 'Learn is important'. You must change the verb to a gerund: 'Learning is important'.",
+        "summary": "By adding -ing, a verb becomes a gerund and acts like a noun. You can use it as a subject, object, or complement to name an activity."
+    },
+    {
+        "id": "grammar-to-infinitives-bare-infinitives",
+        "title": "To-Infinitives and Bare Infinitives",
+        "skill": "Grammar",
+        "pathway": "Gerunds & Infinitives",
+        "group": "Gerund and Infinitive Foundations",
+        "level": "Intermediate",
+        "backHref": "gerunds-infinitives.html",
+        "backLabel": "Back to Gerunds & Infinitives",
+        "description": "Learn when to use 'to' and when to drop it entirely.",
+        "learningGoals": [
+            "Understand the structure of to-infinitives.",
+            "Understand what a bare infinitive is.",
+            "Know when to use bare infinitives after modals and certain verbs."
+        ],
+        "warmIntroduction": "<p>You have probably heard sentences like 'I want to go' and 'I can go'. Notice the difference? The first sentence has 'to', and the second one does not. Why?</p><p>In English, the base form of a verb is called an infinitive. It usually appears with the word 'to' (a to-infinitive). However, in some situations, the 'to' is dropped, leaving just the base verb. We call this a bare infinitive.</p><p>Understanding when to keep the 'to' and when to drop it is crucial for sounding natural, especially when using modal verbs or giving permission and instructions.</p>",
+        "meaning": "<p>A <strong>to-infinitive</strong> uses <em>to + base verb</em>. It often shows purpose, intention, plan, need, decision, or future direction.<br>A <strong>bare infinitive</strong> is the <em>base verb without to</em>. Bare infinitives are used after modal verbs and some special verbs (like make and let).</p>",
+        "examples": [
+            {
+                "type": "To-Infinitive (Plan/Goal)",
+                "sentence": "I want to study.",
+                "note": "Shows an intention."
+            },
+            {
+                "type": "To-Infinitive (Decision)",
+                "sentence": "She decided to leave.",
+                "note": "Shows a decision."
+            },
+            {
+                "type": "Bare Infinitive (Modal)",
+                "sentence": "I can swim.",
+                "note": "After 'can', do not use 'to'."
+            },
+            {
+                "type": "Bare Infinitive (Modal)",
+                "sentence": "She must go.",
+                "note": "After 'must', do not use 'to'."
+            },
+            {
+                "type": "Bare Infinitive (Make/Let)",
+                "sentence": "My teacher made me rewrite the sentence.",
+                "note": "After 'make' (when forcing/causing someone to do something), use the base verb."
+            },
+            {
+                "type": "Bare/To Infinitive (Help)",
+                "sentence": "She helped me clean the room. / She helped me to clean the room.",
+                "note": "After 'help', both forms can be possible."
+            }
+        ],
+        "mistakes": [
+            {
+                "wrong": "I can to swim.",
+                "correct": "I can swim.",
+                "explanation": "Never use 'to' immediately after a standard modal verb (can, could, will, would, should, must, etc.)."
+            },
+            {
+                "wrong": "She must to go.",
+                "correct": "She must go.",
+                "explanation": "Must is followed by a bare infinitive."
+            },
+            {
+                "wrong": "Let me to explain.",
+                "correct": "Let me explain.",
+                "explanation": "Let is followed by an object and a bare infinitive."
+            }
+        ],
+        "indonesianWarning": "Because 'to' sometimes translates as 'untuk' or 'ke', learners might accidentally add it where it does not belong. Remember the rule: Modals + Bare Infinitive.",
+        "summary": "To-infinitives (to + verb) are common for goals and plans. Bare infinitives (just the verb) are required after modal verbs (can, must, should) and verbs like 'make' and 'let'."
+    },
+    {
+        "id": "grammar-gerund-vs-infinitive-basic-meaning",
+        "title": "Gerund vs Infinitive: Basic Meaning Difference",
+        "skill": "Grammar",
+        "pathway": "Gerunds & Infinitives",
+        "group": "Gerund and Infinitive Foundations",
+        "level": "Intermediate",
+        "backHref": "gerunds-infinitives.html",
+        "backLabel": "Back to Gerunds & Infinitives",
+        "description": "Distinguish between general activities and specific goals.",
+        "learningGoals": [
+            "Understand the conceptual difference between gerunds and infinitives.",
+            "Recognize that gerunds often feel like activities or experiences.",
+            "Recognize that infinitives often feel like goals or future actions."
+        ],
+        "warmIntroduction": "<p>Have you ever wondered why we say 'I enjoy teaching' but 'I want to teach'? Is it just a random rule you have to memorize, or is there a reason?</p><p>While it is true that you must memorize which verbs take gerunds and which take infinitives, there is often a feeling or logic behind it. Gerunds usually carry a feeling of an experience, an ongoing activity, or a general fact. Infinitives usually carry a feeling of a future goal, a plan, or an unrealized potential.</p><p>Understanding this basic meaning difference can help you guess the right form when you are not sure, and it helps you understand how English speakers view actions.</p>",
+        "meaning": "<p><strong>Gerunds (-ing)</strong> often feel like activities, habits, past experiences, or general actions. They focus on the action itself.<br><strong>Infinitives (to + verb)</strong> often feel like goals, plans, purposes, needs, or future actions. They focus on what someone is trying to do.</p><p>This is not a perfect mathematical rule, but it is a very helpful guide to understanding the English mindset.</p>",
+        "quickComparison": "<strong>Activity:</strong> I enjoy <em>teaching</em>.<br><strong>Goal:</strong> I want <em>to teach</em>.<br><strong>Quit an Activity:</strong> I stopped <em>smoking</em>.<br><strong>Goal to do something:</strong> I stopped <em>to smoke</em>.<br><strong>General fact:</strong> <em>Reading</em> is useful.<br><strong>Specific need:</strong> I need <em>to read</em> this book.",
+        "examples": [
+            {
+                "type": "Gerund (Experience)",
+                "sentence": "I miss living in the city.",
+                "note": "Refers to a past experience and general activity."
+            },
+            {
+                "type": "Infinitive (Plan)",
+                "sentence": "I plan to move to the city.",
+                "note": "Refers to a future goal or intention."
+            },
+            {
+                "type": "Gerund (Activity)",
+                "sentence": "He finished writing the report.",
+                "note": "Focuses on the activity that was happening."
+            },
+            {
+                "type": "Infinitive (Decision)",
+                "sentence": "He decided to write the report.",
+                "note": "Focuses on the choice to do the action."
+            }
+        ],
+        "mistakes": [
+            {
+                "wrong": "Choosing based only on Indonesian translation.",
+                "correct": "Choosing based on the English verb pattern and meaning.",
+                "explanation": "Direct translation will often lead to errors."
+            },
+            {
+                "wrong": "Thinking Verb-ing always means continuous tense.",
+                "correct": "Recognizing Verb-ing can be a noun (gerund).",
+                "explanation": "A gerund names the activity; it doesn't mean it's happening right now."
+            }
+        ],
+        "indonesianWarning": "Do not assume 'to' always means 'untuk' and '-ing' always means 'sedang'. Learn the feeling of the pattern instead of translating word-for-word.",
+        "summary": "Generally, gerunds feel like real experiences or activities, while infinitives feel like goals, plans, or future possibilities."
+    },
+    {
+        "id": "grammar-gerunds-after-verbs",
+        "title": "Gerunds After Certain Verbs",
+        "skill": "Grammar",
+        "pathway": "Gerunds & Infinitives",
+        "group": "Gerund Patterns",
+        "level": "Intermediate",
+        "backHref": "gerunds-infinitives.html",
+        "backLabel": "Back to Gerunds & Infinitives",
+        "description": "Learn which verbs like enjoy, avoid, and consider require gerunds.",
+        "learningGoals": [
+            "Memorize common verbs followed by gerunds.",
+            "Use gerunds correctly after verbs of liking, avoiding, and finishing.",
+            "Avoid using to-infinitives after these specific verbs."
+        ],
+        "warmIntroduction": "<p>When you talk about your hobbies, you might say, 'I enjoy reading.' When you talk about your chores, you might say, 'I finished cleaning.' In both cases, the second verb ends in -ing.</p><p>There is a specific group of verbs in English that demand a gerund after them. These verbs often describe your feelings toward an activity, how you handle an activity (like starting, avoiding, or finishing it), or how you think about an activity.</p><p>Learning this group of verbs is one of the quickest ways to improve your English accuracy, because native speakers use these patterns every day.</p>",
+        "meaning": "<p>Some verbs are commonly followed by <strong>gerunds</strong>. The second verb becomes the activity connected to the first verb. These verbs often talk about liking, avoiding, finishing, considering, or continuing an activity.</p><p><strong>Common verbs followed by gerunds:</strong> enjoy, avoid, finish, keep, mind, consider, suggest, practice, miss, dislike, admit, deny.</p>",
+        "examples": [
+            {
+                "type": "Enjoy",
+                "sentence": "I enjoy learning new words.",
+                "note": "Expresses pleasure in an activity."
+            },
+            {
+                "type": "Avoid",
+                "sentence": "She avoided answering the question.",
+                "note": "Action to stay away from an activity."
+            },
+            {
+                "type": "Finish",
+                "sentence": "They finished cleaning the classroom.",
+                "note": "Completing an activity."
+            },
+            {
+                "type": "Keep",
+                "sentence": "He kept talking during the lesson.",
+                "note": "Continuing an activity."
+            },
+            {
+                "type": "Mind",
+                "sentence": "Do you mind opening the window?",
+                "note": "Used in polite requests or asking about objections."
+            },
+            {
+                "type": "Consider",
+                "sentence": "We considered moving to another city.",
+                "note": "Thinking about an activity."
+            },
+            {
+                "type": "Suggest",
+                "sentence": "The teacher suggested reviewing the lesson.",
+                "note": "Proposing an activity."
+            }
+        ],
+        "mistakes": [
+            {
+                "wrong": "I enjoy to learn English.",
+                "correct": "I enjoy learning English.",
+                "explanation": "Enjoy is followed by a gerund."
+            },
+            {
+                "wrong": "She avoided to answer the question.",
+                "correct": "She avoided answering the question.",
+                "explanation": "Avoid is followed by a gerund."
+            },
+            {
+                "wrong": "They finished to clean the classroom.",
+                "correct": "They finished cleaning the classroom.",
+                "explanation": "Finish is followed by a gerund."
+            }
+        ],
+        "indonesianWarning": "In Indonesian, 'Saya menyarankan untuk mengulas pelajaran' uses 'untuk' (to). So learners often say 'suggest to review'. In English, 'suggest' requires a gerund: 'suggest reviewing'.",
+        "summary": "Verbs like enjoy, avoid, finish, keep, mind, and suggest must be followed by a gerund (Verb-ing), never a to-infinitive."
+    },
+    {
+        "id": "grammar-gerunds-after-prepositions",
+        "title": "Gerunds After Prepositions",
+        "skill": "Grammar",
+        "pathway": "Gerunds & Infinitives",
+        "group": "Gerund Patterns",
+        "level": "Intermediate",
+        "backHref": "gerunds-infinitives.html",
+        "backLabel": "Back to Gerunds & Infinitives",
+        "description": "Master this essential rule for writing naturally.",
+        "learningGoals": [
+            "Understand that prepositions must be followed by nouns or gerunds.",
+            "Use gerunds correctly after common prepositional phrases.",
+            "Recognize 'to' as a preposition in phrases like 'look forward to'."
+        ],
+        "warmIntroduction": "<p>If there is one grammar rule that instantly makes you sound more fluent, it is this: prepositions love nouns. If you want to put an action after a preposition, you have to turn that action into a noun.</p><p>For example, you can say 'I am good at math' (noun). But what if you want to use a verb? You cannot say 'I am good at calculate.' You must use a gerund: 'I am good at calculating.'</p><p>This rule is consistent and powerful. Once you learn it, you will never struggle with phrases like 'interested in', 'tired of', or 'before' again.</p>",
+        "meaning": "<p>After a <strong>preposition</strong> (in, at, of, about, without, before, after, etc.), use a noun or a <strong>gerund</strong>. Since gerunds behave like nouns, they commonly come after prepositions. This is one of the most important gerund rules.</p><p><strong>Common prepositions and expressions:</strong> interested in, good at, tired of, afraid of, worried about, think about, look forward to, instead of, before, after, without, by.</p>",
+        "examples": [
+            {
+                "type": "In",
+                "sentence": "I am interested in learning English.",
+                "note": "learning follows the preposition in."
+            },
+            {
+                "type": "At",
+                "sentence": "She is good at explaining grammar.",
+                "note": "explaining follows the preposition at."
+            },
+            {
+                "type": "Of",
+                "sentence": "He is tired of waiting.",
+                "note": "waiting follows the preposition of."
+            },
+            {
+                "type": "About",
+                "sentence": "We talked about moving to a new house.",
+                "note": "moving follows the preposition about."
+            },
+            {
+                "type": "To (as a preposition)",
+                "sentence": "I look forward to meeting you.",
+                "note": "Here, 'to' is a preposition, not part of an infinitive. It requires a gerund."
+            },
+            {
+                "type": "Without",
+                "sentence": "She left without saying goodbye.",
+                "note": "saying follows the preposition without."
+            },
+            {
+                "type": "Before",
+                "sentence": "Before answering, read the question carefully.",
+                "note": "answering follows the preposition before."
+            }
+        ],
+        "mistakes": [
+            {
+                "wrong": "I am interested to learn English.",
+                "correct": "I am interested in learning English.",
+                "explanation": "The correct phrase is 'interested in', and 'in' is a preposition, so it needs a gerund."
+            },
+            {
+                "wrong": "She is good at explain grammar.",
+                "correct": "She is good at explaining grammar.",
+                "explanation": "Prepositions must be followed by gerunds, not base verbs."
+            },
+            {
+                "wrong": "I look forward to meet you.",
+                "correct": "I look forward to meeting you.",
+                "explanation": "In 'look forward to', 'to' is a preposition, so you must use a gerund."
+            }
+        ],
+        "indonesianWarning": "Indonesian translates 'tertarik untuk belajar' with 'untuk' (to). This tricks learners into writing 'interested to learn'. Remember that in English, the phrase is 'interested IN', and prepositions take gerunds.",
+        "summary": "If a verb comes immediately after a preposition (in, at, of, for, about, without, etc.), it MUST be a gerund (Verb-ing)."
+    },
+    {
+        "id": "grammar-gerunds-subjects-complements",
+        "title": "Gerunds as Subjects and Complements",
+        "skill": "Grammar",
+        "pathway": "Gerunds & Infinitives",
+        "group": "Gerund Patterns",
+        "level": "Intermediate",
+        "backHref": "gerunds-infinitives.html",
+        "backLabel": "Back to Gerunds & Infinitives",
+        "description": "Use gerunds to begin sentences and act as core nouns.",
+        "learningGoals": [
+            "Use gerunds or gerund phrases as the subject of a sentence.",
+            "Ensure gerund subjects take singular verbs.",
+            "Use gerunds as subject complements after the verb 'to be'."
+        ],
+        "warmIntroduction": "<p>How do you start a sentence when the main topic is an activity? For example, if you want to say that the act of reading is good for your brain.</p><p>You cannot use a base verb like 'Read is good.' Instead, we use a gerund. By putting an -ing verb at the front of the sentence, we turn the whole activity into the subject: 'Reading is good.'</p><p>This is a very common and elegant way to speak and write in English. It allows you to package complex activities into clean, subject-focused sentences.</p>",
+        "meaning": "<p>A <strong>gerund</strong> can be the <strong>subject</strong> of a sentence. It acts just like a regular noun (e.g., 'Coffee is good' -> 'Reading is good'). A gerund can also come after the verb <em>be</em> as a <strong>complement</strong> to describe the subject (e.g., 'My hobby is reading').</p><p>The whole gerund phrase can act as one noun idea. Gerund subjects usually take <strong>singular</strong> verbs.</p>",
+        "examples": [
+            {
+                "type": "Subject",
+                "sentence": "Studying every day improves your English.",
+                "note": "The gerund phrase 'Studying every day' is the subject."
+            },
+            {
+                "type": "Subject",
+                "sentence": "Reading before bed helps me relax.",
+                "note": "The gerund phrase 'Reading before bed' is the subject."
+            },
+            {
+                "type": "Subject",
+                "sentence": "Speaking in front of people can be scary.",
+                "note": "The gerund phrase 'Speaking in front of people' is the subject."
+            },
+            {
+                "type": "Subject (Singular Verb)",
+                "sentence": "Learning grammar takes patience.",
+                "note": "Gerund subjects take singular verbs (takes, not take)."
+            },
+            {
+                "type": "Complement",
+                "sentence": "My favorite activity is reading.",
+                "note": "Reading completes the description of the subject."
+            },
+            {
+                "type": "Complement",
+                "sentence": "His biggest problem is procrastinating.",
+                "note": "Procrastinating describes what his problem is."
+            }
+        ],
+        "mistakes": [
+            {
+                "wrong": "Learn grammar is useful.",
+                "correct": "Learning grammar is useful.",
+                "explanation": "You cannot use a base verb as a subject."
+            },
+            {
+                "wrong": "Speaking English take practice.",
+                "correct": "Speaking English takes practice.",
+                "explanation": "Gerund subjects are singular, so the main verb needs an -s."
+            },
+            {
+                "wrong": "My hobby is play football.",
+                "correct": "My hobby is playing football.",
+                "explanation": "The complement after 'is' representing an activity should be a gerund."
+            }
+        ],
+        "indonesianWarning": "In Indonesian, verbs do not change form when they become subjects (e.g., 'Belajar itu menyenangkan'). In English, you must add -ing: 'Learning is fun'.",
+        "summary": "Use a gerund (Verb-ing) when an activity is the subject of your sentence or when it comes after 'is' to describe a hobby or activity."
+    },
+    {
+        "id": "grammar-common-gerund-expressions",
+        "title": "Common Gerund Expressions",
+        "skill": "Grammar",
+        "pathway": "Gerunds & Infinitives",
+        "group": "Gerund Patterns",
+        "level": "Advanced",
+        "backHref": "gerunds-infinitives.html",
+        "backLabel": "Back to Gerunds & Infinitives",
+        "description": "Learn fixed phrases like 'be used to' and 'look forward to'.",
+        "learningGoals": [
+            "Memorize common idiomatic expressions that take gerunds.",
+            "Differentiate between 'used to + base verb' and 'be used to + gerund'.",
+            "Use phrases like 'have difficulty' and 'it's worth' correctly."
+        ],
+        "warmIntroduction": "<p>Grammar is not just about isolated words; it is often about fixed chunks of language. There are several very common expressions in English that are always followed by a gerund.</p><p>For example, if you want to say a movie is good enough to spend time on, you say 'It is worth watching.' If you want to say you are accustomed to spicy food, you say 'I am used to eating spicy food.'</p><p>Students should learn these as complete patterns, not word by word. Mastering these expressions makes your English sound highly natural and idiomatic.</p>",
+        "meaning": "<p>Some common expressions are naturally followed by <strong>gerunds</strong>.</p><p><strong>Common expressions:</strong><br>• be used to + Verb-ing (accustomed to)<br>• get used to + Verb-ing (becoming accustomed to)<br>• have difficulty + Verb-ing<br>• have trouble + Verb-ing<br>• spend time + Verb-ing<br>• waste time + Verb-ing<br>• cannot help + Verb-ing (unable to stop oneself from doing something)<br>• feel like + Verb-ing (want to do something)<br>• be worth + Verb-ing (deserves the action)<br>• it's no use + Verb-ing (there is no point)</p>",
+        "examples": [
+            {
+                "type": "Be used to",
+                "sentence": "I am used to waking up early.",
+                "note": "Means 'I am accustomed to it'. Notice 'to' is a preposition here."
+            },
+            {
+                "type": "Get used to",
+                "sentence": "She is getting used to speaking English.",
+                "note": "Means 'She is in the process of becoming accustomed to it'."
+            },
+            {
+                "type": "Difficulty/Trouble",
+                "sentence": "He has difficulty understanding fast speech.",
+                "note": "Used to describe struggling with an action."
+            },
+            {
+                "type": "Spend time",
+                "sentence": "They spent two hours discussing the problem.",
+                "note": "Time spent doing an activity."
+            },
+            {
+                "type": "Feel like",
+                "sentence": "I feel like watching a movie.",
+                "note": "Means 'I want to watch a movie'."
+            },
+            {
+                "type": "Be worth",
+                "sentence": "This book is worth reading.",
+                "note": "The action is recommended because the object has value."
+            },
+            {
+                "type": "No use",
+                "sentence": "There is no use complaining.",
+                "note": "Complaining will not change the situation."
+            }
+        ],
+        "quickComparison": "<strong>used to vs be used to</strong><br>• I <strong>used to</strong> <em>wake</em> up early. (Past habit, not true anymore. Followed by base verb.)<br>• I <strong>am used to</strong> <em>waking</em> up early. (Familiar/comfortable now. Followed by gerund.)",
+        "mistakes": [
+            {
+                "wrong": "I am used to wake up early.",
+                "correct": "I am used to waking up early.",
+                "explanation": "With the 'be used to' expression, 'to' is a preposition, so it requires a gerund."
+            },
+            {
+                "wrong": "She has difficulty to understand.",
+                "correct": "She has difficulty understanding.",
+                "explanation": "The expression 'have difficulty' is followed by a gerund."
+            },
+            {
+                "wrong": "This movie is worth to watch.",
+                "correct": "This movie is worth watching.",
+                "explanation": "'Worth' is followed by a gerund."
+            }
+        ],
+        "indonesianWarning": "The expressions 'have difficulty' (kesulitan) and 'worth' (sepadan/layak) often trigger the word 'untuk' in Indonesian translations. Do not write 'worth to watch' or 'difficulty to understand'.",
+        "summary": "Expressions like 'be used to', 'feel like', 'have difficulty', and 'be worth' are always followed by a gerund."
+    },
+    {
+        "id": "grammar-infinitives-after-verbs",
+        "title": "Infinitives After Certain Verbs",
+        "skill": "Grammar",
+        "pathway": "Gerunds & Infinitives",
+        "group": "Infinitive Patterns",
+        "level": "Intermediate",
+        "backHref": "gerunds-infinitives.html",
+        "backLabel": "Back to Gerunds & Infinitives",
+        "description": "Use want, need, decide, and plan with infinitives.",
+        "learningGoals": [
+            "Memorize common verbs followed by infinitives.",
+            "Use infinitives correctly after verbs of planning, deciding, and hoping.",
+            "Avoid using gerunds after these specific verbs."
+        ],
+        "warmIntroduction": "<p>When you talk about your dreams, goals, or plans, you usually use an infinitive. 'I want to travel', 'We plan to move', 'She decided to study'.</p><p>There is a specific group of verbs in English that demand a to-infinitive after them. These verbs usually look forward. They talk about actions that have not happened yet, or actions that someone is aiming for.</p><p>Learning to pair these verbs with infinitives is essential for expressing your intentions clearly.</p>",
+        "meaning": "<p>Some verbs are commonly followed by <strong>to + base verb</strong>. These verbs often show plans, decisions, hopes, needs, promises, offers, or attempts. The infinitive points toward an action that someone wants, plans, or needs to do.</p><p><strong>Common verbs followed by infinitives:</strong> want, need, decide, plan, hope, promise, agree, refuse, offer, learn, choose, expect, manage, fail, seem.</p>",
+        "examples": [
+            {
+                "type": "Want / Need",
+                "sentence": "I want to improve my English.",
+                "note": "Shows desire."
+            },
+            {
+                "type": "Need",
+                "sentence": "She needs to rest.",
+                "note": "Shows requirement."
+            },
+            {
+                "type": "Decide / Plan",
+                "sentence": "They decided to leave early.",
+                "note": "Shows a choice."
+            },
+            {
+                "type": "Plan",
+                "sentence": "We plan to visit our grandmother.",
+                "note": "Shows future intention."
+            },
+            {
+                "type": "Promise",
+                "sentence": "He promised to help me.",
+                "note": "Shows commitment."
+            },
+            {
+                "type": "Refuse",
+                "sentence": "She refused to answer the question.",
+                "note": "Shows rejection."
+            },
+            {
+                "type": "Manage",
+                "sentence": "I managed to finish the task.",
+                "note": "Shows a successful attempt."
+            }
+        ],
+        "mistakes": [
+            {
+                "wrong": "I want improving my English.",
+                "correct": "I want to improve my English.",
+                "explanation": "Want is followed by an infinitive."
+            },
+            {
+                "wrong": "She decided leaving early.",
+                "correct": "She decided to leave early.",
+                "explanation": "Decide is followed by an infinitive."
+            },
+            {
+                "wrong": "He promised helping me.",
+                "correct": "He promised to help me.",
+                "explanation": "Promise is followed by an infinitive."
+            }
+        ],
+        "indonesianWarning": "These patterns usually translate very neatly into Indonesian because 'to' acts similarly to 'untuk' here. Just remember that you cannot use an -ing form after verbs that point to a goal or plan.",
+        "summary": "Verbs that express plans, goals, or decisions (want, need, plan, decide, promise) are followed by a to-infinitive."
+    },
+    {
+        "id": "grammar-infinitives-of-purpose",
+        "title": "Infinitives of Purpose",
+        "skill": "Grammar",
+        "pathway": "Gerunds & Infinitives",
+        "group": "Infinitive Patterns",
+        "level": "Intermediate",
+        "backHref": "gerunds-infinitives.html",
+        "backLabel": "Back to Gerunds & Infinitives",
+        "description": "Answer 'why' by stating goals and intentions.",
+        "learningGoals": [
+            "Use to-infinitives to explain why an action was taken.",
+            "Understand that 'to + verb' replaces 'because I want to + verb'.",
+            "Avoid using 'for' to show the purpose of a verb action."
+        ],
+        "warmIntroduction": "<p>If someone asks, 'Why did you go to the library?', you could give a long answer: 'I went to the library because I wanted to borrow a book.'</p><p>But English has a much faster, more elegant way to say this. You simply attach an infinitive to the end of your sentence to show your purpose: 'I went to the library to borrow a book.'</p><p>This is called an infinitive of purpose. It answers the question 'Why?' quickly and clearly.</p>",
+        "meaning": "<p>Infinitives can explain <strong>purpose</strong>. Purpose means the reason or goal for doing something. The pattern <strong>to + base verb</strong> can directly answer the question 'Why?'</p><p>The first action in the sentence happens because of the goal stated by the infinitive.</p>",
+        "examples": [
+            {
+                "type": "Purpose",
+                "sentence": "I study English to communicate better.",
+                "note": "'to communicate better' explains why I study English."
+            },
+            {
+                "type": "Purpose",
+                "sentence": "She went to the library to borrow a book.",
+                "note": "'to borrow a book' explains why she went."
+            },
+            {
+                "type": "Purpose",
+                "sentence": "He opened the window to get fresh air.",
+                "note": "'to get fresh air' is the goal of opening the window."
+            },
+            {
+                "type": "Purpose",
+                "sentence": "We saved money to buy a new laptop.",
+                "note": "'to buy' explains why the money was saved."
+            },
+            {
+                "type": "Purpose",
+                "sentence": "They practiced every day to improve their performance.",
+                "note": "The goal of practice is improvement."
+            }
+        ],
+        "quickComparison": "<strong>Reason Clause:</strong> I study English <em>because I want to communicate</em> better.<br><strong>Purpose Infinitive:</strong> I study English <em>to communicate</em> better.",
+        "mistakes": [
+            {
+                "wrong": "I study English for communicate better.",
+                "correct": "I study English to communicate better.",
+                "explanation": "Use 'to + verb' for purpose. Never use 'for + base verb'."
+            },
+            {
+                "wrong": "She went to the library for borrow a book.",
+                "correct": "She went to the library to borrow a book.",
+                "explanation": "Use 'to + verb' for purpose."
+            },
+            {
+                "wrong": "We saved money for buy a laptop.",
+                "correct": "We saved money to buy a laptop.",
+                "explanation": "Use 'for' only before a noun (e.g., 'saved money for a laptop'). Use 'to' before a verb."
+            }
+        ],
+        "indonesianWarning": "In Indonesian, 'untuk' translates to 'for' or 'to'. Because of this, learners frequently write 'for improve' or 'for buy'. Remember: 'to' is followed by a verb; 'for' is followed by a noun or gerund.",
+        "summary": "To answer the question 'Why did you do that?', use a to-infinitive (to + base verb)."
+    },
+    {
+        "id": "grammar-adjective-plus-infinitive",
+        "title": "Adjective + Infinitive",
+        "skill": "Grammar",
+        "pathway": "Gerunds & Infinitives",
+        "group": "Infinitive Patterns",
+        "level": "Intermediate",
+        "backHref": "gerunds-infinitives.html",
+        "backLabel": "Back to Gerunds & Infinitives",
+        "description": "Describe reactions, difficulty, and readiness.",
+        "learningGoals": [
+            "Use infinitives after adjectives expressing feelings.",
+            "Use infinitives after adjectives expressing difficulty or necessity.",
+            "Use the 'It is + adjective + infinitive' sentence structure."
+        ],
+        "warmIntroduction": "<p>When you hear good news, you might say, 'I am happy.' But what if you want to explain <em>what</em> makes you happy? You say, 'I am happy to help you.'</p><p>Or imagine you are trying to read a very complex book. You can say, 'It is difficult.' But to be specific, you say, 'It is difficult to understand.'</p><p>Many adjectives in English are naturally followed by a to-infinitive. This structure helps you describe feelings, readiness, or your opinion about an action.</p>",
+        "meaning": "<p>Many adjectives can be followed by <strong>to + base verb</strong>. This pattern often describes feelings, difficulty, importance, readiness, possibility, or personal reactions.</p><p><strong>Common adjectives:</strong> happy, sad, ready, afraid, surprised, easy, difficult, important, necessary, possible, impossible, careful.</p>",
+        "examples": [
+            {
+                "type": "Feeling",
+                "sentence": "I am happy to help you.",
+                "note": "Expresses the feeling about the action."
+            },
+            {
+                "type": "Readiness",
+                "sentence": "She is ready to start.",
+                "note": "Prepared for the action."
+            },
+            {
+                "type": "Reaction",
+                "sentence": "He was surprised to hear the news.",
+                "note": "Reaction caused by the action."
+            },
+            {
+                "type": "It is + Adjective (Difficulty)",
+                "sentence": "It is difficult to understand.",
+                "note": "The action of understanding is difficult."
+            },
+            {
+                "type": "It is + Adjective (Importance)",
+                "sentence": "It is important to listen carefully.",
+                "note": "The action of listening is important."
+            },
+            {
+                "type": "Instruction",
+                "sentence": "Be careful not to make the same mistake.",
+                "note": "Negative infinitive (not to + verb)."
+            }
+        ],
+        "mistakes": [
+            {
+                "wrong": "I am happy helping you.",
+                "correct": "I am happy to help you.",
+                "explanation": "When expressing willingness or gladness to do something, use adjective + infinitive."
+            },
+            {
+                "wrong": "It is difficult understanding this rule.",
+                "correct": "It is difficult to understand this rule.",
+                "explanation": "Use 'It is + adjective + to-infinitive'."
+            },
+            {
+                "wrong": "She is ready starting.",
+                "correct": "She is ready to start.",
+                "explanation": "Ready is followed by an infinitive."
+            }
+        ],
+        "indonesianWarning": "This pattern is usually quite natural for Indonesian learners, as 'senang membantu' directly translates to 'happy to help'. The main error to avoid is using a gerund where an infinitive is expected.",
+        "summary": "Adjectives that describe feelings (happy, sad), readiness (ready), or opinions (easy, difficult, important) are usually followed by a to-infinitive."
+    },
+    {
+        "id": "grammar-verb-object-infinitive",
+        "title": "Verb + Object + Infinitive",
+        "skill": "Grammar",
+        "pathway": "Gerunds & Infinitives",
+        "group": "Infinitive Patterns",
+        "level": "Upper-Intermediate",
+        "backHref": "gerunds-infinitives.html",
+        "backLabel": "Back to Gerunds & Infinitives",
+        "description": "Ask, tell, and invite others to do an action.",
+        "learningGoals": [
+            "Use the pattern verb + object + to-infinitive.",
+            "Use verbs like ask, tell, want, and expect to give instructions or express desires for others.",
+            "Avoid adding 'that' unnecessarily in these structures."
+        ],
+        "warmIntroduction": "<p>When you want to do something yourself, you say: 'I want to go.' But what if you want <em>someone else</em> to do something? You cannot say 'I want you go' or 'I want that you go.'</p><p>To solve this, English uses a bridge: you put the person (the object) in the middle, and then you add the infinitive. 'I want <strong>you</strong> to go.'</p><p>This Verb + Object + Infinitive structure is how we ask, tell, invite, or expect other people to do things. It is one of the most useful patterns in conversational English.</p>",
+        "meaning": "<p>Some verbs are followed by an <strong>object</strong> and then an <strong>infinitive</strong>. The object is the person who is expected, asked, allowed, or told to do the action.</p><p>The first verb shows the speaker’s action. The object shows who receives the instruction. The infinitive shows what that person should do.</p><p><strong>Common verbs:</strong> ask, tell, want, need, expect, allow, invite, encourage, remind, teach, advise, force.</p>",
+        "examples": [
+            {
+                "type": "Ask/Tell (Instruction)",
+                "sentence": "The teacher asked us to open our books.",
+                "note": "Object: 'us'. Infinitive: 'to open'."
+            },
+            {
+                "type": "Ask/Tell (Instruction)",
+                "sentence": "My mother told me to clean my room.",
+                "note": "Object: 'me'. Infinitive: 'to clean'."
+            },
+            {
+                "type": "Want/Expect (Desire)",
+                "sentence": "I want you to listen carefully.",
+                "note": "Object: 'you'. Infinitive: 'to listen'."
+            },
+            {
+                "type": "Remind",
+                "sentence": "She reminded him to submit the file.",
+                "note": "Object: 'him'. Infinitive: 'to submit'."
+            },
+            {
+                "type": "Encourage",
+                "sentence": "The coach encouraged the players to keep practicing.",
+                "note": "Object: 'the players'. Infinitive: 'to keep'."
+            },
+            {
+                "type": "Invite",
+                "sentence": "They invited us to join the meeting.",
+                "note": "Object: 'us'. Infinitive: 'to join'."
+            }
+        ],
+        "mistakes": [
+            {
+                "wrong": "The teacher asked to open our books.",
+                "correct": "The teacher asked us to open our books.",
+                "explanation": "If someone is being instructed, you must include the object ('us') before the infinitive."
+            },
+            {
+                "wrong": "My mother told me clean my room.",
+                "correct": "My mother told me to clean my room.",
+                "explanation": "You must include 'to' before the verb."
+            },
+            {
+                "wrong": "I want that you listen carefully.",
+                "correct": "I want you to listen carefully.",
+                "explanation": "Do not use 'that' clauses with 'want'. Use the object + infinitive structure."
+            }
+        ],
+        "indonesianWarning": "Indonesian often uses a clause with 'bahwa' or 'agar/supaya' (e.g., 'Saya ingin agar kamu mendengarkan'). This causes learners to say 'I want that you listen'. In English, you must compress this into 'I want you to listen'.",
+        "summary": "When you instruct, invite, or expect someone else to do an action, use the pattern: Verb + Object (Person) + to-Infinitive."
+    },
+    {
+        "id": "grammar-verbs-gerund-or-infinitive",
+        "title": "Verbs Followed by Gerund or Infinitive",
+        "skill": "Grammar",
+        "pathway": "Gerunds & Infinitives",
+        "group": "Meaning Changes and Common Mistakes",
+        "level": "Upper-Intermediate",
+        "backHref": "gerunds-infinitives.html",
+        "backLabel": "Back to Gerunds & Infinitives",
+        "description": "Learn which verbs accept both forms with little to no change.",
+        "learningGoals": [
+            "Identify verbs that can take both gerunds and infinitives.",
+            "Understand that verbs like start, begin, and continue accept both forms with no meaning change.",
+            "Understand the subtle difference in feeling with verbs like like, love, and prefer."
+        ],
+        "warmIntroduction": "<p>So far, we have looked at verbs that demand <em>only</em> a gerund, or <em>only</em> an infinitive. But English is flexible, and there is a group of verbs that are perfectly happy with either form.</p><p>For example, you can say 'It started raining' or 'It started to rain'. Both are completely correct, and the meaning is identical. With verbs of emotion like 'like' or 'love', you can also use both, though the 'feeling' is slightly different.</p><p>Knowing which verbs are flexible makes speaking much easier, because you don't have to stress about making a mistake!</p>",
+        "meaning": "<p>Some verbs can be followed by <strong>either a gerund or an infinitive</strong>. Sometimes the meaning is almost the same. Sometimes the meaning changes significantly.</p><p><strong>Verbs with similar/no meaning change:</strong> like, love, hate, prefer, begin, start, continue.</p><p>With <em>like/love/hate</em>, gerunds often focus on the actual experience or activity. Infinitives can sometimes feel more like a specific habit, choice, or situational action. With <em>start/begin/continue</em>, both forms are interchangeable in most situations.</p>",
+        "examples": [
+            {
+                "type": "Start/Begin/Continue",
+                "sentence": "She started crying. / She started to cry.",
+                "note": "Both are correct. No change in meaning."
+            },
+            {
+                "type": "Start/Begin/Continue",
+                "sentence": "They continued working. / They continued to work.",
+                "note": "Both are correct. No change in meaning."
+            },
+            {
+                "type": "Like/Love/Hate",
+                "sentence": "I like reading.",
+                "note": "Focuses on the enjoyment of the activity generally."
+            },
+            {
+                "type": "Like/Love/Hate",
+                "sentence": "I like to read before bed.",
+                "note": "Focuses on the specific habit or choice."
+            },
+            {
+                "type": "Prefer",
+                "sentence": "I prefer drinking tea. / I prefer to drink tea.",
+                "note": "Both express preference correctly."
+            }
+        ],
+        "mistakes": [
+            {
+                "wrong": "Thinking one form is always correct and the other is always wrong.",
+                "correct": "Knowing which verbs are flexible.",
+                "explanation": "If a verb like 'start' is used, don't worry if you choose -ing or to-verb. Both are fine."
+            },
+            {
+                "wrong": "Not checking whether the meaning changes.",
+                "correct": "Being careful with verbs like stop or remember.",
+                "explanation": "While 'start' accepts both without a change, 'stop' changes its meaning entirely. (We will learn this in the next lesson)."
+            }
+        ],
+        "indonesianWarning": "If you are taking a formal test, be aware that British English often prefers gerunds for general likes (I like swimming) and infinitives for specific choices (I like to swim on Tuesdays). American English uses them more interchangeably.",
+        "summary": "Verbs like start, begin, continue, like, love, hate, and prefer can be followed by either a gerund or an infinitive without making a grammatical error."
+    },
+    {
+        "id": "grammar-stop-remember-forget-try-regret",
+        "title": "Stop, Remember, Forget, Try, and Regret",
+        "skill": "Grammar",
+        "pathway": "Gerunds & Infinitives",
+        "group": "Meaning Changes and Common Mistakes",
+        "level": "Advanced",
+        "backHref": "gerunds-infinitives.html",
+        "backLabel": "Back to Gerunds & Infinitives",
+        "description": "Master verbs that radically alter meaning based on form.",
+        "learningGoals": [
+            "Understand how gerunds and infinitives change the meaning of specific verbs.",
+            "Use stop, remember, forget, try, and regret correctly with both forms."
+        ],
+        "warmIntroduction": "<p>This is where gerunds and infinitives become truly fascinating. There is a small group of verbs where using a gerund versus an infinitive completely changes what the sentence means.</p><p>Imagine someone saying, 'I stopped smoking.' This is great news; they quit a bad habit! But if they say, 'I stopped to smoke,' it means the exact opposite: they stopped whatever they were doing so that they could smoke a cigarette.</p><p>Understanding verbs like stop, remember, forget, try, and regret is a huge step toward advanced English proficiency.</p>",
+        "meaning": "<p>These verbs change their meaning depending on whether they are followed by a gerund or an infinitive. Generally, gerunds look backward to past actions or actual experiences. Infinitives look forward to future responsibilities or goals.</p>",
+        "quickComparison": "<strong>Stop</strong><br>• stop + gerund = quit the activity<br>• stop + infinitive = stop another action in order to do something<br><br><strong>Remember / Forget</strong><br>• + gerund = remember/forget a past action<br>• + infinitive = remember/forget to do a necessary action<br><br><strong>Try</strong><br>• + gerund = experiment with a method to see if it works<br>• + infinitive = make an effort to do something difficult<br><br><strong>Regret</strong><br>• + gerund = feel sorry about a past action<br>• + infinitive = formal announcement of bad news",
+        "examples": [
+            {
+                "type": "Stop",
+                "sentence": "I stopped smoking. (Quit)",
+                "note": "I stopped to smoke. (Stopped walking so I could smoke)."
+            },
+            {
+                "type": "Remember",
+                "sentence": "I remember meeting her. (Memory of the past)",
+                "note": "Remember to lock the door. (Don't forget to do this task)."
+            },
+            {
+                "type": "Forget",
+                "sentence": "I forgot to call her. (I failed to do the task)",
+                "note": "I will never forget meeting him. (Memory of the past)."
+            },
+            {
+                "type": "Try",
+                "sentence": "I tried to open the door. (Made an effort, but it was stuck)",
+                "note": "Try drinking warm water. (Experiment to see if it cures your cough)."
+            },
+            {
+                "type": "Regret",
+                "sentence": "I regret saying that. (Sorry for my past words)",
+                "note": "We regret to inform you that the event is cancelled. (Formal announcement)."
+            }
+        ],
+        "mistakes": [
+            {
+                "wrong": "I stopped to smoke. (when meaning I quit smoking)",
+                "correct": "I stopped smoking.",
+                "explanation": "If you quit a habit, you must use a gerund."
+            },
+            {
+                "wrong": "I forgot calling her. (when meaning I did not call her)",
+                "correct": "I forgot to call her.",
+                "explanation": "If you failed to do a required task, use an infinitive."
+            },
+            {
+                "wrong": "Try to restarting your phone. (when suggesting a method)",
+                "correct": "Try restarting your phone.",
+                "explanation": "When offering a solution/experiment, use 'try + gerund'."
+            }
+        ],
+        "indonesianWarning": "Because Indonesian doesn't have an equivalent structure, learners must actively memorize the meaning shift for these five verbs to avoid causing serious misunderstandings.",
+        "summary": "Stop, Remember, Forget, Try, and Regret change their meaning entirely. Use gerunds for past memories/experiences/quitting. Use infinitives for future tasks/goals/purposes."
+    },
+    {
+        "id": "grammar-make-let-help-modal-bare-infinitives",
+        "title": "Make, Let, Help, and Modal Bare Infinitives",
+        "skill": "Grammar",
+        "pathway": "Gerunds & Infinitives",
+        "group": "Meaning Changes and Common Mistakes",
+        "level": "Intermediate",
+        "backHref": "gerunds-infinitives.html",
+        "backLabel": "Back to Gerunds & Infinitives",
+        "description": "Drop the 'to' entirely in these specific patterns.",
+        "learningGoals": [
+            "Use the base verb (bare infinitive) after make, let, and modal verbs.",
+            "Understand that 'help' can take either a bare or to-infinitive.",
+            "Avoid inserting 'to' incorrectly in these causative patterns."
+        ],
+        "warmIntroduction": "<p>Sometimes, English grammar is about what you <em>should not</em> add. We spend a lot of time learning to add 'to' or '-ing' to verbs, but there are important moments where the verb must be completely bare.</p><p>If you say, 'The teacher made me to study', it sounds unnatural. 'Make' and 'Let' are causative verbs. They express forcing or allowing someone to do something, and they require a bare infinitive.</p><p>Understanding when to drop the 'to' is a hallmark of fluent English speaking.</p>",
+        "meaning": "<p>Some verbs are followed by a <strong>bare infinitive</strong> (the base verb with no 'to').<br><strong>Modal verbs</strong> (can, could, will, would, should, must, may, might) always use the bare infinitive.<br><strong>Causative verbs</strong> like <em>make</em> (force/cause) and <em>let</em> (allow) also use the bare infinitive.<br><em>Help</em> is unique: it can be followed by either a bare infinitive or a to-infinitive.</p>",
+        "examples": [
+            {
+                "type": "Modals",
+                "sentence": "I can swim.",
+                "note": "Not 'can to swim'."
+            },
+            {
+                "type": "Modals",
+                "sentence": "They must leave now.",
+                "note": "Not 'must to leave'."
+            },
+            {
+                "type": "Make (Force/Cause)",
+                "sentence": "The teacher made us rewrite the sentence.",
+                "note": "Made + object + base verb."
+            },
+            {
+                "type": "Make (Cause emotion)",
+                "sentence": "The movie made me cry.",
+                "note": "Made + object + base verb."
+            },
+            {
+                "type": "Let (Allow)",
+                "sentence": "Let me explain.",
+                "note": "Let + object + base verb."
+            },
+            {
+                "type": "Help",
+                "sentence": "She helped me carry the boxes. / She helped me to carry the boxes.",
+                "note": "Both forms are correct. Bare infinitive is very common in speaking."
+            }
+        ],
+        "mistakes": [
+            {
+                "wrong": "She can to swim.",
+                "correct": "She can swim.",
+                "explanation": "Modals take bare infinitives."
+            },
+            {
+                "wrong": "The teacher made us to rewrite the sentence.",
+                "correct": "The teacher made us rewrite the sentence.",
+                "explanation": "Make is followed by object + bare infinitive."
+            },
+            {
+                "wrong": "Let me to explain.",
+                "correct": "Let me explain.",
+                "explanation": "Let is followed by object + bare infinitive."
+            }
+        ],
+        "indonesianWarning": "Because 'membuat saya belajar' uses 'membuat', learners often think they need 'to' for the second verb. Memorize 'make someone do something' as a fixed formula with no 'to'.",
+        "summary": "Never use 'to' after modal verbs (can, must, should). Never use 'to' after 'make' and 'let' when someone is causing or allowing an action."
+    },
+    {
+        "id": "grammar-common-gerund-infinitive-mistakes",
+        "title": "Common Gerund and Infinitive Mistakes",
+        "skill": "Grammar",
+        "pathway": "Gerunds & Infinitives",
+        "group": "Meaning Changes and Common Mistakes",
+        "level": "Intermediate",
+        "backHref": "gerunds-infinitives.html",
+        "backLabel": "Back to Gerunds & Infinitives",
+        "description": "Repair mixed patterns, wrong meanings, and translation errors.",
+        "learningGoals": [
+            "Identify the most frequent errors involving gerunds and infinitives.",
+            "Repair wrong verb forms after prepositions, enjoy, want, and purpose statements.",
+            "Use a checklist to verify correct verb forms."
+        ],
+        "warmIntroduction": "<p>Gerunds and infinitives can be tricky because the rules depend entirely on the word that comes just before them. It is very easy to mix up the patterns or rely too heavily on direct translation.</p><p>However, the mistakes students make are very predictable. We see the same ten errors over and over again in classrooms.</p><p>By reviewing these specific mistakes and understanding how to fix them, you can rapidly clean up your grammar and write with much more confidence. Let's look at the top errors to avoid.</p>",
+        "meaning": "<p>Review these ten common errors. Pay attention to the correct pattern and the simple explanation for why the repair is necessary.</p>",
+        "examples": [
+            {
+                "type": "Wrong form after enjoy",
+                "sentence": "Wrong: I enjoy to study English.",
+                "note": "Correct: I enjoy studying English. (Enjoy requires a gerund)."
+            },
+            {
+                "type": "Wrong form after want",
+                "sentence": "Wrong: I want studying English.",
+                "note": "Correct: I want to study English. (Want requires an infinitive)."
+            },
+            {
+                "type": "Wrong form after preposition",
+                "sentence": "Wrong: I am interested to learn English.",
+                "note": "Correct: I am interested in learning English. (Prepositions require gerunds)."
+            },
+            {
+                "type": "Wrong purpose structure",
+                "sentence": "Wrong: I study English for improve my speaking.",
+                "note": "Correct: I study English to improve my speaking. (Use to-infinitive for purpose)."
+            },
+            {
+                "type": "Wrong modal structure",
+                "sentence": "Wrong: She can to swim.",
+                "note": "Correct: She can swim. (Modals require bare infinitives)."
+            },
+            {
+                "type": "Wrong make/let structure",
+                "sentence": "Wrong: My teacher made me to rewrite it.",
+                "note": "Correct: My teacher made me rewrite it. (Make requires object + bare infinitive)."
+            },
+            {
+                "type": "Wrong stop meaning",
+                "sentence": "Wrong: I stopped to smoke. (when meaning I quit smoking)",
+                "note": "Correct: I stopped smoking. (Gerund means you quit the activity)."
+            },
+            {
+                "type": "Wrong remember meaning",
+                "sentence": "Wrong: Remember locking the door. (when giving an instruction)",
+                "note": "Correct: Remember to lock the door. (Infinitive means a future task to complete)."
+            },
+            {
+                "type": "Wrong gerund subject agreement",
+                "sentence": "Wrong: Learning English are useful.",
+                "note": "Correct: Learning English is useful. (Gerund subjects take singular verbs)."
+            },
+            {
+                "type": "Wrong adjective pattern",
+                "sentence": "Wrong: It is important practicing every day.",
+                "note": "Correct: It is important to practice every day. (Use It is + Adjective + Infinitive)."
+            }
+        ],
+        "mistakes": [
+            {
+                "wrong": "Guessing the verb form randomly.",
+                "correct": "Using the checklist.",
+                "explanation": "If you use the checklist below, you will catch most of your errors before you make them."
+            }
+        ],
+        "summary": "Checklist: 1) Is there a preposition? Use Gerund. 2) Is it purpose? Use Infinitive. 3) Is there a modal/make/let? Use bare verb. 4) Is it a specific verb like enjoy or want? Use its specific rule. 5) Does the meaning change (stop/remember)? Check the context."
+    }
 ];
