@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Questions Pathway - Lesson Control</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+            display: ['Space Grotesk', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+            mono: ['JetBrains Mono', 'ui-monospace', 'monospace'],
+          },
+          colors: {
+            slate: {
+              850: '#151e2e',
+              900: '#0f172a',
+              950: '#020617',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .text-glow {
+        text-shadow: 0 0 20px rgba(16, 185, 129, 0.3);
+      }
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-slate-950 text-slate-300 font-sans antialiased min-h-screen flex flex-col selection:bg-emerald-500/30 selection:text-emerald-200">
+
+  <!-- Shared Header -->
+  <header class="bg-slate-900/50 backdrop-blur-xl border-b border-slate-800 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="./index.html" class="flex items-center gap-3 group">
+          <div class="w-8 h-8 bg-rose-500 rounded-lg flex items-center justify-center transform group-hover:scale-105 transition-all shadow-lg shadow-rose-500/20">
+            <svg class="w-5 h-5 text-white" width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+          </div>
+          <div class="flex flex-col">
+            <span class="font-display font-bold text-lg tracking-tight text-white leading-none">Lesson Control</span>
+            <span class="text-[9px] uppercase tracking-widest font-mono text-slate-500 leading-none mt-1">GYTama EDU</span>
+          </div>
+        </a>
+        <nav class="hidden md:flex space-x-2">
+          <a href="./index.html" class="text-slate-400 hover:text-white hover:bg-slate-800/50 border border-transparent hover:border-slate-700/50 px-3 py-1.5 rounded-md text-sm font-medium transition-colors">Home</a>
+          <a href="./grammar.html" class="text-slate-400 hover:text-white hover:bg-slate-800/50 border border-transparent hover:border-slate-700/50 px-3 py-1.5 rounded-md text-sm font-medium transition-colors">Grammar</a>
+          <a href="./questions.html" class="text-white bg-slate-800/50 border border-slate-700/50 px-3 py-1.5 rounded-md text-sm font-medium transition-colors shadow-sm">Questions</a>
+        </nav>
+        <div class="hidden md:flex items-center">
+          <a href="https://missioncontrol.gytama.edu" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-xs font-mono text-slate-400 hover:text-emerald-400 transition-colors uppercase tracking-widest group">
+            Mission Control 
+            <svg class="w-3.5 h-3.5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-grow flex flex-col relative z-10">
+    <section class="pt-12 sm:pt-20 pb-16 sm:pb-24 border-b border-slate-800/50 relative overflow-hidden flex-shrink-0">
+      <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-slate-900 via-slate-950 to-slate-950 opacity-80"></div>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        
+        <a href="grammar.html" class="inline-flex items-center gap-2 text-slate-400 hover:text-emerald-400 transition-colors font-mono text-xs uppercase tracking-widest mb-8 group">
+          <svg class="w-4 h-4 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
+          Back to Grammar Pathways
+        </a>
+
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-[11px] font-mono tracking-widest mb-6 uppercase">
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span> Pathway Active
+        </div>
+        <h1 class="text-3xl sm:text-4xl font-display font-bold text-white mb-4 tracking-tight">Questions <span class="text-rose-400">Pathway</span></h1>
+        <p class="text-slate-400 text-lg max-w-2xl leading-relaxed">
+          Master Yes/No, WH-questions, tags, indirect, and advanced question structures.
+        </p>
+      </div>
+    </section>
+
+    <section class="py-16 sm:py-24 relative flex-grow">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Group 1: Question Foundations -->
+        <div class="mb-16">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-8 gap-4 border-b border-slate-800/80 pb-4">
+            <div>
+              <div class="inline-flex items-center gap-2 px-2.5 py-0.5 rounded-md bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-[10px] font-mono tracking-widest mb-2 uppercase">Active Group</div>
+              <h2 class="text-2xl font-bold text-white tracking-tight">Question Foundations</h2>
+              <p class="text-slate-400 text-sm mt-1">Understand the core structure, purpose, and basic elements of questions.</p>
+            </div>
+          </div>
+          
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <a href="lesson.html?id=grammar-questions-overview" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">What Is a Question?</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Learn what a question is and its role in communication.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+            <a href="lesson.html?id=grammar-statement-vs-question-word-order" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Statement vs Question Word Order</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Compare statement word order with question word order.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+            <a href="lesson.html?id=grammar-auxiliary-verbs-in-questions" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Auxiliary Verbs in Questions</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Learn how auxiliary verbs are used to build questions.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+            <a href="lesson.html?id=grammar-question-marks-intonation-purpose" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Question Marks, Intonation, and Purpose</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Explore the purposes of questions and how to express them.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Group 2: Yes/No Questions -->
+        <div class="mb-16">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-8 gap-4 border-b border-slate-800/80 pb-4">
+            <div>
+              <div class="inline-flex items-center gap-2 px-2.5 py-0.5 rounded-md bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-[10px] font-mono tracking-widest mb-2 uppercase">Active Group</div>
+              <h2 class="text-2xl font-bold text-white tracking-tight">Yes/No Questions</h2>
+              <p class="text-slate-400 text-sm mt-1">Master how to ask yes/no questions with different types of verbs.</p>
+            </div>
+          </div>
+          
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <a href="lesson.html?id=grammar-yes-no-questions-with-be" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Yes/No Questions with Be</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Learn how to form yes/no questions with the verb 'be'.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+            <a href="lesson.html?id=grammar-yes-no-questions-do-does-did" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Yes/No Questions with Do, Does, and Did</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Master yes/no questions using 'do', 'does', and 'did'.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+            <a href="lesson.html?id=grammar-yes-no-questions-have-has-had" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Yes/No Questions with Have, Has, and Had</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Understand yes/no questions in perfect tenses.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+            <a href="lesson.html?id=grammar-yes-no-questions-with-modals" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Yes/No Questions with Modals</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Learn to form yes/no questions with modal verbs.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Group 3: WH-Questions -->
+        <div class="mb-16">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-8 gap-4 border-b border-slate-800/80 pb-4">
+            <div>
+              <div class="inline-flex items-center gap-2 px-2.5 py-0.5 rounded-md bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-[10px] font-mono tracking-widest mb-2 uppercase">Active Group</div>
+              <h2 class="text-2xl font-bold text-white tracking-tight">WH-Questions</h2>
+              <p class="text-slate-400 text-sm mt-1">Master how to ask for specific information using WH-words.</p>
+            </div>
+          </div>
+          
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <a href="lesson.html?id=grammar-wh-questions-overview" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">WH-Questions Overview</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Learn the structure and function of WH-questions.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+            <a href="lesson.html?id=grammar-common-wh-question-words" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Who, What, Where, When, Why, and How</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Understand the meaning of each common question word.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+            <a href="lesson.html?id=grammar-subject-vs-object-questions" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Subject Questions vs Object Questions</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Discover the difference in word order when asking about the subject.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+            <a href="lesson.html?id=grammar-how-questions-forms" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">How Questions: How Much, How Many, How Long...</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Learn the many ways to form questions starting with 'How'.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Group 4: Advanced Questions and Common Mistakes -->
+        <div class="mb-16">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-8 gap-4 border-b border-slate-800/80 pb-4">
+            <div>
+              <div class="inline-flex items-center gap-2 px-2.5 py-0.5 rounded-md bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-[10px] font-mono tracking-widest mb-2 uppercase">Active Group</div>
+              <h2 class="text-2xl font-bold text-white tracking-tight">Advanced Questions and Common Mistakes</h2>
+              <p class="text-slate-400 text-sm mt-1">Master indirect questions, tag questions, negative questions, and fix common errors.</p>
+            </div>
+          </div>
+          
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <a href="lesson.html?id=grammar-indirect-questions" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Indirect Questions</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Learn to ask polite questions using statement word order.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+            <a href="lesson.html?id=grammar-tag-questions" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Tag Questions</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Use short questions at the end of sentences for confirmation.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+            <a href="lesson.html?id=grammar-negative-questions" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Negative Questions</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Use negative questions for surprise, suggestions, or expectations.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+            <a href="lesson.html?id=grammar-common-question-mistakes" class="group bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 hover:bg-slate-800 transition-all hover:border-emerald-500/50 flex flex-col h-full relative overflow-hidden shadow-lg shadow-black/20">
+              <h3 class="text-lg font-bold text-white mb-2 relative z-10 group-hover:text-emerald-400 transition-colors">Common Question Mistakes</h3>
+              <p class="text-slate-400 text-sm flex-grow relative z-10 leading-relaxed mb-6">Repair word order errors, missing auxiliaries, and other mistakes.</p>
+              <div class="text-emerald-400 font-mono text-[10px] flex items-center uppercase tracking-widest mt-auto">
+                View Lesson <svg class="w-3 h-3 ml-1.5 group-hover:translate-x-1 transition-transform" width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7-7m7-7H3"></path></svg>
+              </div>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-slate-950 border-t border-slate-800 py-10 mt-auto">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+        <div class="flex items-center gap-2 opacity-70">
+          <svg class="w-5 h-5 text-rose-500" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+          <span class="font-display font-bold text-white text-sm">Lesson Control</span>
+          <span class="text-slate-500 text-xs ml-2">by GYTama EDU</span>
+        </div>
+        <div class="flex gap-4 text-xs font-mono text-slate-600 uppercase tracking-widest">
+          <a href="#" class="hover:text-slate-400 transition-colors">Privacy</a>
+          <a href="#" class="hover:text-slate-400 transition-colors">Terms</a>
+          <a href="#" class="hover:text-slate-400 transition-colors">Support</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

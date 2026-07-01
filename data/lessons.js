@@ -3497,6 +3497,1023 @@ const lesson_grammar_common_conditional_mistakes = {
   "stepByStep": "1. Is the sentence about a fact, future possibility, imaginary situation, or past regret?<br>2. Is the if-clause using the correct tense?<br>3. Is the main clause using the correct modal or verb form?<br>4. Did I accidentally put will or would after if?",
   "indonesianLearnerWarning": "Take your time. When writing an essay or speaking in a test, pause for a half-second before starting an 'If' sentence to decide if you are talking about reality or imagination. That half-second will save your grammar score."
 };
+const grammar_questions_overview = {
+  "id": "grammar-questions-overview",
+  "backHref": "questions.html",
+  "backLabel": "Back to Questions",
+  "title": "What Is a Question?",
+  "skill": "Grammar",
+  "category": "Questions",
+  "level": "Beginner",
+  "description": "Understand the two main types of questions in English.",
+  "learningGoals": [
+    "Know the difference between Yes/No questions and WH-questions.",
+    "Understand why word order changes in English questions."
+  ],
+  "meaning": "A question asks for information. In English, we must change the sentence structure to form a question, unlike many other languages that just use intonation.",
+  "keyIdeas": [
+    "Yes/No Questions start with a helping verb (e.g., Is it raining?).",
+    "WH-Questions ask for specific details and start with a question word (e.g., Where are you going?).",
+    "English questions require a specific word order, usually placing a verb before the subject."
+  ],
+  "patterns": [
+    {
+      "name": "The Two Types",
+      "formula": "Yes/No Question vs WH-Question",
+      "examples": [
+        {
+          "en": "Are you hungry?",
+          "id": "Apakah kamu lapar?",
+          "explanation": "Yes/No question (starts with auxiliary)."
+        },
+        {
+          "en": "Where do you live?",
+          "id": "Di mana kamu tinggal?",
+          "explanation": "WH-question (starts with a question word)."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "You like coffee?",
+      "correct": "Do you like coffee?",
+      "explanation": "You cannot make a question just by changing your intonation. You need the helper verb 'Do'."
+    }
+  ],
+  "introduction": "Imagine you are lost in a new city. You need to find the train station. If you only know how to make statements like 'The train station is there,' you can't ask anyone for help! You need to know how to ask, 'Where is the train station?'<br><br>Questions are the key to unlocking information. We use them to ask for facts, to check if something is true, to make offers, and to start conversations. In English, questions are formed very differently from statements. Let's look at the basic building blocks of a question so you can start asking for the information you need.",
+  "stepByStep": "1. <strong>Decide what you need:</strong> Do you need a simple confirmation (Yes/No) or specific details (WH-question)?<br>2. <strong>For Yes/No:</strong> Start with a helper verb (Am, Is, Are, Do, Does, Can).<br>3. <strong>For Details:</strong> Start with a WH-word (Who, What, Where, When, Why, How), then add the helper verb.",
+  "indonesianLearnerWarning": "In Indonesian, you often form a question just by adding 'Apakah' at the beginning of a statement, or by changing the intonation of a statement (Kamu suka kopi?). In English, you usually must change the word order or add an auxiliary verb (Do you like coffee?). This is the most important rule to remember!",
+  "practicePrompts": [
+    "Ask a Yes/No question about the weather.",
+    "Ask a WH-question to find out someone's name."
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Play '20 Questions'. Think of an object. The class can only ask Yes/No questions to guess what it is.",
+  "quickComparison": "<strong>Statement:</strong> He is late. <strong>Question:</strong> Is he late?",
+  "summary": [
+    "Questions ask for information and end with a question mark.",
+    "Yes/No questions start with an auxiliary verb.",
+    "WH-questions start with a question word.",
+    "English questions require a change in word order."
+  ]
+};
+
+const grammar_statement_vs_question_word_order = {
+  "id": "grammar-statement-vs-question-word-order",
+  "backHref": "questions.html",
+  "backLabel": "Back to Questions",
+  "title": "Statement vs Question Word Order",
+  "skill": "Grammar",
+  "category": "Questions",
+  "level": "Beginner",
+  "description": "Learn the golden rule of inversion for making questions.",
+  "learningGoals": [
+    "Understand the concept of inversion (swapping subject and verb).",
+    "Apply inversion to 'be', auxiliary verbs, and regular verbs."
+  ],
+  "meaning": "To make a question in English, we usually invert (swap) the subject and the verb. This signals to the listener that a question is coming.",
+  "keyIdeas": [
+    "Statements follow Subject + Verb order.",
+    "Questions use inversion: Verb + Subject order.",
+    "Action verbs need the helpers do/does/did to make this swap."
+  ],
+  "patterns": [
+    {
+      "name": "The Inversion Rule",
+      "formula": "Statement: Subject + Verb -> Question: Verb + Subject",
+      "examples": [
+        {
+          "en": "She is late. -> Is she late?",
+          "id": "Dia terlambat. -> Apakah dia terlambat?",
+          "explanation": "Swap the subject and 'be'."
+        },
+        {
+          "en": "He can swim. -> Can he swim?",
+          "id": "Dia bisa berenang. -> Bisakah dia berenang?",
+          "explanation": "Swap the subject and the modal/helper verb."
+        },
+        {
+          "en": "You like pizza. -> Do you like pizza?",
+          "id": "Kamu suka pizza. -> Apakah kamu suka pizza?",
+          "explanation": "Add 'Do' for action verbs."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "He is coming to the meeting?",
+      "correct": "Is he coming to the meeting?",
+      "explanation": "Missing inversion. Always swap the subject and the helper verb."
+    }
+  ],
+  "introduction": "'You are coming to the party.' That's a nice statement. It tells me a fact. But what if I don't know? How do I ask you?<br><br>If I say, 'You are coming to the party?' with my voice going up at the end, people will understand me. But in standard English grammar, we need to move the words around to show it's a question. The secret to English questions is all about changing the positions of the Subject and the Verb.",
+  "stepByStep": "1. Identify the main verb or helper verb in your statement.<br>2. If the verb is 'be', swap it with the subject.<br>3. If there is a helper verb (can, will, have), swap the first helper verb with the subject.<br>4. If there is only an action verb (play, eat), add Do/Does/Did to the front.",
+  "indonesianLearnerWarning": "In Indonesian, word order does not change when asking a question. 'Dia dokter' (Statement) -> 'Dia dokter?' (Question). In English, 'He is a doctor' MUST become 'Is he a doctor?'.",
+  "practicePrompts": [
+    "Turn this statement into a question: They are happy.",
+    "Turn this statement into a question: She will go."
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Have students write 5 statements on cards. Exchange cards, and the partner must rewrite them as questions.",
+  "quickComparison": "<strong>Statement:</strong> You are tired. <strong>Question:</strong> Are you tired?",
+  "summary": [
+    "Questions use inversion.",
+    "Swap the subject and the verb 'be'.",
+    "Swap the subject and the helper verb.",
+    "Add Do/Does/Did for action verbs."
+  ]
+};
+
+const grammar_auxiliary_verbs_in_questions = {
+  "id": "grammar-auxiliary-verbs-in-questions",
+  "backHref": "questions.html",
+  "backLabel": "Back to Questions",
+  "title": "Auxiliary Verbs in Questions",
+  "skill": "Grammar",
+  "category": "Questions",
+  "level": "Beginner",
+  "description": "Discover why 'helping verbs' are the stars of English questions.",
+  "learningGoals": [
+    "Identify common auxiliary verbs (be, have, do, modals).",
+    "Understand their crucial role in starting questions."
+  ],
+  "meaning": "Almost every question in English requires an auxiliary (helper) verb to jump to the front of the sentence. They announce: 'Pay attention! This is a question!'",
+  "keyIdeas": [
+    "Auxiliary verbs include 'be', 'have', 'do', and modals (can, will).",
+    "They always come before the subject in a question.",
+    "If a sentence doesn't have an auxiliary, we use 'do', 'does', or 'did'."
+  ],
+  "patterns": [
+    {
+      "name": "The Auxiliary Pattern",
+      "formula": "Auxiliary Verb + Subject + Main Verb",
+      "examples": [
+        {
+          "en": "Are you listening?",
+          "id": "Apakah kamu mendengarkan?",
+          "explanation": "Auxiliary 'are' + Subject 'you' + Main Verb 'listening'."
+        },
+        {
+          "en": "Have they arrived?",
+          "id": "Apakah mereka sudah tiba?",
+          "explanation": "Auxiliary 'have' + Subject 'they' + Main Verb 'arrived'."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Play you tennis?",
+      "correct": "Do you play tennis?",
+      "explanation": "Main action verbs cannot jump to the front. You must use the auxiliary 'Do'."
+    }
+  ],
+  "introduction": "Think of auxiliary verbs as the 'helpers' of the grammar world. In statements, they help the main verb show time or possibility (like 'I am running' or 'I can run').<br><br>But in questions, auxiliary verbs are the stars of the show! They jump to the very front of the sentence to announce: 'Pay attention! This is a question!' If you want to master English questions, you must become best friends with auxiliary verbs.",
+  "stepByStep": "1. Look at your sentence. Does it have an auxiliary verb (is, are, can, will, have)?<br>2. If yes, move it to the front.<br>3. If no, call the rescue team: add 'Do', 'Does', or 'Did' to the front.",
+  "indonesianLearnerWarning": "Indonesian doesn't use auxiliary verbs in this way. When you want to ask a question in English, your brain must automatically search for the helper verb. Without it, the question is grammatically incorrect.",
+  "practicePrompts": [
+    "Identify the auxiliary verb: Will she call me later?",
+    "Add an auxiliary to make a question: ___ he like pizza?"
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Call out verbs ('run', 'is playing', 'can swim'). Students must reply with the correct auxiliary needed to make a question ('do/does/did', 'is/are', 'can').",
+  "quickComparison": "<strong>Without Auxiliary:</strong> You listening? (Incorrect) <strong>With Auxiliary:</strong> Are you listening? (Correct)",
+  "summary": [
+    "Auxiliary verbs start almost every English question.",
+    "They include be, have, do, and modals.",
+    "Action verbs require do, does, or did as their helpers."
+  ]
+};
+
+const grammar_question_marks_intonation_purpose = {
+  "id": "grammar-question-marks-intonation-purpose",
+  "backHref": "questions.html",
+  "backLabel": "Back to Questions",
+  "title": "Question Marks, Intonation, and Purpose",
+  "skill": "Grammar",
+  "category": "Questions",
+  "level": "Beginner",
+  "description": "Learn how punctuation and the 'music' of your voice signal questions.",
+  "learningGoals": [
+    "Always use a question mark for direct questions.",
+    "Understand rising intonation for Yes/No questions and falling intonation for WH-questions."
+  ],
+  "meaning": "A sentence isn't just about the words you choose; it's also about how you write it (punctuation) and how you say it (intonation).",
+  "keyIdeas": [
+    "Every direct question must end with a question mark (?).",
+    "Yes/No questions usually have rising intonation (voice goes up).",
+    "WH-questions usually have falling intonation (voice goes down)."
+  ],
+  "patterns": [
+    {
+      "name": "Punctuation and Intonation",
+      "formula": "Yes/No = Rising Voice (?) | WH- = Falling Voice (?)",
+      "examples": [
+        {
+          "en": "Are you coming to the party? (Rising voice)",
+          "id": "Apakah kamu datang ke pesta?",
+          "explanation": "Sounds friendly and invites a simple answer."
+        },
+        {
+          "en": "What is your name? (Falling voice)",
+          "id": "Siapa namamu?",
+          "explanation": "Sounds serious and asks for factual information."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I wonder where he is?",
+      "correct": "I wonder where he is.",
+      "explanation": "Indirect questions (questions inside a statement) end with a period, not a question mark."
+    }
+  ],
+  "introduction": "Have you ever read a text message and wondered, 'Are they asking me, or are they telling me?' In writing, punctuation is everything. In speaking, the 'music' of your voice tells the listener what you mean.<br><br>A sentence isn't just about the words you choose; it's also about how you write it and how you say it. Let's look at how we signal questions in English, both on paper and when speaking.",
+  "stepByStep": "1. <strong>Writing:</strong> Always put a '?' at the end of a direct question.<br>2. <strong>Speaking (Yes/No):</strong> Let your voice go UP at the end of the sentence.<br>3. <strong>Speaking (WH-):</strong> Let your voice go DOWN at the end of the sentence.",
+  "indonesianLearnerWarning": "In Indonesian, questions often end with rising intonation, even WH-questions. In English, ending a WH-question with a rising voice can sound like you are surprised, asking them to repeat themselves, or being overly polite/hesitant. Use a falling voice for standard WH-questions.",
+  "practicePrompts": [
+    "Read out loud with rising intonation: Do you like tea?",
+    "Read out loud with falling intonation: Where is the station?"
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Have students practice asking the same question ('What time is it?') with different intonations to see how it changes the mood (bored, surprised, angry, polite).",
+  "quickComparison": "<strong>Yes/No:</strong> Voice goes up. <strong>WH-Question:</strong> Voice goes down.",
+  "summary": [
+    "Direct questions require a question mark.",
+    "Yes/No questions use rising intonation.",
+    "WH-questions use falling intonation."
+  ]
+};
+
+const grammar_yes_no_questions_with_be = {
+  "id": "grammar-yes-no-questions-with-be",
+  "backHref": "questions.html",
+  "backLabel": "Back to Questions",
+  "title": "Yes/No Questions with Be",
+  "skill": "Grammar",
+  "category": "Questions",
+  "level": "Beginner",
+  "description": "Learn how the verb 'be' handles questions all by itself.",
+  "learningGoals": [
+    "Form questions by swapping the subject and 'be'.",
+    "Give correct short answers using 'be'."
+  ],
+  "meaning": "When 'be' (am, is, are, was, were) is the main verb, it is strong enough to make a question by itself. It does not need 'do' or 'does'.",
+  "keyIdeas": [
+    "Swap the subject and 'be'.",
+    "Never use 'do' or 'does' with the verb 'be'.",
+    "Use short answers (Yes, I am. / No, he isn't)."
+  ],
+  "patterns": [
+    {
+      "name": "The 'Be' Swap",
+      "formula": "Be + Subject + Rest of sentence?",
+      "examples": [
+        {
+          "en": "Is she a doctor?",
+          "id": "Apakah dia seorang dokter?",
+          "explanation": "Swap 'She is' -> 'Is she'."
+        },
+        {
+          "en": "Were they happy?",
+          "id": "Apakah mereka bahagia?",
+          "explanation": "Swap 'They were' -> 'Were they'."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Do you be happy?",
+      "correct": "Are you happy?",
+      "explanation": "Never use 'do' with the verb 'be'."
+    },
+    {
+      "wrong": "'Are you tired?' 'Yes, I'm.'",
+      "correct": "'Are you tired?' 'Yes, I am.'",
+      "explanation": "Do not use contractions in positive short answers."
+    }
+  ],
+  "introduction": "You are at a party and you see someone you think you know. You walk up to them and want to ask, 'You are David?' Wait, that doesn't sound quite right.<br><br>The verb 'be' (am, is, are, was, were) is the most common verb in English. It's used to talk about identity, feelings, locations, and descriptions. It is also special because it doesn't need 'do' or 'does' to make a question. Let's look at how the verb 'be' handles questions all by itself.",
+  "stepByStep": "1. Look at the statement (e.g., He is late).<br>2. Find the verb 'be' (is).<br>3. Move 'be' to the front of the sentence (Is he late?).<br>4. Answer with a short reply: 'Yes, he is' or 'No, he isn't'.",
+  "indonesianLearnerWarning": "Because Indonesian doesn't use a 'be' verb ('Dia tinggi' = 'He tall'), learners often forget to use it in questions, saying 'You tall?' instead of 'Are you tall?'. Always remember the 'be' verb!",
+  "practicePrompts": [
+    "Turn this into a question: They are ready.",
+    "Answer this question: Are you a student? (Yes)"
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Play a guessing game. 'Am I an animal?' 'Are you a celebrity?' Practice short answers: 'No, you aren't.'",
+  "quickComparison": "<strong>Statement:</strong> I am right. <strong>Question:</strong> Am I right?",
+  "summary": [
+    "Swap the subject and the verb 'be'.",
+    "Do not use 'do' or 'does'.",
+    "Use short answers (Yes, she is).",
+    "Don't contract positive short answers."
+  ]
+};
+
+const grammar_yes_no_questions_do_does_did = {
+  "id": "grammar-yes-no-questions-do-does-did",
+  "backHref": "questions.html",
+  "backLabel": "Back to Questions",
+  "title": "Yes/No Questions with Do, Does, and Did",
+  "skill": "Grammar",
+  "category": "Questions",
+  "level": "Beginner",
+  "description": "Master the 'rescue team' for action verb questions.",
+  "learningGoals": [
+    "Use Do/Does for Present Simple questions.",
+    "Use Did for Past Simple questions.",
+    "Remember to return the main verb to its base form."
+  ],
+  "meaning": "Action verbs (like play, eat, go) cannot move to the front of a sentence. They need the helper verbs Do, Does, or Did to make a question.",
+  "keyIdeas": [
+    "Use Do (I, you, we, they) and Does (he, she, it) for the present.",
+    "Use Did (all subjects) for the past.",
+    "The main verb MUST return to its base form (no -s, no -ed)."
+  ],
+  "patterns": [
+    {
+      "name": "The Do/Does/Did Formula",
+      "formula": "Do/Does/Did + Subject + Base Verb?",
+      "examples": [
+        {
+          "en": "Does she speak Spanish?",
+          "id": "Apakah dia berbicara bahasa Spanyol?",
+          "explanation": "'Does' steals the 's' from 'speaks'."
+        },
+        {
+          "en": "Did they go home?",
+          "id": "Apakah mereka pulang?",
+          "explanation": "'Did' shows the past tense, so 'went' returns to 'go'."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Did you went to the store?",
+      "correct": "Did you go to the store?",
+      "explanation": "Double past tense! 'Did' already shows the past, so use the base verb 'go'."
+    },
+    {
+      "wrong": "Does he works here?",
+      "correct": "Does he work here?",
+      "explanation": "Double 's'! 'Does' already has the 's', so use the base verb 'work'."
+    }
+  ],
+  "introduction": "If you want to know about someone's habits ('You drink coffee?') or past actions ('You went to the store?'), changing your voice to a question isn't enough in English.<br><br>Action verbs (like play, eat, sleep, go) are 'lazy'. They refuse to move to the front of the sentence to make a question. Instead, they hire helpers to do the hard work. These helpers are Do, Does, and Did.",
+  "stepByStep": "1. Identify the tense. Is it present or past?<br>2. Choose the helper. Present: Do/Does. Past: Did.<br>3. Put the helper at the front.<br>4. Change the main verb back to its base, dictionary form (remove -s, -ed, or past forms).",
+  "indonesianLearnerWarning": "This is one of the most common mistake areas! Because Indonesian doesn't conjugate verbs for time, it's very easy to say 'Did you went?'. You must train your brain to 'reset' the main verb when you hear or say 'Did'.",
+  "practicePrompts": [
+    "Turn into a question: He likes pizza.",
+    "Turn into a question: They watched a movie."
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> 'Find Someone Who' activity. Students walk around asking 'Do you...?' or 'Did you...?' to fill a worksheet.",
+  "quickComparison": "<strong>Present:</strong> Do you like it? <strong>Past:</strong> Did you like it?",
+  "summary": [
+    "Action verbs need Do, Does, or Did.",
+    "Does is for he/she/it in the present.",
+    "Did is for the past.",
+    "Always use the base verb."
+  ]
+};
+
+const grammar_yes_no_questions_have_has_had = {
+  "id": "grammar-yes-no-questions-have-has-had",
+  "backHref": "questions.html",
+  "backLabel": "Back to Questions",
+  "title": "Yes/No Questions with Have, Has, and Had",
+  "skill": "Grammar",
+  "category": "Questions",
+  "level": "Intermediate",
+  "description": "Solve the mystery of 'have' as a helper vs. a main verb.",
+  "learningGoals": [
+    "Form questions with Perfect Tenses (Have you seen...?).",
+    "Form questions for possession (Do you have...?)."
+  ],
+  "meaning": "The verb 'have' lives a double life. When it helps a Perfect Tense, it jumps to the front. When it means possession, it acts like an action verb and needs 'Do/Does/Did'.",
+  "keyIdeas": [
+    "Perfect Tenses: Swap Subject + Have (e.g., Have you finished?).",
+    "Possession: Use Do + Subject + have (e.g., Do you have a car?).",
+    "British English: 'Have you got a car?' is also common for possession."
+  ],
+  "patterns": [
+    {
+      "name": "Have as Helper (Perfect Tense)",
+      "formula": "Have/Has/Had + Subject + Verb 3?",
+      "examples": [
+        {
+          "en": "Have you seen this movie?",
+          "id": "Pernahkah kamu menonton film ini?",
+          "explanation": "'Have' jumps to the front."
+        }
+      ]
+    },
+    {
+      "name": "Have as Main Verb (Possession)",
+      "formula": "Do/Does/Did + Subject + have?",
+      "examples": [
+        {
+          "en": "Does she have a brother?",
+          "id": "Apakah dia punya saudara laki-laki?",
+          "explanation": "Use 'Does' and change 'has' to base 'have'."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Have you a car?",
+      "correct": "Do you have a car? (OR: Have you got a car?)",
+      "explanation": "In modern English, 'have' for possession needs 'do'. 'Have you a car?' sounds very old-fashioned."
+    }
+  ],
+  "introduction": "The verb 'have' is a tricky word in English because it leads a double life. Sometimes it is an action verb meaning possession ('I have a car'). Other times, it is a helper verb used in perfect tenses ('I have finished').<br><br>How you form a question depends entirely on which 'have' you are using. Let's solve the mystery of 'have'.",
+  "stepByStep": "1. Look at the sentence. Does it mean possession, or is it a Perfect tense?<br>2. If Perfect Tense (with a V3): Swap 'Have' and the subject.<br>3. If Possession: Keep 'have' where it is, and put 'Do/Does/Did' at the front.",
+  "indonesianLearnerWarning": "In Indonesian, 'sudah' (already) is often used for perfect tenses. Remember that English uses 'Have' to mean 'sudah' in questions: 'Have you eaten?' (Sudah makan?).",
+  "practicePrompts": [
+    "Turn into a question (Perfect): You have visited London.",
+    "Turn into a question (Possession): He has a dog."
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Play 'Have you ever...?'. Students ask each other about life experiences using Present Perfect questions.",
+  "quickComparison": "<strong>Helper:</strong> Have you finished? <strong>Possession:</strong> Do you have a pen?",
+  "summary": [
+    "Perfect Tenses: Have jumps to the front.",
+    "Possession: Add Do/Does/Did.",
+    "Base form 'have' is used with Do/Does/Did."
+  ]
+};
+
+const grammar_yes_no_questions_with_modals = {
+  "id": "grammar-yes-no-questions-with-modals",
+  "backHref": "questions.html",
+  "backLabel": "Back to Questions",
+  "title": "Yes/No Questions with Modals",
+  "skill": "Grammar",
+  "category": "Questions",
+  "level": "Beginner",
+  "description": "Easily ask for permission, ability, or future plans.",
+  "learningGoals": [
+    "Form questions by swapping the modal verb and the subject.",
+    "Provide correct short answers."
+  ],
+  "meaning": "Modal verbs (can, could, will, would, should, may) act as their own helpers. You simply move them to the front to make a question.",
+  "keyIdeas": [
+    "Swap the subject and the modal verb.",
+    "Never use 'do' or 'does' with a modal.",
+    "The main verb always stays in its base form."
+  ],
+  "patterns": [
+    {
+      "name": "The Modal Swap",
+      "formula": "Modal + Subject + Base Verb?",
+      "examples": [
+        {
+          "en": "Can you swim?",
+          "id": "Bisakah kamu berenang?",
+          "explanation": "Asking about ability."
+        },
+        {
+          "en": "Should we leave?",
+          "id": "Haruskah kita pergi?",
+          "explanation": "Asking for advice."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Do you can swim?",
+      "correct": "Can you swim?",
+      "explanation": "Never use 'do' with modal verbs."
+    },
+    {
+      "wrong": "Should we to go?",
+      "correct": "Should we go?",
+      "explanation": "Never use 'to' after a modal in a question."
+    }
+  ],
+  "introduction": "'You can help me?' is easily understood, but to sound natural and polite, we need to ask, 'Can you help me?'<br><br>Modal verbs (can, could, will, would, should, may, might, must) are special auxiliary verbs. They add meanings like ability, permission, requests, or future plans to the sentence. Forming questions with modal verbs is very straightforward because they act as their own helpers.",
+  "stepByStep": "1. Find the modal verb in the sentence (can, will, should, etc.).<br>2. Move it to the very beginning.<br>3. Ensure the main verb is still in its base form.<br>4. Answer with the same modal (Yes, I can. / No, I can't).",
+  "indonesianLearnerWarning": "Modal verbs are quite simple! They behave just like 'be'. Just move them to the front. Don't overcomplicate it by trying to add 'do' or 'does'.",
+  "practicePrompts": [
+    "Turn into a question: They will come to the party.",
+    "Turn into a question: I may use your phone."
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Roleplay a restaurant or hotel front desk. Practice polite requests: 'Could you...?', 'May I...?', 'Would you...?'.",
+  "quickComparison": "<strong>Statement:</strong> You will win. <strong>Question:</strong> Will you win?",
+  "summary": [
+    "Swap the modal and the subject.",
+    "Never use Do/Does/Did with modals.",
+    "The main verb stays in the base form.",
+    "Answer using the same modal."
+  ]
+};
+
+const grammar_wh_questions_overview = {
+  "id": "grammar-wh-questions-overview",
+  "backHref": "questions.html",
+  "backLabel": "Back to Questions",
+  "title": "WH-Questions Overview",
+  "skill": "Grammar",
+  "category": "Questions",
+  "level": "Beginner",
+  "description": "Learn the formula for asking for specific information.",
+  "learningGoals": [
+    "Understand the purpose of WH-questions.",
+    "Memorize the formula: WH-word + Helper Verb + Subject + Main Verb."
+  ],
+  "meaning": "WH-questions ask for specific facts (time, place, reason, etc.). They cannot be answered with 'Yes' or 'No'.",
+  "keyIdeas": [
+    "WH-words go at the very beginning of the sentence.",
+    "The rest of the sentence follows the exact same word order as a Yes/No question.",
+    "Never translate WH-question word order directly from other languages."
+  ],
+  "patterns": [
+    {
+      "name": "The WH-Formula",
+      "formula": "WH-Word + [Yes/No Question Word Order]?",
+      "examples": [
+        {
+          "en": "Where do you live?",
+          "id": "Di mana kamu tinggal?",
+          "explanation": "WH-word 'Where' + Yes/No order 'do you live'."
+        },
+        {
+          "en": "Why is he crying?",
+          "id": "Kenapa dia menangis?",
+          "explanation": "WH-word 'Why' + Yes/No order 'is he crying'."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Where you live?",
+      "correct": "Where do you live?",
+      "explanation": "Missing the helper verb. A WH-word is not enough; you still need inversion or Do/Does/Did."
+    }
+  ],
+  "introduction": "Imagine a police detective asking a suspect: 'Did you rob the bank?' The suspect says 'No.' The conversation stops. To find out the truth, the detective needs to ask different questions: 'Where were you?' 'Who were you with?' 'What time did you leave?'<br><br>Yes/No questions are great for confirming facts, but WH-questions are how we gather real information. They are called WH-questions because almost all the question words begin with the letters W and H. Let's look at how to build them.",
+  "stepByStep": "1. Build a normal Yes/No question (e.g., Do you live?).<br>2. Choose the correct WH-word for the information you want (e.g., Where).<br>3. Put the WH-word at the very front (Where do you live?).<br>4. Answer with a full sentence giving the specific information.",
+  "indonesianLearnerWarning": "In Indonesian, question words like 'apa', 'di mana', 'siapa' can sometimes appear at the end or middle of a sentence (Kamu beli apa?). In English, the WH-word almost always goes at the beginning of the sentence (What did you buy?).",
+  "practicePrompts": [
+    "Ask a WH-question for this answer: 'I live in Paris.'",
+    "Ask a WH-question for this answer: 'The movie starts at 8 PM.'"
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Show a strange picture on the board. Students must ask 10 different WH-questions to find out what is happening in the picture.",
+  "quickComparison": "<strong>Yes/No:</strong> Do you play? <strong>WH-Question:</strong> What do you play?",
+  "summary": [
+    "WH-questions ask for details.",
+    "The WH-word always goes first.",
+    "The rest of the sentence is a Yes/No question.",
+    "You cannot answer with Yes or No."
+  ]
+};
+
+const grammar_common_wh_question_words = {
+  "id": "grammar-common-wh-question-words",
+  "backHref": "questions.html",
+  "backLabel": "Back to Questions",
+  "title": "Who, What, Where, When, Why, and How",
+  "skill": "Grammar",
+  "category": "Questions",
+  "level": "Beginner",
+  "description": "Master the specific jobs of the 5 Ws and 1 H.",
+  "learningGoals": [
+    "Know the meaning and use of What, Where, When, Who, Why, and How.",
+    "Understand the difference between Which and What."
+  ],
+  "meaning": "Each question word acts like a laser, targeting a specific missing piece of information (time, place, reason, etc.).",
+  "keyIdeas": [
+    "What = Things, Where = Places, When = Time.",
+    "Who = People, Whose = Ownership.",
+    "Why = Reasons, How = Manner/Process.",
+    "Which = Limited choice, What = Unlimited choice."
+  ],
+  "patterns": [
+    {
+      "name": "Targeting Information",
+      "formula": "WH-word + specific target",
+      "examples": [
+        {
+          "en": "Why are you late? -> Because there was traffic.",
+          "id": "Kenapa kamu terlambat? -> Karena macet.",
+          "explanation": "Why targets the reason."
+        },
+        {
+          "en": "Whose shoes are these? -> They are mine.",
+          "id": "Sepatu siapa ini? -> Itu milikku.",
+          "explanation": "Whose targets ownership."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Who's car is this?",
+      "correct": "Whose car is this?",
+      "explanation": "'Who's' means 'Who is'. Use 'Whose' to ask about ownership."
+    }
+  ],
+  "introduction": "A good journalist knows that to get the full story, you need to ask the 5 Ws and the 1 H: Who, What, Where, When, Why, and How.<br><br>Each question word has a specific job. It acts like a laser, targeting exactly the piece of information you are missing. Let's break down what each word asks for so you can use them perfectly.",
+  "stepByStep": "1. Identify what information you are missing.<br>2. Missing a place? Use Where.<br>3. Missing a time? Use When.<br>4. Missing a reason? Use Why.<br>5. Missing a method or process? Use How.",
+  "indonesianLearnerWarning": "In Indonesian, 'Bagaimana' (How) is sometimes used to ask 'What' in certain phrases, like 'Bagaimana menurutmu?' (What do you think?). Don't translate directly; ask yourself what information you are trying to get.",
+  "practicePrompts": [
+    "Fill in the blank: _____ did you arrive? (Yesterday)",
+    "Fill in the blank: _____ is your favorite color? (Blue)"
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Play 'Jeopardy'. Give the students an answer ('Because it was raining'), and they must provide the correct question ('Why did you stay home?').",
+  "quickComparison": "<strong>What:</strong> Unlimited choices (What is your name?). <strong>Which:</strong> Limited choices (Which color: red or blue?).",
+  "summary": [
+    "Who (people), What (things).",
+    "Where (places), When (time).",
+    "Why (reasons), How (manner).",
+    "Whose (ownership), Which (choice)."
+  ]
+};
+
+const grammar_subject_vs_object_questions = {
+  "id": "grammar-subject-vs-object-questions",
+  "backHref": "questions.html",
+  "backLabel": "Back to Questions",
+  "title": "Subject Questions vs Object Questions",
+  "skill": "Grammar",
+  "category": "Questions",
+  "level": "Intermediate",
+  "description": "Understand why 'Who called you?' doesn't use 'did'.",
+  "learningGoals": [
+    "Distinguish between asking about the doer (subject) and the receiver (object).",
+    "Form Subject Questions without using do/does/did."
+  ],
+  "meaning": "If you ask about the object (the receiver of the action), you use normal question rules. If you ask about the subject (the doer of the action), you use statement word order.",
+  "keyIdeas": [
+    "Object Questions (normal): Who did you call? (You called someone).",
+    "Subject Questions (exception): Who called you? (Someone called you).",
+    "When Who or What is the subject, DO NOT use do/does/did."
+  ],
+  "patterns": [
+    {
+      "name": "Subject Question",
+      "formula": "Who/What + Verb + Object?",
+      "examples": [
+        {
+          "en": "Who ate the cake?",
+          "id": "Siapa yang makan kue itu?",
+          "explanation": "We don't know the subject. No 'did' is used."
+        },
+        {
+          "en": "What happened?",
+          "id": "Apa yang terjadi?",
+          "explanation": "'What' is the subject. No 'did'."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Who did call you?",
+      "correct": "Who called you?",
+      "explanation": "When asking about the subject, do not use 'did'."
+    },
+    {
+      "wrong": "What did happen?",
+      "correct": "What happened?",
+      "explanation": "Never use 'did' with happen in this way."
+    }
+  ],
+  "introduction": "Imagine a window is broken. Someone threw a ball through it.<br><br>If you want to know the person who threw it, you ask: 'Who broke the window?' If you want to know what the ball hit, you ask: 'What did the ball break?'<br><br>Notice the difference? The first question has no 'did'. This is the difference between a Subject Question and an Object Question, and it's one of the most common places English learners get confused.",
+  "stepByStep": "1. Look at the situation. Do you know WHO did the action?<br>2. If you know the subject (You called someone), use normal rules: 'Who did you call?'<br>3. If you DO NOT know the subject (Someone called you), drop the helper verb and use statement order: 'Who called you?'",
+  "indonesianLearnerWarning": "This is actually easier for Indonesian learners because 'Siapa yang menelponmu?' (Who called you?) translates directly to English without the confusing 'did' helper. Trust your instincts on Subject Questions!",
+  "practicePrompts": [
+    "Someone bought my car. Ask who.",
+    "I bought something. Ask what."
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Create a crime scene. 'Someone stole the money. John saw someone.' Have students ask questions to figure out the Subject (Who stole it?) and the Object (Who did John see?).",
+  "quickComparison": "<strong>Subject Q:</strong> Who met Susan? (Paul met her.) <strong>Object Q:</strong> Who did Susan meet? (She met Paul.)",
+  "summary": [
+    "Object questions ask about the receiver (use do/did).",
+    "Subject questions ask about the doer (no do/did).",
+    "Subject questions use normal statement word order."
+  ]
+};
+
+const grammar_how_questions_forms = {
+  "id": "grammar-how-questions-forms",
+  "backHref": "questions.html",
+  "backLabel": "Back to Questions",
+  "title": "How Questions: How Much, How Many...",
+  "skill": "Grammar",
+  "category": "Questions",
+  "level": "Beginner",
+  "description": "Combine 'How' with adjectives to make precise measurements.",
+  "learningGoals": [
+    "Use 'How' with adjectives and adverbs to ask specific questions.",
+    "Distinguish between 'How much' and 'How many'."
+  ],
+  "meaning": "By combining 'How' with an adjective or adverb, you create a new, powerful question word that asks for exact measurements like size, distance, frequency, or quantity.",
+  "keyIdeas": [
+    "The 'How + Adjective' combination stays together at the front of the sentence.",
+    "How much = uncountable nouns (money, water).",
+    "How many = countable nouns (books, people).",
+    "How long = time/duration. How far = distance. How often = frequency."
+  ],
+  "patterns": [
+    {
+      "name": "How + Adjective",
+      "formula": "[How + Adjective/Adverb] + Helper Verb + Subject + Main Verb?",
+      "examples": [
+        {
+          "en": "How far is the airport?",
+          "id": "Seberapa jauh bandaranya?",
+          "explanation": "Asking about distance."
+        },
+        {
+          "en": "How often do you exercise?",
+          "id": "Seberapa sering kamu berolahraga?",
+          "explanation": "Asking about frequency."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "How much people are there?",
+      "correct": "How many people are there?",
+      "explanation": "'People' is countable. You must use 'How many'."
+    }
+  ],
+  "introduction": "'How' is a very friendly question word because it likes to pair up with adjectives and adverbs to ask about specific measurements.<br><br>Instead of just asking 'How?' (in what way), you can ask 'How big?', 'How far?', or 'How much?'. By combining 'How' with another word, you create a very precise question tool.",
+  "stepByStep": "1. Decide what measurement you want to ask about.<br>2. Pick the right combo: Age (How old), Quantity (How much/many), Distance (How far).<br>3. Keep the combination together at the front of the sentence.<br>4. Follow normal question word order after that.",
+  "indonesianLearnerWarning": "In Indonesian, 'Berapa' is used for many things (Berapa umurmu, Berapa harganya, Berapa jauh). In English, 'How' must be paired with the specific adjective. You cannot just ask 'How is your age?'; you must ask 'How old are you?'.",
+  "practicePrompts": [
+    "Ask a question about the price of a car.",
+    "Ask a question about the distance to the moon."
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> 'Survey Activity'. Students must ask classmates 'How often do you...?' or 'How long have you...?' and record the answers.",
+  "quickComparison": "<strong>Uncountable:</strong> How much water? <strong>Countable:</strong> How many glasses of water?",
+  "summary": [
+    "Combine How with adjectives for precise questions.",
+    "How much is for uncountable; How many is for countable.",
+    "Keep the How phrase together at the front of the sentence."
+  ]
+};
+
+const grammar_indirect_questions = {
+  "id": "grammar-indirect-questions",
+  "backHref": "questions.html",
+  "backLabel": "Back to Questions",
+  "title": "Indirect Questions",
+  "skill": "Grammar",
+  "category": "Questions",
+  "level": "Advanced",
+  "description": "Learn the polite way to ask questions, and the grammar rules that change.",
+  "learningGoals": [
+    "Understand the purpose of indirect questions (politeness).",
+    "Revert to statement word order in the second half of the sentence.",
+    "Use 'if/whether' for Yes/No indirect questions."
+  ],
+  "meaning": "An indirect question places a question inside a polite opening phrase (like 'Could you tell me...'). Because the opening phrase is already a question, the second part goes back to normal statement word order.",
+  "keyIdeas": [
+    "Use phrases like 'Do you know', 'Could you tell me', 'I wonder'.",
+    "The second part is NOT inverted. It uses Subject + Verb.",
+    "Drop the 'do/does/did' helpers in the second part.",
+    "Use 'if' or 'whether' to connect Yes/No questions."
+  ],
+  "patterns": [
+    {
+      "name": "Indirect Structure",
+      "formula": "Polite Phrase + Question Word + Subject + Verb",
+      "examples": [
+        {
+          "en": "Do you know where the bank is?",
+          "id": "Apakah Anda tahu di mana letak banknya?",
+          "explanation": "Subject 'the bank' comes before verb 'is'."
+        },
+        {
+          "en": "Could you tell me what time the train leaves?",
+          "id": "Bisakah Anda memberitahu saya jam berapa keretanya berangkat?",
+          "explanation": "Drop 'does' and use 'leaves'."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Do you know where is the bank?",
+      "correct": "Do you know where the bank is?",
+      "explanation": "You cannot have double question word order. The second part must be a statement."
+    },
+    {
+      "wrong": "Could you tell me what time does it start?",
+      "correct": "Could you tell me what time it starts?",
+      "explanation": "Drop 'does' and add 's' to the verb."
+    }
+  ],
+  "introduction": "Imagine you stop a stranger on the street and say: 'Where is the train station?' It's direct, but it might sound a little rude or aggressive. It is much more polite to say: 'Excuse me, could you tell me where the train station is?'<br><br>This is called an Indirect Question. We put a question inside a polite opening phrase. But when we do this, the grammar rules change completely! Learning this will make your English sound instantly more advanced and polite.",
+  "stepByStep": "1. Start with a polite phrase (Do you know...?).<br>2. Add the question word (where/what). If it's a Yes/No question, use 'if'.<br>3. Change the rest of the sentence back to a normal statement (Subject + Verb).<br>4. Remove 'do/does/did' and adjust the verb tense if needed.",
+  "indonesianLearnerWarning": "This is one of the hardest rules to remember when speaking quickly. Practice writing out the transformation slowly before trying to use it in conversation.",
+  "practicePrompts": [
+    "Make this polite: What time is it?",
+    "Make this polite: Did she leave?"
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Roleplay tourists in a new city asking locals for directions and information using polite indirect questions.",
+  "quickComparison": "<strong>Direct:</strong> Where is he? <strong>Indirect:</strong> Do you know where he is?",
+  "summary": [
+    "Indirect questions are more polite.",
+    "The second part uses statement word order (Subject + Verb).",
+    "Do not use 'do/does/did' in the second part.",
+    "Use 'if' or 'whether' for Yes/No questions."
+  ]
+};
+
+const grammar_tag_questions = {
+  "id": "grammar-tag-questions",
+  "backHref": "questions.html",
+  "backLabel": "Back to Questions",
+  "title": "Tag Questions",
+  "skill": "Grammar",
+  "category": "Questions",
+  "level": "Intermediate",
+  "description": "Learn how to use mini-questions to confirm information.",
+  "learningGoals": [
+    "Understand the rule of opposites (+ statement = - tag).",
+    "Form tags using the correct auxiliary verb."
+  ],
+  "meaning": "Tag questions are short mini-questions added to the end of a statement. We use them to check if information is correct or to ask for agreement.",
+  "keyIdeas": [
+    "Rule of opposites: Positive statement -> Negative tag. Negative statement -> Positive tag.",
+    "The tag uses the same helper verb as the statement.",
+    "If there is no helper verb, use do/does/did."
+  ],
+  "patterns": [
+    {
+      "name": "The Tag Formula",
+      "formula": "Statement (+), Helper (-) + Pronoun? / Statement (-), Helper (+) + Pronoun?",
+      "examples": [
+        {
+          "en": "You are tired, aren't you?",
+          "id": "Kamu lelah, kan?",
+          "explanation": "Positive statement, negative tag."
+        },
+        {
+          "en": "She doesn't like coffee, does she?",
+          "id": "Dia tidak suka kopi, kan?",
+          "explanation": "Negative statement, positive tag."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "You like pizza, isn't it?",
+      "correct": "You like pizza, don't you?",
+      "explanation": "You must use the correct helper verb (do), not a universal 'isn't it'."
+    },
+    {
+      "wrong": "I am late, am not I?",
+      "correct": "I am late, aren't I?",
+      "explanation": "'Aren't I' is the correct negative tag for 'I am'."
+    }
+  ],
+  "introduction": "'It's a beautiful day, isn't it?' 'You didn't forget the tickets, did you?'<br><br>Sometimes we already think we know the answer, but we want the other person to confirm it, or we just want to keep the conversation going. We do this by adding a tiny 'mini-question' to the end of a statement. These are called Tag Questions.",
+  "stepByStep": "1. Look at the statement. Is it positive or negative?<br>2. Find the helper verb (is, have, can) or use do/does/did.<br>3. Flip it! Make it the opposite (Positive -> Negative).<br>4. Add the pronoun that matches the subject.",
+  "indonesianLearnerWarning": "In Indonesian, we often just use 'kan?' or 'bukan?' for everything. In English, you cannot use 'isn't it?' for everything. The tag must mathematically match the grammar of the sentence.",
+  "practicePrompts": [
+    "Add a tag: We are going to the mall, _______?",
+    "Add a tag: He didn't call you, _______?"
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Have students make assumptions about each other using tag questions: 'You play guitar, don't you?' 'You aren't from here, are you?'",
+  "quickComparison": "<strong>Action verb:</strong> You work here, don't you? <strong>Be verb:</strong> You are happy, aren't you?",
+  "summary": [
+    "Tags follow the rule of opposites.",
+    "Use the same auxiliary verb.",
+    "Action verbs need do/does/did.",
+    "'I am' becomes 'aren't I'."
+  ]
+};
+
+const grammar_negative_questions = {
+  "id": "grammar-negative-questions",
+  "backHref": "questions.html",
+  "backLabel": "Back to Questions",
+  "title": "Negative Questions",
+  "skill": "Grammar",
+  "category": "Questions",
+  "level": "Advanced",
+  "description": "Show surprise and ask for agreement with negative questions.",
+  "learningGoals": [
+    "Form negative questions correctly (Aren't you...?).",
+    "Understand the danger of answering negative questions."
+  ],
+  "meaning": "Negative questions are used to show surprise, complain, or ask the listener to agree with something you think is true.",
+  "keyIdeas": [
+    "Form them by adding n't to the auxiliary verb at the start.",
+    "Used for surprise ('Didn't you hear the news?').",
+    "Used for agreement ('Isn't this beautiful?').",
+    "Answering: Answer the FACT, ignore the negative in the question."
+  ],
+  "patterns": [
+    {
+      "name": "Negative Question",
+      "formula": "Auxiliary + n't + Subject + Verb?",
+      "examples": [
+        {
+          "en": "Don't you want to come?",
+          "id": "Apakah kamu tidak ingin ikut?",
+          "explanation": "Expressing surprise or confirming."
+        },
+        {
+          "en": "Hasn't she left yet?",
+          "id": "Bukankah dia sudah pergi?",
+          "explanation": "Checking something you expected to happen."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Q: Don't you like coffee? A: Yes. (Meaning: Yes, I don't like it.)",
+      "correct": "Q: Don't you like coffee? A: No, I don't.",
+      "explanation": "In English, if the fact is negative (you don't like it), you must answer 'No'."
+    }
+  ],
+  "introduction": "'Don't you want to come?' 'Isn't it cold today?'<br><br>We usually ask questions to get new information. But sometimes, we ask questions with 'not' in them. We use negative questions to show surprise, to complain, or to expect the listener to agree with us. Negative questions can be tricky to form, and even trickier to answer!",
+  "stepByStep": "1. <strong>To Form:</strong> Start with the helper verb, add n't, then the subject (Aren't you, Don't they).<br>2. <strong>To Answer:</strong> Ignore the 'n't'. Focus on the fact.<br>3. <strong>Answering:</strong> If the fact is positive (you like it), say Yes. If the fact is negative (you hate it), say No.",
+  "indonesianLearnerWarning": "Answering negative questions is dangerous! If someone asks 'Don't you want to go?', in Indonesian you might say 'Ya' (Yes, I agree, I don't want to go). In English, saying 'Yes' means 'Yes, I DO want to go'. Focus on the fact, not on agreeing with the question.",
+  "practicePrompts": [
+    "Form a negative question: You didn't finish?",
+    "Answer this: Aren't you hungry? (Fact: you are full)."
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Drill answering negative questions. Ask 'Don't you like ice cream?' and ensure students who hate ice cream say 'No', and those who love it say 'Yes'.",
+  "quickComparison": "<strong>Positive Q:</strong> Do you like it? <strong>Negative Q:</strong> Don't you like it?",
+  "summary": [
+    "Add n't to the auxiliary at the front.",
+    "Used for surprise or seeking agreement.",
+    "To answer: if the fact is positive, say Yes. If negative, say No."
+  ]
+};
+
+const grammar_common_question_mistakes = {
+  "id": "grammar-common-question-mistakes",
+  "backHref": "questions.html",
+  "backLabel": "Back to Questions",
+  "title": "Common Question Mistakes",
+  "skill": "Grammar",
+  "category": "Questions",
+  "level": "Advanced",
+  "description": "A diagnostic checklist to fix the most frequent question errors.",
+  "learningGoals": [
+    "Identify and repair the 'Double Past' mistake.",
+    "Fix missing auxiliaries and indirect question errors."
+  ],
+  "meaning": "Because English questions require moving words around and adding helpers, there are several traps you can fall into. This lesson repairs the most common ones.",
+  "keyIdeas": [
+    "Never use a double past tense with Did.",
+    "Never use Do/Does/Did with the verb 'Be'.",
+    "Always use statement word order in the second half of an indirect question."
+  ],
+  "patterns": [
+    {
+      "name": "The Repair Checklist",
+      "formula": "Is it a 'be' verb? -> Is there a helper? -> Is it an action verb? -> Is it indirect?",
+      "examples": [
+        {
+          "en": "Wrong: Where you live? / Correct: Where do you live?",
+          "id": "Di mana kamu tinggal?",
+          "explanation": "Action verbs need a helper."
+        },
+        {
+          "en": "Wrong: Did you went? / Correct: Did you go?",
+          "id": "Apakah kamu pergi?",
+          "explanation": "Did already shows past tense."
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Could you tell me where is the bank?",
+      "correct": "Could you tell me where the bank is?",
+      "explanation": "Indirect questions must return to statement word order."
+    }
+  ],
+  "introduction": "Even advanced English speakers can get tangled up when asking questions quickly. Because English questions require moving words around and adding helpers, there are several traps you can fall into.<br><br>Let's review the most common mistakes so you can recognize them and fix them in your own speaking and writing.",
+  "stepByStep": "1. <strong>Double Past:</strong> Did you went? -> Did you go?<br>2. <strong>Missing Helper:</strong> Where you live? -> Where do you live?<br>3. <strong>Do with Be:</strong> Do you be happy? -> Are you happy?<br>4. <strong>Indirect Order:</strong> Do you know where is it? -> Do you know where it is?",
+  "indonesianLearnerWarning": "Because Indonesian questions don't require structural changes, your brain will naturally want to skip inversion and helpers. You have to train yourself to treat English questions like a math formula.",
+  "practicePrompts": [
+    "Fix this: What time does the movie starts?",
+    "Fix this: Who did call me?"
+  ],
+  "classroomUse": "<strong>Teacher Tip:</strong> Play 'Grammar Hospital'. Give students a list of 'sick' questions and have them 'operate' to fix the errors.",
+  "quickComparison": "<strong>Broken:</strong> Where she is? <strong>Fixed:</strong> Where is she?",
+  "summary": [
+    "Avoid double past tense with Did.",
+    "Don't forget do/does/did for action verbs.",
+    "Never use do with 'be'.",
+    "Use statement order for indirect questions."
+  ]
+};
+
 export const lessons = [
   lesson_grammar_passive_voice_overview,
   lesson_grammar_active_vs_passive_voice,
@@ -21014,4 +22031,20 @@ export const lessons = [
     "Use the 5-step mental checklist to self-correct."
   ]
 },
+  grammar_questions_overview,
+  grammar_statement_vs_question_word_order,
+  grammar_auxiliary_verbs_in_questions,
+  grammar_question_marks_intonation_purpose,
+  grammar_yes_no_questions_with_be,
+  grammar_yes_no_questions_do_does_did,
+  grammar_yes_no_questions_have_has_had,
+  grammar_yes_no_questions_with_modals,
+  grammar_wh_questions_overview,
+  grammar_common_wh_question_words,
+  grammar_subject_vs_object_questions,
+  grammar_how_questions_forms,
+  grammar_indirect_questions,
+  grammar_tag_questions,
+  grammar_negative_questions,
+  grammar_common_question_mistakes,
 ];
